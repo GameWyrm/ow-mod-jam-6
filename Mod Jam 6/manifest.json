@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "Mod Jam 6.dll",
+  "author": "GameWyrm, pikpik, Stache, and Callirhoe",
+  "name": "Mod Jam 6",
+  "uniqueName": "GameWyrm,pikpik,Stache,andCallirhoe.Mod Jam 6",
+  "version": "0.1.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": ["xen.NewHorizons"]
+}
