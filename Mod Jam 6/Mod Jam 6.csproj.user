@@ -1,6 +1,0 @@
-﻿<Project>
-  <PropertyGroup>
-    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/GameWyrm.Mod Jam 6</OutputPath>
-    <UnityProjectPath>F:\UnityProjects\Mod Jam 6 Assets\Assets\Mod Jam 6</UnityProjectPath>
-  </PropertyGroup>
-</Project>
