@@ -5,7 +5,7 @@ using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Mod Jam 6;
+namespace ModJam6;
 public interface INewHorizons
 {
     #region Obsolete
