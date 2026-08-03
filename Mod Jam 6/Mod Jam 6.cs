@@ -3,7 +3,7 @@ using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 
-namespace ModJam6;
+namespace Mod_Jam_6;
 public class ModJam6 : ModBehaviour
 {
 	public static ModJam6 Instance;
@@ -26,7 +26,7 @@ public void Start()
     NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
     NewHorizons.LoadConfigs(this);
 
-    new Harmony("GameWyrm,pikpik,Stache,andCallirhoe.Mod Jam 6").PatchAll(Assembly.GetExecutingAssembly());
+    new Harmony("GameWyrm.Mod Jam 6").PatchAll(Assembly.GetExecutingAssembly());
 
     // Example of accessing game code.
     OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
