@@ -10,18 +10,13 @@ namespace Mod_Jam_6
         {
             foreach (Material mat in materials)
             {
-                mat.SetFloat("_TimeProgress", 1); // TODO set this to the percentage of time passed
+                mat.SetFloat("_TimeProgress", 0.1f); // TODO set this to the percentage of time passed
                 mat.SetVector("_BubblePosition", TimeBubble.instance.gameObject.transform.position);
                 mat.SetFloat("_BubbleDistance", TimeBubble.instance.size);
             }
         }
 
         private void Update()
-        {
-            UpdateMaterials();
-        }
-
-        private void OnDrawGizmosSelected()
         {
             UpdateMaterials();
         }

@@ -12,5 +12,10 @@ namespace Mod_Jam_6
         {
             instance = this;
         }
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(transform.position, size);
+        }
     }
 }
