@@ -3,10 +3,10 @@ using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 
-namespace Mod Jam 6;
-public class Mod Jam 6 : ModBehaviour
+namespace ModJam6;
+public class ModJam6 : ModBehaviour
 {
-	public static Mod Jam 6 Instance;
+	public static ModJam6 Instance;
 	public INewHorizons NewHorizons;
 
 public void Awake()
@@ -20,7 +20,7 @@ public void Awake()
 public void Start()
 {
     // Starting here, you'll have access to OWML's mod helper.
-    ModHelper.Console.WriteLine($"My mod {nameof(Mod Jam 6)} is loaded!", MessageType.Success);
+    ModHelper.Console.WriteLine($"My mod {nameof(ModJam6)} is loaded!", MessageType.Success);
 
     // Get the New Horizons API and load configs
     NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
