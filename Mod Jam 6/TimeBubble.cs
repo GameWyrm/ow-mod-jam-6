@@ -90,8 +90,15 @@ namespace Mod_Jam_6
         {
             if (_isShrinking)
             {
-                _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentCollapseDuration;
-                _size = Mathf.Lerp(_currentExpandedSize, 0f, _lerpTimeCurrent);
+                if(_currentCollapseDuration > 0f)
+                {
+                    _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentCollapseDuration;
+                    _size = Mathf.Lerp(_currentExpandedSize, 0f, _lerpTimeCurrent);
+                }
+                else
+                {
+                    _size = 0f;
+                }
 
                 if(_size <= 0f)
                 {
@@ -102,8 +109,16 @@ namespace Mod_Jam_6
             else if (_isExpanding)
             {
                 _isShrunk = false;
-                _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentExpansionDuration;
-                _size = Mathf.Lerp(0f, _currentExpandedSize, _lerpTimeCurrent);
+
+                if (_currentExpansionDuration > 0f)
+                {
+                    _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentExpansionDuration;
+                    _size = Mathf.Lerp(0f, _currentExpandedSize, _lerpTimeCurrent);
+                }
+                else
+                {
+                    _size = _currentExpandedSize;
+                }
 
                 if (_size >= _currentExpandedSize)
                 {
