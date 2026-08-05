@@ -81,7 +81,7 @@ namespace Mod_Jam_6
             _isExpanding = false;
             _isExpanded = false;
             _isShrinking = true;
-            float ratio = _size / _currentExpandedSize;
+            float ratio = 1f - (_size / _currentExpandedSize);
             float equivalentLerpingTimeElapsed = ratio * _currentCollapseDuration;
             _lerpTimeStart = TimeLoop.GetSecondsElapsed() - equivalentLerpingTimeElapsed;
         }
@@ -90,8 +90,15 @@ namespace Mod_Jam_6
         {
             if (_isShrinking)
             {
-                _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentCollapseDuration;
-                _size = Mathf.Lerp(_currentExpandedSize, 0f, _lerpTimeCurrent);
+                if(_currentCollapseDuration > 0f)
+                {
+                    _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentCollapseDuration;
+                    _size = Mathf.Lerp(_currentExpandedSize, 0f, _lerpTimeCurrent);
+                }
+                else
+                {
+                    _size = 0f;
+                }
 
                 if(_size <= 0f)
                 {
@@ -101,8 +108,17 @@ namespace Mod_Jam_6
             }
             else if (_isExpanding)
             {
-                _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentExpansionDuration;
-                _size = Mathf.Lerp(0f, _currentExpandedSize, _lerpTimeCurrent);
+                _isShrunk = false;
+
+                if (_currentExpansionDuration > 0f)
+                {
+                    _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentExpansionDuration;
+                    _size = Mathf.Lerp(0f, _currentExpandedSize, _lerpTimeCurrent);
+                }
+                else
+                {
+                    _size = _currentExpandedSize;
+                }
 
                 if (_size >= _currentExpandedSize)
                 {
@@ -119,6 +135,7 @@ namespace Mod_Jam_6
 
                 _lerpTimeStart = TimeLoop.GetSecondsElapsed();
 
+                _isShrunk = false;
                 _isExpanding = true;
                 _wishToExpand = false;
             }
