@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 namespace Mod_Jam_6
@@ -12,22 +11,19 @@ namespace Mod_Jam_6
         [SerializeField]
         private InteractReceiver _interactReceiver;
         [SerializeField]
-        private Animator _interactAnimator;
+        private string _prompt;
         [SerializeField]
-        private OWAudioSource _interactAudio;
-
-        [SerializeField]
-        private AudioType _interactAudioType = global::AudioType.GearRotate_Heavy; // Placeholder just to make sure it works, change to whatever you fancy in unity
-        [SerializeField]
-        private float _interactAudioDuration = 1f; // Also placeholder
+        private bool _singleUse = true;
 
         private bool _hasBeenUsed = false;
 
         private void Start()
         {
+            if (_interactReceiver == null) _interactReceiver = GetComponent<InteractReceiver>();
             if (_interactReceiver != null)
             {
                 _interactReceiver.OnPressInteract += OnPressInteract;
+                _interactReceiver.ChangePrompt(_prompt);
             }
         }
         private void OnDestroy()
@@ -38,20 +34,17 @@ namespace Mod_Jam_6
             }
         }
 
-        private IEnumerator PlayInteract() // Just the beepboop and slight movement of the button press
-        {
-            _interactAudio?.PlayOneShot(_interactAudioType, _interactAudioDuration);
-            _interactAnimator?.Play("ACTIVATION", 0);
-            yield return new WaitForSeconds(1f);
-        }
-
         private void OnPressInteract()
         {
             if (_hasBeenUsed) return; // Single use
 
-            _hasBeenUsed = true;
-            StartCoroutine(PlayInteract());
             OnSingleUseActivation.Invoke();
+
+            if (_singleUse)
+            {
+                _hasBeenUsed = true;
+                gameObject.SetActive(false);
+            }
         }
     }
 }
