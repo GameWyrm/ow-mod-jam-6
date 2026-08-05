@@ -12,11 +12,9 @@ namespace Mod_Jam_6.Controllers
 
         [SerializeField]
         private Animator _mainAnimator;
-        [SerializeField]
-        private OWAudioSource _mainAudio;
 
-        [SerializeField]
-        private string _triggerName;
+        [SerializeField, Tooltip("Trigger on the animation that will be set")]
+        private string _animationTrigger;
 
         protected virtual void Start()
         {
@@ -35,14 +33,7 @@ namespace Mod_Jam_6.Controllers
 
         protected virtual void OnActivation()
         {
-            StartCoroutine(PlayAnim());
-        }
-
-        protected virtual IEnumerator PlayAnim()
-        {
-            //_mainAudio?.PlayOneShot(global::AudioType.NomaiVesselPowerUp, 1f);
-            _mainAnimator?.SetTrigger(_triggerName);
-            yield return new WaitForSeconds(2f);
+            _mainAnimator?.SetTrigger(_animationTrigger);
         }
     }
 }

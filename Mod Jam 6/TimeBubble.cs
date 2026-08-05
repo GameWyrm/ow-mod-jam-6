@@ -81,7 +81,7 @@ namespace Mod_Jam_6
             _isExpanding = false;
             _isExpanded = false;
             _isShrinking = true;
-            float ratio = _size / _currentExpandedSize;
+            float ratio = 1f - (_size / _currentExpandedSize);
             float equivalentLerpingTimeElapsed = ratio * _currentCollapseDuration;
             _lerpTimeStart = TimeLoop.GetSecondsElapsed() - equivalentLerpingTimeElapsed;
         }
@@ -101,6 +101,7 @@ namespace Mod_Jam_6
             }
             else if (_isExpanding)
             {
+                _isShrunk = false;
                 _lerpTimeCurrent = (TimeLoop.GetSecondsElapsed() - _lerpTimeStart) / _currentExpansionDuration;
                 _size = Mathf.Lerp(0f, _currentExpandedSize, _lerpTimeCurrent);
 
@@ -119,6 +120,7 @@ namespace Mod_Jam_6
 
                 _lerpTimeStart = TimeLoop.GetSecondsElapsed();
 
+                _isShrunk = false;
                 _isExpanding = true;
                 _wishToExpand = false;
             }
