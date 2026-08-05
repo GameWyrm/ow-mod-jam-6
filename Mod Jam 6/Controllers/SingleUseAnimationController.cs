@@ -15,6 +15,9 @@ namespace Mod_Jam_6.Controllers
         [SerializeField]
         private OWAudioSource _mainAudio;
 
+        [SerializeField]
+        private string _triggerName;
+
         protected virtual void Start()
         {
             if (_singleUseInteract != null)
@@ -37,8 +40,8 @@ namespace Mod_Jam_6.Controllers
 
         protected virtual IEnumerator PlayAnim()
         {
-            _mainAudio?.PlayOneShot(global::AudioType.NomaiVesselPowerUp, 1f);
-            _mainAnimator?.Play("ACTIVATION", 0);
+            //_mainAudio?.PlayOneShot(global::AudioType.NomaiVesselPowerUp, 1f);
+            _mainAnimator?.SetTrigger(_triggerName);
             yield return new WaitForSeconds(2f);
         }
     }
