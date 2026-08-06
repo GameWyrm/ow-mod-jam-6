@@ -1,3 +1,94 @@
 {
-	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json"
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+		//Bellhop
+
+		//1aONE, 2aONE, 3aONE(jumbled mess)
+		"PH_brevity_1aONE_1": "Curiosity. Seek out. Similar molecules, Newcomer and me. Good.",
+		"PH_haiku_2aONE_1": "Help comes from within",
+		"PH_prose_3aONE_1": "Accept my dearest welcome from the bottom of my illustrious heart, my pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as me. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one.",
+
+		//brevity_ONE(b+c)
+		"PH_brevity_1bONE_1": "Jump in pool! No! Jump over pool. Water nice?. Air nicer?. Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good.",
+		"PH_brevity_1cONE_1": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring?",
+
+		//haiku_ONE(b+c)
+		"PH_haiku_2bONE_1": " Music remembers\nNewcomer composers for friends\nThe box is in past\nThe past is not here\nSeek below as above comes\nWalk the lobby stairs",
+		"PH_haiku_2cONE_1": "Fortunate are they\nTraverse together through floor\nNewcomer must lie",
+
+		//prose_ONE(b+c) ALERT: 2bONE_1 is unfinished
+		"PH_prose_3bONE_1": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of my mind with all their strength but I will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in my hair",
+		"PH_prose_3cONE_1": "The future is uncertain. It’s the herald of death, famine, misfortune and the face. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
+
+		//echoes(ALERT: conversation between prose and hatchling before echo not written correct)
+		"PH_brevity_EC01_1": "Splash! Mama lost again. Now the experiment can continue…. No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn’t go boom. Shouldn’t? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
+		"PH_haiku_EC01_1": "My dear love undying\nWinter’s chill took her from me\nLove shall never spring",
+		"PH_prose_EC01_1": "None shall pass",
+		"PH_prose_EC01_A": "Well. This is a novel experience.",
+		"PH_prose_EC02_1": "None shall pass.",
+		"PH_prose_EC02_A": "I have no quarrel with you, good wall. But I must cross you.",
+		"PH_prose_EC03_1": "Then you shall die.",
+		"PH_prose_EC03_A": "I command you, as Newcomer to move for me.",
+		"PH_prose_EC04_1": "I move for no Newcomer.",
+		"PH_prose_EC04_A": "So be it.",
+		"PH_prose_EC05_1": "I ride to glory! To the mill where I have worked tirelessly to impress the dazzling miller. He crushes flour like a knight crushes a delicate flower. But the miller is never impressed. Never does he compliment me on the showmanship I present when I try crushing the flour. He strikes the back of my head like the thunder that strikes an empty cave. Oh if we could but take shelter in that empty cave together from the pouring rain. But alas the miller’s only request is that I open a window. If only he would open the window to my mi- Oh crap that was a mirror.",
+
+		//brevity_TWO(don't forget to actually put PH_brevity_1aONE_1 first in the dialogue tree. Also TWO is unique in that non-capitalized b,c will be there for if you find echo)
+		"PH_brevity_1aTWO_1": "Planet. Decay. Not end. New possibilities. Safe.",
+		"PH_brevity_1bTWO_1": "This place uncertain. Too much uncertainty. Stability disappears. Increase the heat to prevent ice forming. Newcomer prefers water. Newcomer forgot. Newcomer must not forget. Not again! Forget erodes stability? Or forget part of stability? Why is forgetting needed?",
+		"PH_brevity_1cTWO_1": "Basement bad. Choice made. Choices unmade. Choice made. Choices unmade. No choice, yes stability. Choices dangerous. Newcomer must chose. Newcomer not choose basement. Newcomer not choose? No!!! Newcomer must choose. Newcomer has chosen and must choose again….\nQuestion?",
+
+
+		//haiku_TWO(don't forget to actually put PH_haiku_2aONE_1 first in the dialogue tree. Also TWO is unique in that non-capitalized b,c will be there for if you find echo)
+		"PH_haiku_2aTWO_1": "The short lived are lucky",
+		"PH_haiku_2bTWO_1": "Newcomer can’t stop\nEnd is inevitable\nBlind leading the blind",
+		"PH_haiku_2cTWO_1": "Happiness is choice\nChoice starts inevitable\nThere never was choice",
+
+
+		//prose_TWO(don't forget to actually put PH_prose_3aONE_1 first in the dialogue tree. Also TWO is unique in that non-capitalized b,c will be there for if you find echo)
+		"PH_prose_3aTWO_1": "Oh, how I have long awaited the long-awaited thrilling conclusion to my endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty “pompouses”",
+		"PH_prose_3bTWO_1": "Oh woe is upon THE KNIGHT. For this darkness. This endless, unceasing threat that endangers Newcomer and THE KNIGHT shall never stop gnawing away at us. It shall be like a ceaseless discharge, opening the very mouth of hell. Abandon all hope, ye who enter here. But if Newcomer holds fast against the endless ocean washing away our powers of light then mayhap, the small favour shall be carried out.",
+		"PH_prose_3cTWO_1": "Oh pristine Newcomer. Oh mighty herald of the past. Let your powers flow through THE KNIGHT once more. THE KNIGHT gapes in awe at Newcomer’s awesomeness. I drool and weep over what could have been. Newcomer understood the debased basement of doom. Newcomer understands that the basement is the forbidden fruit that we must resist. Unless THE KNIGHT is sundered.",
+
+
+		//ripples
+		"PH_brevity_RIP01_1": "The black rock destroyed. Possible? I will make possible. Others must be safe again. No quantum entanglement anymore. I shall destroy the uncertainty principle. If I leave hotel. Newcomer must not stop me.",
+		"PH_haiku_RIP01_1": "Be my guardian\nWeapon for my summer’s wrath\nAutumn must not come",
+		"PH_prose_RIP01_1": "You cannot possibly think you could ever hope to obtain my deepest darkest secrets that I guard with such fervor? I require a small favour from you and then you might delve into the depths of my mind.\nYou must be harmed by every room in this sacred sanctuary.\nBut in order to be harmed by every room you must obtain all knowledge of every room.\nBut for you see, in order to obtain every last sticky note you must also solve the riddle of steel.\nHowever, in order to solve the riddle of steel, the sacred sanctuary must be aligned with yourself.\nHowever, to align this scared sanctuary with yourself, you must also hasten to destroy the Void.\nHowever, to destroy the Void you have to talk to me?\nWait, but to talk to me, you have to talk to me?\nBut you can’t talk to me until you have talked to me but that then requires you to talk to me which can’t happen because you have to talk to me?\nOkay, wait I need a moment to clear my mind- and done. Did you do all of that?",
+		"PH_prose_RIP01_A": "Yes.",
+		"PH_prose_RIPACCEPT_1": "Perfect, I will now reveal the ultimate truth.",
+		"PH_prose_RIP01_B": "No?",
+		"PH_prose_RIPDENY_1": "To prevent the fabric of space being torn I shall now reveal the ultimate truth.",
+		//PH_prose_RIP02_1 is not good enough. Should get a rewrite.
+		"PH_prose_RIP02_1": "I shall be like a warrior of paper, forever guarding the tactile feel of it. I shall not be bothered by the infinitesimal small cuts it attacks my fingers with. I shall carry the scars from the pages like badges of honour. Like the medal bestowed upon a knight by the prince after a long and arduous quest. No fear is creeping in. No waves are crashing upon the desert of my mind. I remain resolved and steel my nerves against the deep ocean. The abyss shall not hurt the pages! I will strike down the water with my mighty sword. It was made with the purpose to defeat my enemies with ornate engravings with blessings of the miller upon them. Let his winds carry me far beyond the wheels of the mill. I shall sail the desert and the water shall tremble before me.",
+
+		//brevity_TWO(capitalized. (don't forget to put PH_brevity_1aONE_1 first in the dialogue tree followed by PH_brevity_1aTWO_1. Also TWO is unique in that capitalized b,c will be there for if you find ripple)
+		"PH_brevity_1BTWO_1": "Sticky notes useful! Maybe leave. Left behind. For science! Science opens doors. Kaboom! No? Newcomer told me. Sticky notes no. Experiment other. Why?",
+		"PH_brevity_1CTWO_1": "Newcomer likes basement. Basement yes? No! No science. Only answers. Why? Questions good?",
+
+		//haiku_TWO(capitalized. (don't forget to put PH_haiku_2aONE_1 first in the dialogue tree followed by PH_haiku_2aTWO_1. Also TWO is unique in that capitalized b,c will be there for if you find ripple)
+		"PH_haiku_2BTWO_1": "Newcomer won’t write\nEnd is desired for me\nStay blind forever",
+		"PH_haiku_2CTWO_1": "Basement is not true\nNewcomer avoids other floors\nI hate false prophet",
+
+		//prose_TWO((capitalized. (don't forget to put PH_prose_3aONE_1 first in the dialogue tree followed by PH_prose_3aTWO_1. Also TWO is unique in that capitalized b,c will be there for if you find ripple)
+		"PH_prose_3BTWO_1": "The ocean is smoke and mirrors. For I, THE KNIGHT have read the words of our messiah. Newcomer prophesied that salvation does not lie within the ocean of darkness. For it is a cruel mistress with a temper to rival Newcomer. And temptation must be denied in order to reach the summit of salvation.",
+		"PH_prose_3CTWO_1": "Newcomer knows the paths of this labyrinthian halls of utter gargantuan magnitude better than all. All those who deny this truth are not pure enough of heart. Like a fragile red rose their heart withers and slithers through the endless hallways. Never shall they find their coveted basement.",
+
+		//brevity_THREE(don't forget to start with 1_aONE and 1_aTWO to finish the whole backstory)
+		"PH_brevity_1aTHREE_1": "New planet. Black hole close. Unsafe. Unsafe! UNSAFE! UNSAFE! UNSAFE!",
+		"PH_brevity_1bTHREE_1": "You remember big hot thing? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn’t forsee this. The breaker short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
+		"PH_brevity_1cTHREE_1": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. Much science to do with you! Touch molecules. Measure liquid streams. What’s your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
+
+		//haiku_THREE(don't forget to start with 2_aONE and 2_aTWO to finish the whole backstory)
+		"PH_haiku_2aTHREE_1": "End the fake promise",
+		"PH_haiku_2bTHREE_1": "Locker is a lie\nUnveil truth with opposite\nSound is opposite\nA signal needed\nSignal might seem lost to you\nIt resides in you\nTurn signal to veil\nOpen locker with your mind\nFind your lost core",
+		"PH_haiku_2cTHREE_1": "The past unwritten\nYour memories might persist\nFree yourself from us",
+
+		//prose_THREE(don't forget to start with 3_aONE and 3_aTWO tow finish the whole backstory)
+		"PH_prose_3aTHREE_1": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer.",
+		"PH_prose_3bTHREE_1": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn’t. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop’s mirror more than I feared Newcomer’s wrath. You have shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror’s Peak is where your salvation lies. You mustn’t attempt to scratch the mirror.\nSnapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
+		"PH_prose_3cTHREE_1": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was my only true friend. We are lost in this river of time. We can only steel ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends."
+
+
+	}
 }
