@@ -6,27 +6,32 @@
     "surfaceSize": 10000,
     "centerOfSolarSystem": true
   },
-    "Spawn": {
-    "playerSpawn": {
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "startWithSuit": true
-    },
-    "shipSpawn": {
-      "position": {
-        "x": 0,
-        "y": -10000,
-        "z": 0
-      }
-    }
+  "Spawn": {
+    "playerSpawnPoints": [
+        {
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "startWithSuit": true,
+            "rename": "PH_START"
+        }
+    ],
+    "shipSpawnPoints": [
+        {
+            "position": {
+                "x": 0,
+                "y": -10000,
+                "z": 0
+            }
+        }
+    ]
   },
     "Props": {
     "details": [
