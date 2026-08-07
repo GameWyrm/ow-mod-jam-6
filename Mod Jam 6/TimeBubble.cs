@@ -6,6 +6,9 @@ namespace Mod_Jam_6
     {
         public static TimeBubble instance;
 
+        [SerializeField]
+        private GameObject[] _objectsToToggle;
+
         private float _size;
         public float size => _size;
 
@@ -33,6 +36,10 @@ namespace Mod_Jam_6
 
             _size = 0f;
             _isShrunk = true;
+            foreach (var objectToToggle in _objectsToToggle)
+            {
+                objectToToggle.SetActive(false);
+            }
         }
         private void OnDrawGizmos()
         {
@@ -104,6 +111,11 @@ namespace Mod_Jam_6
                 {
                     _isShrinking = false;
                     _isShrunk = true;
+
+                    foreach(var objectToToggle in _objectsToToggle)
+                    {
+                        objectToToggle.SetActive(false);
+                    }
                 }
             }
             else if (_isExpanding)
@@ -124,6 +136,11 @@ namespace Mod_Jam_6
                 {
                     _isExpanding = false;
                     _isExpanded = true;
+
+                    foreach (var objectToToggle in _objectsToToggle)
+                    {
+                        objectToToggle.SetActive(true);
+                    }
                 }
             }
             else if (_wishToExpand)
