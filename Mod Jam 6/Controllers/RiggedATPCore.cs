@@ -25,7 +25,7 @@ namespace Mod_Jam_6
 
         private void ToggleWarp(bool isRigged)
         {
-            // TODO
+            RiggedATPPatch.SetShouldWarpToSystem(isRigged);
         }
     }
 }
