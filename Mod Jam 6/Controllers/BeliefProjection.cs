@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace Mod_Jam_6
 {
-    // Note: Code inspired by Heliostudy's code for harmonic convergence
     public class BeliefProjection : MonoBehaviour
     {
         private const float ANGULAR_THRESHOLD = 1f;
