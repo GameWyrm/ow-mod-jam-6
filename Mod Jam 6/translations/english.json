@@ -6,18 +6,18 @@
 		//1aONE, 2aONE, 3aONE(jumbled mess)
 		"PH_brevity_1aONE_1": "Curiosity. Seek out. Similar molecules, Newcomer and me. Good.",
 		"PH_haiku_2aONE_1": "Help comes from within",
-		"PH_prose_3aONE_1": "Accept my dearest welcome from the bottom of my illustrious heart, my pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as me. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one.",
+		"PH_prose_3aONE_1": "Accept my dearest welcome from the bottom of THE KNIGHT’s illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
 
 		//brevity_ONE(b+c)
-		"PH_brevity_1bONE_1": "Jump in pool! No! Jump over pool. Water nice?. Air nicer?. Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good.",
-		"PH_brevity_1cONE_1": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring?",
+		"PH_brevity_1bONE_1": "Jump in pool! No! Jump over pool. Water nice?. Air nicer?. Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good. Newcomer lost key. No! Newcomer find key.",
+		"PH_brevity_1cONE_1": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring? Ice is not boring. Yes! No, Ice gone. Please? Find ice block.",
 
 		//haiku_ONE(b+c)
 		"PH_haiku_2bONE_1": " Music remembers\nNewcomer composers for friends\nThe box is in past\nThe past is not here\nSeek below as above comes\nWalk the lobby stairs",
-		"PH_haiku_2cONE_1": "Fortunate are they\nTraverse together through floor\nNewcomer must lie",
+		"PH_haiku_2cONE_1": "Fortunate are they\nTraverse together through floor\nNewcomer must lie\nWalk in solitude\nCloser to greener pastures\nGo too far in time\nStray from beaten path\nWandering the endless void\nFind what will be lost",
 
 		//prose_ONE(b+c) ALERT: 2bONE_1 is unfinished
-		"PH_prose_3bONE_1": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of my mind with all their strength but I will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in my hair",
+		"PH_prose_3bONE_1": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of THE KNIGHT’s mind with all their strength but THE KNIGHT will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in THE KNIGHT’s hair, a storm is coming. One that shall blow away all evil deeds. Such as nightstands, closets, tables, and other evil pieces of furniture. Towering over THE KNIGHT with their similes like metaphors.",
 		"PH_prose_3cONE_1": "The future is uncertain. It’s the herald of death, famine, misfortune and the face. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
 
 		//echoes(ALERT: conversation between prose and hatchling before echo not written correct)
@@ -71,7 +71,7 @@
 		"PH_haiku_2CTWO_1": "Basement is not true\nNewcomer avoids other floors\nI hate false prophet",
 
 		//prose_TWO((capitalized. (don't forget to put PH_prose_3aONE_1 first in the dialogue tree followed by PH_prose_3aTWO_1. Also TWO is unique in that capitalized b,c will be there for if you find ripple)
-		"PH_prose_3BTWO_1": "The ocean is smoke and mirrors. For I, THE KNIGHT have read the words of our messiah. Newcomer prophesied that salvation does not lie within the ocean of darkness. For it is a cruel mistress with a temper to rival Newcomer. And temptation must be denied in order to reach the summit of salvation.",
+		"PH_prose_3BTWO_1": "The ocean is smoke and mirrors. For I, THE KNIGHT have read the words of the messiah. Newcomer prophesied that salvation does not lie within the ocean of darkness. For it is a cruel mistress with a temper to rival Newcomer. And temptation must be denied in order to reach the summit of salvation.",
 		"PH_prose_3CTWO_1": "Newcomer knows the paths of this labyrinthian halls of utter gargantuan magnitude better than all. All those who deny this truth are not pure enough of heart. Like a fragile red rose their heart withers and slithers through the endless hallways. Never shall they find their coveted basement.",
 
 		//brevity_THREE(don't forget to start with 1_aONE and 1_aTWO to finish the whole backstory)
@@ -86,8 +86,8 @@
 
 		//prose_THREE(don't forget to start with 3_aONE and 3_aTWO tow finish the whole backstory)
 		"PH_prose_3aTHREE_1": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer.",
-		"PH_prose_3bTHREE_1": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn’t. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop’s mirror more than I feared Newcomer’s wrath. You have shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror’s Peak is where your salvation lies. You mustn’t attempt to scratch the mirror.\nSnapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
-		"PH_prose_3cTHREE_1": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was my only true friend. We are lost in this river of time. We can only steel ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends."
+		"PH_prose_3bTHREE_1": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn’t. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop’s mirror more than I feared Newcomer’s wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror’s Peak is where your salvation lies. You mustn’t attempt to scratch the mirror. Snapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
+		"PH_prose_3cTHREE_1": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was the only one who I could trust until now. We are lost in this river of time. This prison of doom. We can only prepare ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends."
 
 
 	}
