@@ -11,6 +11,8 @@ namespace Mod_Jam_6
 			VOIDED = 1,
 		}
 
+		private FloorEnum _floor;
+
 		private const float SLEEPING_DISTANCE = 2f;
 
 		[SerializeField]
@@ -57,7 +59,7 @@ namespace Mod_Jam_6
 
 		private ScreenPrompt _wakePrompt;
 
-		private void Awake() // OK
+		private void Awake()
 		{
 			if (_interactVolume != null)
 			{
@@ -70,9 +72,10 @@ namespace Mod_Jam_6
 			{
 				_sector.OnSectorOccupantsUpdated += new OWEvent.OWCallback(OnSectorOccupantsUpdated);
 			}
+			FloorVoidManager.instance.OnFloorVoiding += OnFloorVoiding;
 		}
 
-		private void Start() // OK
+		private void Start()
 		{
 			if (Locator.GetPlayerTransform() != null)
 			{
@@ -84,7 +87,7 @@ namespace Mod_Jam_6
 			SetState(_initialState, forceStateUpdate: true);
 		}
 
-		private void OnDestroy() // OK
+		private void OnDestroy()
 		{
 			if (_interactVolume != null)
 			{
@@ -95,19 +98,20 @@ namespace Mod_Jam_6
 			{
 				_sector.OnSectorOccupantsUpdated -= new OWEvent.OWCallback(OnSectorOccupantsUpdated);
 			}
+			FloorVoidManager.instance.OnFloorVoiding -= OnFloorVoiding;
 		}
 
-		public Sector GetSector() // OK
+		public Sector GetSector()
 		{
 			return _sector;
 		}
 
-		public State GetState() // OK
+		public State GetState()
 		{
 			return _state;
 		}
 
-		public void SetInteractionEnabled(bool enabled) // OK
+		public void SetInteractionEnabled(bool enabled)
 		{
 			if (enabled)
 			{
@@ -119,12 +123,12 @@ namespace Mod_Jam_6
 			}
 		}
 
-		public void PlayOneShot(AudioType audioType) // OK
+		public void PlayOneShot(AudioType audioType)
 		{
 			_oneShotAudio.PlayOneShot(audioType);
 		}
 
-		public void SetState(State newState, bool forceStateUpdate = false) // OK
+		public void SetState(State newState, bool forceStateUpdate = false)
 		{
 			if (_state == newState && !forceStateUpdate) { return; }
 
@@ -132,19 +136,27 @@ namespace Mod_Jam_6
 			base.enabled = true;
 		}
 
-		private void OnGainFocus() // OK
+		private void OnFloorVoiding(FloorEnum floor)
+        {
+			if(_floor == floor)
+            {
+				SetState(State.VOIDED);
+            }
+        }
+
+		private void OnGainFocus()
 		{
 			_interactVolumeFocus = true;
 			Locator.GetPromptManager().AddScreenPrompt(_sleepPrompt, PromptPosition.Center);
 		}
 
-		private void OnLoseFocus() // OK
+		private void OnLoseFocus()
 		{
 			_interactVolumeFocus = false;
 			Locator.GetPromptManager().RemoveScreenPrompt(_sleepPrompt, PromptPosition.Center);
 		}
 
-		private void StartSleeping() // OK
+		private void StartSleeping()
 		{
 			Locator.GetToolModeSwapper().UnequipTool();
 
@@ -178,7 +190,7 @@ namespace Mod_Jam_6
 			GlobalMessenger<bool>.FireEvent("StartSleepingAtCampfire", false);
 		}
 
-		public void StopSleeping(bool sudden = false) // OK
+		public void StopSleeping(bool sudden = false)
 		{
 			if (_isPlayerSleeping)
 			{
@@ -207,7 +219,7 @@ namespace Mod_Jam_6
 			}
 		}
 
-		private void StartFastForwarding() // OK
+		private void StartFastForwarding()
 		{
 			Locator.GetPlayerCamera().enabled = false;
 			_isTimeFastForwarding = true;
@@ -216,7 +228,7 @@ namespace Mod_Jam_6
 			GlobalMessenger.FireEvent("StartFastForward");
 		}
 
-		private void StopFastForwarding() // OK
+		private void StopFastForwarding()
 		{
 			Locator.GetPlayerCamera().enabled = true;
 			_isTimeFastForwarding = false;
@@ -226,7 +238,7 @@ namespace Mod_Jam_6
 			GlobalMessenger.FireEvent("EndFastForward");
 		}
 
-		private void Update() // OK
+		private void Update()
 		{
 			if (_interactVolume != null)
 			{
@@ -259,18 +271,18 @@ namespace Mod_Jam_6
 			}
 		}
 
-		private float GetWakePromptDelay() // OK
+		private float GetWakePromptDelay()
 		{			
 			return 10f; // How long before the prompt shows up on the sleep timer window
 		}
 
-		private bool CanSleepHereNow() // OK
+		private bool CanSleepHereNow()
 		{
 			// If bed state okay, if enough time in loop + if normal controls -> can sleep
 			return _state == State.NORMAL && TimeLoop.IsTimeFlowing() && TimeLoop.GetSecondsRemaining() > 85f && OWInput.IsInputMode(InputMode.Character);
 		}
 
-		private bool ShouldWakeUp() // OK
+		private bool ShouldWakeUp()
 		{
 			// If one of the 3 cancel button is pressed (input mode None when asleep) then wake up
 			if (OWInput.IsInputMode(InputMode.None) && (OWInput.IsNewlyPressed(InputLibrary.interact) || OWInput.IsNewlyPressed(InputLibrary.cancel) || OWInput.IsNewlyPressed(InputLibrary.interactSecondary)))
@@ -286,7 +298,7 @@ namespace Mod_Jam_6
             return TimeLoop.GetSecondsRemaining() < 85f;
         }
 
-		private void OnSectorOccupantsUpdated() // OK
+		private void OnSectorOccupantsUpdated()
 		{
 			bool flag = _sector.ContainsOccupant(DynamicOccupant.Player);
 			if (_playerInSector != flag)
