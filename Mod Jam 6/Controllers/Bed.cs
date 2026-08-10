@@ -79,10 +79,7 @@ namespace Mod_Jam_6
 				_lockOnTargeting = Locator.GetPlayerTransform().GetRequiredComponent<PlayerLockOnTargeting>();
 			}
 			_audio?.SetLocalVolume(0f);
-			if (_interactVolume != null)
-			{
-				_sleepPrompt.SetVisibility(isVisible: CanSleepHereNow());
-			}
+			_interactVolume?._screenPrompt.SetVisibility(false);
 			base.enabled = false;
 			SetState(_initialState, forceStateUpdate: true);
 		}
@@ -132,8 +129,6 @@ namespace Mod_Jam_6
 			if (_state == newState && !forceStateUpdate) { return; }
 
 			_state = newState;	
-			_interactVolume?.ChangePrompt(_state == State.NORMAL ? "Do the big sleepy" : "Cannot do the eepey");
-
 			base.enabled = true;
 		}
 
