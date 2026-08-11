@@ -11,6 +11,13 @@ namespace Mod_Jam_6
 			VOIDED = 1,
 		}
 
+		public enum Floor
+		{
+			THIRD = 0,
+			SECOND = 1,
+			FIRST = 2
+		}
+
 		private const float SLEEPING_DISTANCE = 2f;
 
 		[SerializeField]
@@ -153,11 +160,12 @@ namespace Mod_Jam_6
 		{
 			Locator.GetToolModeSwapper().UnequipTool();
 
-			_attachPoint.AttachPlayer();
+			if (_attachPoint != null)
+			{
+				_attachPoint.transform.position = Locator.GetPlayerBody().transform.position;
+				_attachPoint.AttachPlayer();
+			}
 			_interactVolume.DisableInteraction();
-			Vector3 localPosition = Locator.GetPlayerTransform().localPosition;
-			Vector3 attachOffset = 2f * new Vector3(localPosition.x, 0f, localPosition.z).normalized + Vector3.up;
-			_attachPoint.SetAttachOffset(attachOffset);
 			if (_lookUpWhileSleeping)
 			{
 				_lockOnTargeting.LockOn(base.transform, Vector3.up * 10f, 1f, useZoom: true);
@@ -191,7 +199,10 @@ namespace Mod_Jam_6
 				{
 					StopFastForwarding();
 				}
-				_attachPoint.DetachPlayer();
+				if (_attachPoint != null)
+				{
+					_attachPoint.DetachPlayer();
+				}
 				_lockOnTargeting.BreakLock();
 				_interactVolume.EnableInteraction();
 				if (_lookUpWhileSleeping || PlayerState.InZeroG())
