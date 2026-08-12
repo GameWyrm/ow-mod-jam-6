@@ -2,6 +2,7 @@
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
+using UnityEngine;
 
 namespace Mod_Jam_6
 {
@@ -38,6 +39,21 @@ namespace Mod_Jam_6
         {
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+
+            NewHorizons.GetStarSystemLoadedEvent().AddListener((system) =>
+            {
+                ModHelper.Events.Unity.FireInNUpdates(() =>
+                {
+                    if (system == "VoidDimension")
+                    {
+                        var shipLogScreen = GameObject.Find("Ship_Body/Module_Cabin/Systems_Cabin/ShipLogPivot");
+                        var shipLogbody = GameObject.Find("shiplog_parent");
+                        shipLogScreen.transform.parent = shipLogbody.transform;
+                        shipLogScreen.transform.localPosition = Vector3.zero;
+                        shipLogScreen.transform.localEulerAngles = Vector3.zero;
+                    }
+                }, 50);
+            });
         }
 
         public static void Log(string message)
