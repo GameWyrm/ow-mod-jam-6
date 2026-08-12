@@ -11,6 +11,8 @@ namespace Mod_Jam_6
         public static ModJam6 Instance;
         public INewHorizons NewHorizons;
 
+        public GameObject shipLogScreen;
+
         public void Awake()
         {
             Instance = this;
@@ -37,20 +39,15 @@ namespace Mod_Jam_6
 
         public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
         {
-            if (newScene != OWScene.SolarSystem) return;
-            ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-
             NewHorizons.GetStarSystemLoadedEvent().AddListener((system) =>
             {
                 ModHelper.Events.Unity.FireInNUpdates(() =>
                 {
                     if (system == "VoidDimension")
                     {
-                        var shipLogScreen = GameObject.Find("Ship_Body/Module_Cabin/Systems_Cabin/ShipLogPivot");
-                        var shipLogbody = GameObject.Find("shiplog_parent");
-                        shipLogScreen.transform.parent = shipLogbody.transform;
-                        shipLogScreen.transform.localPosition = Vector3.zero;
-                        shipLogScreen.transform.localEulerAngles = Vector3.zero;
+                        Log("Looking for ship");
+                        shipLogScreen = GameObject.Find("Ship_Body/Module_Cabin/Systems_Cabin/ShipLogPivot");
+                        Log($"Ship is {(shipLogScreen == null ? "NULL" : "FOUND")}");
                     }
                 }, 50);
             });
