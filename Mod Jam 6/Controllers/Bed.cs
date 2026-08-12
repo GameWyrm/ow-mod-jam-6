@@ -18,6 +18,8 @@ namespace Mod_Jam_6
 			FIRST = 2
 		}
 
+		private FloorEnum _floor;
+
 		private const float SLEEPING_DISTANCE = 2f;
 
 		[SerializeField]
