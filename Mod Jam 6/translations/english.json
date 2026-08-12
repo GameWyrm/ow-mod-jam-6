@@ -91,153 +91,166 @@
 	},
 	"ShipLogDictionary": {
 		// PLAYER_ROOM
-		"$PH_LOG_PLAYER_ROOM_NAME": "[Placeholder]",
-		"$PH_LOG_PLAYER_ROOM_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_PLAYER_ROOM_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_PLAYER_ROOM_1": "[Placeholder]",
+		"$PH_LOG_PLAYER_ROOM_NAME": "My Room",
+		"$PH_LOG_PLAYER_ROOM_RUMOR_NAME": "NO NAME",
+		"$PH_LOG_PLAYER_ROOM_RUMOR_1": "NO RUMOR",
+		"$PH_LOG_PLAYER_ROOM_1": "I have landed in some strange structure after trying to exit the Ash Twin Project with the Advanced Warp Core. The Core is missing.",
 
 		// HOTEL_CURIOSITY
-		"$PH_LOG_HOTEL_CURIOSITY_NAME": "[Placeholder]",
-		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_HOTEL_CURIOSITY_1": "[Placeholder]",
+		"$PH_LOG_HOTEL_CURIOSITY_NAME": "Hotel",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "Mysterious Structure",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "There is a sticky note on a desk in the lobby.",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_2": "The note mentions that the Signalscope can be used to enforce beliefs. There seems to be a signal behind the desk.",
+		"$PH_LOG_HOTEL_CURIOSITY_1": "Projecting my beliefs behind the desk revealed someone who calls themself the Bellhop. They revealed to me basic information about the hotel.",
 
 		// OUTSIDE
-		"$PH_LOG_OUTSIDE_NAME": "[Placeholder]",
-		"$PH_LOG_OUTSIDE_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_OUTSIDE_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_OUTSIDE_1": "[Placeholder]",
+		"$PH_LOG_OUTSIDE_NAME": "Outside",
+		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the hotel lobby, but no door.",
+		"$PH_LOG_OUTSIDE_RUMOR_2": "The Bellhop claims he sees a door there.",
+		"$PH_LOG_OUTSIDE_RUMOR_3": "Purple mentioned that to leave the hotel, I will need to look at someone else's perspective who can see the exit. I will also need to make sure I leave with all my luggage.",
+		"$PH_LOG_OUTSIDE_1": "I took a picture of the Bellhop's perspective of the door, which made the door appear when I entered the lobby. I can now go outside.",
+		"$PH_LOG_OUTSIDE_2": "The outside of the hotel is dark and tranquil.",
+		"$PH_LOG_OUTSIDE_3": "I found an electrical box outside the hotel.",
 
 		// BASEMENT
-		"$PH_LOG_BASEMENT_NAME": "[Placeholder]",
-		"$PH_LOG_BASEMENT_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_BASEMENT_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_BASEMENT_1": "[Placeholder]",
+		"$PH_LOG_BASEMENT_NAME": "Basement",
+		"$PH_LOG_BASEMENT_RUMOR_1": "There is a locked door behind the Bellhop. They say it leads to the basement.",
+		"$PH_LOG_BASEMENT_RUMOR_2": "I reset the breaker power connected to the basement.",
+		"$PH_LOG_BASEMENT_RUMOR_3": "I set the furnace heat to be sent to the basement. The door is warm to the touch",
+		"$PH_LOG_BASEMENT_RUMOR_4": "Blue mentioned that in order to unlock the basement, the breaker outside the hotel must be reset and heat sent to the basement.",
+		"$PH_LOG_BASEMENT_1": "In the basement I found some kind of Ash Twin Project clone,",
+		"$PH_LOG_BASEMENT_2": "I removed a makeshift Advanced Warp Core from the system.",
 
 		// FIRST_FLOOR
-		"$PH_LOG_FIRST_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_FIRST_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_FIRST_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_FIRST_FLOOR_NAME": "First Floor",
+		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "The Bellhop told me that most occupants live on the first floor.",
+		"$PH_LOG_FIRST_FLOOR_1": "The first floor is green, with long halls and a large number of rooms.",
 
 		// VOID_FIRST_FLOOR
-		"$PH_LOG_VOID_FIRST_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_FIRST_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_FIRST_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_VOID_FIRST_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_FIRST_FLOOR_NAME": "Void First Floor",
+		"$PH_LOG_VOID_FIRST_FLOOR_1": "The hotel is being consumed by something the Bellhop calls \"The Void.\" Something is messing with the objectivity of the hotel and making it malleable. However, this instability is causing it to be a prime target for this entity.",
 
 		// POOLS
-		"$PH_LOG_POOLS_NAME": "[Placeholder]",
-		"$PH_LOG_POOLS_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_POOLS_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_POOLS_1": "[Placeholder]",
+		"$PH_LOG_POOLS_NAME": "Pools",
+		"$PH_LOG_POOLS_RUMOR_1": "There is a locked room labeled \"POOLS\" on the first floor.",
+		"$PH_LOG_POOLS_RUMOR_2": "A sticky note mentioned that the key was taken by a denizen of the hotel, who was also messing with the wallpaper. The author could not bring themself to vandalize the wallpaper to see what they wrote under it.",
+		"$PH_LOG_POOLS_1": "The Pools are a nonsensical array of swimming pools spread across the floor, walls, and ceiling.",
 
 		// SECOND_FLOOR
-		"$PH_LOG_SECOND_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_SECOND_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_SECOND_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_SECOND_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_SECOND_FLOOR_NAME": "Second Floor",
+		"$PH_LOG_SECOND_FLOOR_RUMOR_1": "The Bellhop told me that when I visit the second floor, I should follow the signs or I will get lost.",
+		"$PH_LOG_SECOND_FLOOR_1": "The second floor is white and sterile, designed as a maze.",
 
 		// VOID_SECOND_FLOOR
-		"$PH_LOG_VOID_SECOND_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_SECOND_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_SECOND_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_VOID_SECOND_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_SECOND_FLOOR_NAME": "Void Second Floor",
+		"$PH_LOG_VOID_SECOND_FLOOR_1": "About three-quarters into the loop, the second floor gets consumed by the void. It is a broken maze.",
 
 		// FURNACE
-		"$PH_LOG_FURNACE_NAME": "[Placeholder]",
-		"$PH_LOG_FURNACE_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_FURNACE_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_FURNACE_1": "[Placeholder]",
+		"$PH_LOG_FURNACE_NAME": "Furnace",
+		"$PH_LOG_FURNACE_RUMOR_1": "There is a furnace on the second floor.",
+		"$PH_LOG_FURNACE_1": "I located a furnace on the second floor.",
+		"$PH_LOG_FURNACE_2": "It has a valve that I can turn. It has notches labeled \"B\", \"1\", \"2\", and \"3\".",
 
 		// THIRD_FLOOR
-		"$PH_LOG_THIRD_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_THIRD_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_THIRD_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_THIRD_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_THIRD_FLOOR_NAME": "Third Floor",
+		"$PH_LOG_THIRD_FLOOR_RUMOR_1": "The Bellhop told me that the third floor is supposed to be largely unoccupied, and he doesn't believe there are any locked doors up there.",
+		"$PH_LOG_THIRD_FLOOR_1": "The third floor is purple and more open space. There's not many rooms here.",
+		"$PH_LOG_THIRD_FLOOR_2": "I found a locked door at room [ID].",
 
 		// VOID_THIRD_FLOOR
-		"$PH_LOG_VOID_THIRD_FLOOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_THIRD_FLOOR_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_VOID_THIRD_FLOOR_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_VOID_THIRD_FLOOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_THIRD_FLOOR_NAME": "Void Third Floor",
+		"$PH_LOG_VOID_THIRD_FLOOR_1": "Halfway into the loop, the top floor is consumed by the void.",
 
 		// VAULT
-		"$PH_LOG_VAULT_NAME": "[Placeholder]",
-		"$PH_LOG_VAULT_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_VAULT_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_VAULT_1": "[Placeholder]",
+		"$PH_LOG_VAULT_NAME": "Vault",
+		"$PH_LOG_VAULT_RUMOR_NAME": "Lost-And-Found",
+		"$PH_LOG_VAULT_RUMOR_1": "I have found a safe of some kind that I can open. It is empty.",
+		"$PH_LOG_VAULT_RUMOR_2": "Green mentioned that if I lost something, it would have been put in the lost-and-found safe on the third floor. If I can't find it, I should project my belief that it exists when it's closed.",
+		"$PH_LOG_VAULT_1": "After projecting my belief of the Advanced Warp Core onto the empty safe while it was closed, it appeared when I opened it.",
 
 		// PURPLE_PROSE_CURIOSITY
-		"$PH_LOG_PURPLE_PROSE_CURIOSITY_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_PURPLE_PROSE_CURIOSITY_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_NAME": "Purple Knight",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_NAME": "Purple",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1": "After speaking with the Purple Wisp, they began to emit a signal.",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_2": "After speaking with the Purple Echo, they began to emit a signal.",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3": "After telling the Purple Ripple I had done all they asked, they allowed me to scan them.",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_1": "Lining up the wisp with one of its aspects then projecting my beliefs with the Signalscope caused them to merge.",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_2": "I merged all three aspects together into one being.",
 
 		// PURPLE_WISP
-		"$PH_LOG_PURPLE_WISP_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_WISP_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_WISP_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_PURPLE_WISP_1": "[Placeholder]",
-
-		// PURPLE_RIPPLE
-		"$PH_LOG_PURPLE_RIPPLE_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_RIPPLE_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_RIPPLE_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_PURPLE_RIPPLE_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_WISP_NAME": "Purple Wisp",
+		"$PH_LOG_PURPLE_WISP_RUMOR_1": "I found a Purple Wisp hiding in one of the rooms.",
+		"$PH_LOG_PURPLE_WISP_1": "The Purple Wisp speaks in exhaustive prose.",
+		"$PH_LOG_PURPLE_WISP_2": "They mentioned an impassible barrier and a small favor.",
 
 		// PURPLE_ECHO
-		"$PH_LOG_PURPLE_ECHO_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_ECHO_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_PURPLE_ECHO_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_PURPLE_ECHO_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_ECHO_NAME": "Purple Echo",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_NAME": "Strange Barrier",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_1": "Right outside of my room, there is a barrier blocking my access to part of the building.",
+		"$PH_LOG_PURPLE_ECHO_1": "I sent the hall back in time to before the barrier existed, which gave me access to a room with a Purple Echo.",
+		"$PH_LOG_PURPLE_ECHO_2": "The Purple Echo speaks in exhaustive prose.",
+
+		// PURPLE_RIPPLE
+		"$PH_LOG_PURPLE_RIPPLE_NAME": "Purple Ripple",
+		"$PH_LOG_PURPLE_RUMOR_RUMOR_1": "I found a Purple Ripple hiding in room [ID].",
+		"$PH_LOG_PURPLE_RUMOR_1": "The Purple Ripple speaks in exhaustive prose.",
+		"$PH_LOG_PURPLE_RUMOR_2": "After speaking to them, they began to emit a signal.",
+		"$PH_LOG_PURPLE_RUMOR_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
 
 		// BLUE_BREVITY_CURIOSITY
-		"$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_BLUE_BREVITY_CURIOSITY_1": "[Placeholder]",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME": "Blue Scientist",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME": "Blue",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1": "After talking to the Blue Wisp, they began to emit a signal.",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2": "After talking to the Blue Echo, they began to emit a signal.",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_3": "After talking to the Blue Ripple, they began to emit a signal.",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_1": "Lining up the wisp with one of its aspects then projecting my beliefs with the Signalscope caused them to merge.",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_2": "I merged all three aspects together into one being.",
 
 		// BLUE_WISP
-		"$PH_LOG_BLUE_WISP_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_WISP_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_WISP_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_BLUE_WISP_1": "[Placeholder]",
-
-		// BLUE_RIPPLE
-		"$PH_LOG_BLUE_RIPPLE_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_RIPPLE_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_RIPPLE_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_BLUE_RIPPLE_1": "[Placeholder]",
+		"$PH_LOG_BLUE_WISP_NAME": "Blue Wisp",
+		"$PH_LOG_BLUE_WISP_RUMOR_1": "I discovered a blue wisp in a room on the first floor. They speak with brevity.",
+		"$PH_LOG_BLUE_WISP_1": "They mentioned splashing and a block of ice in a locked room.",
 
 		// BLUE_ECHO
-		"$PH_LOG_BLUE_ECHO_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_ECHO_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_BLUE_ECHO_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_BLUE_ECHO_1": "[Placeholder]",
+		"$PH_LOG_BLUE_ECHO_NAME": "Blue Echo",
+		"$PH_LOG_BLUE_ECHO_RUMOR_NAME": "Temporal Disturbance",
+		"$PH_LOG_BLUE_ECHO_RUMOR_1": "I found a sticky note mentioning a temporal disturbance. It is apparently invisible akin to ghost matter. The author mused what might happen if it was impacted with high kinetic energy.",
+		"$PH_LOG_BLUE_ECHO_1": "Hitting the disturbance created a bubble. It seems the bubble is back in time.",
+		"$PH_LOG_BLUE_ECHO_2": "Within the bubble was a blue echo. They spoke with brevity.",
+
+		// BLUE_RIPPLE
+		"$PH_LOG_BLUE_RIPPLE_NAME": "Blue Ripple",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_NAME": "Block of Ice",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_1": "I found a block of ice in room [ID] on the third floor of the Void Hotel.",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_2": "I set the furnace to send its heat to the third floor. It was able to melt the ice.",
+		"$PH_LOG_BLUE_RIPPLE_1": "Within the block of ice was a Blue Ripple. They spoke with brevity.",
 
 		// GREEN_POETRY_CURIOSITY
-		"$PH_LOG_GREEN_POETRY_CURIOSITY_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_GREEN_POETRY_CURIOSITY_1": "[Placeholder]",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_NAME": "Green Mentor",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_NAME": "Green",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1": "After speaking with the Green Wisp, they began to emit a signal.",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2": "After speaking with the Green Echo, they began to emit a signal.",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_3": "After speaking with the Green Ripple, they began to emit a signal.",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_1": "Lining up the wisp with one of its aspects then projecting my beliefs with the Signalscope caused them to merge.",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_2": "I merged all three aspects together into one being..",
 
 		// GREEN_WISP
-		"$PH_LOG_GREEN_WISP_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_WISP_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_WISP_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_GREEN_WISP_1": "[Placeholder]",
-
-		// GREEN_RIPPLE
-		"$PH_LOG_GREEN_RIPPLE_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_RIPPLE_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_RIPPLE_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_GREEN_RIPPLE_1": "[Placeholder]",
+		"$PH_LOG_GREEN_WISP_NAME": "Green Wisp",
+		"$PH_LOG_GREEN_WISP_RUMOR_1": "I found a green wisp on the second floor. They speak in poetry.",
+		"$PH_LOG_GREEN_WISP_1": "They mentioned a music box and signs in a maze, changing with the time.",
 
 		// GREEN_ECHO
-		"$PH_LOG_GREEN_ECHO_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_ECHO_RUMOR_NAME": "[Placeholder]",
-		"$PH_LOG_GREEN_ECHO_RUMOR_1": "[Placeholder]",
-		"$PH_LOG_GREEN_ECHO_1": "[Placeholder]"
+		"$PH_LOG_GREEN_ECHO_NAME": "Green Echo",
+		"$PH_LOG_GREEN_ECHO_RUMOR_NAME": "Music Box",
+		"$PH_LOG_GREEN_ECHO_RUMOR_1": "I found a music box. It is aged and out of tune.",
+		"$PH_LOG_GREEN_ECHO_1": "I played the music box in the past where it was in tune, which revealed a secret compartment. In it was a Green Echo. They speak in Poetry.",
+
+		// GREEN_RIPPLE
+		"$PH_LOG_GREEN_RIPPLE_NAME": "Green Ripple",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_NAME": "Strange Poem",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_1": "I found a poem mentioning starting from a misspelled exit.",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_2": "I found a poem saying to only go left until the flickering light.",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_3": "I found a poem saying to try the locked door three times until it opened, then to visit in the void.",
+		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in Poetry."
 	}
 }
