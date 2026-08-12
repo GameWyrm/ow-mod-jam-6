@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Mod_Jam_6
 {
@@ -11,6 +12,8 @@ namespace Mod_Jam_6
         public GameObject voidBox;
         public GameObject voidTrigger;
         public GameObject voidBlock;
+
+        public List<UnityEvent> timeEvents;
 
         public List<int> eventTimes = new();
         public float warningTransitionTime = 3f;
@@ -40,6 +43,14 @@ namespace Mod_Jam_6
             }
         }
 
+        private void OnDestroy()
+        {
+            foreach (UnityEvent e in timeEvents)
+            {
+                e.RemoveAllListeners();
+            }
+        }
+
         private void RunEvent()
         {
             ModJam6.Log($"Starting event {currentEvent}");
@@ -66,6 +77,7 @@ namespace Mod_Jam_6
                 default:
                     break;
             }
+            timeEvents[currentEvent].Invoke();
         }
 
         private IEnumerator MoveVoid(float transitionTime, bool toggleColliders)
