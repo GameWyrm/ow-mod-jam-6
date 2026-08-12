@@ -14,11 +14,11 @@ namespace Mod_Jam_6
 		public enum Floor
 		{
 			THIRD = 0,
-			SECOND = 1,
-			FIRST = 2
+			SECOND = 2,
+			FIRST = 4
 		}
 
-		private FloorEnum _floor;
+		public Floor floor;
 
 		private const float SLEEPING_DISTANCE = 2f;
 
@@ -83,7 +83,7 @@ namespace Mod_Jam_6
 
 		private void Start()
 		{
-			FloorVoidManager.instance.OnFloorVoiding += OnFloorVoiding;
+			TimeManager.instance.timeEvents[(int)floor].AddListener(OnFloorVoiding);
 			if (Locator.GetPlayerTransform() != null)
 			{
 				_lockOnTargeting = Locator.GetPlayerTransform().GetRequiredComponent<PlayerLockOnTargeting>();
@@ -105,7 +105,6 @@ namespace Mod_Jam_6
 			{
 				_sector.OnSectorOccupantsUpdated -= new OWEvent.OWCallback(OnSectorOccupantsUpdated);
 			}
-			FloorVoidManager.instance.OnFloorVoiding -= OnFloorVoiding;
 		}
 
 		public Sector GetSector()
@@ -143,12 +142,9 @@ namespace Mod_Jam_6
 			base.enabled = true;
 		}
 
-		private void OnFloorVoiding(FloorEnum floor)
+		private void OnFloorVoiding()
         {
-			if(_floor == floor)
-            {
-				SetState(State.VOIDED);
-            }
+			SetState(State.VOIDED);
         }
 
 		private void OnGainFocus()
