@@ -2,10 +2,11 @@
  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "name": "vacantSpellboundMysteryMotel",
   "starSystem": "VoidDimension",
-  "Base": {
-    "surfaceSize": 10000,
-    "centerOfSolarSystem": false
-  },
+    "Base": {
+        "surfaceSize": 10000,
+        "centerOfSolarSystem": false,
+        "showMinimap": false
+    },
   "Orbit": {
     "primaryBody": "spellboundMysteryMotel",
     "isStatic": true,

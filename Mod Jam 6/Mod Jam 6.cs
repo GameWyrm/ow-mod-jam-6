@@ -39,6 +39,21 @@ namespace Mod_Jam_6
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
         }
+
+        public static void Log(string message)
+        {
+            Instance.ModHelper.Console.WriteLine(message);
+        }
+
+        public static void LogError(string message)
+        {
+            Instance.ModHelper.Console.WriteLine(message, MessageType.Error);
+        }
+
+        public static void LogWarning(string message)
+        {
+            Instance.ModHelper.Console.WriteLine(message, MessageType.Warning);
+        }
     }
 }
 
