@@ -9,5 +9,251 @@
   "allowOutsideItems": false,
   "Skybox": {
     "destroyStarField": true
-  }
+  },
+  "initialReveal": [
+    "PH_LOG_PLAYER_ROOM_R_1"
+  ],
+  "entryPositions": [
+    // -- LOCATIONS (Yellow on Wyrm's Obsidian) Entries
+    {
+      "id": "PH_LOG_PLAYER_ROOM",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "PH_LOG_HOTEL_CURIOSITY",
+      "position": {
+        "x": 400,
+        "y": 0
+      }
+    },
+    {
+      "id": "PH_LOG_OUTSIDE",
+      "position": {
+        "x": 200,
+        "y": -400
+      }
+    },
+    {
+      "id": "PH_LOG_BASEMENT",
+      "position": {
+        "x": 800,
+        "y": -800
+      }
+    },
+    {
+      "id": "PH_LOG_FIRST_FLOOR",
+      "position": {
+        "x": 1600,
+        "y": 0
+      }
+    },
+    {
+      "id": "PH_LOG_VOID_FIRST_FLOOR",
+      "position": {
+        "x": 1800,
+        "y": -100
+      }
+    },
+    {
+      "id": "PH_LOG_POOLS",
+      "position": {
+        "x": 1200,
+        "y": -400
+      }
+    },
+    {
+      "id": "PH_LOG_SECOND_FLOOR",
+      "position": {
+        "x": 800,
+        "y": 800
+      }
+    },
+    {
+      "id": "PH_LOG_VOID_SECOND_FLOOR",
+      "position": {
+        "x": 1000,
+        "y": 700
+      }
+    },
+    {
+      "id": "PH_LOG_FURNACE",
+      "position": {
+        "x": 1800,
+        "y": 1000
+      }
+    },
+    {
+      "id": "PH_LOG_THIRD_FLOOR",
+      "position": {
+        "x": 200,
+        "y": 1200
+      }
+    },
+    {
+      "id": "PH_LOG_VOID_THIRD_FLOOR",
+      "position": {
+        "x": 400,
+        "y": 1100
+      }
+    },
+    {
+      "id": "PH_LOG_VAULT",
+      "position": {
+        "x": -200,
+        "y": 1600
+      }
+    },
+    // -- PURPLE Entries
+    {
+      "id": "PH_LOG_PURPLE_PROSE_CURIOSITY",
+      "position": {
+        "x": -600,
+        "y": 1000
+      }
+    },
+    {
+      "id": "PH_LOG_PURPLE_WISP",
+      "position": {
+        "x": -200,
+        "y": 1200
+      }
+    },
+    {
+      "id": "PH_LOG_PURPLE_RIPPLE",
+      "position": {
+        "x": 0,
+        "y": 1000
+      }
+    },
+    {
+      "id": "PH_LOG_PURPLE_ECHO",
+      "position": {
+        "x": -200,
+        "y": 800
+      }
+    },
+    // -- BLUE Entries
+    {
+      "id": "PH_LOG_BLUE_BREVITY_CURIOSITY",
+      "position": {
+        "x": 2400,
+        "y": 400
+      }
+    },
+    {
+      "id": "PH_LOG_BLUE_WISP",
+      "position": {
+        "x": 2000,
+        "y": 400
+      }
+    },
+    {
+      "id": "PH_LOG_BLUE_RIPPLE",
+      "position": {
+        "x": 400,
+        "y": 2000
+      }
+    },
+    {
+      "id": "PH_LOG_BLUE_ECHO",
+      "position": {
+        "x": 2200,
+        "y": 0
+      }
+    },
+    // -- GREEN Entries
+    {
+      "id": "PH_LOG_GREEN_POETRY_CURIOSITY",
+      "position": {
+        "x": 1000,
+        "y": 2400
+      }
+    },
+    {
+      "id": "PH_LOG_GREEN_WISP",
+      "position": {
+        "x": 400,
+        "y": 1600
+      }
+    },
+    {
+      "id": "PH_LOG_GREEN_RIPPLE",
+      "position": {
+        "x": 1200,
+        "y": 1600
+      }
+    },
+    {
+      "id": "PH_LOG_GREEN_ECHO",
+      "position": {
+        "x": 800,
+        "y": 1600
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "PH_LOG_HOTEL_CURIOSITY",
+      "color": {
+        "r": 200,
+        "g": 200,
+        "b": 0,
+        "a": 255
+      }, // YELLOW
+      "highlightColor": {
+        "r": 230,
+        "g": 230,
+        "b": 0,
+        "a": 255
+      }
+    },
+    {
+      "id": "PH_LOG_PURPLE_PROSE_CURIOSITY",
+      "color": {
+        "r": 200,
+        "g": 120,
+        "b": 200,
+        "a": 255
+      }, // PURPLE
+      "highlightColor": {
+        "r": 240,
+        "g": 120,
+        "b": 240,
+        "a": 255
+      }
+    },
+    {
+      "id": "PH_LOG_BLUE_BREVITY_CURIOSITY",
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 200,
+        "a": 255
+      }, // BLUE
+      "highlightColor": {
+        "r": 50,
+        "g": 50,
+        "b": 230,
+        "a": 255
+      }
+    },
+    {
+      "id": "PH_LOG_GREEN_POETRY_CURIOSITY",
+      "color": {
+        "r": 0,
+        "g": 200,
+        "b": 0,
+        "a": 255
+      }, // GREEN
+      "highlightColor": {
+        "r": 50,
+        "g": 230,
+        "b": 50,
+        "a": 255
+      }
+    }
+  ]
 }

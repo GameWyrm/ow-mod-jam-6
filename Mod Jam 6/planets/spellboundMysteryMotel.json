@@ -33,7 +33,7 @@
         }
     ]
   },
-    "Props": {
+  "Props": {
     "details": [
       {
         "keepLoaded": true,
@@ -41,5 +41,8 @@
         "path": "Assets/Mod Jam 6/Hotel.prefab"
       },
     ]
-    }
+  },
+  "ShipLog": {
+    "xmlFile": "planets/shiplogs/PenumbraHotel.xml"
+  }
 }

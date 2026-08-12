@@ -1,0 +1,457 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>PENUMBRA_HOTEL</ID> <!-- The ID of the planet this xml file is for -->
+
+  <!-- PLAYER_ROOM -->
+  <Entry>
+    <ID>PH_LOG_PLAYER_ROOM</ID>
+    <Name>$PH_LOG_PLAYER_ROOM_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_PLAYER_ROOM_R_1</ID>
+      <RumorName>$PH_LOG_PLAYER_ROOM_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_PLAYER_ROOM_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_PLAYER_ROOM_E_1</ID>
+      <ExploreText>$PH_LOG_PLAYER_ROOM_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- HOTEL_CURIOSITY -->
+  <Entry>
+    <ID>PH_LOG_HOTEL_CURIOSITY</ID>
+    <Name>$PH_LOG_HOTEL_CURIOSITY_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+    <IsCuriosity />
+
+    <RumorFact>
+      <ID>PH_LOG_HOTEL_CURIOSITY_R_1</ID>
+      <RumorName>$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_HOTEL_CURIOSITY_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_HOTEL_CURIOSITY_E_1</ID>
+      <ExploreText>$PH_LOG_HOTEL_CURIOSITY_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- OUTSIDE -->
+  <Entry>
+    <ID>PH_LOG_OUTSIDE</ID>
+    <Name>$PH_LOG_OUTSIDE_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_OUTSIDE_R_1</ID>
+      <RumorName>$PH_LOG_OUTSIDE_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_OUTSIDE_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_OUTSIDE_E_1</ID>
+      <ExploreText>$PH_LOG_OUTSIDE_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- BASEMENT -->
+  <Entry>
+    <ID>PH_LOG_BASEMENT</ID>
+    <Name>$PH_LOG_BASEMENT_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_BASEMENT_R_1</ID>
+      <RumorName>$PH_LOG_BASEMENT_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_BASEMENT_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_BASEMENT_E_1</ID>
+      <ExploreText>$PH_LOG_BASEMENT_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- FIRST_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_FIRST_FLOOR</ID>
+    <Name>$PH_LOG_FIRST_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_FIRST_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_FIRST_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_FIRST_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_FIRST_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_FIRST_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- VOID_FIRST_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_VOID_FIRST_FLOOR</ID>
+    <Name>$PH_LOG_VOID_FIRST_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_VOID_FIRST_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_VOID_FIRST_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_VOID_FIRST_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_VOID_FIRST_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_VOID_FIRST_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- POOLS -->
+  <Entry>
+    <ID>PH_LOG_POOLS</ID>
+    <Name>$PH_LOG_POOLS_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_POOLS_R_1</ID>
+      <RumorName>$PH_LOG_POOLS_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_POOLS_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_POOLS_E_1</ID>
+      <ExploreText>$PH_LOG_POOLS_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- SECOND_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_SECOND_FLOOR</ID>
+    <Name>$PH_LOG_SECOND_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_SECOND_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_SECOND_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_SECOND_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_SECOND_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_SECOND_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- VOID_SECOND_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_VOID_SECOND_FLOOR</ID>
+    <Name>$PH_LOG_VOID_SECOND_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_VOID_SECOND_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_VOID_SECOND_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_VOID_SECOND_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_VOID_SECOND_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_VOID_SECOND_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- FURNACE -->
+  <Entry>
+    <ID>PH_LOG_FURNACE</ID>
+    <Name>$PH_LOG_FURNACE_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_FURNACE_R_1</ID>
+      <RumorName>$PH_LOG_FURNACE_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_FURNACE_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_FURNACE_E_1</ID>
+      <ExploreText>$PH_LOG_FURNACE_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- THIRD_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_THIRD_FLOOR</ID>
+    <Name>$PH_LOG_THIRD_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_THIRD_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_THIRD_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_THIRD_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_THIRD_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_THIRD_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- VOID_THIRD_FLOOR -->
+  <Entry>
+    <ID>PH_LOG_VOID_THIRD_FLOOR</ID>
+    <Name>$PH_LOG_VOID_THIRD_FLOOR_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_VOID_THIRD_FLOOR_R_1</ID>
+      <RumorName>$PH_LOG_VOID_THIRD_FLOOR_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_VOID_THIRD_FLOOR_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_VOID_THIRD_FLOOR_E_1</ID>
+      <ExploreText>$PH_LOG_VOID_THIRD_FLOOR_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- VAULT -->
+  <Entry>
+    <ID>PH_LOG_VAULT</ID>
+    <Name>$PH_LOG_VAULT_NAME</Name>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_VAULT_R_1</ID>
+      <RumorName>$PH_LOG_VAULT_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_VAULT_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_VAULT_E_1</ID>
+      <ExploreText>$PH_LOG_VAULT_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- PURPLE_PROSE_CURIOSITY -->
+  <Entry>
+    <ID>PH_LOG_PURPLE_PROSE_CURIOSITY</ID>
+    <Name>$PH_LOG_PURPLE_PROSE_CURIOSITY_NAME</Name>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
+    <IsCuriosity />
+
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_PROSE_CURIOSITY_R_1</ID>
+      <RumorName>$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_PURPLE_PROSE_CURIOSITY_E_1</ID>
+      <ExploreText>$PH_LOG_PURPLE_PROSE_CURIOSITY_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- PURPLE_WISP -->
+  <Entry>
+    <ID>PH_LOG_PURPLE_WISP</ID>
+    <Name>$PH_LOG_PURPLE_WISP_NAME</Name>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_WISP_R_1</ID>
+      <RumorName>$PH_LOG_PURPLE_WISP_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_PURPLE_WISP_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_PURPLE_WISP_E_1</ID>
+      <ExploreText>$PH_LOG_PURPLE_WISP_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- PURPLE_RIPPLE -->
+  <Entry>
+    <ID>PH_LOG_PURPLE_RIPPLE</ID>
+    <Name>$PH_LOG_PURPLE_RIPPLE_NAME</Name>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_RIPPLE_R_1</ID>
+      <RumorName>$PH_LOG_PURPLE_RIPPLE_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_PURPLE_RIPPLE_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_PURPLE_RIPPLE_E_1</ID>
+      <ExploreText>$PH_LOG_PURPLE_RIPPLE_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- PURPLE_ECHO -->
+  <Entry>
+    <ID>PH_LOG_PURPLE_ECHO</ID>
+    <Name>$PH_LOG_PURPLE_ECHO_NAME</Name>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_ECHO_R_1</ID>
+      <RumorName>$PH_LOG_PURPLE_ECHO_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_PURPLE_ECHO_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_PURPLE_ECHO_E_1</ID>
+      <ExploreText>$PH_LOG_PURPLE_ECHO_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- BLUE_BREVITY_CURIOSITY -->
+  <Entry>
+    <ID>PH_LOG_BLUE_BREVITY_CURIOSITY</ID>
+    <Name>$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME</Name>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
+    <IsCuriosity />
+
+    <RumorFact>
+      <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_R_1</ID>
+      <RumorName>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_E_1</ID>
+      <ExploreText>$PH_LOG_BLUE_BREVITY_CURIOSITY_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- BLUE_WISP -->
+  <Entry>
+    <ID>PH_LOG_BLUE_WISP</ID>
+    <Name>$PH_LOG_BLUE_WISP_NAME</Name>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_BLUE_WISP_R_1</ID>
+      <RumorName>$PH_LOG_BLUE_WISP_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_BLUE_WISP_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_BLUE_WISP_E_1</ID>
+      <ExploreText>$PH_LOG_BLUE_WISP_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- BLUE_RIPPLE -->
+  <Entry>
+    <ID>PH_LOG_BLUE_RIPPLE</ID>
+    <Name>$PH_LOG_BLUE_RIPPLE_NAME</Name>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_BLUE_RIPPLE_R_1</ID>
+      <RumorName>$PH_LOG_BLUE_RIPPLE_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_BLUE_RIPPLE_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_BLUE_RIPPLE_E_1</ID>
+      <ExploreText>$PH_LOG_BLUE_RIPPLE_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- BLUE_ECHO -->
+  <Entry>
+    <ID>PH_LOG_BLUE_ECHO</ID>
+    <Name>$PH_LOG_BLUE_ECHO_NAME</Name>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_BLUE_ECHO_R_1</ID>
+      <RumorName>$PH_LOG_BLUE_ECHO_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_BLUE_ECHO_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_BLUE_ECHO_E_1</ID>
+      <ExploreText>$PH_LOG_BLUE_ECHO_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- GREEN_POETRY_CURIOSITY -->
+  <Entry>
+    <ID>PH_LOG_GREEN_POETRY_CURIOSITY</ID>
+    <Name>$PH_LOG_GREEN_POETRY_CURIOSITY_NAME</Name>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
+    <IsCuriosity />
+
+    <RumorFact>
+      <ID>PH_LOG_GREEN_POETRY_CURIOSITY_R_1</ID>
+      <RumorName>$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_GREEN_POETRY_CURIOSITY_E_1</ID>
+      <ExploreText>$PH_LOG_GREEN_POETRY_CURIOSITY_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- GREEN_WISP -->
+  <Entry>
+    <ID>PH_LOG_GREEN_WISP</ID>
+    <Name>$PH_LOG_GREEN_WISP_NAME</Name>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_GREEN_WISP_R_1</ID>
+      <RumorName>$PH_LOG_GREEN_WISP_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_GREEN_WISP_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_GREEN_WISP_E_1</ID>
+      <ExploreText>$PH_LOG_GREEN_WISP_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- GREEN_RIPPLE -->
+  <Entry>
+    <ID>PH_LOG_GREEN_RIPPLE</ID>
+    <Name>$PH_LOG_GREEN_RIPPLE_NAME</Name>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_GREEN_RIPPLE_R_1</ID>
+      <RumorName>$PH_LOG_GREEN_RIPPLE_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_GREEN_RIPPLE_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_GREEN_RIPPLE_E_1</ID>
+      <ExploreText>$PH_LOG_GREEN_RIPPLE_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+
+  <!-- GREEN_ECHO -->
+  <Entry>
+    <ID>PH_LOG_GREEN_ECHO</ID>
+    <Name>$PH_LOG_GREEN_ECHO_NAME</Name>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>PH_LOG_GREEN_ECHO_R_1</ID>
+      <RumorName>$PH_LOG_GREEN_ECHO_RUMOR_NAME</RumorName>
+      <RumorText>$PH_LOG_GREEN_ECHO_RUMOR_1</RumorText>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_GREEN_ECHO_E_1</ID>
+      <ExploreText>$PH_LOG_GREEN_ECHO_1</ExploreText>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

@@ -1,3 +1,162 @@
 {
-	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json"
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	/*
+	"UIDictionary": {
+
+	},
+	"DialogueDictionary": {
+
+	},
+	*/
+	"ShipLogDictionary": {
+		// PLAYER_ROOM
+		"$PH_LOG_PLAYER_ROOM_NAME": "[Placeholder]",
+		"$PH_LOG_PLAYER_ROOM_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_PLAYER_ROOM_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_PLAYER_ROOM_1": "[Placeholder]",
+
+		// HOTEL_CURIOSITY
+		"$PH_LOG_HOTEL_CURIOSITY_NAME": "[Placeholder]",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_HOTEL_CURIOSITY_1": "[Placeholder]",
+
+		// OUTSIDE
+		"$PH_LOG_OUTSIDE_NAME": "[Placeholder]",
+		"$PH_LOG_OUTSIDE_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_OUTSIDE_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_OUTSIDE_1": "[Placeholder]",
+
+		// BASEMENT
+		"$PH_LOG_BASEMENT_NAME": "[Placeholder]",
+		"$PH_LOG_BASEMENT_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_BASEMENT_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_BASEMENT_1": "[Placeholder]",
+
+		// FIRST_FLOOR
+		"$PH_LOG_FIRST_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_FIRST_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_FIRST_FLOOR_1": "[Placeholder]",
+
+		// VOID_FIRST_FLOOR
+		"$PH_LOG_VOID_FIRST_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_FIRST_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_FIRST_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_FIRST_FLOOR_1": "[Placeholder]",
+
+		// POOLS
+		"$PH_LOG_POOLS_NAME": "[Placeholder]",
+		"$PH_LOG_POOLS_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_POOLS_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_POOLS_1": "[Placeholder]",
+
+		// SECOND_FLOOR
+		"$PH_LOG_SECOND_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_SECOND_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_SECOND_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_SECOND_FLOOR_1": "[Placeholder]",
+
+		// VOID_SECOND_FLOOR
+		"$PH_LOG_VOID_SECOND_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_SECOND_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_SECOND_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_SECOND_FLOOR_1": "[Placeholder]",
+
+		// FURNACE
+		"$PH_LOG_FURNACE_NAME": "[Placeholder]",
+		"$PH_LOG_FURNACE_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_FURNACE_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_FURNACE_1": "[Placeholder]",
+
+		// THIRD_FLOOR
+		"$PH_LOG_THIRD_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_THIRD_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_THIRD_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_THIRD_FLOOR_1": "[Placeholder]",
+
+		// VOID_THIRD_FLOOR
+		"$PH_LOG_VOID_THIRD_FLOOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_THIRD_FLOOR_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_VOID_THIRD_FLOOR_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_VOID_THIRD_FLOOR_1": "[Placeholder]",
+
+		// VAULT
+		"$PH_LOG_VAULT_NAME": "[Placeholder]",
+		"$PH_LOG_VAULT_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_VAULT_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_VAULT_1": "[Placeholder]",
+
+		// PURPLE_PROSE_CURIOSITY
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_PROSE_CURIOSITY_1": "[Placeholder]",
+
+		// PURPLE_WISP
+		"$PH_LOG_PURPLE_WISP_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_WISP_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_WISP_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_WISP_1": "[Placeholder]",
+
+		// PURPLE_RIPPLE
+		"$PH_LOG_PURPLE_RIPPLE_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_RIPPLE_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_RIPPLE_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_RIPPLE_1": "[Placeholder]",
+
+		// PURPLE_ECHO
+		"$PH_LOG_PURPLE_ECHO_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_PURPLE_ECHO_1": "[Placeholder]",
+
+		// BLUE_BREVITY_CURIOSITY
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_BLUE_BREVITY_CURIOSITY_1": "[Placeholder]",
+
+		// BLUE_WISP
+		"$PH_LOG_BLUE_WISP_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_WISP_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_WISP_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_BLUE_WISP_1": "[Placeholder]",
+
+		// BLUE_RIPPLE
+		"$PH_LOG_BLUE_RIPPLE_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_BLUE_RIPPLE_1": "[Placeholder]",
+
+		// BLUE_ECHO
+		"$PH_LOG_BLUE_ECHO_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_ECHO_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_BLUE_ECHO_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_BLUE_ECHO_1": "[Placeholder]",
+
+		// GREEN_POETRY_CURIOSITY
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_1": "[Placeholder]",
+
+		// GREEN_WISP
+		"$PH_LOG_GREEN_WISP_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_WISP_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_WISP_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_GREEN_WISP_1": "[Placeholder]",
+
+		// GREEN_RIPPLE
+		"$PH_LOG_GREEN_RIPPLE_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_GREEN_RIPPLE_1": "[Placeholder]",
+
+		// GREEN_ECHO
+		"$PH_LOG_GREEN_ECHO_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_ECHO_RUMOR_NAME": "[Placeholder]",
+		"$PH_LOG_GREEN_ECHO_RUMOR_1": "[Placeholder]",
+		"$PH_LOG_GREEN_ECHO_1": "[Placeholder]"
+	}
 }

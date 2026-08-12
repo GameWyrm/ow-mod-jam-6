@@ -72,11 +72,11 @@ namespace Mod_Jam_6
 			{
 				_sector.OnSectorOccupantsUpdated += new OWEvent.OWCallback(OnSectorOccupantsUpdated);
 			}
-			FloorVoidManager.instance.OnFloorVoiding += OnFloorVoiding;
 		}
 
 		private void Start()
 		{
+			FloorVoidManager.instance.OnFloorVoiding += OnFloorVoiding;
 			if (Locator.GetPlayerTransform() != null)
 			{
 				_lockOnTargeting = Locator.GetPlayerTransform().GetRequiredComponent<PlayerLockOnTargeting>();
