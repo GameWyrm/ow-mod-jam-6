@@ -5,9 +5,14 @@
   "destroyStockPlanets": true,
   "canEnterViaWarpDrive": false,
   "enableTimeLoop": true,
+  "loopDuration": 16,
   "canExitViaWarpDrive": false,
   "allowOutsideItems": false,
+  "mapRestricted": true,
   "Skybox": {
     "destroyStarField": true
+  },
+  "GlobalMusic": {
+    "endTimesAudio": "assets/OW_EndTimes_Reversed.ogg"
   }
 }
