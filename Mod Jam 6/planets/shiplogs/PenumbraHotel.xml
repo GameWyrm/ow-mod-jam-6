@@ -5,17 +5,17 @@
   <Entry>
     <ID>PH_LOG_PLAYER_ROOM</ID>
     <Name>$PH_LOG_PLAYER_ROOM_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_PLAYER_ROOM_R_1</ID>
       <RumorName>$PH_LOG_PLAYER_ROOM_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_PLAYER_ROOM_RUMOR_1</Text>
+      <RumorText>$PH_LOG_PLAYER_ROOM_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PLAYER_ROOM_E_1</ID>
-      <Text>$PH_LOG_PLAYER_ROOM_1</Text>
+      <ExploreText>$PH_LOG_PLAYER_ROOM_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -23,17 +23,18 @@
   <Entry>
     <ID>PH_LOG_HOTEL_CURIOSITY</ID>
     <Name>$PH_LOG_HOTEL_CURIOSITY_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
+    <IsCuriosity />
 
     <RumorFact>
       <ID>PH_LOG_HOTEL_CURIOSITY_R_1</ID>
       <RumorName>$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_HOTEL_CURIOSITY_RUMOR_1</Text>
+      <RumorText>$PH_LOG_HOTEL_CURIOSITY_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_HOTEL_CURIOSITY_E_1</ID>
-      <Text>$PH_LOG_HOTEL_CURIOSITY_1</Text>
+      <ExploreText>$PH_LOG_HOTEL_CURIOSITY_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -41,17 +42,17 @@
   <Entry>
     <ID>PH_LOG_OUTSIDE</ID>
     <Name>$PH_LOG_OUTSIDE_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_OUTSIDE_R_1</ID>
       <RumorName>$PH_LOG_OUTSIDE_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_OUTSIDE_RUMOR_1</Text>
+      <RumorText>$PH_LOG_OUTSIDE_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_OUTSIDE_E_1</ID>
-      <Text>$PH_LOG_OUTSIDE_1</Text>
+      <ExploreText>$PH_LOG_OUTSIDE_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -59,17 +60,17 @@
   <Entry>
     <ID>PH_LOG_BASEMENT</ID>
     <Name>$PH_LOG_BASEMENT_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_BASEMENT_R_1</ID>
       <RumorName>$PH_LOG_BASEMENT_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_BASEMENT_RUMOR_1</Text>
+      <RumorText>$PH_LOG_BASEMENT_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_BASEMENT_E_1</ID>
-      <Text>$PH_LOG_BASEMENT_1</Text>
+      <ExploreText>$PH_LOG_BASEMENT_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -77,17 +78,17 @@
   <Entry>
     <ID>PH_LOG_FIRST_FLOOR</ID>
     <Name>$PH_LOG_FIRST_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_FIRST_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_FIRST_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_FIRST_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_FIRST_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_FIRST_FLOOR_E_1</ID>
-      <Text>$PH_LOG_FIRST_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_FIRST_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -95,17 +96,17 @@
   <Entry>
     <ID>PH_LOG_VOID_FIRST_FLOOR</ID>
     <Name>$PH_LOG_VOID_FIRST_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_VOID_FIRST_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_VOID_FIRST_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_VOID_FIRST_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_VOID_FIRST_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_VOID_FIRST_FLOOR_E_1</ID>
-      <Text>$PH_LOG_VOID_FIRST_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_VOID_FIRST_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -113,17 +114,17 @@
   <Entry>
     <ID>PH_LOG_POOLS</ID>
     <Name>$PH_LOG_POOLS_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_POOLS_R_1</ID>
       <RumorName>$PH_LOG_POOLS_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_POOLS_RUMOR_1</Text>
+      <RumorText>$PH_LOG_POOLS_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_POOLS_E_1</ID>
-      <Text>$PH_LOG_POOLS_1</Text>
+      <ExploreText>$PH_LOG_POOLS_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -131,17 +132,17 @@
   <Entry>
     <ID>PH_LOG_SECOND_FLOOR</ID>
     <Name>$PH_LOG_SECOND_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_SECOND_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_SECOND_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_SECOND_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_SECOND_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_SECOND_FLOOR_E_1</ID>
-      <Text>$PH_LOG_SECOND_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_SECOND_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -149,17 +150,17 @@
   <Entry>
     <ID>PH_LOG_VOID_SECOND_FLOOR</ID>
     <Name>$PH_LOG_VOID_SECOND_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_VOID_SECOND_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_VOID_SECOND_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_VOID_SECOND_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_VOID_SECOND_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_VOID_SECOND_FLOOR_E_1</ID>
-      <Text>$PH_LOG_VOID_SECOND_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_VOID_SECOND_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -167,17 +168,17 @@
   <Entry>
     <ID>PH_LOG_FURNACE</ID>
     <Name>$PH_LOG_FURNACE_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_FURNACE_R_1</ID>
       <RumorName>$PH_LOG_FURNACE_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_FURNACE_RUMOR_1</Text>
+      <RumorText>$PH_LOG_FURNACE_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_FURNACE_E_1</ID>
-      <Text>$PH_LOG_FURNACE_1</Text>
+      <ExploreText>$PH_LOG_FURNACE_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -185,17 +186,17 @@
   <Entry>
     <ID>PH_LOG_THIRD_FLOOR</ID>
     <Name>$PH_LOG_THIRD_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_THIRD_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_THIRD_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_THIRD_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_THIRD_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_THIRD_FLOOR_E_1</ID>
-      <Text>$PH_LOG_THIRD_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_THIRD_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -203,17 +204,17 @@
   <Entry>
     <ID>PH_LOG_VOID_THIRD_FLOOR</ID>
     <Name>$PH_LOG_VOID_THIRD_FLOOR_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_VOID_THIRD_FLOOR_R_1</ID>
       <RumorName>$PH_LOG_VOID_THIRD_FLOOR_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_VOID_THIRD_FLOOR_RUMOR_1</Text>
+      <RumorText>$PH_LOG_VOID_THIRD_FLOOR_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_VOID_THIRD_FLOOR_E_1</ID>
-      <Text>$PH_LOG_VOID_THIRD_FLOOR_1</Text>
+      <ExploreText>$PH_LOG_VOID_THIRD_FLOOR_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -221,17 +222,17 @@
   <Entry>
     <ID>PH_LOG_VAULT</ID>
     <Name>$PH_LOG_VAULT_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_HOTEL_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_VAULT_R_1</ID>
       <RumorName>$PH_LOG_VAULT_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_VAULT_RUMOR_1</Text>
+      <RumorText>$PH_LOG_VAULT_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_VAULT_E_1</ID>
-      <Text>$PH_LOG_VAULT_1</Text>
+      <ExploreText>$PH_LOG_VAULT_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -239,17 +240,18 @@
   <Entry>
     <ID>PH_LOG_PURPLE_PROSE_CURIOSITY</ID>
     <Name>$PH_LOG_PURPLE_PROSE_CURIOSITY_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
+    <IsCuriosity />
 
     <RumorFact>
       <ID>PH_LOG_PURPLE_PROSE_CURIOSITY_R_1</ID>
       <RumorName>$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1</Text>
+      <RumorText>$PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PURPLE_PROSE_CURIOSITY_E_1</ID>
-      <Text>$PH_LOG_PURPLE_PROSE_CURIOSITY_1</Text>
+      <ExploreText>$PH_LOG_PURPLE_PROSE_CURIOSITY_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -257,17 +259,17 @@
   <Entry>
     <ID>PH_LOG_PURPLE_WISP</ID>
     <Name>$PH_LOG_PURPLE_WISP_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_PURPLE_WISP_R_1</ID>
       <RumorName>$PH_LOG_PURPLE_WISP_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_PURPLE_WISP_RUMOR_1</Text>
+      <RumorText>$PH_LOG_PURPLE_WISP_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PURPLE_WISP_E_1</ID>
-      <Text>$PH_LOG_PURPLE_WISP_1</Text>
+      <ExploreText>$PH_LOG_PURPLE_WISP_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -275,17 +277,17 @@
   <Entry>
     <ID>PH_LOG_PURPLE_RIPPLE</ID>
     <Name>$PH_LOG_PURPLE_RIPPLE_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_PURPLE_RIPPLE_R_1</ID>
       <RumorName>$PH_LOG_PURPLE_RIPPLE_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_PURPLE_RIPPLE_RUMOR_1</Text>
+      <RumorText>$PH_LOG_PURPLE_RIPPLE_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PURPLE_RIPPLE_E_1</ID>
-      <Text>$PH_LOG_PURPLE_RIPPLE_1</Text>
+      <ExploreText>$PH_LOG_PURPLE_RIPPLE_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -293,17 +295,17 @@
   <Entry>
     <ID>PH_LOG_PURPLE_ECHO</ID>
     <Name>$PH_LOG_PURPLE_ECHO_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_PURPLE_PROSE_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_PURPLE_ECHO_R_1</ID>
       <RumorName>$PH_LOG_PURPLE_ECHO_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_PURPLE_ECHO_RUMOR_1</Text>
+      <RumorText>$PH_LOG_PURPLE_ECHO_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PURPLE_ECHO_E_1</ID>
-      <Text>$PH_LOG_PURPLE_ECHO_1</Text>
+      <ExploreText>$PH_LOG_PURPLE_ECHO_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -311,17 +313,18 @@
   <Entry>
     <ID>PH_LOG_BLUE_BREVITY_CURIOSITY</ID>
     <Name>$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
+    <IsCuriosity />
 
     <RumorFact>
       <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_R_1</ID>
       <RumorName>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</Text>
+      <RumorText>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_E_1</ID>
-      <Text>$PH_LOG_BLUE_BREVITY_CURIOSITY_1</Text>
+      <ExploreText>$PH_LOG_BLUE_BREVITY_CURIOSITY_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -329,17 +332,17 @@
   <Entry>
     <ID>PH_LOG_BLUE_WISP</ID>
     <Name>$PH_LOG_BLUE_WISP_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_BLUE_WISP_R_1</ID>
       <RumorName>$PH_LOG_BLUE_WISP_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_BLUE_WISP_RUMOR_1</Text>
+      <RumorText>$PH_LOG_BLUE_WISP_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_BLUE_WISP_E_1</ID>
-      <Text>$PH_LOG_BLUE_WISP_1</Text>
+      <ExploreText>$PH_LOG_BLUE_WISP_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -347,17 +350,17 @@
   <Entry>
     <ID>PH_LOG_BLUE_RIPPLE</ID>
     <Name>$PH_LOG_BLUE_RIPPLE_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_BLUE_RIPPLE_R_1</ID>
       <RumorName>$PH_LOG_BLUE_RIPPLE_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_BLUE_RIPPLE_RUMOR_1</Text>
+      <RumorText>$PH_LOG_BLUE_RIPPLE_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_BLUE_RIPPLE_E_1</ID>
-      <Text>$PH_LOG_BLUE_RIPPLE_1</Text>
+      <ExploreText>$PH_LOG_BLUE_RIPPLE_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -365,17 +368,17 @@
   <Entry>
     <ID>PH_LOG_BLUE_ECHO</ID>
     <Name>$PH_LOG_BLUE_ECHO_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_BLUE_ECHO_R_1</ID>
       <RumorName>$PH_LOG_BLUE_ECHO_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_BLUE_ECHO_RUMOR_1</Text>
+      <RumorText>$PH_LOG_BLUE_ECHO_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_BLUE_ECHO_E_1</ID>
-      <Text>$PH_LOG_BLUE_ECHO_1</Text>
+      <ExploreText>$PH_LOG_BLUE_ECHO_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -383,17 +386,18 @@
   <Entry>
     <ID>PH_LOG_GREEN_POETRY_CURIOSITY</ID>
     <Name>$PH_LOG_GREEN_POETRY_CURIOSITY_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
+    <IsCuriosity />
 
     <RumorFact>
       <ID>PH_LOG_GREEN_POETRY_CURIOSITY_R_1</ID>
       <RumorName>$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</Text>
+      <RumorText>$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_GREEN_POETRY_CURIOSITY_E_1</ID>
-      <Text>$PH_LOG_GREEN_POETRY_CURIOSITY_1</Text>
+      <ExploreText>$PH_LOG_GREEN_POETRY_CURIOSITY_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -401,17 +405,17 @@
   <Entry>
     <ID>PH_LOG_GREEN_WISP</ID>
     <Name>$PH_LOG_GREEN_WISP_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_GREEN_WISP_R_1</ID>
       <RumorName>$PH_LOG_GREEN_WISP_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_GREEN_WISP_RUMOR_1</Text>
+      <RumorText>$PH_LOG_GREEN_WISP_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_GREEN_WISP_E_1</ID>
-      <Text>$PH_LOG_GREEN_WISP_1</Text>
+      <ExploreText>$PH_LOG_GREEN_WISP_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -419,17 +423,17 @@
   <Entry>
     <ID>PH_LOG_GREEN_RIPPLE</ID>
     <Name>$PH_LOG_GREEN_RIPPLE_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_GREEN_RIPPLE_R_1</ID>
       <RumorName>$PH_LOG_GREEN_RIPPLE_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_GREEN_RIPPLE_RUMOR_1</Text>
+      <RumorText>$PH_LOG_GREEN_RIPPLE_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_GREEN_RIPPLE_E_1</ID>
-      <Text>$PH_LOG_GREEN_RIPPLE_1</Text>
+      <ExploreText>$PH_LOG_GREEN_RIPPLE_1</ExploreText>
     </ExploreFact>
   </Entry>
 
@@ -437,17 +441,17 @@
   <Entry>
     <ID>PH_LOG_GREEN_ECHO</ID>
     <Name>$PH_LOG_GREEN_ECHO_NAME</Name>
-    <Curiosity>PH_LOG__CURIOSITY</Curiosity>
+    <Curiosity>PH_LOG_GREEN_POETRY_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>PH_LOG_GREEN_ECHO_R_1</ID>
       <RumorName>$PH_LOG_GREEN_ECHO_RUMOR_NAME</RumorName>
-      <Text>$PH_LOG_GREEN_ECHO_RUMOR_1</Text>
+      <RumorText>$PH_LOG_GREEN_ECHO_RUMOR_1</RumorText>
     </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_GREEN_ECHO_E_1</ID>
-      <Text>$PH_LOG_GREEN_ECHO_1</Text>
+      <ExploreText>$PH_LOG_GREEN_ECHO_1</ExploreText>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>
