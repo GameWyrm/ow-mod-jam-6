@@ -70,6 +70,10 @@
     ]
   },
   "ShipLog": {
-    "xmlFile": "planets/shiplogs/PenumbraHotel.xml"
+    "xmlFile": "planets/shiplogs/PenumbraHotel.xml",
+    "mapMode": {
+        "revealedSprite": "assets/HotelPlanetIcon.png",
+        "outlineSprite": "assets/HotelPlanetIcon.png"
+    }
   }
 }

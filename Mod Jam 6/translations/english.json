@@ -252,5 +252,8 @@
 		"$PH_LOG_GREEN_RIPPLE_RUMOR_2": "I found a poem saying to only go left until the flickering light.",
 		"$PH_LOG_GREEN_RIPPLE_RUMOR_3": "I found a poem saying to try the locked door three times until it opened, then to visit in the void.",
 		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in Poetry."
+	},
+	"UIDictionary": {
+		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk.\nTo arrive, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination."
 	}
 }
