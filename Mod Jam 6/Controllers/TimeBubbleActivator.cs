@@ -15,6 +15,11 @@ namespace Mod_Jam_6
         private float _timeBubbleCollapseDuration = 0.5f; // How fast the bubble will collapse (assuming from its max size)
 
         [SerializeField]
+        private GameObject[] _objectsToToggleOn;
+        [SerializeField]
+        private GameObject[] _objectsToToggleOff;
+
+        [SerializeField]
         private bool _isActive;
         public bool IsActive => _isActive;
 
@@ -25,7 +30,7 @@ namespace Mod_Jam_6
             _isActive = isActive;
             if (isActive)
             {
-                TimeBubble.instance.TryActivate(transform.position + _timeBubbleOffset, _timeBubbleSize, _timeBubbleExpansionDuration, _timeBubbleCollapseDuration);
+                TimeBubble.instance.TryActivate(transform.position + _timeBubbleOffset, _timeBubbleSize, _timeBubbleExpansionDuration, _timeBubbleCollapseDuration, _objectsToToggleOn, _objectsToToggleOff);
             }
             else
             {
