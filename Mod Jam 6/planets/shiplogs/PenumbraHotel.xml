@@ -418,21 +418,21 @@
 
     <RumorFact>
       <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</ID>
-      <SourceID>PH_LOG_BLUE_BREVITY_WISP</SourceID>
+      <SourceID>PH_LOG_BLUE_WISP</SourceID>
       <RumorName>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</Text>
     </RumorFact>
     
     <RumorFact>
       <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2</ID>
-      <SourceID>PH_LOG_BLUE_BREVITY_ECHO</SourceID>
+      <SourceID>PH_LOG_BLUE_ECHO</SourceID>
       <RumorName>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2</Text>
     </RumorFact>
     
     <RumorFact>
       <ID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_3</ID>
-      <SourceID>PH_LOG_BLUE_BREVITY_RIPPLE</SourceID>
+      <SourceID>PH_LOG_BLUE_RIPPLE</SourceID>
       <RumorName>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_3</Text>
     </RumorFact>
@@ -450,7 +450,7 @@
 
   <!-- BLUE_WISP -->
   <Entry>
-    <ID>PH_LOG_BLUE_BREVITY_WISP</ID>
+    <ID>PH_LOG_BLUE_WISP</ID>
     <Name>$PH_LOG_BLUE_WISP_NAME</Name>
     <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 
@@ -468,7 +468,7 @@
   
   <!-- BLUE_ECHO -->
   <Entry>
-    <ID>PH_LOG_BLUE_BREVITY_ECHO</ID>
+    <ID>PH_LOG_BLUE_ECHO</ID>
     <Name>$PH_LOG_BLUE_ECHO_NAME</Name>
     <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 
@@ -492,7 +492,7 @@
   
   <!-- BLUE_RIPPLE -->
   <Entry>
-    <ID>PH_LOG_BLUE_BREVITY_RIPPLE</ID>
+    <ID>PH_LOG_BLUE_RIPPLE</ID>
     <Name>$PH_LOG_BLUE_RIPPLE_NAME</Name>
     <Curiosity>PH_LOG_BLUE_BREVITY_CURIOSITY</Curiosity>
 

@@ -15,84 +15,85 @@
   "GlobalMusic": {
     "endTimesAudio": "assets/OW_EndTimes_Reversed.ogg"
   },
-    "initialReveal": [
-        "PH_LOG_PLAYER_ROOM_RUMOR_1",
-        "PH_LOG_PLAYER_ROOM_1",
-        "PH_LOG_HOTEL_CURIOSITY_RUMOR_1",
-        "PH_LOG_HOTEL_CURIOSITY_RUMOR_2",
-        "PH_LOG_HOTEL_CURIOSITY_1",
-        "PH_LOG_OUTSIDE_RUMOR_1",
-        "PH_LOG_OUTSIDE_RUMOR_2",
-        "PH_LOG_OUTSIDE_1",
-        "PH_LOG_OUTSIDE_2",
-        "PH_LOG_OUTSIDE_3",
-        "PH_LOG_BASEMENT_RUMOR_1",
-        "PH_LOG_BASEMENT_RUMOR_2",
-        "PH_LOG_BASEMENT_RUMOR_3",
-        "PH_LOG_BASEMENT_RUMOR_4",
-        "PH_LOG_BASEMENT_1",
-        "PH_LOG_BASEMENT_2",
-        "PH_LOG_FIRST_FLOOR_RUMOR_1",
-        "PH_LOG_FIRST_FLOOR_1",
-        "PH_LOG_VOID_FIRST_FLOOR_1",
-        "PH_LOG_POOLS_RUMOR_1",
-        "PH_LOG_POOLS_RUMOR_2",
-        "PH_LOG_POOLS_1",
-        "PH_LOG_SECOND_FLOOR_RUMOR_1",
-        "PH_LOG_SECOND_FLOOR_1",
-        "PH_LOG_VOID_SECOND_FLOOR_1",
-        "PH_LOG_FURNACE_RUMOR_1",
-        "PH_LOG_FURNACE_1",
-        "PH_LOG_FURNACE_2",
-        "PH_LOG_THIRD_FLOOR_RUMOR_1",
-        "PH_LOG_THIRD_FLOOR_1",
-        "PH_LOG_THIRD_FLOOR_2",
-        "PH_LOG_VOID_THIRD_FLOOR_1",
-        "PH_LOG_VAULT_RUMOR_1",
-        "PH_LOG_VAULT_RUMOR_2",
-        "PH_LOG_VAULT_1",
-        "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1",
-        "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_2",
-        "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3",
-        "PH_LOG_PURPLE_PROSE_CURIOSITY_1",
-        "PH_LOG_PURPLE_PROSE_CURIOSITY_2",
-        "PH_LOG_PURPLE_WISP_RUMOR_1",
-        "PH_LOG_PURPLE_WISP_1",
-        "PH_LOG_PURPLE_WISP_2",
-        "PH_LOG_PURPLE_ECHO_RUMOR_1",
-        "PH_LOG_PURPLE_ECHO_1",
-        "PH_LOG_PURPLE_ECHO_2",
-        "PH_LOG_PURPLE_RIPPLE_RUMOR_1",
-        "PH_LOG_PURPLE_RIPPLE_1",
-        "PH_LOG_PURPLE_RIPPLE_2",
-        "PH_LOG_PURPLE_RIPPLE_3",
-        "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1",
-        "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2",
-        "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_3",
-        "PH_LOG_BLUE_BREVITY_CURIOSITY_1",
-        "PH_LOG_BLUE_BREVITY_CURIOSITY_2",
-        "PH_LOG_BLUE_WISP_RUMOR_1",
-        "PH_LOG_BLUE_WISP_1",
-        "PH_LOG_BLUE_ECHO_RUMOR_1",
-        "PH_LOG_BLUE_ECHO_1",
-        "PH_LOG_BLUE_ECHO_2",
-        "PH_LOG_BLUE_RIPPLE_RUMOR_1",
-        "PH_LOG_BLUE_RIPPLE_RUMOR_2",
-        "PH_LOG_BLUE_RIPPLE_1",
-        "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1",
-        "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2",
-        "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_3",
-        "PH_LOG_GREEN_POETRY_CURIOSITY_1",
-        "PH_LOG_GREEN_POETRY_CURIOSITY_2",
-        "PH_LOG_GREEN_WISP_RUMOR_1",
-        "PH_LOG_GREEN_WISP_1",
-        "PH_LOG_GREEN_ECHO_RUMOR_1",
-        "PH_LOG_GREEN_ECHO_1",
-        "PH_LOG_GREEN_RIPPLE_RUMOR_1",
-        "PH_LOG_GREEN_RIPPLE_RUMOR_2",
-        "PH_LOG_GREEN_RIPPLE_RUMOR_3",
-        "PH_LOG_GREEN_RIPPLE_1"
-    ],
+  "initialReveal": [
+    "PH_LOG_PLAYER_ROOM_RUMOR_1",
+    "PH_LOG_PLAYER_ROOM_1",
+    "PH_LOG_HOTEL_CURIOSITY_RUMOR_1",
+    "PH_LOG_HOTEL_CURIOSITY_RUMOR_2",
+    "PH_LOG_HOTEL_CURIOSITY_1",
+    "PH_LOG_OUTSIDE_RUMOR_1",
+    "PH_LOG_OUTSIDE_RUMOR_2",
+    "PH_LOG_OUTSIDE_RUMOR_3",
+    "PH_LOG_OUTSIDE_1",
+    "PH_LOG_OUTSIDE_2",
+    "PH_LOG_OUTSIDE_3",
+    "PH_LOG_BASEMENT_RUMOR_1",
+    "PH_LOG_BASEMENT_RUMOR_2",
+    "PH_LOG_BASEMENT_RUMOR_3",
+    "PH_LOG_BASEMENT_RUMOR_4",
+    "PH_LOG_BASEMENT_1",
+    "PH_LOG_BASEMENT_2",
+    "PH_LOG_FIRST_FLOOR_RUMOR_1",
+    "PH_LOG_FIRST_FLOOR_1",
+    "PH_LOG_VOID_FIRST_FLOOR_1",
+    "PH_LOG_POOLS_RUMOR_1",
+    "PH_LOG_POOLS_RUMOR_2",
+    "PH_LOG_POOLS_1",
+    "PH_LOG_SECOND_FLOOR_RUMOR_1",
+    "PH_LOG_SECOND_FLOOR_1",
+    "PH_LOG_VOID_SECOND_FLOOR_1",
+    "PH_LOG_FURNACE_RUMOR_1",
+    "PH_LOG_FURNACE_1",
+    "PH_LOG_FURNACE_2",
+    "PH_LOG_THIRD_FLOOR_RUMOR_1",
+    "PH_LOG_THIRD_FLOOR_1",
+    "PH_LOG_THIRD_FLOOR_2",
+    "PH_LOG_VOID_THIRD_FLOOR_1",
+    "PH_LOG_VAULT_RUMOR_1",
+    "PH_LOG_VAULT_RUMOR_2",
+    "PH_LOG_VAULT_1",
+    "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_1",
+    "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_2",
+    "PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3",
+    "PH_LOG_PURPLE_PROSE_CURIOSITY_1",
+    "PH_LOG_PURPLE_PROSE_CURIOSITY_2",
+    "PH_LOG_PURPLE_WISP_RUMOR_1",
+    "PH_LOG_PURPLE_WISP_1",
+    "PH_LOG_PURPLE_WISP_2",
+    "PH_LOG_PURPLE_ECHO_RUMOR_1",
+    "PH_LOG_PURPLE_ECHO_1",
+    "PH_LOG_PURPLE_ECHO_2",
+    "PH_LOG_PURPLE_RIPPLE_RUMOR_1",
+    "PH_LOG_PURPLE_RIPPLE_1",
+    "PH_LOG_PURPLE_RIPPLE_2",
+    "PH_LOG_PURPLE_RIPPLE_3",
+    "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1",
+    "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2",
+    "PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_3",
+    "PH_LOG_BLUE_BREVITY_CURIOSITY_1",
+    "PH_LOG_BLUE_BREVITY_CURIOSITY_2",
+    "PH_LOG_BLUE_WISP_RUMOR_1",
+    "PH_LOG_BLUE_WISP_1",
+    "PH_LOG_BLUE_ECHO_RUMOR_1",
+    "PH_LOG_BLUE_ECHO_1",
+    "PH_LOG_BLUE_ECHO_2",
+    "PH_LOG_BLUE_RIPPLE_RUMOR_1",
+    "PH_LOG_BLUE_RIPPLE_RUMOR_2",
+    "PH_LOG_BLUE_RIPPLE_1",
+    "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1",
+    "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2",
+    "PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_3",
+    "PH_LOG_GREEN_POETRY_CURIOSITY_1",
+    "PH_LOG_GREEN_POETRY_CURIOSITY_2",
+    "PH_LOG_GREEN_WISP_RUMOR_1",
+    "PH_LOG_GREEN_WISP_1",
+    "PH_LOG_GREEN_ECHO_RUMOR_1",
+    "PH_LOG_GREEN_ECHO_1",
+    "PH_LOG_GREEN_RIPPLE_RUMOR_1",
+    "PH_LOG_GREEN_RIPPLE_RUMOR_2",
+    "PH_LOG_GREEN_RIPPLE_RUMOR_3",
+    "PH_LOG_GREEN_RIPPLE_1"
+  ],
   "entryPositions": [
     // -- LOCATIONS (Yellow on Wyrm's Obsidian) Entries
     {
@@ -112,36 +113,36 @@
     {
       "id": "PH_LOG_OUTSIDE",
       "position": {
-        "x": 200,
-        "y": -400
+        "x": 50,
+        "y": -600
       }
     },
     {
       "id": "PH_LOG_BASEMENT",
       "position": {
         "x": 800,
-        "y": -800
+        "y": -600
       }
     },
     {
       "id": "PH_LOG_FIRST_FLOOR",
       "position": {
-        "x": 1600,
+        "x": 900,
         "y": 0
       }
     },
     {
       "id": "PH_LOG_VOID_FIRST_FLOOR",
       "position": {
-        "x": 1800,
+        "x": 950,
         "y": -100
       }
     },
     {
       "id": "PH_LOG_POOLS",
       "position": {
-        "x": 1200,
-        "y": -400
+        "x": 1400,
+        "y": -600
       }
     },
     {
@@ -154,28 +155,28 @@
     {
       "id": "PH_LOG_VOID_SECOND_FLOOR",
       "position": {
-        "x": 1000,
+        "x": 850,
         "y": 700
       }
     },
     {
       "id": "PH_LOG_FURNACE",
       "position": {
-        "x": 1800,
-        "y": 1000
+        "x": 1400,
+        "y": 400
       }
     },
     {
       "id": "PH_LOG_THIRD_FLOOR",
       "position": {
-        "x": 200,
+        "x": 300,
         "y": 1200
       }
     },
     {
       "id": "PH_LOG_VOID_THIRD_FLOOR",
       "position": {
-        "x": 400,
+        "x": 350,
         "y": 1100
       }
     },
@@ -220,36 +221,36 @@
       "id": "PH_LOG_BLUE_BREVITY_CURIOSITY",
       "position": {
         "x": 2400,
-        "y": 400
+        "y": 300
       }
     },
     {
       "id": "PH_LOG_BLUE_WISP",
       "position": {
-        "x": 2000,
-        "y": 400
+        "x": 1800,
+        "y": 200
       }
     },
     {
       "id": "PH_LOG_BLUE_RIPPLE",
       "position": {
-        "x": 400,
-        "y": 2000
+        "x": 1800,
+        "y": 900
       }
     },
     {
       "id": "PH_LOG_BLUE_ECHO",
       "position": {
-        "x": 2200,
-        "y": 0
+        "x": 2000,
+        "y": -400
       }
     },
     // -- GREEN Entries
     {
       "id": "PH_LOG_GREEN_POETRY_CURIOSITY",
       "position": {
-        "x": 1000,
-        "y": 2400
+        "x": 800,
+        "y": 2100
       }
     },
     {
