@@ -13,15 +13,26 @@ namespace Mod_Jam_6
         private float _timeBubbleExpansionDuration = 0.5f; // How fast the bubble will expand to its max size
         [SerializeField]
         private float _timeBubbleCollapseDuration = 0.5f; // How fast the bubble will collapse (assuming from its max size)
-
         [SerializeField]
         private GameObject[] _objectsToToggleOn;
         [SerializeField]
         private GameObject[] _objectsToToggleOff;
 
-        [SerializeField]
-        private bool _isActive;
+        public bool _isActive;
         public bool IsActive => _isActive;
+
+        private void Start()
+        {
+            GetComponentInChildren<OWTriggerVolume>().OnEntry += GetTriggered;
+        }
+
+        private void GetTriggered(GameObject hitObject)
+        {
+            if (!_isActive && hitObject.CompareTag("ProbeDetector"))
+            {
+                SetActive(true);
+            }
+        }
 
         public void SetActive(bool isActive)
         {
@@ -30,7 +41,7 @@ namespace Mod_Jam_6
             _isActive = isActive;
             if (isActive)
             {
-                TimeBubble.instance.TryActivate(transform.position + _timeBubbleOffset, _timeBubbleSize, _timeBubbleExpansionDuration, _timeBubbleCollapseDuration, _objectsToToggleOn, _objectsToToggleOff);
+                TimeBubble.instance.TryActivate(transform.position + _timeBubbleOffset, _timeBubbleSize, _timeBubbleExpansionDuration, _timeBubbleCollapseDuration, _objectsToToggleOn, _objectsToToggleOff, this);
             }
             else
             {

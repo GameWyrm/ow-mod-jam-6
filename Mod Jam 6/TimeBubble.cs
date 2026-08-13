@@ -31,6 +31,8 @@ namespace Mod_Jam_6
         private float _lerpTimeStart;
         private float _lerpTimeCurrent;
 
+        private TimeBubbleActivator _currentActivator;
+
 
         private void Start()
         {
@@ -45,8 +47,10 @@ namespace Mod_Jam_6
             Gizmos.DrawWireSphere(transform.position, _size);
         }
 
-        public void TryActivate(Vector3 newPosition, float newExpandedSize, float newExpansionDuration, float newCollapseDuration, GameObject[] objectsToToggleOn, GameObject[] objectsToToggleOff)
+        public void TryActivate(Vector3 newPosition, float newExpandedSize, float newExpansionDuration, float newCollapseDuration, GameObject[] objectsToToggleOn, GameObject[] objectsToToggleOff, TimeBubbleActivator activator)
         {
+            if (_currentActivator != null) _currentActivator._isActive = false;
+            _currentActivator = activator;
             // Case 1: Activating where the bubble already is. This is simple, we just tell it to expand.
             if(transform.position == newPosition)
             {
