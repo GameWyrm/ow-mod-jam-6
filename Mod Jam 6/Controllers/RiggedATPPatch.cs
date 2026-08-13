@@ -12,10 +12,30 @@ namespace Mod_Jam_6
     {
         private static bool _hasWarpedToSystem = false;
         private static bool _shouldWarpToSystem = false;
+        private const string systemName = "VoidDimension";
 
-        public static void SetShouldWarpToSystem(bool newValue)
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketablePlaced))]
+        public static void TimeLoopCoreController_OnSocketablePlaced_Postfix(OWItem socketableItem)
         {
-            _shouldWarpToSystem = newValue;
+            if (IsATPCore(socketableItem))
+            {
+                _shouldWarpToSystem = false;
+            }
+        }
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketableRemoved))]
+        public static void TimeLoopCoreController_OnSocketableRemoved_Postfix(OWItem socketableItem)
+        {
+            if (IsATPCore(socketableItem))
+            {
+                _shouldWarpToSystem = true;
+            }
+        }
+
+        private static bool IsATPCore(OWItem item)
+        {
+            return (item.GetType() == typeof(WarpCoreItem) && ((WarpCoreItem)item).GetWarpCoreType() == WarpCoreType.Vessel); // Same check as in game
         }
 
         [HarmonyPrefix]
@@ -26,7 +46,7 @@ namespace Mod_Jam_6
 
             if(!_shouldWarpToSystem) { return true; } // No patch if shouldn't warp
 
-            var warping = ModJam6.Instance.NewHorizons.ChangeCurrentStarSystem("NEW SYSTEM");
+            var warping = ModJam6.Instance.NewHorizons.ChangeCurrentStarSystem(systemName);
             if (warping)
             {
                 _hasWarpedToSystem = true;

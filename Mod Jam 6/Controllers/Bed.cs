@@ -54,15 +54,11 @@ namespace Mod_Jam_6
 
 		private bool _isTimeFastForwarding;
 
-		private bool _interactVolumeFocus;
-
 		private bool _playerInSector;
 
 		private float _fastForwardStartTime;
 
 		private float _fastForwardMultiplier = 1f;
-
-		private ScreenPrompt _sleepPrompt;
 
 		private ScreenPrompt _wakePrompt;
 
@@ -70,9 +66,7 @@ namespace Mod_Jam_6
 		{
 			if (_interactVolume != null)
 			{
-				_interactVolume.OnGainFocus += OnGainFocus;
-				_interactVolume.OnLoseFocus += OnLoseFocus;
-				_sleepPrompt = new ScreenPrompt(InputLibrary.interactSecondary, UITextLibrary.GetString(UITextType.CampfireDozeOff));
+				_interactVolume.OnPressInteract += OnPressInteract;
 				_wakePrompt = new ScreenPrompt(InputLibrary.interact, UITextLibrary.GetString(UITextType.WakeUpPrompt));
 			}
 			if (_sector != null)
@@ -84,12 +78,12 @@ namespace Mod_Jam_6
 		private void Start()
 		{
 			TimeManager.instance.timeEvents[(int)floor].AddListener(OnFloorVoiding);
+			_interactVolume?.ChangePrompt(UITextType.CampfireDozeOff);
 			if (Locator.GetPlayerTransform() != null)
 			{
 				_lockOnTargeting = Locator.GetPlayerTransform().GetRequiredComponent<PlayerLockOnTargeting>();
 			}
 			_audio?.SetLocalVolume(0f);
-			_interactVolume?._screenPrompt.SetVisibility(false);
 			base.enabled = false;
 			SetState(_initialState, forceStateUpdate: true);
 		}
@@ -98,8 +92,7 @@ namespace Mod_Jam_6
 		{
 			if (_interactVolume != null)
 			{
-				_interactVolume.OnGainFocus -= OnGainFocus;
-				_interactVolume.OnLoseFocus -= OnLoseFocus;
+				_interactVolume.OnPressInteract -= OnPressInteract;
 			}
 			if (_sector != null)
 			{
@@ -147,16 +140,12 @@ namespace Mod_Jam_6
 			SetState(State.VOIDED);
         }
 
-		private void OnGainFocus()
+		private void OnPressInteract()
 		{
-			_interactVolumeFocus = true;
-			Locator.GetPromptManager().AddScreenPrompt(_sleepPrompt, PromptPosition.Center);
-		}
-
-		private void OnLoseFocus()
-		{
-			_interactVolumeFocus = false;
-			Locator.GetPromptManager().RemoveScreenPrompt(_sleepPrompt, PromptPosition.Center);
+			if (!_isPlayerSleeping && CanSleepHereNow() && OWInput.IsInputMode(InputMode.Character))
+			{
+				StartSleeping();
+			}
 		}
 
 		private void StartSleeping()
@@ -183,7 +172,6 @@ namespace Mod_Jam_6
 			_fastForwardStartTime = Time.timeSinceLevelLoad + 3f;
 			_isPlayerSleeping = true;
 			Locator.GetPromptManager().AddScreenPrompt(_wakePrompt, PromptPosition.Center);
-			_sleepPrompt.SetVisibility(isVisible: false);
 			_wakePrompt.SetVisibility(isVisible: false);
 			OWInput.ChangeInputMode(InputMode.None);
 			if (Locator.GetPlayerSuit().IsWearingSuit())
@@ -247,18 +235,6 @@ namespace Mod_Jam_6
 
 		private void Update()
 		{
-			if (_interactVolume != null)
-			{
-				_sleepPrompt.SetVisibility(isVisible: false);
-				if (_interactVolumeFocus && !_isPlayerSleeping && CanSleepHereNow() && OWInput.IsInputMode(InputMode.Character))
-				{
-					_sleepPrompt.SetVisibility(isVisible: true);
-					if (OWInput.IsNewlyPressed(InputLibrary.interactSecondary))
-					{
-						StartSleeping();
-					}
-				}
-			}
 			if (_isPlayerSleeping && !_isTimeFastForwarding && Time.timeSinceLevelLoad > _fastForwardStartTime)
 			{
 				StartFastForwarding();

@@ -193,9 +193,9 @@
 		// PURPLE_RIPPLE
 		"$PH_LOG_PURPLE_RIPPLE_NAME": "Purple Ripple",
 		"$PH_LOG_PURPLE_RUMOR_RUMOR_1": "I found a Purple Ripple hiding in room [ID].",
-		"$PH_LOG_PURPLE_RUMOR_1": "The Purple Ripple speaks in exhaustive prose.",
-		"$PH_LOG_PURPLE_RUMOR_2": "After speaking to them, they began to emit a signal.",
-		"$PH_LOG_PURPLE_RUMOR_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
+		"$PH_LOG_PURPLE_RIPPLE_1": "The Purple Ripple speaks in exhaustive prose.",
+		"$PH_LOG_PURPLE_RIPPLE_2": "After speaking to them, they began to emit a signal.",
+		"$PH_LOG_PURPLE_RIPPLE_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
 
 		// BLUE_BREVITY_CURIOSITY
 		"$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME": "Blue Scientist",

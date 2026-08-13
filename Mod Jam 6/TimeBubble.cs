@@ -6,8 +6,10 @@ namespace Mod_Jam_6
     {
         public static TimeBubble instance;
 
-        [SerializeField]
-        private GameObject[] _objectsToToggle;
+        private GameObject[] _objectsToToggleOn;
+        private GameObject[] _objectsToToggleOff;
+        private GameObject[] _objectsToToggleBackOn;
+        private GameObject[] _objectsToToggleBackOff;
 
         private float _size;
         public float size => _size;
@@ -38,10 +40,6 @@ namespace Mod_Jam_6
 
             _size = 0f;
             _isShrunk = true;
-            foreach (var objectToToggle in _objectsToToggle)
-            {
-                objectToToggle.SetActive(false);
-            }
         }
         private void OnDrawGizmos()
         {
@@ -49,7 +47,7 @@ namespace Mod_Jam_6
             Gizmos.DrawWireSphere(transform.position, _size);
         }
 
-        public void TryActivate(Vector3 newPosition, float newExpandedSize, float newExpansionDuration, float newCollapseDuration, TimeBubbleActivator activator)
+        public void TryActivate(Vector3 newPosition, float newExpandedSize, float newExpansionDuration, float newCollapseDuration, GameObject[] objectsToToggleOn, GameObject[] objectsToToggleOff, TimeBubbleActivator activator)
         {
             if (_currentActivator != null) _currentActivator._isActive = false;
             _currentActivator = activator;
@@ -58,6 +56,9 @@ namespace Mod_Jam_6
             {
                 if (!_isExpanded) // [Stache TODO]: I am aware it currently does not cover all edge cases, I will do it later
                 {
+                    _objectsToToggleOn = objectsToToggleOn;
+                    _objectsToToggleOff = objectsToToggleOff;
+
                     _currentExpandedSize = newExpandedSize;
                     _currentExpansionDuration = newExpansionDuration;
                     _currentCollapseDuration = newCollapseDuration;
@@ -71,6 +72,23 @@ namespace Mod_Jam_6
             }
 
             // Case 2: Different place. Here we need to shrink the potential current one first, then move it.
+            if(_objectsToToggleOn != null)
+            {
+                foreach (var obj in _objectsToToggleOn)
+                {
+                    obj.SetActive(false); // Was on -> we turn off
+                }
+            }
+            if(_objectsToToggleOff != null)
+            {
+                foreach (var obj in _objectsToToggleOff)
+                {
+                    obj.SetActive(true); // Was off -> we turn on
+                }
+            }
+            _objectsToToggleOn = objectsToToggleOn;
+            _objectsToToggleOff = objectsToToggleOff;
+
             _nextPosition = newPosition;
             _nextExpandedSize = newExpandedSize;
             _nextExpansionDuration = newExpansionDuration;
@@ -115,11 +133,6 @@ namespace Mod_Jam_6
                 {
                     _isShrinking = false;
                     _isShrunk = true;
-
-                    foreach(var objectToToggle in _objectsToToggle)
-                    {
-                        objectToToggle.SetActive(false);
-                    }
                 }
             }
             else if (_isExpanding)
@@ -141,9 +154,13 @@ namespace Mod_Jam_6
                     _isExpanding = false;
                     _isExpanded = true;
 
-                    foreach (var objectToToggle in _objectsToToggle)
+                    foreach (var obj in _objectsToToggleOn)
                     {
-                        objectToToggle.SetActive(true);
+                        obj.SetActive(true);
+                    }
+                    foreach (var obj in _objectsToToggleOff)
+                    {
+                        obj.SetActive(false);
                     }
                 }
             }
