@@ -72,13 +72,19 @@ namespace Mod_Jam_6
             }
 
             // Case 2: Different place. Here we need to shrink the potential current one first, then move it.
-            foreach(var obj in _objectsToToggleOn)
+            if(_objectsToToggleOn != null)
             {
-                obj.SetActive(false); // Was on -> we turn off
+                foreach (var obj in _objectsToToggleOn)
+                {
+                    obj.SetActive(false); // Was on -> we turn off
+                }
             }
-            foreach (var obj in _objectsToToggleOff)
+            if(_objectsToToggleOff != null)
             {
-                obj.SetActive(true); // Was off -> we turn on
+                foreach (var obj in _objectsToToggleOff)
+                {
+                    obj.SetActive(true); // Was off -> we turn on
+                }
             }
             _objectsToToggleOn = objectsToToggleOn;
             _objectsToToggleOff = objectsToToggleOff;
