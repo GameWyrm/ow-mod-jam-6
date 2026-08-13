@@ -31,7 +31,7 @@ namespace Mod_Jam_6
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag("Player") && Vector3.Distance(other.transform.position, transform.position) < 1000)
             {
                 if (TimeLoop._timeLoopEnabled)
                 {
