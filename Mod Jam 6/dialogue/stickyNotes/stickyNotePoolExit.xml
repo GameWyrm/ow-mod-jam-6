@@ -1,0 +1,10 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+  <DialogueNode>
+    <Name>DefaultNode</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>[Placeholder for the stickyNotePoolExit to make sure you can talk to it]</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

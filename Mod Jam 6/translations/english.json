@@ -1,14 +1,25 @@
 {
 	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
-		
+
+		"PH_Bellhop_NAME": "Bellhop",
+		"PH_BlueWisp_NAME": "BlueWisp",
+		"PH_BlueRipple_NAME": "BlueRipple",
+		"PH_BlueEcho_NAME": "BlueEcho",
+		"PH_GreenWisp_NAME": "GreenWisp",
+		"PH_GreenRipple_NAME": "GreenRipple",
+		"PH_GreenEcho_NAME": "GreenEcho",
+		"PH_PurpleWisp_NAME": "PurpleWisp",
+		"PH_PurpleRipple_NAME": "PurpleRipple",
+		"PH_PurpleEcho_NAME": "PurpleEcho",
+
 		//Stickynotes
 		"PH_Stickynotes_BELL01_1": "There is that unidentified signal again! What if I look through this? Why does that sound so familiar?",
 		"PH_Stickynotes_BELL01_2": "The unidentified signal in the lobby can only be realised by focusing your signalscope on it.",
 
 		"PH_Stickynotes_KNIGHT01_1": "Future me probably won’t mind a little challenge, even if it is coming from that little guy.",
 		"PH_Stickynotes_KNIGHT01_2": "In the past this barrier didn’t exist. Purple requested it as a challenge for the present.",
-		
+
 		"PH_Stickynotes_POOLENTR01_1": "The door is locked again? I think I saw Blue run around. Come to think of it, didn’t I see Blue messing around with the wallpaper nearby?",
 		"PH_Stickynotes_POOLENTR01_2": "When a door is locked, look for drawings nearby.",
 
@@ -17,7 +28,7 @@
 
 		"PH_Stickynotes_FURNACE01_1": "Wow, this Furnace survived yet another experiment. I don’t think that Blue and I will figure out a way to break it. Blue suggests that the room might be affecting the efficiency of the Furnace. Let’s test that. I hope what Green said about the Furnace isn’t true.",
 		"PH_Stickynotes_FURNACE01_2": "The Furnace burns forever. It will always heat up whatever it chooses, provided it’s close enough to the target.",
-		
+
 		//Bellhop
 		"PH_Bellhop_INIT01_1":"Welcome back Newcomer. Have you forgotten everything again?",
 		"PH_Bellhop_INIT01_A":"Newcomer?",
