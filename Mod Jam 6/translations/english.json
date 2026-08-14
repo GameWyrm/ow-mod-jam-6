@@ -27,88 +27,88 @@
 		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
 		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy when applied to the crystal makes the disturbance visible.",
 
-		"PH_Stickynotes_FURNACE_1": "Wow, the furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the furnace, so we're going to test that theory. I hope what Green said about the furnace isn't true.",
-		"PH_Stickynotes_FURNACE_2": "The furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
+		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
+		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
 
 		// Bellhop (Init)
 		"PH_Bellhop_INIT01_1": "Welcome back, Newcomer. Have you forgotten everything again?",
 
 		"PH_Bellhop_INIT01_A": "Newcomer?",
-		"PH_Bellhop_INIT02_1": "Hey, it's going to be alright, Newcomer. Let me explain where you are and what is going on again, I know forgetting things is scary, but I'm not going anywhere.",
-		"PH_Bellhop_INIT02_2": "You're in a hotel where every living being has a room, but most never check in. There are three floors you have access to.",
-		"PH_Bellhop_INIT02_3": "This hotel is much larger than living beings can ever comprehend. The hotel, in some strange way, accommodates for how much your mind can handle at one time.",
-		"PH_Bellhop_INIT02_4": "In this place, objectivity is relative. Your thoughts and feelings can morph this place- just remember that the only limit in here is your own mind.",
+		"PH_Bellhop_INIT02_1": "Hey, it's going to be alright, Newcomer. Let me explain where you are and what is going on again, I know memory loss is becoming increasingly common for you, but I'm not going anywhere, as much as you might want me to.",
+		"PH_Bellhop_INIT02_2": "You're in Hotel Penumbra, the only establishment with capacity for every living being in your universe. There are three floors you have access to, at the moment.",
+		"PH_Bellhop_INIT02_3": "This hotel is much larger than you could ever comprehend. It accommodates itself to your own cognitive capacity, which is... somewhat unimpressive, in the case of your species.",
+		"PH_Bellhop_INIT02_4": "On top of all of that, reality is relative, here. Your thoughts and feelings can morph this place, to your betterment, or your detriment.",
 
 		"PH_Bellhop_INIT01_B": "No... but I would like a refresher on some of the basic things.",
-		"PH_Bellhop_INIT03_1": "Certainly, Newcomer.",
+		"PH_Bellhop_INIT03_1": "Certainly. Not like it's the first time you've asked.",
 
 		// Bellhop (Main)
-		"PH_Bellhop_MAIN01_1": "A basic grasp of concepts is always useful. Better to ask me about things, than to come complaining to me when you mess around with something you shouldn't be touching.",
+		"PH_Bellhop_MAIN01_1": "A basic grasp of Hotel Penumbra can mean life or death for you, after all. It's better to know what something is before you mess with it and get shattered across spacetime, hah!",
 
-		"PH_Bellhop_MAIN01_FOUND": "[Placeholder I found something yo]",
-		"PH_Bellhop_MAIN01_QUESTIONS": "[Placeholder I found something yo]",
+		"PH_Bellhop_MAIN01_FOUND": "I found something of interest.",
+		"PH_Bellhop_MAIN01_QUESTIONS": "I have some questions about this place.",
 
 		"PH_Bellhop_MAIN01_A": "I would like to leave.",
-		"PH_Bellhop_MAIN02_1": "In an objective situation, that would be impossible. However, it seems that you already left/are leaving/will leave. However, to make a patron's wish real in the Penumbra Hotel, all luggage must be held by them. It's just a company policy we had to implement after the upcoming incident. Were you carrying anything when you entered?",
+		"PH_Bellhop_MAIN02_1": "In an objective situation, that would be impossible. However, it seems that you already left, or you are leaving, or you will leave, one way or another. However, to make a patron's wish real in Hotel Penumbra, all luggage must be held by the patron before their departure. It's just a company policy we had to implement after the upcoming incident. Were you carrying anything when you entered?",
 
-		"PH_Bellhop_MAIN01_B": "[Placeholder I am so fuggin lost]",
-		"PH_Bellhop_MAIN03_1": "[Placeholder Check the room numbers my dude]",
+		"PH_Bellhop_MAIN01_B": "I'm rather lost. How do I know where to find things?",
+		"PH_Bellhop_MAIN03_1": "Please pay closer attention to the room numbers- with four eyes, I'd think you'd be a little more observant!",
 
-		"PH_Bellhop_MAIN01_END": "[Placeholder Peace Imma head out]",
-		"PH_Bellhop_END": "[Placeholder See ya later]",
+		"PH_Bellhop_MAIN01_END": "That'll be all for now.",
+		"PH_Bellhop_END": "Goodbye, and I hope you continue to enjoy your stay.",
 
 		// Bellhop (Questions)
-		"PH_Bellhop_QUESTIONS01_1": "[Placeholder Sure whatcha wanna know?]",
+		"PH_Bellhop_QUESTIONS01_1": "Hmm? You're always free to ask me things, go right ahead.",
 
 		"PH_Bellhop_QUESTIONS01_A": "Where am I?",
-		"PH_Bellhop_QUESTIONS02_1": "[Placeholder I have no idea my dude]",
+		"PH_Bellhop_QUESTIONS02_1": "You're in Hotel Penumbra, the most exquisite establishment this side of the Big Bang. We do hope you enjoy your stay, as always.",
 
 		"PH_Bellhop_QUESTIONS01_B": "Why do some of the hallways turn me around?",
-		"PH_Bellhop_QUESTIONS03_1": "[Placeholder I have no idea my dude]",
+		"PH_Bellhop_QUESTIONS03_1": "Turn you around? I'm not entirely sure what you mean. Our patrons have never reported any issues with translating themselves from one hall to another.",
 
 		"PH_Bellhop_QUESTIONS01_C": "Why are some objects acting so strangely?",
-		"PH_Bellhop_QUESTIONS04_1": "[Placeholder I have no idea my dude]",
+		"PH_Bellhop_QUESTIONS04_1": "Strangely? Newcomer, you have always had so many questions to ask, but you were never willing to hear the answers to any of them. Open your mind a bit to what is truly 'strange', why don't you?",
 
 		"PH_Bellhop_QUESTIONS01_D": "Why is that one part of the wall you're staring at different?",
-		"PH_Bellhop_QUESTIONS05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn't quite match his behaviour. A reflection of my past. I apologize, but you have instructed me to not help you out like I did last time, so I am to remain ambiguous. I hope that you can forgive me.",
+		"PH_Bellhop_QUESTIONS05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fellow huffing and puffing about some door. I couldn't quite read his behaviour. A reflection of my past. I apologize, but you have instructed me to not help you out like I did last time, so I am to remain ambiguous. I hope that you can forgive me.",
 
 		"PH_Bellhop_QUESTIONS01_E": "What is that door behind you for?",
-		"PH_Bellhop_QUESTIONS06_1": "The basement door is locked for your safety. You should know this.",
+		"PH_Bellhop_QUESTIONS06_1": "The basement door is locked for your safety. You should know this by now.",
 
-		"PH_Bellhop_QUESTIONS01_END": "[Placeholder No further questions your honor]",
+		"PH_Bellhop_QUESTIONS01_END": "I think that's all I had to ask.",
 
-		"PH_Bellhop_QUESTIONS01_FLOORS": "[Placeholder About the floors..]",
+		"PH_Bellhop_QUESTIONS01_FLOORS": "Could you tell me about the different floors of the hotel?",
 
 		// Bellhop (Questions 2 - Floors)
-		"PH_Bellhop_FLOORS01_1": "[Placeholder What about 'em?]",
+		"PH_Bellhop_FLOORS01_1": "Oh, certainly, but I'm going to need a little more specificity than that.",
 
 		"PH_Bellhop_FLOORS01_A": "What can you tell me about the first floor?",
-		"PH_Bellhop_FLOORS02_1": "The first floor is the most popular of them all. Outside of wartime, the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Tread lightly. It may be a bumpy ride.",
+		"PH_Bellhop_FLOORS02_1": "The first floor is the most popular of them all, and it's almost always full. However, as far as I know, a creature of considerable violence and impudence resides there at the moment. Tread lightly, else it may be a bumpy ride for you.",
 
 		"PH_Bellhop_FLOORS01_B": "What can you tell me about the second floor?",
-		"PH_Bellhop_FLOORS03_1": "The second floor is home to tragedy. Or at least, that's what you told me before you seemingly forgot it all again. To avoid the endless sorrow, follow the signs on floor two.",
+		"PH_Bellhop_FLOORS03_1": "The second floor is home to a true tragedy... or at least, that's what you told me before you seemingly forgot it all again. To avoid the endless sorrow, follow the signs on floor two.",
 
 		"PH_Bellhop_FLOORS01_C": "What can you tell me about the third floor?",
-		"PH_Bellhop_FLOORS04_1": "The third floor is supposed to be largely unoccupied. It's scheduled for reconstruction. Because it's vacant, I am confident that there shouldn't be any locked doors.",
+		"PH_Bellhop_FLOORS04_1": "The third floor is supposed to be largely unoccupied. It's scheduled for reconstruction. Because it's vacant, I am confident that there shouldn't be any locked doors to impede your poking around.",
 
-		"PH_Bellhop_FLOORS01_END": "[Placeholder That's all]",
+		"PH_Bellhop_FLOORS01_END": "I think that's everything, thanks.",
 
 		// Bellhop (Found something)
-		"PH_Bellhop_FOUND01_1": "[Placeholder What didja find my dude?]",
+		"PH_Bellhop_FOUND01_1": "Oh? And what might you have found?",
 
-		"PH_Bellhop_FOUND01_A": "[Placeholder I found spooky ghosts]",
-		"PH_Bellhop_FOUND02_1": "[Placeholder Very cool]",
+		"PH_Bellhop_FOUND01_A": "I found what I think were ghosts.",
+		"PH_Bellhop_FOUND02_1": "Ah, I see you've rediscovered them yet again. I do hope they're still keeping their rooms tidy.",
 
-		"PH_Bellhop_FOUND01_B": "[Placeholder I found bubbles]",
-		"PH_Bellhop_FOUND03_1": "[Placeholder Very cool]",
+		"PH_Bellhop_FOUND01_B": "I found bubbles that send the surrounding matter back in time.",
+		"PH_Bellhop_FOUND03_1": "Oh, the time bubbles! Please do not interfere with any maintenance you may witness in the past- we wish to keep the hotel tidy.",
 
-		"PH_Bellhop_FOUND01_C": "[Placeholder I found the void]",
-		"PH_Bellhop_FOUND04_1": "[Placeholder Very cool]",
+		"PH_Bellhop_FOUND01_C": "I found a... void, or at least, that's what it looks like to me.",
+		"PH_Bellhop_FOUND04_1": "Unfortunately, I know of it as well. I do not wish to discuss this further.",
 
-		"PH_Bellhop_FOUND01_D": "[Placeholder I found the ATP]",
-		"PH_Bellhop_FOUND05_1": "[Placeholder Very cool]",
+		"PH_Bellhop_FOUND01_D": "I found a cobbled-together machine that looks like the Ash Twin Project from my solar system.",
+		"PH_Bellhop_FOUND05_1": "Ah, the time-traveling communication device, yes? Do be careful with it, I don't want any burn-marks on the carpet, please.",
 
-		"PH_Bellhop_FOUND01_END": "[Placeholder That's about it]",
+		"PH_Bellhop_FOUND01_END": "That's all that I've found.",
 
 		// Blue echo & ripple
 		"PH_brevity_ECHO_1": "Splash! Mama lost again. Now the experiment can continue... No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn't go boom. Shouldn't? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
@@ -116,7 +116,7 @@
 
 		// Blue wisp
 		"PH_brevity_WISP_ONE_1a": "Curiosity. Seek out. Similar molecules, Newcomer and me. Good.",
-		"PH_brevity_WISP_ONE_2b": "Jump in pool! No! Jump over pool. Water nice?. Air nicer?. Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good. Newcomer lost key. No! Newcomer find key.",
+		"PH_brevity_WISP_ONE_2b": "Jump in pool! No! Jump over pool. Water nice? Air nicer? Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good. Newcomer lost key. No! Newcomer find key.",
 		"PH_brevity_WISP_ONE_3c": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring? Ice is not boring. Yes! No, Ice gone. Please? Find ice block.",
 
 		"PH_brevity_WISP_TWO_EITHER_1a": "Planet. Decay. Not end. New possibilities. Safe.",
