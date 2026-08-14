@@ -254,6 +254,10 @@
 		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in Poetry."
 	},
 	"UIDictionary": {
-		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk.\nTo arrive, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination."
+		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk.To arrive, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination.",
+		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
+		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
+		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
+		"$PH_ENDING_STAY": "YOU STAYED BEHIND"
 	}
 }

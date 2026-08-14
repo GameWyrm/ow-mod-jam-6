@@ -46,6 +46,7 @@ namespace Mod_Jam_6
 
             if(!_shouldWarpToSystem) { return true; } // No patch if shouldn't warp
 
+            TimeLoop.SetSecondsRemaining(1320);
             var warping = ModJam6.Instance.NewHorizons.ChangeCurrentStarSystem(systemName);
             if (warping)
             {
