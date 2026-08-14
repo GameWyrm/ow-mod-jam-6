@@ -45,40 +45,53 @@
 		// Bellhop (Main)
 		"PH_Bellhop_MAIN01_1": "A basic grasp of concepts is always useful. Don’t complain to me when you mess around with misunderstood objects.",
 
-		"PH_Bellhop_MAIN01_A": "Where am I?",
-		"PH_Bellhop_MAIN02_1": "[Placeholder I have no idea my dude]",
+		"PH_Bellhop_MAIN01_FOUND": "[Placeholder I found something yo]",
+		"PH_Bellhop_MAIN01_QUESTIONS": "[Placeholder I found something yo]",
 
-		"PH_Bellhop_MAIN01_B": "Why do some of the hallways turn me around?",
-		"PH_Bellhop_MAIN03_1": "[Placeholder I have no idea my dude]",
+		"PH_Bellhop_MAIN01_A": "I would like to leave. / How do I get out of here?",
+		"PH_Bellhop_MAIN02_1": "In an objective situation that would be impossible. However, it seems that you already left/leave/will leave. However, to make a patron’s wish real in the Penumbra Hotel, all luggage must be held by them. Company Policy we had to implement after the upcoming incident. Were you carrying any items?",
 
-		"PH_Bellhop_MAIN01_C": "Why are objects not always acting logically?",
-		"PH_Bellhop_MAIN04_1": "[Placeholder I have no idea my dude]",
-
-		"PH_Bellhop_MAIN01_D": "Why is that one part of the wall you’re staring at different?",
-		"PH_Bellhop_MAIN05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn’t quite match his behaviour. A reflection of my past. I apologize but you have instructed me to not help you out like last time. So I am to remain ambiguous. I hope that you will forgive me later.",
-
-		"PH_Bellhop_MAIN01_E": "What is that door behind you for?",
-		"PH_Bellhop_MAIN06_1": "The basement door is locked for your safety. You should know this.",
-
-		"PH_Bellhop_MAIN01_F": "What can you tell me about the first floor?",
-		"PH_Bellhop_MAIN07_1": "The first floor is the most popular of them all. Outside of wartime the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Thread lightly. It may be a rocky ride.",
-
-		"PH_Bellhop_MAIN01_G": "What can you tell me about the second floor?",
-		"PH_Bellhop_MAIN08_1": "The second floor is home to tragedy. Or so, you have told me before you forgot again. To avoid the endless sorrow follow the signs on floor two.",
-
-		"PH_Bellhop_MAIN01_H": "What can you tell me about the third floor?",
-		"PH_Bellhop_MAIN09_1": "The third floor is supposed to be largely unoccupied. It’s scheduled for reconstruction. Because it’s vacant I am confident that there shouldn’t be any locked doors.",
-
-		"PH_Bellhop_MAIN01_I": "I would like to leave.",
-		"PH_Bellhop_MAIN10_1": "In an objective situation that would be impossible. However, it seems that you already left/leave/will leave. However, to make a patron’s wish real in the Penumbra Hotel, all luggage must be held by them. Company Policy we had to implement after the upcoming incident. Were you carrying any items?",
-
-		"PH_Bellhop_MAIN01_J": "[Placeholder I found something yo]",
-
-		"PH_Bellhop_MAIN01_K": "[Placeholder I am so fuggin lost]",
-		"PH_Bellhop_MAIN11_1": "[Placeholder Check the room numbers my dude]",
+		"PH_Bellhop_MAIN01_B": "[Placeholder I am so fuggin lost]",
+		"PH_Bellhop_MAIN03_1": "[Placeholder Check the room numbers my dude]",
 
 		"PH_Bellhop_MAIN01_END": "[Placeholder Peace Imma head out]",
 		"PH_Bellhop_END": "[Placeholder See ya later]",
+
+		// Bellhop (Questions)
+		"PH_Bellhop_QUESTIONS01_1": "[Placeholder Sure whatcha wanna know?]",
+
+		"PH_Bellhop_QUESTIONS01_A": "Where am I?",
+		"PH_Bellhop_QUESTIONS02_1": "[Placeholder I have no idea my dude]",
+
+		"PH_Bellhop_QUESTIONS01_B": "Why do some of the hallways turn me around?",
+		"PH_Bellhop_QUESTIONS03_1": "[Placeholder I have no idea my dude]",
+
+		"PH_Bellhop_QUESTIONS01_C": "Why are objects not always acting logically?",
+		"PH_Bellhop_QUESTIONS04_1": "[Placeholder I have no idea my dude]",
+
+		"PH_Bellhop_QUESTIONS01_D": "Why is that one part of the wall you’re staring at different?",
+		"PH_Bellhop_QUESTIONS05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn’t quite match his behaviour. A reflection of my past. I apologize but you have instructed me to not help you out like last time. So I am to remain ambiguous. I hope that you will forgive me later.",
+
+		"PH_Bellhop_QUESTIONS01_E": "What is that door behind you for?",
+		"PH_Bellhop_QUESTIONS06_1": "The basement door is locked for your safety. You should know this.",
+
+		"PH_Bellhop_QUESTIONS01_END": "[Placeholder No further questions your honor]",
+
+		"PH_Bellhop_QUESTIONS01_FLOORS": "[Placeholder About the floors..]",
+
+		// Bellhop (Questions 2 - Floors)
+		"PH_Bellhop_FLOORS01_1": "[Placeholder What about 'em?]",
+
+		"PH_Bellhop_FLOORS01_A": "What can you tell me about the first floor?",
+		"PH_Bellhop_FLOORS02_1": "The first floor is the most popular of them all. Outside of wartime the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Thread lightly. It may be a rocky ride.",
+
+		"PH_Bellhop_FLOORS01_B": "What can you tell me about the second floor?",
+		"PH_Bellhop_FLOORS03_1": "The second floor is home to tragedy. Or so, you have told me before you forgot again. To avoid the endless sorrow follow the signs on floor two.",
+
+		"PH_Bellhop_FLOORS01_C": "What can you tell me about the third floor?",
+		"PH_Bellhop_FLOORS04_1": "The third floor is supposed to be largely unoccupied. It’s scheduled for reconstruction. Because it’s vacant I am confident that there shouldn’t be any locked doors.",
+
+		"PH_Bellhop_FLOORS01_END": "[Placeholder That's all]",
 
 		// Bellhop (Found something)
 		"PH_Bellhop_FOUND01_1": "[Placeholder What didja find my dude?]",
