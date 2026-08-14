@@ -50,43 +50,52 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_A</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main02</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_B</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main03</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_C</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main04</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_D</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main05</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_E</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main06</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_F</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main07</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_G</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main08</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_H</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main09</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_I</Text>
-				<DialogueTarget>MainNode</DialogueTarget>
+				<DialogueTarget>Main10</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_J</Text>
+        <DialogueTarget>Found01</DialogueTarget>
 			</DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_MAIN01_K</Text>
+        <DialogueTarget>Main11</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_MAIN01_END</Text>
+        <DialogueTarget>END</DialogueTarget>
+      </DialogueOption>
 		</DialogueOptionsList>
   </DialogueNode>
 
@@ -108,7 +117,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN04 (choice D) -->
+  <!-- MAIN04 (choice C) -->
   <DialogueNode>
     <Name>Main04</Name>
     <Dialogue>
@@ -117,7 +126,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN05 (choice E) -->
+  <!-- MAIN05 (choice D) -->
   <DialogueNode>
     <Name>Main05</Name>
     <Dialogue>
@@ -126,7 +135,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN06 (choice F) -->
+  <!-- MAIN06 (choice E) -->
   <DialogueNode>
     <Name>Main06</Name>
     <Dialogue>
@@ -135,7 +144,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN07 (choice G) -->
+  <!-- MAIN07 (choice F) -->
   <DialogueNode>
     <Name>Main07</Name>
     <Dialogue>
@@ -144,7 +153,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN08 (choice H) -->
+  <!-- MAIN08 (choice G) -->
   <DialogueNode>
     <Name>Main08</Name>
     <Dialogue>
@@ -153,7 +162,7 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN09 (choice I) -->
+  <!-- MAIN09 (choice H) -->
   <DialogueNode>
     <Name>Main09</Name>
     <Dialogue>
@@ -162,11 +171,95 @@
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
-  <!-- MAIN10 (choice J - end dialogue) -->
+  <!-- MAIN10 (choice I) -->
   <DialogueNode>
     <Name>Main10</Name>
     <Dialogue>
       <Page>PH_Bellhop_MAIN10_1</Page>
+    </Dialogue>
+    <DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN11 (choice K) -->
+  <DialogueNode>
+    <Name>Main11</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN11_1</Page>
+    </Dialogue>
+    <DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+  
+  <!-- FOUND01 (choice J on Main01 - found something) -->
+  <DialogueNode>
+    <Name>Found01</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_FOUND01_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_Bellhop_FOUND01_A</Text>
+        <DialogueTarget>Found02</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_FOUND01_B</Text>
+        <DialogueTarget>Found03</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_FOUND01_C</Text>
+        <DialogueTarget>Found04</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_FOUND01_D</Text>
+        <DialogueTarget>Found05</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_FOUND01_END</Text>
+        <DialogueTarget>Main01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- FOUND02 (choice A) -->
+  <DialogueNode>
+    <Name>Found02</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_FOUND02_1</Page>
+    </Dialogue>
+    <DialogueTarget>Found01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- FOUND03 (choice B) -->
+  <DialogueNode>
+    <Name>Found03</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_FOUND03_1</Page>
+    </Dialogue>
+    <DialogueTarget>Found01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- FOUND04 (choice C) -->
+  <DialogueNode>
+    <Name>Found04</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_FOUND04_1</Page>
+    </Dialogue>
+    <DialogueTarget>Found01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- FOUND05 (choice D) -->
+  <DialogueNode>
+    <Name>Found05</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_FOUND05_1</Page>
+    </Dialogue>
+    <DialogueTarget>Found01</DialogueTarget>
+  </DialogueNode>
+  
+  <!-- END (choice END on Main01 - end dialogue) -->
+  <DialogueNode>
+    <Name>END</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_END</Page>
     </Dialogue>
   </DialogueNode>
 
