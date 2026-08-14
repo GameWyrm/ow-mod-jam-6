@@ -1,7 +1,51 @@
 {
 	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
+		
+		//Stickynotes
+		"PH_Stickynotes_BELL01_1": "There is that unidentified signal again! What if I look through this? Why does that sound so familiar?",
+		"PH_Stickynotes_BELL01_2": "The unidentified signal in the lobby can only be realised by focusing your signalscope on it.",
+
+		"PH_Stickynotes_KNIGHT01_1": "Future me probably won’t mind a little challenge, even if it is coming from that little guy.",
+		"PH_Stickynotes_KNIGHT01_2": "In the past this barrier didn’t exist. Purple requested it as a challenge for the present.",
+		
+		"PH_Stickynotes_POOLENTR01_1": "The door is locked again? I think I saw Blue run around. Come to think of it, didn’t I see Blue messing around with the wallpaper nearby?",
+		"PH_Stickynotes_POOLENTR01_2": "When a door is locked, look for drawings nearby.",
+
+		"PH_Stickynotes_POOLEND01_1": "These crystals remind me of ghostmatter. But I don’t burn when I touch them. However, lemme try something with my scout. I wonder if-",
+		"PH_Stickynotes_POOLEND01_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy when applied to the crystal makes the disturbance visible.",
+
+		"PH_Stickynotes_FURNACE01_1": "Wow, this Furnace survived yet another experiment. I don’t think that Blue and I will figure out a way to break it. Blue suggests that the room might be affecting the efficiency of the Furnace. Let’s test that. I hope what Green said about the Furnace isn’t true.",
+		"PH_Stickynotes_FURNACE01_2": "The Furnace burns forever. It will always heat up whatever it chooses, provided it’s close enough to the target.",
+		
 		//Bellhop
+		"PH_Bellhop_INIT01_1":"Welcome back Newcomer. Have you forgotten everything again?",
+		"PH_Bellhop_INIT01_A":"Newcomer?",
+		"PH_Bellhop_INIT02_1": "Just because you have forgotten doesn’t mean you should give up. Let me explain where you are and what is going on again.",
+		"PH_Bellhop_INIT03_1": "You’re in a hotel where every living being has a room but most never check in. There are three floors you have gone to.",
+		"PH_Bellhop_INIT04_1": "This hotel is much larger than living beings can comprehend. The hotel “accommodates” for how much your mind can handle at a time.",
+		"PH_Bellhop_INIT05_1": "In this place, objectivity is relative. You will morph objects. When doing so, remember that your only limitation was you.",
+		"PH_Bellhop_INIT01_B": "No. I do want a refresher on basic things.",
+		"PH_Bellhop_INITB_1": "Certainly, Newcomer.",
+
+		"PH_Bellhop_MAIN01_1": "A basic grasp of concepts is always useful. Don’t complain to me when you mess around with misunderstood objects.",
+		"PH_Bellhop_MAIN01_A": "Where am I?",
+		"PH_Bellhop_MAIN01_B": "Why do some of the hallways turn me around?",
+		"PH_Bellhop_MAIN01_C": "Why are objects not always acting logically?",
+		"PH_Bellhop_MAIN01_D": "Why is that one part of the wall you’re staring at different?",
+		"PH_Bellhop_MAIND_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn’t quite match his behaviour. A reflection of my past. I apologize but you have instructed me to not help you out like last time. So I am to remain ambiguous. I hope that you will forgive me later.",
+		"PH_Bellhop_MAIN01_E": "What is that door behind you for?",
+		"PH_Bellhop_MAINE_1": "The basement door is locked for your safety. You should know this.",
+		"PH_Bellhop_MAIN01_F": "What can you tell me about the first floor?",
+		"PH_Bellhop_MAINF_1": "The first floor is the most popular of them all. Outside of wartime the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Thread lightly. It may be a rocky ride.",
+		"PH_Bellhop_MAIN01_G": "What can you tell me about the second floor?",
+		"PH_Bellhop_MAING_1": "The second floor is home to tragedy. Or so, you have told me before you forgot again. To avoid the endless sorrow follow the signs on floor two.",
+		"PH_Bellhop_MAIN01_H": "What can you tell me about the third floor?",
+		"PH_Bellhop_MAINH_1": "The third floor is supposed to be largely unoccupied. It’s scheduled for reconstruction. Because it’s vacant I am confident that there shouldn’t be any locked doors.",
+		"PH_Bellhop_MAIN01_I": "I would like to leave.",
+		"PH_Bellhop_MAINI_1": "In an objective situation that would be impossible. However, it seems that you already left/leave/will leave. However, to make a patron’s wish real in the Penumbra Hotel, all luggage must be held by them. Company Policy we had to implement after the upcoming incident. Were you carrying any items?",
+
+
 
 		//1aONE, 2aONE, 3aONE(jumbled mess)
 		"PH_brevity_1aONE_1": "Curiosity. Seek out. Similar molecules, Newcomer and me. Good.",
