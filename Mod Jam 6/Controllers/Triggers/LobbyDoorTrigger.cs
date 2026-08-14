@@ -1,35 +1,23 @@
 ﻿
 using UnityEngine;
 
-namespace Mod_Jam_6.Controllers
+namespace Mod_Jam_6
 {
     public class LobbyDoorTrigger : MonoBehaviour
     {
         [SerializeField]
-        private BellhopMirror _bellhopMirror;
+        private BellhopMirrorTrigger _bellhopMirrorTrigger;
 
-        [SerializeField]
-        private GameObject[] _objectsToToggleOn;
-        [SerializeField]
-        private GameObject[] _objectsToToggleOff;
-
-        private bool _hasBeenSolved = false;
+        private bool _isSolved = false;
 
         public void OnTriggerEnter(Collider hitCollider)
         {
-            if(_hasBeenSolved) { return; }
+            if (_isSolved) { return; }
 
-            if (hitCollider.CompareTag("PlayerDetector") && _bellhopMirror.IsLockedByActiveCamera())
+            if (hitCollider.CompareTag("PlayerDetector") && _bellhopMirrorTrigger.IsSolving())
             {
-                foreach (var obj in _objectsToToggleOff)
-                {
-                    obj.SetActive(false);
-                }
-                foreach (var obj in _objectsToToggleOn)
-                {
-                    obj.SetActive(true);
-                }
-                _hasBeenSolved = true;
+                _isSolved = true;
+                _bellhopMirrorTrigger.SetSolved();
             }
         }
     }

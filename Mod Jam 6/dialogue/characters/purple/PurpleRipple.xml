@@ -1,0 +1,49 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>PH_PurpleRipple_NAME</NameField>
+
+  <!-- 01 -->
+  <DialogueNode>
+    <Name>DefaultNode</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PH_prose_RIPPLE01_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_prose_RIPPLE01_A</Text>
+        <DialogueTarget>YesNode</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_prose_RIPPLE01_B</Text>
+        <DialogueTarget>NoNode</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- 02 (Yes choice) -->
+  <DialogueNode>
+    <Name>02</Name>
+    <Dialogue>
+      <Page>PH_prose_RIPPLE02_1</Page>
+    </Dialogue>
+    <DialogueTarget>04</DialogueTarget>
+  </DialogueNode>
+
+  <!-- 03 (No choice) -->
+  <DialogueNode>
+    <Name>03</Name>
+    <Dialogue>
+      <Page>PH_prose_RIPPLE03_1</Page>
+    </Dialogue>
+    <DialogueTarget>04</DialogueTarget>
+  </DialogueNode>
+
+  <!-- 04 (Common ending) -->
+  <DialogueNode>
+    <Name>04</Name>
+    <Dialogue>
+      <Page>PH_prose_RIPPLE04_1</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+</DialogueTree>

@@ -1,0 +1,15 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>PH_GreenWisp_NAME</NameField>
+
+  <DialogueNode>
+    <Name>DefaultNode</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PH_haiku_WISP_ONE_1a</Page>
+
+      <Page>PH_haiku_WISP_ONE_2b</Page>
+      <Page>PH_haiku_WISP_ONE_3c</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>
