@@ -11,11 +11,11 @@
     <DialogueOptionsList>
       <DialogueOption>
         <Text>PH_prose_RIPPLE01_A</Text>
-        <DialogueTarget>YesNode</DialogueTarget>
+        <DialogueTarget>02</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
         <Text>PH_prose_RIPPLE01_B</Text>
-        <DialogueTarget>NoNode</DialogueTarget>
+        <DialogueTarget>03</DialogueTarget>
       </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>

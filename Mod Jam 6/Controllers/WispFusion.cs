@@ -33,6 +33,8 @@ namespace Mod_Jam_6
         private string _echoCondition;
         [SerializeField]
         private string _rippleCondition;
+        [SerializeField]
+        private string _completeCondition;
 
         private void Update()
         {
@@ -44,32 +46,62 @@ namespace Mod_Jam_6
 
             if (CheckProjection())
             {
-                if (CheckEcho())
+                if (_echoObject != null && _echoObject.activeSelf && CheckEcho())
                 {
-                    foreach (var obj in _objectsToToggleOffEcho)
+                    if(_objectsToToggleOffEcho != null)
                     {
-                        obj.SetActive(false);
+                        foreach (var obj in _objectsToToggleOffEcho)
+                        {
+                            obj.SetActive(false);
+                        }
                     }
-                    foreach (var obj in _objectsToToggleOnEcho)
+                    if(_objectsToToggleOnEcho != null)
                     {
-                        obj.SetActive(true);
+                        foreach (var obj in _objectsToToggleOnEcho)
+                        {
+                            obj.SetActive(true);
+                        }
                     }
                     _hasFusedEcho = true;
-                    DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, false);
+
+                    if (_hasFusedRipple)
+                    {
+                        DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, false);
+                        DialogueConditionManager.SharedInstance.SetConditionState(_completeCondition, true);
+                    }
+                    else
+                    {
+                        DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, true);
+                    }
                 }
 
-                if (CheckRipple())
+                if (_rippleObject != null && _rippleObject.activeSelf && CheckRipple())
                 {
-                    foreach (var obj in _objectsToToggleOffRipple)
+                    if (_objectsToToggleOffEcho != null)
                     {
-                        obj.SetActive(false);
+                        foreach (var obj in _objectsToToggleOffRipple)
+                        {
+                            obj.SetActive(false);
+                        }
                     }
-                    foreach (var obj in _objectsToToggleOnRipple)
+                    if (_objectsToToggleOnEcho != null)
                     {
-                        obj.SetActive(true);
+                        foreach (var obj in _objectsToToggleOnRipple)
+                        {
+                            obj.SetActive(true);
+                        }
                     }
                     _hasFusedRipple = true;
-                    DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, false);
+
+                    if (_hasFusedEcho)
+                    {
+                        DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, false);
+                        DialogueConditionManager.SharedInstance.SetConditionState(_completeCondition, true);
+                    }
+                    else
+                    {
+                        DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, true);
+                    }
                 }
             }
         }
