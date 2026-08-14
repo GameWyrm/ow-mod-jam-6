@@ -1,10 +1,15 @@
 ﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
   <NameField>PH_BlueWisp_NAME</NameField>
+  
   <DialogueNode>
     <Name>DefaultNode</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>[Placeholder for BlueWisp_1 to make sure you can talk to it]</Page>
+      <Page>PH_brevity_WISP_ONE_1a</Page>
+
+      <Page>PH_brevity_WISP_ONE_1b</Page>
+      <Page>PH_brevity_WISP_ONE_1c</Page>
     </Dialogue>
   </DialogueNode>
+
 </DialogueTree>

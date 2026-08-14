@@ -1,10 +1,173 @@
 ﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
   <NameField>PH_Bellhop_NAME</NameField>
+  
+  <!-- INIT01 -->
   <DialogueNode>
     <Name>DefaultNode</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>[Placeholder for Bellhop to make sure you can talk to it]</Page>
+      <Page>PH_Bellhop_INIT01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Bellhop_INIT01_A</Text>
+				<DialogueTarget>Init02</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_INIT01_B</Text>
+				<DialogueTarget>Init03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- INIT02 (choice A) -->
+  <DialogueNode>
+    <Name>Init02</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_INIT02_1</Page>
+      <Page>PH_Bellhop_INIT02_2</Page>
+      <Page>PH_Bellhop_INIT02_3</Page>
+      <Page>PH_Bellhop_INIT02_4</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+  
+  <!-- INIT03 (choice B) -->
+  <DialogueNode>
+    <Name>Init03</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_INIT03_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+  
+  <!-- MAIN01 -->
+  <DialogueNode>
+    <Name>Main01</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_A</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_B</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_C</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_D</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_E</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_F</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_G</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_H</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_I</Text>
+				<DialogueTarget>MainNode</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Bellhop_MAIN01_J</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- MAIN02 (choice A) -->
+  <DialogueNode>
+    <Name>Main02</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN02_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN03 (choice B) -->
+  <DialogueNode>
+    <Name>Main03</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN03_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN04 (choice D) -->
+  <DialogueNode>
+    <Name>Main04</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN04_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN05 (choice E) -->
+  <DialogueNode>
+    <Name>Main05</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN05_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN06 (choice F) -->
+  <DialogueNode>
+    <Name>Main06</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN06_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN07 (choice G) -->
+  <DialogueNode>
+    <Name>Main07</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN07_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN08 (choice H) -->
+  <DialogueNode>
+    <Name>Main08</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN08_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN09 (choice I) -->
+  <DialogueNode>
+    <Name>Main09</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN09_1</Page>
+    </Dialogue>
+		<DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
+  <!-- MAIN10 (choice J - end dialogue) -->
+  <DialogueNode>
+    <Name>Main10</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN10_1</Page>
     </Dialogue>
   </DialogueNode>
+
 </DialogueTree>

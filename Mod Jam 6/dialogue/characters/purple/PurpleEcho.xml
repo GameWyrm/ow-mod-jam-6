@@ -1,10 +1,69 @@
 ﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
   <NameField>PH_PurpleEcho_NAME</NameField>
+  
+  <!-- 01 -->
   <DialogueNode>
     <Name>DefaultNode</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>[Placeholder for PurpleEcho to make sure you can talk to it]</Page>
+      <Page>PH_prose_ECHO01_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_prose_ECHO01_A</Text>
+        <DialogueTarget>02</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- 02 -->
+  <DialogueNode>
+    <Name>02</Name>
+    <Dialogue>
+      <Page>PH_prose_ECHO02_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_prose_ECHO02_A</Text>
+        <DialogueTarget>03</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- 03 -->
+  <DialogueNode>
+    <Name>03</Name>
+    <Dialogue>
+      <Page>PH_prose_ECHO03_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_prose_ECHO03_A</Text>
+        <DialogueTarget>04</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- 04 -->
+  <DialogueNode>
+    <Name>04</Name>
+    <Dialogue>
+      <Page>PH_prose_ECHO04_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_prose_ECHO04_A</Text>
+        <DialogueTarget>05</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- 05 -->
+  <DialogueNode>
+    <Name>05</Name>
+    <Dialogue>
+      <Page>PH_prose_ECHO05_1</Page>
     </Dialogue>
   </DialogueNode>
+  
 </DialogueTree>
