@@ -15,41 +15,41 @@
 		"PH_PurpleEcho_NAME": "PurpleEcho",
 
 		//Stickynotes
-		"PH_Stickynotes_BELL_1": "There is that unidentified signal again! What if I look through this? Why does that sound so familiar?",
+		"PH_Stickynotes_BELL_1": "There's that unidentified signal again! I looked through my signalscope- why does it sound so familiar..?",
 		"PH_Stickynotes_BELL_2": "The unidentified signal in the lobby can only be realised by focusing your signalscope on it.",
 
-		"PH_Stickynotes_KNIGHT_1": "Future me probably won’t mind a little challenge, even if it is coming from that little guy.",
-		"PH_Stickynotes_KNIGHT_2": "In the past this barrier didn’t exist. Purple requested it as a challenge for the present.",
+		"PH_Stickynotes_KNIGHT_1": "Future me probably won't mind a little challenge, even if it is coming from that little guy.",
+		"PH_Stickynotes_KNIGHT_2": "In the past, this barrier didn't exist. Purple requested it as a challenge for the present.",
 
-		"PH_Stickynotes_POOLENTR_1": "The door is locked again? I think I saw Blue run around. Come to think of it, didn’t I see Blue messing around with the wallpaper nearby?",
+		"PH_Stickynotes_POOLENTR_1": "The door is locked again... Last time it was unlocked, I saw Blue messing around with the wallpaper nearby, but I'm not quite sure why.",
 		"PH_Stickynotes_POOLENTR_2": "When a door is locked, look for drawings nearby.",
 
-		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghostmatter. But I don’t burn when I touch them. However, lemme try something with my scout. I wonder if-",
+		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
 		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy when applied to the crystal makes the disturbance visible.",
 
-		"PH_Stickynotes_FURNACE_1": "Wow, this Furnace survived yet another experiment. I don’t think that Blue and I will figure out a way to break it. Blue suggests that the room might be affecting the efficiency of the Furnace. Let’s test that. I hope what Green said about the Furnace isn’t true.",
-		"PH_Stickynotes_FURNACE_2": "The Furnace burns forever. It will always heat up whatever it chooses, provided it’s close enough to the target.",
+		"PH_Stickynotes_FURNACE_1": "Wow, the furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the furnace, so we're going to test that theory. I hope what Green said about the furnace isn't true.",
+		"PH_Stickynotes_FURNACE_2": "The furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
 
 		// Bellhop (Init)
-		"PH_Bellhop_INIT01_1": "Welcome back Newcomer. Have you forgotten everything again?",
+		"PH_Bellhop_INIT01_1": "Welcome back, Newcomer. Have you forgotten everything again?",
 
 		"PH_Bellhop_INIT01_A": "Newcomer?",
-		"PH_Bellhop_INIT02_1": "Just because you have forgotten doesn’t mean you should give up. Let me explain where you are and what is going on again.",
-		"PH_Bellhop_INIT02_2": "You’re in a hotel where every living being has a room but most never check in. There are three floors you have gone to.",
-		"PH_Bellhop_INIT02_3": "This hotel is much larger than living beings can comprehend. The hotel “accommodates” for how much your mind can handle at a time.",
-		"PH_Bellhop_INIT02_4": "In this place, objectivity is relative. You will morph objects. When doing so, remember that your only limitation was you.",
+		"PH_Bellhop_INIT02_1": "Hey, it's going to be alright, Newcomer. Let me explain where you are and what is going on again, I know forgetting things is scary, but I'm not going anywhere.",
+		"PH_Bellhop_INIT02_2": "You're in a hotel where every living being has a room, but most never check in. There are three floors you have access to.",
+		"PH_Bellhop_INIT02_3": "This hotel is much larger than living beings can ever comprehend. The hotel, in some strange way, accommodates for how much your mind can handle at one time.",
+		"PH_Bellhop_INIT02_4": "In this place, objectivity is relative. Your thoughts and feelings can morph this place- just remember that the only limit in here is your own mind.",
 
-		"PH_Bellhop_INIT01_B": "No. I do want a refresher on basic things.",
+		"PH_Bellhop_INIT01_B": "No... but I would like a refresher on some of the basic things.",
 		"PH_Bellhop_INIT03_1": "Certainly, Newcomer.",
 
 		// Bellhop (Main)
-		"PH_Bellhop_MAIN01_1": "A basic grasp of concepts is always useful. Don’t complain to me when you mess around with misunderstood objects.",
+		"PH_Bellhop_MAIN01_1": "A basic grasp of concepts is always useful. Better to ask me about things, than to come complaining to me when you mess around with something you shouldn't be touching.",
 
 		"PH_Bellhop_MAIN01_FOUND": "[Placeholder I found something yo]",
 		"PH_Bellhop_MAIN01_QUESTIONS": "[Placeholder I found something yo]",
 
-		"PH_Bellhop_MAIN01_A": "I would like to leave. / How do I get out of here?",
-		"PH_Bellhop_MAIN02_1": "In an objective situation that would be impossible. However, it seems that you already left/leave/will leave. However, to make a patron’s wish real in the Penumbra Hotel, all luggage must be held by them. Company Policy we had to implement after the upcoming incident. Were you carrying any items?",
+		"PH_Bellhop_MAIN01_A": "I would like to leave.",
+		"PH_Bellhop_MAIN02_1": "In an objective situation, that would be impossible. However, it seems that you already left/are leaving/will leave. However, to make a patron's wish real in the Penumbra Hotel, all luggage must be held by them. It's just a company policy we had to implement after the upcoming incident. Were you carrying anything when you entered?",
 
 		"PH_Bellhop_MAIN01_B": "[Placeholder I am so fuggin lost]",
 		"PH_Bellhop_MAIN03_1": "[Placeholder Check the room numbers my dude]",
@@ -66,11 +66,11 @@
 		"PH_Bellhop_QUESTIONS01_B": "Why do some of the hallways turn me around?",
 		"PH_Bellhop_QUESTIONS03_1": "[Placeholder I have no idea my dude]",
 
-		"PH_Bellhop_QUESTIONS01_C": "Why are objects not always acting logically?",
+		"PH_Bellhop_QUESTIONS01_C": "Why are some objects acting so strangely?",
 		"PH_Bellhop_QUESTIONS04_1": "[Placeholder I have no idea my dude]",
 
-		"PH_Bellhop_QUESTIONS01_D": "Why is that one part of the wall you’re staring at different?",
-		"PH_Bellhop_QUESTIONS05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn’t quite match his behaviour. A reflection of my past. I apologize but you have instructed me to not help you out like last time. So I am to remain ambiguous. I hope that you will forgive me later.",
+		"PH_Bellhop_QUESTIONS01_D": "Why is that one part of the wall you're staring at different?",
+		"PH_Bellhop_QUESTIONS05_1": "Whether a wall is a wall is a matter of perspective. I faintly recall a boisterous little fella huffing and puffing about some door. I couldn't quite match his behaviour. A reflection of my past. I apologize, but you have instructed me to not help you out like I did last time, so I am to remain ambiguous. I hope that you can forgive me.",
 
 		"PH_Bellhop_QUESTIONS01_E": "What is that door behind you for?",
 		"PH_Bellhop_QUESTIONS06_1": "The basement door is locked for your safety. You should know this.",
@@ -83,13 +83,13 @@
 		"PH_Bellhop_FLOORS01_1": "[Placeholder What about 'em?]",
 
 		"PH_Bellhop_FLOORS01_A": "What can you tell me about the first floor?",
-		"PH_Bellhop_FLOORS02_1": "The first floor is the most popular of them all. Outside of wartime the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Thread lightly. It may be a rocky ride.",
+		"PH_Bellhop_FLOORS02_1": "The first floor is the most popular of them all. Outside of wartime, the floor is almost always full. However, I think currently, a creature of considerate violence and impudence resides there. Tread lightly. It may be a bumpy ride.",
 
 		"PH_Bellhop_FLOORS01_B": "What can you tell me about the second floor?",
-		"PH_Bellhop_FLOORS03_1": "The second floor is home to tragedy. Or so, you have told me before you forgot again. To avoid the endless sorrow follow the signs on floor two.",
+		"PH_Bellhop_FLOORS03_1": "The second floor is home to tragedy. Or at least, that's what you told me before you seemingly forgot it all again. To avoid the endless sorrow, follow the signs on floor two.",
 
 		"PH_Bellhop_FLOORS01_C": "What can you tell me about the third floor?",
-		"PH_Bellhop_FLOORS04_1": "The third floor is supposed to be largely unoccupied. It’s scheduled for reconstruction. Because it’s vacant I am confident that there shouldn’t be any locked doors.",
+		"PH_Bellhop_FLOORS04_1": "The third floor is supposed to be largely unoccupied. It's scheduled for reconstruction. Because it's vacant, I am confident that there shouldn't be any locked doors.",
 
 		"PH_Bellhop_FLOORS01_END": "[Placeholder That's all]",
 
@@ -111,7 +111,7 @@
 		"PH_Bellhop_FOUND01_END": "[Placeholder That's about it]",
 
 		// Blue echo & ripple
-		"PH_brevity_ECHO_1": "Splash! Mama lost again. Now the experiment can continue…. No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn’t go boom. Shouldn’t? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
+		"PH_brevity_ECHO_1": "Splash! Mama lost again. Now the experiment can continue... No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn't go boom. Shouldn't? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
 		"PH_brevity_RIPPLE_1": "The black rock destroyed. Possible? I will make possible. Others must be safe again. No quantum entanglement anymore. I shall destroy the uncertainty principle. If I leave hotel. Newcomer must not stop me.",
 
 		// Blue wisp
@@ -121,17 +121,17 @@
 
 		"PH_brevity_WISP_TWO_EITHER_1a": "Planet. Decay. Not end. New possibilities. Safe.",
 		"PH_brevity_WISP_TWO_ECHO_1b": "This place uncertain. Too much uncertainty. Stability disappears. Increase the heat to prevent ice forming. Newcomer prefers water. Newcomer forgot. Newcomer must not forget. Not again! Forget erodes stability? Or forget part of stability? Why is forgetting needed?",
-		"PH_brevity_WISP_TWO_ECHO_2c": "Basement bad. Choice made. Choices unmade. Choice made. Choices unmade. No choice, yes stability. Choices dangerous. Newcomer must chose. Newcomer not choose basement. Newcomer not choose? No!!! Newcomer must choose. Newcomer has chosen and must choose again….\nQuestion?",
+		"PH_brevity_WISP_TWO_ECHO_2c": "Basement bad. Choice made. Choices unmade. Choice made. Choices unmade. No choice, yes stability. Choices dangerous. Newcomer must chose. Newcomer not choose basement. Newcomer not choose? No!!! Newcomer must choose. Newcomer has chosen and must choose again...\nQuestion?",
 		"PH_brevity_WISP_TWO_RIPPLE_1B": "Sticky notes useful! Maybe leave. Left behind. For science! Science opens doors. Kaboom! No? Newcomer told me. Sticky notes no. Experiment other. Why?",
 		"PH_brevity_WISP_TWO_RIPPLE_2C": "Newcomer likes basement. Basement yes? No! No science. Only answers. Why? Questions good?",
 
 		"PH_brevity_WISP_THREE_1a": "New planet. Black hole close. Unsafe. Unsafe! UNSAFE! UNSAFE! UNSAFE!",
-		"PH_brevity_WISP_THREE_2b": "You remember big hot thing? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn’t forsee this. The breaker short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
-		"PH_brevity_WISP_THREE_3c": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. Much science to do with you! Touch molecules. Measure liquid streams. What’s your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
+		"PH_brevity_WISP_THREE_2b": "You remember big hot thing? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn't forsee this. The breaker short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
+		"PH_brevity_WISP_THREE_3c": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. Much science to do with you! Touch molecules. Measure liquid streams. What's your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
 
 		// Green echo & ripple
-		"PH_haiku_ECHO_1": "My dear love undying\nWinter’s chill took her from me\nLove shall never spring",
-		"PH_haiku_RIPPLE_1": "Be my guardian\nWeapon for my summer’s wrath\nAutumn must not come",
+		"PH_haiku_ECHO_1": "My dear love undying\nWinter's chill took her from me\nLove shall never spring",
+		"PH_haiku_RIPPLE_1": "Be my guardian\nWeapon for my summer's wrath\nAutumn must not come",
 
 		// Green wisp
 		"PH_haiku_WISP_ONE_1a": "Help comes from within",
@@ -139,9 +139,9 @@
 		"PH_haiku_WISP_ONE_3c": "Fortunate are they\nTraverse together through floor\nNewcomer must lie\nWalk in solitude\nCloser to greener pastures\nGo too far in time\nStray from beaten path\nWandering the endless void\nFind what will be lost",
 
 		"PH_haiku_WISP_TWO_EITHER_1a": "The short lived are lucky",
-		"PH_haiku_WISP_TWO_ECHO_1b": "Newcomer can’t stop\nEnd is inevitable\nBlind leading the blind",
+		"PH_haiku_WISP_TWO_ECHO_1b": "Newcomer can't stop\nEnd is inevitable\nBlind leading the blind",
 		"PH_haiku_WISP_TWO_ECHO_2c": "Happiness is choice\nChoice starts inevitable\nThere never was choice",
-		"PH_haiku_WISP_TWO_RIPPLE_1B": "Newcomer won’t write\nEnd is desired for me\nStay blind forever",
+		"PH_haiku_WISP_TWO_RIPPLE_1B": "Newcomer won't write\nEnd is desired for me\nStay blind forever",
 		"PH_haiku_WISP_TWO_RIPPLE_2C": "Basement is not true\nNewcomer avoids other floors\nI hate false prophet",
 
 		"PH_haiku_WISP_THREE_1a": "End the fake promise",
@@ -157,9 +157,9 @@
 		"PH_prose_ECHO03_A": "I command you, as Newcomer to move for me.",
 		"PH_prose_ECHO04_1": "I move for no Newcomer.",
 		"PH_prose_ECHO04_A": "So be it.",
-		"PH_prose_ECHO05_1": "I ride to glory! To the mill where I have worked tirelessly to impress the dazzling miller. He crushes flour like a knight crushes a delicate flower. But the miller is never impressed. Never does he compliment me on the showmanship I present when I try crushing the flour. He strikes the back of my head like the thunder that strikes an empty cave. Oh if we could but take shelter in that empty cave together from the pouring rain. But alas the miller’s only request is that I open a window. If only he would open the window to my mi- Oh crap that was a mirror.",
+		"PH_prose_ECHO05_1": "I ride to glory! To the mill where I have worked tirelessly to impress the dazzling miller. He crushes flour like a knight crushes a delicate flower. But the miller is never impressed. Never does he compliment me on the showmanship I present when I try crushing the flour. He strikes the back of my head like the thunder that strikes an empty cave. Oh if we could but take shelter in that empty cave together from the pouring rain. But alas the miller's only request is that I open a window. If only he would open the window to my mi- Oh crap that was a mirror.",
 
-		"PH_prose_RIPPLE01_1": "You cannot possibly think you could ever hope to obtain my deepest darkest secrets that I guard with such fervor? I require a small favour from you and then you might delve into the depths of my mind.\nYou must be harmed by every room in this sacred sanctuary.\nBut in order to be harmed by every room you must obtain all knowledge of every room.\nBut for you see, in order to obtain every last sticky note you must also solve the riddle of steel.\nHowever, in order to solve the riddle of steel, the sacred sanctuary must be aligned with yourself.\nHowever, to align this scared sanctuary with yourself, you must also hasten to destroy the Void.\nHowever, to destroy the Void you have to talk to me?\nWait, but to talk to me, you have to talk to me?\nBut you can’t talk to me until you have talked to me but that then requires you to talk to me which can’t happen because you have to talk to me?\nOkay, wait I need a moment to clear my mind- and done. Did you do all of that?",
+		"PH_prose_RIPPLE01_1": "You cannot possibly think you could ever hope to obtain my deepest darkest secrets that I guard with such fervor? I require a small favour from you and then you might delve into the depths of my mind.\nYou must be harmed by every room in this sacred sanctuary.\nBut in order to be harmed by every room you must obtain all knowledge of every room.\nBut for you see, in order to obtain every last sticky note you must also solve the riddle of steel.\nHowever, in order to solve the riddle of steel, the sacred sanctuary must be aligned with yourself.\nHowever, to align this scared sanctuary with yourself, you must also hasten to destroy the Void.\nHowever, to destroy the Void you have to talk to me?\nWait, but to talk to me, you have to talk to me?\nBut you can't talk to me until you have talked to me but that then requires you to talk to me which can't happen because you have to talk to me?\nOkay, wait I need a moment to clear my mind- and done. Did you do all of that?",
 		"PH_prose_RIPPLE01_A": "Yes.",
 		"PH_prose_RIPPLE02_1": "Perfect, I will now reveal the ultimate truth.",
 		"PH_prose_RIPPLE01_B": "No?",
@@ -168,19 +168,19 @@
 		// [Old note idk if still relevant:] PH_prose_RIPPLE04_1 is not good enough. Should get a rewrite.
 
 		// Purple wisp
-		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT’s illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
-		"PH_prose_WISP_ONE_2b": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of THE KNIGHT’s mind with all their strength but THE KNIGHT will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in THE KNIGHT’s hair, a storm is coming. One that shall blow away all evil deeds. Such as nightstands, closets, tables, and other evil pieces of furniture. Towering over THE KNIGHT with their similes like metaphors.",
-		"PH_prose_WISP_ONE_3c": "The future is uncertain. It’s the herald of death, famine, misfortune and the face. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
+		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT's illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
+		"PH_prose_WISP_ONE_2b": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of THE KNIGHT's mind with all their strength but THE KNIGHT will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in THE KNIGHT's hair, a storm is coming. One that shall blow away all evil deeds. Such as nightstands, closets, tables, and other evil pieces of furniture. Towering over THE KNIGHT with their similes like metaphors.",
+		"PH_prose_WISP_ONE_3c": "The future is uncertain. It's the herald of death, famine, misfortune and the face. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
 		// [Old note idk if still relevant:] ALERT: ONE_2b is unfinished
 
-		"PH_prose_WISP_TWO_EITHER_1a": "Oh, how I have long awaited the long-awaited thrilling conclusion to my endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty “pompouses”",
+		"PH_prose_WISP_TWO_EITHER_1a": "Oh, how I have long awaited the long-awaited thrilling conclusion to my endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty \"pompouses\"",
 		"PH_prose_WISP_TWO_ECHO_1b": "Oh woe is upon THE KNIGHT. For this darkness. This endless, unceasing threat that endangers Newcomer and THE KNIGHT shall never stop gnawing away at us. It shall be like a ceaseless discharge, opening the very mouth of hell. Abandon all hope, ye who enter here. But if Newcomer holds fast against the endless ocean washing away our powers of light then mayhap, the small favour shall be carried out.",
-		"PH_prose_WISP_TWO_ECHO_2c": "Oh pristine Newcomer. Oh mighty herald of the past. Let your powers flow through THE KNIGHT once more. THE KNIGHT gapes in awe at Newcomer’s awesomeness. I drool and weep over what could have been. Newcomer understood the debased basement of doom. Newcomer understands that the basement is the forbidden fruit that we must resist. Unless THE KNIGHT is sundered.",
+		"PH_prose_WISP_TWO_ECHO_2c": "Oh pristine Newcomer. Oh mighty herald of the past. Let your powers flow through THE KNIGHT once more. THE KNIGHT gapes in awe at Newcomer's awesomeness. I drool and weep over what could have been. Newcomer understood the debased basement of doom. Newcomer understands that the basement is the forbidden fruit that we must resist. Unless THE KNIGHT is sundered.",
 		"PH_prose_WISP_TWO_RIPPLE_1B": "The ocean is smoke and mirrors. For I, THE KNIGHT have read the words of the messiah. Newcomer prophesied that salvation does not lie within the ocean of darkness. For it is a cruel mistress with a temper to rival Newcomer. And temptation must be denied in order to reach the summit of salvation.",
 		"PH_prose_WISP_TWO_RIPPLE_2C": "Newcomer knows the paths of this labyrinthian halls of utter gargantuan magnitude better than all. All those who deny this truth are not pure enough of heart. Like a fragile red rose their heart withers and slithers through the endless hallways. Never shall they find their coveted basement.",
 
 		"PH_prose_WISP_THREE_1a": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer.",
-		"PH_prose_WISP_THREE_2b": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn’t. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop’s mirror more than I feared Newcomer’s wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror’s Peak is where your salvation lies. You mustn’t attempt to scratch the mirror. Snapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
+		"PH_prose_WISP_THREE_2b": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn't. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop's mirror more than I feared Newcomer's wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror's Peak is where your salvation lies. You mustn't attempt to scratch the mirror. Snapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
 		"PH_prose_WISP_THREE_3c": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was the only one who I could trust until now. We are lost in this river of time. This prison of doom. We can only prepare ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends."
 	},
 	"ShipLogDictionary": {
@@ -194,30 +194,30 @@
 		"$PH_LOG_HOTEL_CURIOSITY_NAME": "Hotel",
 		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "Mysterious Structure",
 		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "There is a sticky note on a desk in the lobby.",
-		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_2": "The note mentions that the Signalscope can be used to enforce beliefs. There seems to be a signal behind the desk.",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_2": "The note mentions that the Signalscope can be used to make one's beliefs into something material. There seems to be a signal behind the desk.",
 		"$PH_LOG_HOTEL_CURIOSITY_1": "Projecting my beliefs behind the desk revealed someone who calls themself the Bellhop. They revealed to me basic information about the hotel.",
 
 		// OUTSIDE
 		"$PH_LOG_OUTSIDE_NAME": "Outside",
-		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the hotel lobby, but no door.",
-		"$PH_LOG_OUTSIDE_RUMOR_2": "The Bellhop claims he sees a door there.",
-		"$PH_LOG_OUTSIDE_RUMOR_3": "Purple mentioned that to leave the hotel, I will need to look at someone else's perspective who can see the exit. I will also need to make sure I leave with all my luggage.",
+		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the hotel lobby, but there's no door there.",
+		"$PH_LOG_OUTSIDE_RUMOR_2": "The Bellhop claims that he sees a door there.",
+		"$PH_LOG_OUTSIDE_RUMOR_3": "Purple mentioned that to leave the hotel, I will need to look through someone else's perspective who can see the exit. I will also need to make sure I leave with all my luggage.",
 		"$PH_LOG_OUTSIDE_1": "I took a picture of the Bellhop's perspective of the door, which made the door appear when I entered the lobby. I can now go outside.",
 		"$PH_LOG_OUTSIDE_2": "The outside of the hotel is dark and tranquil.",
 		"$PH_LOG_OUTSIDE_3": "I found an electrical box outside the hotel.",
 
 		// BASEMENT
 		"$PH_LOG_BASEMENT_NAME": "Basement",
-		"$PH_LOG_BASEMENT_RUMOR_1": "There is a locked door behind the Bellhop. They say it leads to the basement.",
+		"$PH_LOG_BASEMENT_RUMOR_1": "There is a locked door behind the Bellhop. He says it leads to the basement.",
 		"$PH_LOG_BASEMENT_RUMOR_2": "I reset the breaker power connected to the basement.",
-		"$PH_LOG_BASEMENT_RUMOR_3": "I set the furnace heat to be sent to the basement. The door is warm to the touch",
-		"$PH_LOG_BASEMENT_RUMOR_4": "Blue mentioned that in order to unlock the basement, the breaker outside the hotel must be reset and heat sent to the basement.",
-		"$PH_LOG_BASEMENT_1": "In the basement I found some kind of Ash Twin Project clone,",
+		"$PH_LOG_BASEMENT_RUMOR_3": "I set the furnace heat to be sent to the basement. The door is warm to the touch.",
+		"$PH_LOG_BASEMENT_RUMOR_4": "Blue mentioned that in order to unlock the basement, the breaker outside the hotel must be reset, and heat must be sent to the basement.",
+		"$PH_LOG_BASEMENT_1": "In the basement, I found some kind of recreation of the Ash Twin Project.",
 		"$PH_LOG_BASEMENT_2": "I removed a makeshift Advanced Warp Core from the system.",
 
 		// FIRST_FLOOR
 		"$PH_LOG_FIRST_FLOOR_NAME": "First Floor",
-		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "The Bellhop told me that most occupants live on the first floor.",
+		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "The Bellhop told me that most of the hotel's occupants are on the first floor.",
 		"$PH_LOG_FIRST_FLOOR_1": "The first floor is green, with long halls and a large number of rooms.",
 
 		// VOID_FIRST_FLOOR
@@ -233,27 +233,27 @@
 		// SECOND_FLOOR
 		"$PH_LOG_SECOND_FLOOR_NAME": "Second Floor",
 		"$PH_LOG_SECOND_FLOOR_RUMOR_1": "The Bellhop told me that when I visit the second floor, I should follow the signs or I will get lost.",
-		"$PH_LOG_SECOND_FLOOR_1": "The second floor is white and sterile, designed as a maze.",
+		"$PH_LOG_SECOND_FLOOR_1": "The second floor is red, with a rather orderly and samey layout.",
 
 		// VOID_SECOND_FLOOR
 		"$PH_LOG_VOID_SECOND_FLOOR_NAME": "Void Second Floor",
-		"$PH_LOG_VOID_SECOND_FLOOR_1": "About three-quarters into the loop, the second floor gets consumed by the void. It is a broken maze.",
+		"$PH_LOG_VOID_SECOND_FLOOR_1": "About three-quarters into the loop, the second floor gets consumed by the void. The floor seems to \"break\" when the Void consumes it.",
 
 		// FURNACE
 		"$PH_LOG_FURNACE_NAME": "Furnace",
 		"$PH_LOG_FURNACE_RUMOR_1": "There is a furnace on the second floor.",
 		"$PH_LOG_FURNACE_1": "I located a furnace on the second floor.",
-		"$PH_LOG_FURNACE_2": "It has a valve that I can turn. It has notches labeled \"B\", \"1\", \"2\", and \"3\".",
+		"$PH_LOG_FURNACE_2": "The furnace has a dial that I can turn. It has notches labeled \"B\", \"1\", \"2\", and \"3\".",
 
 		// THIRD_FLOOR
 		"$PH_LOG_THIRD_FLOOR_NAME": "Third Floor",
 		"$PH_LOG_THIRD_FLOOR_RUMOR_1": "The Bellhop told me that the third floor is supposed to be largely unoccupied, and he doesn't believe there are any locked doors up there.",
-		"$PH_LOG_THIRD_FLOOR_1": "The third floor is purple and more open space. There's not many rooms here.",
-		"$PH_LOG_THIRD_FLOOR_2": "I found a locked door at room [ID].",
+		"$PH_LOG_THIRD_FLOOR_1": "The third floor is purple, with an open layout. There's not many rooms here.",
+		"$PH_LOG_THIRD_FLOOR_2": "I found a locked door at room 323.",
 
 		// VOID_THIRD_FLOOR
 		"$PH_LOG_VOID_THIRD_FLOOR_NAME": "Void Third Floor",
-		"$PH_LOG_VOID_THIRD_FLOOR_1": "Halfway into the loop, the top floor is consumed by the void.",
+		"$PH_LOG_VOID_THIRD_FLOOR_1": "Halfway into the loop, the third floor is consumed by the void.",
 
 		// VAULT
 		"$PH_LOG_VAULT_NAME": "Vault",
@@ -286,7 +286,7 @@
 
 		// PURPLE_RIPPLE
 		"$PH_LOG_PURPLE_RIPPLE_NAME": "Purple Ripple",
-		"$PH_LOG_PURPLE_RUMOR_RUMOR_1": "I found a Purple Ripple hiding in room [ID].",
+		"$PH_LOG_PURPLE_RUMOR_RUMOR_1": "I found a Purple Ripple hiding in room 315.",
 		"$PH_LOG_PURPLE_RIPPLE_1": "The Purple Ripple speaks in exhaustive prose.",
 		"$PH_LOG_PURPLE_RIPPLE_2": "After speaking to them, they began to emit a signal.",
 		"$PH_LOG_PURPLE_RIPPLE_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
@@ -308,14 +308,14 @@
 		// BLUE_ECHO
 		"$PH_LOG_BLUE_ECHO_NAME": "Blue Echo",
 		"$PH_LOG_BLUE_ECHO_RUMOR_NAME": "Temporal Disturbance",
-		"$PH_LOG_BLUE_ECHO_RUMOR_1": "I found a sticky note mentioning a temporal disturbance. It is apparently invisible akin to ghost matter. The author mused what might happen if it was impacted with high kinetic energy.",
-		"$PH_LOG_BLUE_ECHO_1": "Hitting the disturbance created a bubble. It seems the bubble is back in time.",
+		"$PH_LOG_BLUE_ECHO_RUMOR_1": "I found a sticky note mentioning a temporal disturbance. It is apparently invisible akin to ghost matter. The author wondered what might happen if it was impacted with high kinetic energy.",
+		"$PH_LOG_BLUE_ECHO_1": "Hitting the disturbance created a bubble. It seems the bubble brings the surrounding space back in time.",
 		"$PH_LOG_BLUE_ECHO_2": "Within the bubble was a blue echo. They spoke with brevity.",
 
 		// BLUE_RIPPLE
 		"$PH_LOG_BLUE_RIPPLE_NAME": "Blue Ripple",
 		"$PH_LOG_BLUE_RIPPLE_RUMOR_NAME": "Block of Ice",
-		"$PH_LOG_BLUE_RIPPLE_RUMOR_1": "I found a block of ice in room [ID] on the third floor of the Void Hotel.",
+		"$PH_LOG_BLUE_RIPPLE_RUMOR_1": "I found a block of ice in room 323 on the third floor of the Void Hotel.",
 		"$PH_LOG_BLUE_RIPPLE_RUMOR_2": "I set the furnace to send its heat to the third floor. It was able to melt the ice.",
 		"$PH_LOG_BLUE_RIPPLE_1": "Within the block of ice was a Blue Ripple. They spoke with brevity.",
 
@@ -326,7 +326,7 @@
 		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2": "After speaking with the Green Echo, they began to emit a signal.",
 		"$PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_3": "After speaking with the Green Ripple, they began to emit a signal.",
 		"$PH_LOG_GREEN_POETRY_CURIOSITY_1": "Lining up the wisp with one of its aspects then projecting my beliefs with the Signalscope caused them to merge.",
-		"$PH_LOG_GREEN_POETRY_CURIOSITY_2": "I merged all three aspects together into one being..",
+		"$PH_LOG_GREEN_POETRY_CURIOSITY_2": "I merged all three aspects together into one being.",
 
 		// GREEN_WISP
 		"$PH_LOG_GREEN_WISP_NAME": "Green Wisp",
@@ -337,18 +337,18 @@
 		"$PH_LOG_GREEN_ECHO_NAME": "Green Echo",
 		"$PH_LOG_GREEN_ECHO_RUMOR_NAME": "Music Box",
 		"$PH_LOG_GREEN_ECHO_RUMOR_1": "I found a music box. It is aged and out of tune.",
-		"$PH_LOG_GREEN_ECHO_1": "I played the music box in the past where it was in tune, which revealed a secret compartment. In it was a Green Echo. They speak in Poetry.",
+		"$PH_LOG_GREEN_ECHO_1": "I played the music box in the past, when it was still in tune, which revealed a secret compartment. Inside of the compartment was a Green Echo. They speak in poetry.",
 
 		// GREEN_RIPPLE
 		"$PH_LOG_GREEN_RIPPLE_NAME": "Green Ripple",
 		"$PH_LOG_GREEN_RIPPLE_RUMOR_NAME": "Strange Poem",
-		"$PH_LOG_GREEN_RIPPLE_RUMOR_1": "I found a poem mentioning starting from a misspelled exit.",
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_1": "I found a poem mentioning starting from a misspelled \"Exit\" sign.",
 		"$PH_LOG_GREEN_RIPPLE_RUMOR_2": "I found a poem saying to only go left until the flickering light.",
-		"$PH_LOG_GREEN_RIPPLE_RUMOR_3": "I found a poem saying to try the locked door three times until it opened, then to visit in the void.",
-		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in Poetry."
+		"$PH_LOG_GREEN_RIPPLE_RUMOR_3": "I found a poem saying to try the locked door three times until it opened, then to visit the locked door in the void.",
+		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in poetry."
 	},
 	"UIDictionary": {
-		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk.To arrive, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination.",
+		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk. To reach the hotel, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination.",
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
 		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
 		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
