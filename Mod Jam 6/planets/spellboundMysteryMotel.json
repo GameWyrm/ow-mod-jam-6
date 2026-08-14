@@ -39,16 +39,57 @@
         }
     ]
   },
-  "Props": {
-    "details": [
-      {
-        "keepLoaded": true,
-        "assetBundle": "assets/bundles/hotel",
-        "path": "Assets/Mod Jam 6/Hotel.prefab"
-      },
-    ]
-  },
+    "Props": {
+        "details": [
+            {
+                "keepLoaded": true,
+                "assetBundle": "assets/bundles/hotel",
+                "path": "Assets/Mod Jam 6/Hotel.prefab"
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_SecondFloor/Sector",
+                "isRelativeToParent": true,
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "position": {
+                    "x": 0,
+                    "y": 1.1,
+                    "z": -82
+                },
+                "scale": 1.5,
+                "removeChildren": [
+                    "Effects/Effects_HEA_SmokeColumn",
+                    "Effects/Lights",
+                    "AttachPoint"
+                ]
+            }
+        ]
+    },
+    "Volumes": {
+        "creditsVolume": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": -1000,
+                    "z": 0
+                },
+                "rename": "ENDING_TRIGGER",
+                "radius": 10,
+                "gameOver": {
+                    "text": "$PH_ENDING_NORMAL"
+                }
+            }
+        ]
+    },
   "ShipLog": {
-    "xmlFile": "planets/shiplogs/PenumbraHotel.xml"
+    "xmlFile": "planets/shiplogs/PenumbraHotel.xml",
+    "mapMode": {
+        "revealedSprite": "assets/HotelPlanetIcon.png",
+        "outlineSprite": "assets/HotelPlanetIcon.png"
+    }
   }
 }

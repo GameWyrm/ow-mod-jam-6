@@ -17,12 +17,19 @@
     }
   },
     "Props": {
-    "details": [
-      {
-        "keepLoaded": true,
-        "assetBundle": "assets/bundles/voidhotel",
-        "path": "Assets/Mod Jam 6/VoidHotel.prefab"
-      }
-    ]
+        "details": [
+            {
+                "keepLoaded": true,
+                "assetBundle": "assets/bundles/voidhotel",
+                "path": "Assets/Mod Jam 6/VoidHotel.prefab"
+            }
+        ]
+    },
+    "ShipLog": {
+        "mapMode": {
+            "outlineSprite": "assets/VoidPlanetIcon.png",
+            "revealedSprite": "assets/VoidPlanetIcon.png",
+            "invisibleWhenHidden": true
+        }
     }
-}
+ }
