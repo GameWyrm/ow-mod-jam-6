@@ -142,10 +142,10 @@
 		// Green wisp
 		"PH_haiku_WISP_ONE_1a": "Help comes from within",
 		"PH_haiku_WISP_ONE_2b": " Music remembers\nNewcomer composers for friends\nThe box is in past",
-		"PH_haiku_WISP_ONE_2b_1": "The past is not here\nSeek below as above comes\nWalk the lobby stairs",
-		"PH_haiku_WISP_ONE_3c": "Fortunate are they\nTraverse together through floor\nNewcomer must lie",
-		"PH_haiku_WISP_ONE_3c_1": "Walk in solitude\nCloser to greener pastures\nGo too far in time",
-		"PH_haiku_WISP_ONE_3c_2": "Stray from beaten path\nWandering the endless void\nFind what will be lost",
+		"PH_haiku_WISP_ONE_3b": "The past is not here\nSeek below as above comes\nWalk the lobby stairs",
+		"PH_haiku_WISP_ONE_4c": "Fortunate are they\nTraverse together through floor\nNewcomer must lie",
+		"PH_haiku_WISP_ONE_5c": "Walk in solitude\nCloser to greener pastures\nGo too far in time",
+		"PH_haiku_WISP_ONE_6c": "Stray from beaten path\nWandering the endless void\nFind what will be lost",
 
 		"PH_haiku_WISP_TWO_EITHER_1a": "The short lived are lucky",
 		"PH_haiku_WISP_TWO_ECHO_1b": "Newcomer can't stop\nEnd is inevitable\nBlind leading the blind",
@@ -155,9 +155,9 @@
 
 		"PH_haiku_WISP_THREE_1a": "End the fake promise",
 		"PH_haiku_WISP_THREE_2b": "Locker is a lie\nUnveil truth with opposite\nSound is opposite",
-		"PH_haiku_WISP_THREE_2b_1": "Signal needed\nSignal might seem lost to you\nIt resides in you",
-		"PH_haiku_WISP_THREE_2b_2": "Turn signal to veil\nOpen locker with your mind\nFind your lost core",
-		"PH_haiku_WISP_THREE_3c": "The past unwritten\nYour memories might persist\nFree yourself from us",
+		"PH_haiku_WISP_THREE_3b": "Signal needed\nSignal might seem lost to you\nIt resides in you",
+		"PH_haiku_WISP_THREE_4b": "Turn signal to veil\nOpen locker with your mind\nFind your lost core",
+		"PH_haiku_WISP_THREE_5c": "The past unwritten\nYour memories might persist\nFree yourself from us",
 
 		// Purple echo & ripple
 		"PH_prose_ECHO01_1": "None shall pass",

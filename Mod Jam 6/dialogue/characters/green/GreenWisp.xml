@@ -9,10 +9,10 @@
       <Page>PH_haiku_WISP_ONE_1a</Page>
 
       <Page>PH_haiku_WISP_ONE_2b</Page>
-	  <page>PH_haiku_WISP_ONE_2b_1</page>
-      <Page>PH_haiku_WISP_ONE_3c</Page>
-	  <page>PH_haiku_WISP_ONE_3c_1</page>
-	  <page>PH_haiku_WISP_ONE_3c_2</page>
+	    <page>PH_haiku_WISP_ONE_3b</page>
+      <Page>PH_haiku_WISP_ONE_4c</Page>
+	    <page>PH_haiku_WISP_ONE_5c</page>
+	    <page>PH_haiku_WISP_ONE_6c</page>
     </Dialogue>
   </DialogueNode>
 
@@ -52,9 +52,9 @@
       <Page>PH_haiku_WISP_THREE_1a</Page>
 
       <Page>PH_haiku_WISP_THREE_2b</Page>
-	  <page>PH_haiku_WISP_THREE_2b_1</page>
-	  <page>PH_haiku_WISP_THREE_2b_2</page>
-      <Page>PH_haiku_WISP_THREE_3c</Page>
+	    <page>PH_haiku_WISP_THREE_3b</page>
+	    <page>PH_haiku_WISP_THREE_4b</page>
+      <Page>PH_haiku_WISP_THREE_5c</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>
