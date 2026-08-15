@@ -41,7 +41,7 @@ namespace Mod_Jam_6
         {
             if (_isConversing)
             {
-                _dialogue.EndConversation();
+                _dialogue?.EndConversation();
                 _isConversing = false;
             }
         }
