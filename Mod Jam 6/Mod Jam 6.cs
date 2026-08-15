@@ -9,7 +9,7 @@ namespace Mod_Jam_6
     public class ModJam6 : ModBehaviour
     {
         public static ModJam6 Instance;
-        public INewHorizons NewHorizons;
+        public static INewHorizons NewHorizons;
 
         public GameObject shipLogScreen;
 
