@@ -199,12 +199,16 @@
 
 		//Newcomer
 		"PH_Newcomer_Start_1": "Whoa.",
+		"PH_Newcomer_EndStart_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
+		"PH_Newcomer_EndStart_A": "I will give you the core.",
+		"PH_Newcomer_Endstart_B": "I want to run by everything we have discussed one more time.",
+		"PH_Newcomer_EndstartB_1": "Sure what is one more loop gonna do?", //After this point the player can run through the 3 original dialogue branches again.
 
 		//Newcomer Hatchling first conversation option
 		"PH_Newcomer_Start_A": "Are you me?",
 		"PH_Newcomer_IAmYou_1": "Yeah. I mean sort of. I am you from the past.",
 		"PH_Newcomer_IAmYou_A": "Why does your voice sound so coarse?",
-		"PH_Newcomer_Taken_1" "It has been millions of loops since I was taken.",
+		"PH_Newcomer_Taken_1": "It has been millions of loops since I was taken.",
 		"PH_Newcomer_Taken_A": "Taken?",
 		"PH_Newcomer_Bellhop_1": "Yes. I do not know by what exactly and that Bellhop hasn't been exactly useful.",
 
@@ -213,7 +217,7 @@
 		"PH_Newcomer_BellhopA_A": "They didn't actually give me any marshmallows.",
 		"PH_Newcomer_BellhopAEnd_1": "That's a shame. Their marshmallows are timeless.",
 		"PH_Newcomer_BellhopA_B": "I was busy traversing this strange hotel.",
-		"PH_Newcomer_BellhopBusy_1": "More than fair. Seems like you have traversing the whole hotel.",
+		"PH_Newcomer_BellhopBusy_1": "More than fair. Seems like you have been traversing the whole hotel.",
 		"PH_Newcomer_BellhopBusy_A": "Nearly? Oh right, the sleepy dark hallways.",
 		"PH_Newcomer_BellhopSleep_1": "Sleep isn't entirely the correct word but you're me anyways so who am I arguing with?",
 		"PH_Newcomer_Sleep_A": "Yourself.",
