@@ -17,6 +17,9 @@ namespace Mod_Jam_6
         private IEnumerator WarpPlayer()
         {
             ModJam6.Log("Warping player!");
+
+            GlobalMessenger.FireEvent("VoidWarpPlayer");
+
             SpawnPoint warpTarget = null;
             string spawn = "";
 
