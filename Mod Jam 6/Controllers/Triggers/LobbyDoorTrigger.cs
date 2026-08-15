@@ -16,6 +16,7 @@ namespace Mod_Jam_6
 
             if (hitCollider.CompareTag("PlayerDetector") && _bellhopMirrorTrigger.IsSolving())
             {
+                ModJam6.Instance.ModHelper.Console.WriteLine("ENTERED LOBBY WITH PIC", OWML.Common.MessageType.Error);
                 _isSolved = true;
                 _bellhopMirrorTrigger.SetSolved();
             }
