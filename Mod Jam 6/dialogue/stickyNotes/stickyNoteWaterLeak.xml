@@ -6,6 +6,7 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>PH_Stickynotes_WATERLEAK_1</Page>
+      <Page>PH_Stickynotes_WATERLEAK_2</Page>
     </Dialogue>
   </DialogueNode>
   
