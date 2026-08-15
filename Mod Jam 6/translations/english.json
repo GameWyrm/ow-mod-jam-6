@@ -30,6 +30,10 @@
 		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
 		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
 
+		"PH_Stickynotes_WATERLEAK_1": "[Placeholder Call the plumber room 352]",
+
+		"PH_Stickynotes_BASEMENT_1": "[Placeholder The rigged ATP should start automatically]",
+
 		// Bellhop (Init)
 		"PH_Bellhop_INIT01_1": "Welcome back, Newcomer. Have you forgotten everything again?",
 
