@@ -64,6 +64,12 @@
     <Dialogue>
       <Page>PH_prose_ECHO05_1</Page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_2</FactID>
+      <FactID>PH_LOG_PURPLE_ECHO_1</FactID>
+      <FactID>PH_LOG_PURPLE_ECHO_2</FactID>
+    </RevealFacts>
   </DialogueNode>
   
 </DialogueTree>

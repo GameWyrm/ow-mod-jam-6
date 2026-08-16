@@ -51,5 +51,9 @@
       <Page>PH_brevity_WISP_THREE_2b</Page>
       <Page>PH_brevity_WISP_THREE_3c</Page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_BASEMENT_RUMOR_4</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

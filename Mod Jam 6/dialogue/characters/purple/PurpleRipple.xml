@@ -27,6 +27,10 @@
       <Page>PH_prose_RIPPLE02_1</Page>
     </Dialogue>
     <DialogueTarget>04</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- 03 (No choice) -->
@@ -44,6 +48,11 @@
     <Dialogue>
       <Page>PH_prose_RIPPLE04_1</Page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_PURPLE_RIPPLE_1</FactID>
+      <FactID>PH_LOG_PURPLE_RIPPLE_2</FactID>
+    </RevealFacts>
   </DialogueNode>
   
 </DialogueTree>

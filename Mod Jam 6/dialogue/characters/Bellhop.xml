@@ -227,6 +227,10 @@
       <Page>PH_Bellhop_QUESTIONS05_1</Page>
     </Dialogue>
     <DialogueTarget>Questions01</DialogueTarget>
+    
+    <RevealFacts>
+      <FactID>PH_LOG_OUTSIDE_RUMOR_2</FactID>
+    </RevealFacts> 
   </DialogueNode>
 
   <!-- QUESTIONS06 (choice E) -->
@@ -236,6 +240,10 @@
       <Page>PH_Bellhop_QUESTIONS06_1</Page>
     </Dialogue>
     <DialogueTarget>Questions01</DialogueTarget>
+    
+    <RevealFacts>
+      <FactID>PH_LOG_BASEMENT_RUMOR_1</FactID>
+    </RevealFacts> 
   </DialogueNode>
 
   <!-- FLOORS01 (choice FLOORS on Questions01) -->
@@ -271,6 +279,10 @@
       <Page>PH_Bellhop_FLOORS02_1</Page>
     </Dialogue>
     <DialogueTarget>Floors01</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_FIRST_FLOOR_RUMOR_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- FLOORS03 (choice B) -->
@@ -280,6 +292,10 @@
       <Page>PH_Bellhop_FLOORS03_1</Page>
     </Dialogue>
     <DialogueTarget>Floors01</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_SECOND_FLOOR_RUMOR_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- FLOORS04 (choice C) -->
@@ -289,6 +305,10 @@
       <Page>PH_Bellhop_FLOORS04_1</Page>
     </Dialogue>
     <DialogueTarget>Floors01</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_THIRD_FLOOR_RUMOR_1</FactID>
+    </RevealFacts>
   </DialogueNode>
   
   <!-- END (choice END on Main01 - end dialogue) -->

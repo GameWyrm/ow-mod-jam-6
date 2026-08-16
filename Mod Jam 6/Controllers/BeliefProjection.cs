@@ -6,7 +6,7 @@ namespace Mod_Jam_6
     public class BeliefProjection : MonoBehaviour
     {
         [SerializeField]
-        private float _angularThreshold = 1f;
+        private float _angularThreshold = 5f;
 
         [SerializeField]
         private float _minDistance = 3f;
@@ -22,6 +22,14 @@ namespace Mod_Jam_6
 
         [SerializeField]
         private string _projectionCondition;
+
+        [SerializeField]
+        private string[] _projectionFacts;
+
+        private void Start()
+        {
+            base.enabled = false;
+        }
 
         private void Update()
         {
@@ -45,6 +53,13 @@ namespace Mod_Jam_6
                 if(_projectionCondition != null && _projectionCondition.Length > 0)
                 {
                     DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, true);
+                }
+                if (_projectionFacts != null)
+                {
+                    foreach (var fact in _projectionFacts)
+                    {
+                        Locator.GetShipLogManager().RevealFact(fact);
+                    }
                 }
                 base.enabled = false;
             }

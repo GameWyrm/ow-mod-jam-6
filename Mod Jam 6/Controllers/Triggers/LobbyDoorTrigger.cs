@@ -14,12 +14,19 @@ namespace Mod_Jam_6
         {
             if (_isSolved) { return; }
 
-            if (hitCollider.CompareTag("PlayerDetector") && _bellhopMirrorTrigger.IsSolving())
+            if (hitCollider.CompareTag("PlayerDetector"))
             {
-                ModJam6.Instance.ModHelper.Console.WriteLine("ENTERED LOBBY WITH PIC", OWML.Common.MessageType.Error);
-                _isSolved = true;
-                _bellhopMirrorTrigger.SetSolved();
+                Locator.GetShipLogManager().RevealFact("$PH_LOG_HOTEL_CURIOSITY_RUMOR_1"); // Unrelated but triggerbox also fits
+                Locator.GetShipLogManager().RevealFact("$PH_LOG_OUTSIDE_RUMOR_1"); // Unrelated but triggerbox also fits
+
+                if (_bellhopMirrorTrigger.IsSolving())
+                {
+                    _isSolved = true;
+                    _bellhopMirrorTrigger.SetSolved();
+                    Locator.GetShipLogManager().RevealFact("PH_LOG_OUTSIDE_1");
+                }
             }
+
         }
     }
 }

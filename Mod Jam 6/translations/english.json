@@ -322,8 +322,6 @@
 	"ShipLogDictionary": {
 		// PLAYER_ROOM
 		"$PH_LOG_PLAYER_ROOM_NAME": "My Room",
-		"$PH_LOG_PLAYER_ROOM_RUMOR_NAME": "NO NAME",
-		"$PH_LOG_PLAYER_ROOM_RUMOR_1": "NO RUMOR",
 		"$PH_LOG_PLAYER_ROOM_1": "I have landed in some strange structure after trying to exit the Ash Twin Project with the Advanced Warp Core. The Core is missing.",
 
 		// HOTEL_CURIOSITY
@@ -335,7 +333,8 @@
 
 		// OUTSIDE
 		"$PH_LOG_OUTSIDE_NAME": "Outside",
-		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the hotel lobby, but there's no door there.",
+		"$PH_LOG_OUTSIDE_RUMOR_NAME": "[Placeholder Door spot]",
+		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the lobby, but there's no door there.",
 		"$PH_LOG_OUTSIDE_RUMOR_2": "The Bellhop claims that he sees a door there.",
 		"$PH_LOG_OUTSIDE_RUMOR_3": "Purple mentioned that to leave the hotel, I will need to look through someone else's perspective who can see the exit. I will also need to make sure I leave with all my luggage.",
 		"$PH_LOG_OUTSIDE_1": "I took a picture of the Bellhop's perspective of the door, which made the door appear when I entered the lobby. I can now go outside.",
@@ -384,7 +383,7 @@
 		// THIRD_FLOOR
 		"$PH_LOG_THIRD_FLOOR_NAME": "Third Floor",
 		"$PH_LOG_THIRD_FLOOR_RUMOR_1": "The Bellhop told me that the third floor is supposed to be largely unoccupied, and he doesn't believe there are any locked doors up there.",
-		"$PH_LOG_THIRD_FLOOR_1": "The third floor is purple, with an open layout. There's not many rooms here.",
+		"$PH_LOG_THIRD_FLOOR_1": "The third floor is purple, with an open layout. There are not many rooms here.",
 		"$PH_LOG_THIRD_FLOOR_2": "I found a locked door at room 323.",
 
 		// VOID_THIRD_FLOOR
@@ -484,9 +483,21 @@
 		"$PH_LOG_GREEN_RIPPLE_1": "I found a Green Ripple. They speak in poetry."
 	},
 	"UIDictionary": {
+		// Menu splash
 		"$PH_SPLASH": "Thank you for making a reservation!\nPlease make sure to check in with all your luggage at the front desk. To reach the hotel, take the route to the Eye. Don't take any shortcuts or cheat, or you may not end up at your destination.",
+
+		// Astral bodies names
+		// TODO
+
+		// Signals
+		"PH_FREQUENCY_WARPCORE": "[Placeholder AWC Frequency]",
+		"PH_SIGNAL_WARPCORE": "[Placeholder Advanced Warp Core]",
+
+		// Screen prompts
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
 		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
+
+		// Gameover
 		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
 		"$PH_ENDING_STAY": "YOU STAYED BEHIND",
 		"$PH_GRAB_WARPCORE": "Disconnect",
