@@ -23,13 +23,19 @@ namespace Mod_Jam_6
         {
             if (!_hasProjected && CheckProjection()) // the !_hasProjected should be redundant (should not be enabled if _hasProjected is true) but keeping it in just in case
             {
-                foreach (var obj in _objectsToToggleOff)
+                if(_objectsToToggleOff != null)
                 {
-                    obj.SetActive(false);
+                    foreach (var obj in _objectsToToggleOff)
+                    {
+                        obj.SetActive(false);
+                    }
                 }
-                foreach (var obj in _objectsToToggleOn)
+                if (_objectsToToggleOn != null)
                 {
-                    obj.SetActive(true);
+                    foreach (var obj in _objectsToToggleOn)
+                    {
+                        obj.SetActive(true);
+                    }
                 }
                 _hasProjected = true;
                 base.enabled = false;
