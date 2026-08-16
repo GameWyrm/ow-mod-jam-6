@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "TOWER_TWIN",
+    "Props": {
+        "signals": [
+            {
+                "name": "PH_SIGNAL_WARPCORE",
+                "rename": "WarpCoreSignal",
+                "frequency": "PH_FREQ_CORE",
+                "parentPath": "Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "audio": "EnterVolumeDamageGhostfire_LP",
+                "identificationRadius": 30,
+                "detectionRadius": 50
+            }
+        ]
+    }
+}

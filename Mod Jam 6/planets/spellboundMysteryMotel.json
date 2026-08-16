@@ -66,6 +66,21 @@
                     "Effects/Lights",
                     "AttachPoint"
                 ]
+            },
+            {
+                "path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_ThirdFloor/Safe/WarpCoreAnchor",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
             }
         ],
         "singularities": [
