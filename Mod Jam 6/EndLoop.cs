@@ -13,7 +13,7 @@ namespace Mod_Jam_6
             interact = this.GetRequiredComponent<SingleInteractionVolume>();
             interact.OnPressInteract += OnPressInteract;
 
-            interact.ChangePrompt(ModJam6.Instance.NewHorizons.GetTranslationForUI(interactText));
+            interact.ChangePrompt(ModJam6.NewHorizons.GetTranslationForUI(interactText));
         }
 
         private void OnPressInteract()

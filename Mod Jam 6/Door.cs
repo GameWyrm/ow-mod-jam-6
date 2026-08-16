@@ -31,13 +31,13 @@ namespace Mod_Jam_6
             }
             if (locked)
             {
-                GetComponentInChildren<SingleInteractionVolume>().ChangePrompt(ModJam6.Instance.NewHorizons.GetTranslationForUI("$PH_TRY_DOOR_PROMPT"));
+                GetComponentInChildren<SingleInteractionVolume>().ChangePrompt(ModJam6.NewHorizons.GetTranslationForUI("$PH_TRY_DOOR_PROMPT"));
                 GetComponentInChildren<SingleUseAnimationController>()._animationTrigger = "Try";
                 GetComponentInChildren<SingleUseInteract>()._singleUse = false;
             }
             else
             {
-                GetComponentInChildren<SingleInteractionVolume>().ChangePrompt(ModJam6.Instance.NewHorizons.GetTranslationForUI("$PH_OPEN_DOOR_PROMPT"));
+                GetComponentInChildren<SingleInteractionVolume>().ChangePrompt(ModJam6.NewHorizons.GetTranslationForUI("$PH_OPEN_DOOR_PROMPT"));
                 GetComponentInChildren<SingleUseAnimationController>()._animationTrigger = "Open";
                 GetComponentInChildren<SingleUseInteract>()._singleUse = true;
             }
