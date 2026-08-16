@@ -54,7 +54,7 @@
 		// Bellhop (Main)
 		"PH_Bellhop_MAIN01_1": "A basic grasp of Hotel Penumbra can mean life or death for you, after all. It's better to know what something is before you mess with it and get shattered across spacetime, hah!",
 
-		"PH_Bellhop_MAIN01_FOUND": "I found something of interest.",
+		"PH_Bellhop_MAIN01_FOUND": "I found something!",
 		"PH_Bellhop_MAIN01_QUESTIONS": "I have some questions about this place.",
 
 		"PH_Bellhop_MAIN01_A": "I would like to leave.",
@@ -121,12 +121,12 @@
 
 		// Blue echo & ripple
 		"PH_brevity_ECHO_1": "Splash! Mama lost again. Now the experiment can continue... No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn't go boom. Shouldn't? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
-		"PH_brevity_RIPPLE_1": "The black rock destroyed. Possible? I will make possible. Others must be safe again. No quantum entanglement anymore. I shall destroy the uncertainty principle. If I leave hotel. Newcomer must not stop me.",
+		"PH_brevity_RIPPLE_1": "The black rock destroyed. Possible? I will make possible. Others must be safe again. No quantum entanglement anymore. Destroy uncertainty principle. When leave hotel. Newcomer must not stop me.",
 
 		// Blue wisp
 		"PH_brevity_WISP_ONE_1a": "Curiosity. Seek out. Similar molecules, Newcomer and me. Good.",
 		"PH_brevity_WISP_ONE_2b": "Jump in pool! No! Jump over pool. Water nice? Air nicer? Splash bad? Molecules touch skin. If safe, then stay. Corrosive? Newcomer not corrosive. Newcomer good. Newcomer lost key. No! Newcomer find key.",
-		"PH_brevity_WISP_ONE_3c": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring? Ice is not boring. Yes! No, Ice gone. Please? Find ice block.",
+		"PH_brevity_WISP_ONE_3c": "Future good! Future uncertain. Uncertainty follows chaos. Chaos necessary. Otherwise heat death. Heat death boring! Remove the boring. Nothing can be boring? Ice is not boring. Yes! No. Ice gone. Please? Find ice block.",
 
 		"PH_brevity_WISP_TWO_EITHER_1a": "Planet. Decay. Not end. New possibilities. Safe.",
 		"PH_brevity_WISP_TWO_ECHO_1b": "This place uncertain. Too much uncertainty. Stability disappears. Increase the heat to prevent ice forming. Newcomer prefers water. Newcomer forgot. Newcomer must not forget. Not again! Forget erodes stability? Or forget part of stability? Why is forgetting needed?",
@@ -134,7 +134,7 @@
 		"PH_brevity_WISP_TWO_RIPPLE_1B": "Sticky notes useful! Maybe leave. Left behind. For science! Science opens doors. Kaboom! No? Newcomer told me. Sticky notes no. Experiment other. Why?",
 		"PH_brevity_WISP_TWO_RIPPLE_2C": "Newcomer likes basement. Basement yes? No! No science. Only answers. Why? Questions good?",
 
-		"PH_brevity_WISP_THREE_1a": "New planet. Black hole close. Unsafe. Unsafe! UNSAFE! UNSAFE! UNSAFE!",
+		"PH_brevity_WISP_THREE_1a": "New planet. Black hole close. Unsafe. Unsafe! UNSAFE! UNSAFE! UNSAFE!\nYou Newcomer? You are not Newcomer. Where did you come from? I come with? Why I forget? Mama? No mama with the decayed planet. I promise to start a new world.",
 		"PH_brevity_WISP_THREE_2b": "You remember big hot thing? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn't forsee this. The breaker short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
 		"PH_brevity_WISP_THREE_3c": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. Much science to do with you! Touch molecules. Measure liquid streams. What's your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
 
@@ -178,30 +178,29 @@
 		"PH_prose_RIPPLE02_1": "Perfect, I will now reveal the ultimate truth.",
 		"PH_prose_RIPPLE01_B": "No?",
 		"PH_prose_RIPPLE03_1": "To prevent the fabric of space being torn I shall now reveal the ultimate truth.",
-		"PH_prose_RIPPLE04_1": "I shall be like a warrior of paper, forever guarding the tactile feel of it. I shall not be bothered by the infinitesimal small cuts it attacks my fingers with. I shall carry the scars from the pages like badges of honour. Like the medal bestowed upon a knight by the prince after a long and arduous quest. No fear is creeping in. No waves are crashing upon the desert of my mind. I remain resolved and steel my nerves against the deep ocean. The abyss shall not hurt the pages! I will strike down the water with my mighty sword. It was made with the purpose to defeat my enemies with ornate engravings with blessings of the miller upon them. Let his winds carry me far beyond the wheels of the mill. I shall sail the desert and the water shall tremble before me.",
+		"PH_prose_RIPPLE04_1": "I shall be like a warrior of olden days. Never shall I stop guarding the tactile feel of their gorguous books. Those written by dazzling masters of literature. I shall not be bothered by the infinitesimal small cuts the paper of the books inflicts upon my fingers. I shall carry the scars from these stories like badges of honour. Like the medal bestowed upon a knight by the prestigious prince after a long and arduous quest. No fear floods my skull. No waves are crashing upon the desert of my mind. I remain resolved and steel my nerves against the deep ocean. The watery abyss shall not hurt the pages! I will strike down the water with my mighty sword. It was made with the purpose to defeat those who oppose the chivalry code. It has blessings of the miller upon it. If only the miller could bless me personally. Let his breeze carry me far beyond the wheels of his giant mill. I shall sail the desert and the water shall tremble before me. Quaking with anticipation, I set out. None shall oppose me for I have the mir- Oh wait I have brought a glass pane.",
 		// [Old note idk if still relevant:] PH_prose_RIPPLE04_1 is not good enough. Should get a rewrite.
 
 		// Purple wisp
-		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT's illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
+		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT's illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day. One that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
 		"PH_prose_WISP_ONE_2b": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of THE KNIGHT's mind with all their strength but THE KNIGHT will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in THE KNIGHT's hair, a storm is coming. One that shall blow away all evil deeds. Such as nightstands, closets, tables, and other evil pieces of furniture. Towering over THE KNIGHT with their similes like metaphors.",
-		"PH_prose_WISP_ONE_3c": "The future is uncertain. It's the herald of death, famine, misfortune and the face. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
-		// [Old note idk if still relevant:] ALERT: ONE_2b is unfinished
+		"PH_prose_WISP_ONE_3c": "The future is uncertain. It's the herald of death, famine, and misfortune. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death -a black miasma with noble intent that sweeps justice- is not the path a true warrior of justice must take. However, should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
 
-		"PH_prose_WISP_TWO_EITHER_1a": "Oh, how I have long awaited the long-awaited thrilling conclusion to my endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty \"pompouses\"",
+		"PH_prose_WISP_TWO_EITHER_1a": "Oh, how THE KNIGHT has long awaited the long-awaited thrilling conclusion to THE KNIGHT's endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty \"pompouses\"",
 		"PH_prose_WISP_TWO_ECHO_1b": "Oh woe is upon THE KNIGHT. For this darkness. This endless, unceasing threat that endangers Newcomer and THE KNIGHT shall never stop gnawing away at us. It shall be like a ceaseless discharge, opening the very mouth of hell. Abandon all hope, ye who enter here. But if Newcomer holds fast against the endless ocean washing away our powers of light then mayhap, the small favour shall be carried out.",
-		"PH_prose_WISP_TWO_ECHO_2c": "Oh pristine Newcomer. Oh mighty herald of the past. Let your powers flow through THE KNIGHT once more. THE KNIGHT gapes in awe at Newcomer's awesomeness. I drool and weep over what could have been. Newcomer understood the debased basement of doom. Newcomer understands that the basement is the forbidden fruit that we must resist. Unless THE KNIGHT is sundered.",
+		"PH_prose_WISP_TWO_ECHO_2c": "Oh pristine Newcomer. Oh mighty herald of the past. Let your powers flow through THE KNIGHT once more. THE KNIGHT gapes in awe at Newcomer's awesomeness. THE KNIGHT drools and weeps over what could have been. Newcomer understood the debased basement of doom. Newcomer understands that the basement is the forbidden fruit that we must resist. Unless THE KNIGHT is sundered.",
 		"PH_prose_WISP_TWO_RIPPLE_1B": "The ocean is smoke and mirrors. For I, THE KNIGHT have read the words of the messiah. Newcomer prophesied that salvation does not lie within the ocean of darkness. For it is a cruel mistress with a temper to rival Newcomer. And temptation must be denied in order to reach the summit of salvation.",
-		"PH_prose_WISP_TWO_RIPPLE_2C": "Newcomer knows the paths of this labyrinthian halls of utter gargantuan magnitude better than all. All those who deny this truth are not pure enough of heart. Like a fragile red rose their heart withers and slithers through the endless hallways. Never shall they find their coveted basement.",
+		"PH_prose_WISP_TWO_RIPPLE_2C": "Newcomer knows the paths of this labyrinthian halls of utter gargantuan magnitude better than all. All those who deny this truth are not pure enough of heart. Like a fragile red rose, their heart withers and slithers through the endless hallways. Never shall they find their ill-coveted basement.",
 
-		"PH_prose_WISP_THREE_1a": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer.",
-		"PH_prose_WISP_THREE_2b": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn't. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop's mirror more than I feared Newcomer's wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror's Peak is where your salvation lies. You mustn't attempt to scratch the mirror. Snapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
+		"PH_prose_WISP_THREE_1a": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer. Wait, this is wrong. Where am I? You're not Newcomer. What have I done? I have been a victim of my own foolishness. Even when the water engulfed my lungs, I could not accept that this was the end. You broke the spell that this pandemonium inflicted upon me. Was this all but an hallucination as I took my final breaths? No. I see clearly now. I did take my final breaths but then appeared here instead of the halls of my forefathers. Wait, I don't have any forefathers chronicled. I was but a simple laborer who had learned to read. I thought imitating those heroes would make me one. I was dismounted by the giant mill and fell off the cliff into the sea. I am no hero.",
+		"PH_prose_WISP_THREE_2b": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn't. Even when Newcomer entrusted me with this most important task. Even when they depended on me. I feared the Bellhop's mirror more than I feared Newcomer's wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror's Peak is where your salvation lies. You mustn't attempt to scratch the mirror. Use your weapon to capture an image instead of the mirror.",
 		"PH_prose_WISP_THREE_3c": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was the only one who I could trust until now. We are lost in this river of time. This prison of doom. We can only prepare ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends.",
 
 		//Newcomer
 		"PH_Newcomer_Start_1": "Whoa.",
 		"PH_Newcomer_Choice01_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
 		"PH_Newcomer_Choice01_A": "I will give you the core.",
-		"PH_Newcomer_Choice02_1": "[Placeholder thank you I will sell it on the black market]",
+		"PH_Newcomer_Choice02_1": "Thank you. I won't disappoint you. This meeting was neccessary. Still, I hope you won't mind if we meet again in the future. I don't want to see our story end with a whimper but with a bang. Time for me to properly meet all the travellers!",
 		"PH_Newcomer_Choice01_B": "I want to run by everything we have discussed one more time.",
 		"PH_Newcomer_Choice03_1": "Sure what is one more loop gonna do?",
 
@@ -218,7 +217,7 @@
 		"PH_Newcomer_IAmYou04_A": "They didn't actually give me any marshmallows.",
 		"PH_Newcomer_Marshmallow_1": "That's a shame. Their marshmallows are timeless.",
 		"PH_Newcomer_IAmYou04_B": "I was busy traversing this strange hotel.",
-		"PH_Newcomer_Busy01_1": "More than fair. Seems like you have been traversing the whole hotel.",
+		"PH_Newcomer_Busy01_1": "More than fair. Seems like you have been traversing nearly the whole hotel.",
 		"PH_Newcomer_Busy01_A": "Nearly? Oh right, the sleepy dark hallways.",
 		"PH_Newcomer_Busy02_1": "Sleep isn't entirely the correct word but you're me anyways so who am I arguing with?",
 		"PH_Newcomer_Busy02_A": "Yourself.",
@@ -235,10 +234,10 @@
 		"PH_Newcomer_Wisps05_1": "I think arguing this for too long might tear the fabric of my mind.",
 
 		"PH_Newcomer_Wisps04_B": "You are vain for viewing it that way. Or rather I am vain? You don't suppose we have a mirror here to check?",
-		"PH_Newcomer_Wisps06_1": "I made sure to not have any mirrors in here.",
+		"PH_Newcomer_Wisps06_1": "I made sure to not have any mirrors here for that reason.",
 
 		"PH_Newcomer_Wisps0506_A": "Regardless, they have been good... people. They are people, right?",
-		"PH_Newcomer_Wisps07_1": "They used to be like you and me. Different species but less faded. When I arrived, they had started to fade but were more communicative. Green even spoke without using Haikus all the time.",
+		"PH_Newcomer_Wisps07_1": "They used to be like you and me. Different species but less faded. When I arrived, they had already begun to fade but were more talkative. Green even spoke without using Haikus all the time.",
 		"PH_Newcomer_Wisps07_A": "That's good to hear. What did they talk about with you?",
 		"PH_Newcomer_Wisps08_1": "Nothing good. They still miss their partner.",
 
@@ -256,19 +255,19 @@
 		"PH_Newcomer_Wisps12_A": "Their fortitude is rock solid. Although they do seem quite young compared to Green and Purple?",
 		"PH_Newcomer_WispEnd_1": "Yeah. They must have just turned adult before coming to the hotel. I never had the courage to ask about their past. And now it's too late.",
 
-		"PH_Newcomer_Leave01_A": "Too late? What do you mean? I understand how to bring back their lost aspects and they even saw that I wasn't you. Or well, I mean. You know what I mean.",
-		"PH_Newcomer_Leave02_1": "I wasn't referring to you when I said that.",
+		"PH_Newcomer_Leave01_A": "Too late? What do you mean? I understand how to bring back their lost aspects and they even saw that I wasn't you. Or well, I mean- You know what I mean.",
+		"PH_Newcomer_Leave02_1": "I wasn't referring to us when I said that.",
 		"PH_Newcomer_Leave02_A": "Surely you don't mean...",
-		"PH_Newcomer_Leave03_1": "I have been stuck here for over 400 years. I couldn't escape and also couldn't find inside of here. Blue, Green, and Purple. I tried to comfort them, help them.",
-		"PH_Newcomer_Leave03_2": "However, all I saw were faded echoes of what Timer Hearth... I wish to talk to Hall and Slate and the others one last time. I already failed here. Let me leave this place.",
+		"PH_Newcomer_Leave03_1": "I have been stuck here for over 400 years. I couldn't escape and also couldn't find peace in here. Blue, Green, and Purple. I tried to comfort them, help them.",
+		"PH_Newcomer_Leave03_2": "However, all I saw were faded echoes of what Timber Hearth... I wish to talk to Slate, Hall and the others one last time. I already failed here. Let me leave this place.",
 		"PH_Newcomer_Leave03_A": "And I take your place here? How are you going to take the advanced warp core to-",
 		"PH_Newcomer_Leave04_1": "To the Vessel? I have already seen you do everything. I should be able to mirror your actions.",
 		"PH_Newcomer_Leave04_A": "And what if you fail?",
 		"PH_Newcomer_Leave05_1": "I wouldn't fail. I would first put the advanced warp core back in the Ash Twin Project. Then I can fianlly spend some time with the people in my- I mean our village. Please I have failed so often here. You're the last hope I have for any kind of future.",
 		"PH_Newcomer_Leave05_A": "And I would be stuck in the past?",
-		"PH_Newcomer_Leave06_1": "Well, I am you. you already spend so many loops in our home. Now let me spend there some loops there as well.",
+		"PH_Newcomer_Leave06_1": "Well, I am you. You already spend so many loops in our home. Now let me spend some loops there as well.",
 		"PH_Newcomer_Leave06_2": "I can't take care of Blue, Green, and Purple. You can though. When I abandoned them to work on my escape, I never thought they would speak again. But you might delay their fading indefinitely. Or at least longer than me.",
-		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me. But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home as well if our roles were reversed.",
+		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me. But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home if our roles were reversed.",
 		"PH_Newcomer_Leave07_1": "Exactly! You're not just doing it for me. You're also doing it for yourself.",
 		"PH_Newcomer_Leave07_A": "I will need some time to think this through.",
 		"PH_Newcomer_LeaveEnd_1": "Take all the time you need. Once you have made up your mind, you can hand over the Advanced Warp Core to me.",
@@ -277,16 +276,16 @@
 		"PH_Newcomer_Start_B": "This is the worst day of my life!",
 		"PH_Newcomer_WorstDay01_1": "And tomorrow could be worse",
 		"PH_Newcomer_WorstDay01_A": "What's that supposed to mean?",
-		"PH_Newcomer_WorstDay02_1": "As far as I have understood it. This place makes it so that tomorrow never existed. I could see your present and past actions as many times as I wanted but I never could see your future.",
+		"PH_Newcomer_WorstDay02_1": "As far as I have understood it. This place makes it so that tomorrow never existed. I could see your present and past actions over and over. I could never see your future no matter how much I tried.",
 		"PH_Newcomer_WorstDay02_A": "Could it mean that you don't have a future?",
-		"PH_Newcomer_WorstDay03_1": "Don't give me attitude. Treat yourself with respect.",
-		"PH_Newcomer_WorstDay03_A": "It seems that everything here is meant to fade away eventually. I only ever saw notes left behind by you. I imagine that there was more writing on the wall besides the Haikus?",
-		"PH_Newcomer_WorstDay04_1": "Yes. When I arrived, there were notes left behind by Purple everywhere. Everything here endlessly folds back on itself instead of moving forward.",
+		"PH_Newcomer_WorstDay03_1": "Don't give me attitude. Treat yourself with respect. What have you observed in this place?",
+		"PH_Newcomer_WorstDay03_A": "It seems that everything here is meant to fade away eventually. I only ever saw notes left behind by you. I imagine that there was more writing on the wall besides the Haikus and the drawing?",
+		"PH_Newcomer_WorstDay04_1": "Yes. When I arrived, there were notes left behind by Purple everywhere. They were worse at writing than speaking. However, I have also seen some books from Purple and Blue homeworld reappear. Everything here endlessly folds back on itself instead of moving forward.",
 		"PH_Newcomer_WorstDay04_A": "Until you pulled me in. How did you do that?",
-		"PH_Newcomer_Arrival01_1": "I have no clue. I had a clue but all my notes were done on the walls. Some notes even beyond the dark hallways.",
+		"PH_Newcomer_Arrival01_1": "I have no clue. I had a clue but all my notes were done on the walls. Some notes were even beyond the dark hallways. But those are no longer passable.",
 		"PH_Newcomer_Arrival01_A": "I suppose that we have to figure that one out in the future?",
-		"PH_Newcomer_Arrival02_1": "Yeah. I didn't have enough time previously to commit it all to memory. And it seems that the basement we are in is one-way in terms of memories for people. Hence the improvised Ash Twin Project.",
-		"PH_Newcomer_Arrival02_A": "Hmm. I had a suspicion that is why you chose the basement.",
+		"PH_Newcomer_Arrival02_1": "Yeah. I didn't have enough time during your successful loop to commit it all to memory. And it seems that the basement is one-way in terms of memories for people. Hence the improvised Ash Twin Project. However, that did mean that I essentially had one shot before you would turn off the lights. My memory has deterioated so much that I had to focus on memorizing just the bits that would help me explain my wish to you.",
+		"PH_Newcomer_Arrival02_A": "Hmm. I had a suspicion that is why you chose the basement. The machine bypasses the restrictions our minds have. Then, me being here creates enough instability that I can still link up with it despite not being a machine. Very daring.",
 		"PH_Newcomer_Arrival03_1": "Thank you for complimenting me.",
 		"PH_Newcomer_Arrival03_A": "Seems a bit vain but what can you do?",
 		"PH_Newcomer_Arrival04_1": "Nothing but discuss the endless collasping of possiblities.",
@@ -304,8 +303,8 @@
 
 		"PH_Newcomer_LastWord03_B": "Fine.",
 		"PH_Newcomer_LastWord06_1": "Finally you acknowledge my superior rhetoric. Wait but does that count as reverse psychology? How would I know for sure that-",
-		"PH_Newcomer_LastWord07_A": "Just breathe and take it easy. You can have the final word.",
-		"PH_Newcomer_LastWord08_1": "Word.",
+		"PH_Newcomer_LastWord06_A": "Just breathe and take it easy. You can have the final word.",
+		"PH_Newcomer_LastWord07_1": "Word.",
 
 		//Newcomer Hatchling third conversation option
 		"PH_Newcomer_Start_C": "AAAAAAAAAAHHHH!",
@@ -315,7 +314,7 @@
 		"PH_Newcomer_Screaming02_A": "AAAAAaaaAAAAAaAAaaaaaHHH!",
 		"PH_Newcomer_Screaming03_1": "Okay, you're just gonna lose your mind like that?",
 		"PH_Newcomer_Screaming03_A": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHH!!", //Make sure it has the big letters just like in basegame Self ending.
-		"PH_Newcomer_Screaming04_1": "Alright then. I will let you scream for a few hours. Get it out of your system and then come talk to me."
+		"PH_Newcomer_Screaming04_1": "Alright then. I will let you scream for a few minutes. Get it out of your system and then come talk to me."
 
 
 

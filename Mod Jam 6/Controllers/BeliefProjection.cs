@@ -5,7 +5,8 @@ namespace Mod_Jam_6
 {
     public class BeliefProjection : MonoBehaviour
     {
-        private const float ANGULAR_THRESHOLD = 1f;
+        [SerializeField]
+        private float _angularThreshold = 1f;
 
         [SerializeField]
         private float _minDistance = 3f;
@@ -19,19 +20,32 @@ namespace Mod_Jam_6
         [SerializeField]
         private GameObject[] _objectsToToggleOff;
 
+        [SerializeField]
+        private string _projectionCondition;
+
         private void Update()
         {
             if (!_hasProjected && CheckProjection()) // the !_hasProjected should be redundant (should not be enabled if _hasProjected is true) but keeping it in just in case
             {
-                foreach (var obj in _objectsToToggleOff)
+                if(_objectsToToggleOff != null)
                 {
-                    obj.SetActive(false);
+                    foreach (var obj in _objectsToToggleOff)
+                    {
+                        obj.SetActive(false);
+                    }
                 }
-                foreach (var obj in _objectsToToggleOn)
+                if (_objectsToToggleOn != null)
                 {
-                    obj.SetActive(true);
+                    foreach (var obj in _objectsToToggleOn)
+                    {
+                        obj.SetActive(true);
+                    }
                 }
                 _hasProjected = true;
+                if(_projectionCondition != null && _projectionCondition.Length > 0)
+                {
+                    DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, true);
+                }
                 base.enabled = false;
             }
         }
@@ -48,7 +62,7 @@ namespace Mod_Jam_6
 
             // Angle
             float angle = Vector3.Angle(base.transform.position - Locator.GetPlayerCamera().transform.position, Locator.GetPlayerCamera().transform.forward);
-            if (angle > ANGULAR_THRESHOLD) { return false; }
+            if (angle > _angularThreshold) { return false; }
 
             return true;
         }

@@ -5,7 +5,8 @@ namespace Mod_Jam_6
 {
     public class WispFusion : MonoBehaviour
     {
-        private const float ANGULAR_THRESHOLD = 1f;
+        [SerializeField]
+        private float _angularThreshold = 1f;
 
         [SerializeField]
         private float _minDistance = 3f;
@@ -118,7 +119,7 @@ namespace Mod_Jam_6
 
             // Angle
             float angle = Vector3.Angle(base.transform.position - Locator.GetPlayerCamera().transform.position, Locator.GetPlayerCamera().transform.forward);
-            if (angle > ANGULAR_THRESHOLD) { return false; }
+            if (angle > _angularThreshold) { return false; }
 
             return true;
         }
@@ -127,7 +128,7 @@ namespace Mod_Jam_6
         {
             // Angle
             float angle = Vector3.Angle(_echoObject.transform.position - Locator.GetPlayerCamera().transform.position, Locator.GetPlayerCamera().transform.forward);
-            if (angle > ANGULAR_THRESHOLD) { return false; }
+            if (angle > _angularThreshold) { return false; }
 
             return true;
         }
@@ -135,7 +136,7 @@ namespace Mod_Jam_6
         {
             // Angle
             float angle = Vector3.Angle(_rippleObject.transform.position - Locator.GetPlayerCamera().transform.position, Locator.GetPlayerCamera().transform.forward);
-            if (angle > ANGULAR_THRESHOLD) { return false; }
+            if (angle > _angularThreshold) { return false; }
 
             return true;
         }

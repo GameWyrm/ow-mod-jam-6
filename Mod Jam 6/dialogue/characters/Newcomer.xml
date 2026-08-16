@@ -112,7 +112,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>PH_Newcomer_IAmYou03_A</Text>
-				<DialogueTarget>IAmYou03</DialogueTarget>
+				<DialogueTarget>IAmYou04</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
   </DialogueNode>
