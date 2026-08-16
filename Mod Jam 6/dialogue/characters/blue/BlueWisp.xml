@@ -6,9 +6,7 @@
     <Name>DefaultNode</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-		<Page>PH_brevity_WISP_ONE_1a</Page>
-		<Page>PH_prose_WISP_ONE_1a</Page>
-		<Page>PH_haiku_WISP_ONE_1a</Page>
+		  <Page>PH_brevity_WISP_ONE_1a</Page>
 
       <Page>PH_brevity_WISP_ONE_2b</Page>
       <Page>PH_brevity_WISP_ONE_3c</Page>
