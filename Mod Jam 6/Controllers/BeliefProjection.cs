@@ -44,7 +44,7 @@ namespace Mod_Jam_6
                 _hasProjected = true;
                 if(_projectionCondition != null && _projectionCondition.Length > 0)
                 {
-                    DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, false);
+                    DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, true);
                 }
                 base.enabled = false;
             }
