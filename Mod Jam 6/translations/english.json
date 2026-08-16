@@ -199,10 +199,11 @@
 
 		//Newcomer
 		"PH_Newcomer_Start_1": "Whoa.",
-		"PH_Newcomer_EndStart_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
-		"PH_Newcomer_EndStart_A": "I will give you the core.",
-		"PH_Newcomer_Endstart_B": "I want to run by everything we have discussed one more time.",
-		"PH_Newcomer_EndstartB_1": "Sure what is one more loop gonna do?", //After this point the player can run through the 3 original dialogue branches again.
+		"PH_Newcomer_Choice01_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
+		"PH_Newcomer_Choice01_A": "I will give you the core.",
+		"PH_Newcomer_Choice02_1": "[Placeholder thank you I will sell it on the black market]",
+		"PH_Newcomer_Choice01_B": "I want to run by everything we have discussed one more time.",
+		"PH_Newcomer_Choice03_1": "Sure what is one more loop gonna do?",
 
 		//Newcomer Hatchling first conversation option
 		"PH_Newcomer_Start_A": "Are you me?",

@@ -24,6 +24,55 @@
 		</DialogueOptionsList>
   </DialogueNode>
 
+  <!-- Choice01 -->
+  <DialogueNode>
+    <Name>Choice01</Name>
+    <EntryCondition>PH_TEMP_NEWCOMERLEAVEEND</EntryCondition>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice01_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_Newcomer_Choice01_A</Text>
+        <DialogueTarget>Choice02</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Choice01_B</Text>
+        <DialogueTarget>Choice03</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Choice A - Choice02 -->
+  <DialogueNode>
+    <Name>Choice02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice02_1</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <!-- Choice B - Choice03 -->
+  <DialogueNode>
+    <Name>Choice03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice03_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_A</Text>
+        <DialogueTarget>IAmYou01</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_B</Text>
+        <DialogueTarget>WorstDay01</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_C</Text>
+        <DialogueTarget>Screaming01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
   <!-- ================== -->
   
   <!-- Choice A - IAmYou01 -->
@@ -405,6 +454,7 @@
     <Dialogue>
       <Page>PH_Newcomer_LeaveEnd_1</Page>
     </Dialogue>
+    <SetCondition>PH_TEMP_NEWCOMERLEAVEEND</SetCondition>
   </DialogueNode>
 
   <!-- ================== -->
