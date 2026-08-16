@@ -45,7 +45,7 @@ namespace Mod_Jam_6
                         Log($"Ship is {(shipLogScreen == null ? "NULL" : "FOUND")}");
 
                         Log("Looking for log manager");
-                        shipLogManager = GameObject.FindObjectOfType<ShipLogManager>();
+                        shipLogManager = Locator.GetShipLogManager();
                         Log($"Log is {(shipLogManager == null ? "NULL": "FOUND")}");
                     }
                 }, 50);
