@@ -10,10 +10,10 @@ namespace Mod_Jam_6
 
         [SerializeField]
         private InteractReceiver _interactReceiver;
-        [SerializeField]
-        private string _prompt;
-        [SerializeField]
-        private bool _singleUse = true;
+     
+        public string _prompt;
+
+        public bool _singleUse = true;
 
         private bool _hasBeenUsed = false;
 
@@ -39,6 +39,9 @@ namespace Mod_Jam_6
             if (_hasBeenUsed) return; // Single use
 
             OnSingleUseActivation.Invoke();
+
+            // Door hack
+            if (GetComponentInParent<Door>() != null) DoorManager.instance.SyncDoor(GetComponentInParent<Door>().ID);
 
             if (_singleUse)
             {

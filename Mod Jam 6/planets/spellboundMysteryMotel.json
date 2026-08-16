@@ -7,38 +7,38 @@
     "centerOfSolarSystem": true,
     "showMinimap": false
   },
-  "Spawn": {
-    "playerSpawnPoints": [
-        {
-            "position": {
-                "x": 34,
-                "y": 1.1,
-                "z": 12
-            },
-            "offset": {
-                "x": 0,
-                "y": 1,
-                "z": 0
-            },
-            "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "startWithSuit": true,
-            "rename": "PH_START"
-        }
-    ],
-    "shipSpawnPoints": [
-        {
-            "position": {
-                "x": 0,
-                "y": -10000,
-                "z": 0
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "position": {
+                    "x": 34,
+                    "y": 1.1,
+                    "z": 12
+                },
+                "offset": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "startWithSuit": true,
+                "rename": "PH_START"
             }
-        }
-    ]
-  },
+        ],
+        "shipSpawnPoints": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": -10000,
+                    "z": 0
+                }
+            }
+        ]
+    },
     "Props": {
         "details": [
             {
@@ -66,6 +66,51 @@
                     "Effects/Lights",
                     "AttachPoint"
                 ]
+            },
+            {
+                "path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_ThirdFloor/Safe/WarpCoreAnchor",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ],
+        "singularities": [
+            {
+                "type": "blackHole",
+                "uniqueID": "lol",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "horizonRadius": 0.03,
+                "distortRadius": 0.06,
+                "pairedSingularity": "lolwut",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/BlackHoleAnchor",
+                "isRelativeToParent": true
+            },
+            {
+                "type": "whiteHole",
+                "uniqueID": "lolwut",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "horizonRadius": 0.03,
+                "distortRadius": 0.06,
+                "pairedSingularity": "lol",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/WhiteHoleAnchor",
+                "isRelativeToParent": true
             }
         ]
     },
