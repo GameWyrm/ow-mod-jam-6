@@ -46,7 +46,7 @@ namespace Mod_Jam_6
 
             TimeLoop.SetSecondsRemaining(_timeloopLength);
             ForceIdentifySignal();
-            var warping = ModJam6.Instance.NewHorizons.ChangeCurrentStarSystem(systemName);
+            var warping = ModJam6.NewHorizons.ChangeCurrentStarSystem(systemName);
             if (warping)
             {
                 _hasWarpedToSystem = true;
