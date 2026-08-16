@@ -18,6 +18,7 @@ namespace Mod_Jam_6
         private void OnPressInteract()
         {
             FurnaceController.Instance.TurnValve(clockwise);
+            Locator.GetShipLogManager().RevealFact("PH_LOG_FURNACE_2");
         }
     }
 }

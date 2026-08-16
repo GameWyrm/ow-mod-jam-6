@@ -54,12 +54,14 @@
     <RumorFact>
       <ID>PH_LOG_OUTSIDE_RUMOR_1</ID>
       <SourceID>PH_LOG_HOTEL_CURIOSITY</SourceID>
+      <RumorName>$PH_LOG_OUTSIDE_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_OUTSIDE_RUMOR_1</Text>
     </RumorFact>
 
     <RumorFact>
       <ID>PH_LOG_OUTSIDE_RUMOR_2</ID>
       <SourceID>PH_LOG_HOTEL_CURIOSITY</SourceID>
+      <RumorName>$PH_LOG_OUTSIDE_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_OUTSIDE_RUMOR_2</Text>
     </RumorFact>
 
@@ -231,7 +233,7 @@
 
     <ExploreFact>
       <ID>PH_LOG_FURNACE_2</ID>
-      <Text>$PH_LOG_FURNACE_1</Text>
+      <Text>$PH_LOG_FURNACE_2</Text>
     </ExploreFact>
   </Entry>
 
