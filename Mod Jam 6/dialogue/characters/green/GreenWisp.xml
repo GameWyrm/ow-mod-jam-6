@@ -14,6 +14,12 @@
 	    <page>PH_haiku_WISP_ONE_5c</page>
 	    <page>PH_haiku_WISP_ONE_6c</page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->
