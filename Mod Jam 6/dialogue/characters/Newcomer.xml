@@ -1,0 +1,716 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>PH_Newcomer_NAME</NameField>
+
+  <!-- Start -->
+  <DialogueNode>
+    <Name>DefaultNode</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PH_Newcomer_Start_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Start_A</Text>
+				<DialogueTarget>IAmYou01</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_Start_B</Text>
+				<DialogueTarget>WorstDay01</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_Start_C</Text>
+				<DialogueTarget>Screaming01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Choice01 -->
+  <DialogueNode>
+    <Name>Choice01</Name>
+    <EntryCondition>PH_TEMP_NEWCOMERLEAVEEND</EntryCondition>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice01_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_Newcomer_Choice01_A</Text>
+        <DialogueTarget>Choice02</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Choice01_B</Text>
+        <DialogueTarget>Choice03</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Choice A - Choice02 -->
+  <DialogueNode>
+    <Name>Choice02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice02_1</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <!-- Choice B - Choice03 -->
+  <DialogueNode>
+    <Name>Choice03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Choice03_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_A</Text>
+        <DialogueTarget>IAmYou01</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_B</Text>
+        <DialogueTarget>WorstDay01</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Start_C</Text>
+        <DialogueTarget>Screaming01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- ================== -->
+  
+  <!-- Choice A - IAmYou01 -->
+  <DialogueNode>
+    <Name>IAmYou01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_IAmYou01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYou01_A</Text>
+				<DialogueTarget>IAmYou02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- IAmYou02 -->
+  <DialogueNode>
+    <Name>IAmYou02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_IAmYou02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYou02_A</Text>
+				<DialogueTarget>IAmYou03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- IAmYou03 -->
+  <DialogueNode>
+    <Name>IAmYou03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_IAmYou03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYou03_A</Text>
+				<DialogueTarget>IAmYou03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- IAmYou04 -->
+  <DialogueNode>
+    <Name>IAmYou04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_IAmYou04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYou04_A</Text>
+				<DialogueTarget>Marshmallow</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYou04_B</Text>
+				<DialogueTarget>Busy01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Subbranch A - Marshmallow -->
+  <DialogueNode>
+    <Name>Marshmallow</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Marshmallow_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_IAmYouEnd_1</Text>
+				<DialogueTarget>Wisp01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Subbranch B - Busy01 -->
+  <DialogueNode>
+    <Name>Busy01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Busy01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Busy01_A</Text>
+				<DialogueTarget>Busy02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Subbranch B - Busy02 -->
+  <DialogueNode>
+    <Name>Busy02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Busy02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Busy02_A</Text>
+				<DialogueTarget>Wisp01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- End of IAmYou, now Wisp01 -->
+  <DialogueNode>
+    <Name>Wisp01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_IAmYouEnd_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps01_A</Text>
+				<DialogueTarget>Wisp02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp02 -->
+  <DialogueNode>
+    <Name>Wisp02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps02_A</Text>
+				<DialogueTarget>Wisp03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp03 -->
+  <DialogueNode>
+    <Name>Wisp03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps03_A</Text>
+				<DialogueTarget>Wisp04</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp04 -->
+  <DialogueNode>
+    <Name>Wisp04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps04_A</Text>
+				<DialogueTarget>Wisp05</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps04_B</Text>
+				<DialogueTarget>Wisp06</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- mini Subbranch A - Wisp05 -->
+  <DialogueNode>
+    <Name>Wisp05</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps05_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps0506_A</Text>
+				<DialogueTarget>Wisp07</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- mini Subbranch B - Wisp06 -->
+  <DialogueNode>
+    <Name>Wisp06</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps06_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps0506_A</Text>
+				<DialogueTarget>Wisp07</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp07 -->
+  <DialogueNode>
+    <Name>Wisp07</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps07_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps07_A</Text>
+				<DialogueTarget>Wisp08</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp08 -->
+  <DialogueNode>
+    <Name>Wisp08</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps08_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps08_A</Text>
+				<DialogueTarget>Wisp08</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps08_B</Text>
+				<DialogueTarget>Wisp08</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp09 -->
+  <DialogueNode>
+    <Name>Wisp09</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps09_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps09_A</Text>
+				<DialogueTarget>Wisp10</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp10 -->
+  <DialogueNode>
+    <Name>Wisp10</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps10_1</Page>
+    </Dialogue>
+		<DialogueTarget>Wisp11</DialogueTarget>
+  </DialogueNode>
+  
+  <!-- Wisp11 -->
+  <DialogueNode>
+    <Name>Wisp11</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps11_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps11_A</Text>
+				<DialogueTarget>Wisp12</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Wisp12 -->
+  <DialogueNode>
+    <Name>Wisp12</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Wisps12_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Wisps12_A</Text>
+				<DialogueTarget>Leave01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- End of Wisp, now Leave01 -->
+  <DialogueNode>
+    <Name>Leave01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_WispEnd_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave01_A</Text>
+				<DialogueTarget>Leave02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave02 -->
+  <DialogueNode>
+    <Name>Leave02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave02_A</Text>
+				<DialogueTarget>Leave03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave03 -->
+  <DialogueNode>
+    <Name>Leave03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave03_1</Page>
+      <Page>PH_Newcomer_Leave03_2</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave03_A</Text>
+				<DialogueTarget>Leave04</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave04 -->
+  <DialogueNode>
+    <Name>Leave04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave04_A</Text>
+				<DialogueTarget>Leave05</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave05 -->
+  <DialogueNode>
+    <Name>Leave05</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave05_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave05_A</Text>
+				<DialogueTarget>Leave06</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave06 -->
+  <DialogueNode>
+    <Name>Leave06</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave06_1</Page>
+      <Page>PH_Newcomer_Leave06_2</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave06_A</Text>
+				<DialogueTarget>Leave07</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Leave07 -->
+  <DialogueNode>
+    <Name>Leave07</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Leave07_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Leave07_A</Text>
+				<DialogueTarget>LeaveEnd</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- LeaveEnd -->
+  <DialogueNode>
+    <Name>LeaveEnd</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LeaveEnd_1</Page>
+    </Dialogue>
+    <SetCondition>PH_TEMP_NEWCOMERLEAVEEND</SetCondition>
+  </DialogueNode>
+
+  <!-- ================== -->
+  
+  <!-- Choice B - WorstDay01 -->
+  <DialogueNode>
+    <Name>WorstDay01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_WorstDay01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_WorstDay01_A</Text>
+				<DialogueTarget>WorstDay02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- WorstDay02 -->
+  <DialogueNode>
+    <Name>WorstDay02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_WorstDay02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_WorstDay02_A</Text>
+				<DialogueTarget>WorstDay03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- WorstDay03 -->
+  <DialogueNode>
+    <Name>WorstDay03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_WorstDay03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_WorstDay03_A</Text>
+				<DialogueTarget>WorstDay04</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- WorstDay04 -->
+  <DialogueNode>
+    <Name>WorstDay04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_WorstDay04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_WorstDay04_A</Text>
+				<DialogueTarget>Arrival01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Arrival01 -->
+  <DialogueNode>
+    <Name>Arrival01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Arrival01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Arrival01_A</Text>
+				<DialogueTarget>Arrival02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Arrival02 -->
+  <DialogueNode>
+    <Name>Arrival02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Arrival02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Arrival02_A</Text>
+				<DialogueTarget>Arrival03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Arrival03 -->
+  <DialogueNode>
+    <Name>Arrival03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Arrival03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Arrival03_A</Text>
+				<DialogueTarget>Arrival04</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Arrival04 -->
+  <DialogueNode>
+    <Name>Arrival04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Arrival04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Arrival04_A</Text>
+				<DialogueTarget>LastWord01</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- LastWord01 -->
+  <DialogueNode>
+    <Name>LastWord01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord01_A</Text>
+				<DialogueTarget>LastWord02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- LastWord02 -->
+  <DialogueNode>
+    <Name>LastWord02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord02_A</Text>
+				<DialogueTarget>LastWord03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- LastWord03 -->
+  <DialogueNode>
+    <Name>LastWord03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord03_A</Text>
+				<DialogueTarget>LastWord04</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord03_B</Text>
+				<DialogueTarget>LastWord06</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Subbranch A - LastWord04 -->
+  <DialogueNode>
+    <Name>LastWord04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord04_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord04_A</Text>
+				<DialogueTarget>LastWord05</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Subbranch A - LastWord05 -->
+  <DialogueNode>
+    <Name>LastWord05</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord05_1</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <!-- Subbranch B - LastWord06 -->
+  <DialogueNode>
+    <Name>LastWord06</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord06_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_LastWord06_A</Text>
+				<DialogueTarget>LastWord07</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+
+  <!-- Subbranch B - LastWord07 -->
+  <DialogueNode>
+    <Name>LastWord07</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_LastWord07_1</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <!-- ================== -->
+  
+  <!-- Choice C - Screaming01 -->
+  <DialogueNode>
+    <Name>Screaming01</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Screaming01_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Screaming01_A</Text>
+				<DialogueTarget>Screaming02</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Screaming02 -->
+  <DialogueNode>
+    <Name>Screaming02</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Screaming02_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Screaming02_A</Text>
+				<DialogueTarget>Screaming03</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Screaming03 -->
+  <DialogueNode>
+    <Name>Screaming03</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Screaming03_1</Page>
+    </Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>PH_Newcomer_Screaming03_A</Text>
+				<DialogueTarget>Screaming04</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+  </DialogueNode>
+  
+  <!-- Screaming04 -->
+  <DialogueNode>
+    <Name>Screaming04</Name>
+    <Dialogue>
+      <Page>PH_Newcomer_Screaming04_1</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

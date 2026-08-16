@@ -30,9 +30,14 @@
 		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
 		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
 
-		"PH_Stickynotes_WATERLEAK_1": "[Placeholder Call the plumber room 352]",
+		"PH_Stickynotes_WATERLEAK_1": "Recently, water has been dripping from the ceiling. I will have to talk to Blue about responsible usage of cryonic tools.",
+		"PH_Stickynotes_WATERLEAK_2": "The room above 272 always has issues that require investigating.",
 
-		"PH_Stickynotes_BASEMENT_1": "[Placeholder The rigged ATP should start automatically]",
+		"PH_Stickynotes_BASEMENT_1": "Finally got the improvised Ash Twin Project working. Blue would have loved to see this thing kicking off. The only problem is that neither me or Blue or anyone else is able to kickstart this thing. Maybe if I try stirring some trouble? Can’t risk involving Blue or the others anymore.",
+		"PH_Stickynotes_BASEMENT_2": "The Ash Twin Project will only start working when a crisis is happening.",
+
+		"PH_Stickynotes_ECHRIPSIGNAL_1": "What is this? Another signal? Huh that's weird. This one can be lined up with one of those apperitions I have talked to.",
+		"PH_Stickynotes_ECHRIPSIGNAL_2": "Lining up an Echo or Ripple with their origin(a person) affects the origin at a distance.",
 
 		// Bellhop (Init)
 		"PH_Bellhop_INIT01_1": "Welcome back, Newcomer. Have you forgotten everything again?",
@@ -134,13 +139,16 @@
 		"PH_brevity_WISP_THREE_3c": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. Much science to do with you! Touch molecules. Measure liquid streams. What's your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
 
 		// Green echo & ripple
-		"PH_haiku_ECHO_1": "My dear love undying\nWinter's chill took her from me\nLove shall never spring",
+		"PH_haiku_ECHO_1": "Dear love undying\nWinter's chill took her from me\nLove shall never spring",
 		"PH_haiku_RIPPLE_1": "Be my guardian\nWeapon for my summer's wrath\nAutumn must not come",
 
 		// Green wisp
 		"PH_haiku_WISP_ONE_1a": "Help comes from within",
-		"PH_haiku_WISP_ONE_2b": " Music remembers\nNewcomer composers for friends\nThe box is in past\nThe past is not here\nSeek below as above comes\nWalk the lobby stairs",
-		"PH_haiku_WISP_ONE_3c": "Fortunate are they\nTraverse together through floor\nNewcomer must lie\nWalk in solitude\nCloser to greener pastures\nGo too far in time\nStray from beaten path\nWandering the endless void\nFind what will be lost",
+		"PH_haiku_WISP_ONE_2b": " Music remembers\nNewcomer composers for friends\nThe box is in past",
+		"PH_haiku_WISP_ONE_3b": "The past is not here\nSeek below as above comes\nWalk the lobby stairs",
+		"PH_haiku_WISP_ONE_4c": "Fortunate are they\nTraverse together through floor\nNewcomer must lie",
+		"PH_haiku_WISP_ONE_5c": "Walk in solitude\nCloser to greener pastures\nGo too far in time",
+		"PH_haiku_WISP_ONE_6c": "Stray from beaten path\nWandering the endless void\nFind what will be lost",
 
 		"PH_haiku_WISP_TWO_EITHER_1a": "The short lived are lucky",
 		"PH_haiku_WISP_TWO_ECHO_1b": "Newcomer can't stop\nEnd is inevitable\nBlind leading the blind",
@@ -149,8 +157,10 @@
 		"PH_haiku_WISP_TWO_RIPPLE_2C": "Basement is not true\nNewcomer avoids other floors\nI hate false prophet",
 
 		"PH_haiku_WISP_THREE_1a": "End the fake promise",
-		"PH_haiku_WISP_THREE_2b": "Locker is a lie\nUnveil truth with opposite\nSound is opposite\nA signal needed\nSignal might seem lost to you\nIt resides in you\nTurn signal to veil\nOpen locker with your mind\nFind your lost core",
-		"PH_haiku_WISP_THREE_3c": "The past unwritten\nYour memories might persist\nFree yourself from us",
+		"PH_haiku_WISP_THREE_2b": "Locker is a lie\nUnveil truth with opposite\nSound is opposite",
+		"PH_haiku_WISP_THREE_3b": "Signal needed\nSignal might seem lost to you\nIt resides in you",
+		"PH_haiku_WISP_THREE_4b": "Turn signal to veil\nOpen locker with your mind\nFind your lost core",
+		"PH_haiku_WISP_THREE_5c": "The past unwritten\nYour memories might persist\nFree yourself from us",
 
 		// Purple echo & ripple
 		"PH_prose_ECHO01_1": "None shall pass",
@@ -185,7 +195,130 @@
 
 		"PH_prose_WISP_THREE_1a": "A joyous occasion came upon me. A righteous feast was thrown in honour of my great heroics and bravery. For I had transcended the likes of a mere miller and the wheels of progress. I was content to say only a few words. And those few words echoed through the great halls of my forefathers who had constructed them of the properly measured wooden beams. And such as I was the great hero of the mill, it pales in comparison to the dazzling brilliance of Newcomer.",
 		"PH_prose_WISP_THREE_2b": "What have I spouted to you? I am but a miserable pile of secrets. I apologize to you. I tried shattering the mirror but couldn't. Even when Newcomer entrusted me with this most important task. Even when he depended on me. I feared the Bellhop's mirror more than I feared Newcomer's wrath. Your questing has shown me that mayhap fear is not the unsurmountable mountain I thought it was. Mirror's Peak is where your salvation lies. You mustn't attempt to scratch the mirror. Snapshot it with the same sidearm that Newcomer used with such bravery and heroics.",
-		"PH_prose_WISP_THREE_3c": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was the only one who I could trust until now. We are lost in this river of time. This prison of doom. We can only prepare ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends."
+		"PH_prose_WISP_THREE_3c": "Although I have delayed your spring, I hope that you can find clemency in your heart. Forgive me for my lies to you. Newcomer was the only one who I could trust until now. We are lost in this river of time. This prison of doom. We can only prepare ourselves for what is to come. I must not blame the shadow. It merely follows our actions. Whether you succeed or not, I hope that we stay friends.",
+
+		//Newcomer
+		"PH_Newcomer_Start_1": "Whoa.",
+		"PH_Newcomer_Choice01_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
+		"PH_Newcomer_Choice01_A": "I will give you the core.",
+		"PH_Newcomer_Choice02_1": "[Placeholder thank you I will sell it on the black market]",
+		"PH_Newcomer_Choice01_B": "I want to run by everything we have discussed one more time.",
+		"PH_Newcomer_Choice03_1": "Sure what is one more loop gonna do?",
+
+		//Newcomer Hatchling first conversation option
+		"PH_Newcomer_Start_A": "Are you me?",
+		"PH_Newcomer_IAmYou01_1": "Yeah. I mean sort of. I am you from the past.",
+		"PH_Newcomer_IAmYou01_A": "Why does your voice sound so coarse?",
+		"PH_Newcomer_IAmYou02_1": "It has been millions of loops since I was taken.",
+		"PH_Newcomer_IAmYou02_A": "Taken?",
+		"PH_Newcomer_IAmYou03_1": "Yes. I do not know by what exactly and that Bellhop hasn't been exactly useful.",
+
+		"PH_Newcomer_IAmYou03_A": "The Bellhop? They have been very useful to me.",
+		"PH_Newcomer_IAmYou04_1": "Figures that at least one of us would find a use out of them. How are they doing? Did they give you marshmallows?",
+		"PH_Newcomer_IAmYou04_A": "They didn't actually give me any marshmallows.",
+		"PH_Newcomer_Marshmallow_1": "That's a shame. Their marshmallows are timeless.",
+		"PH_Newcomer_IAmYou04_B": "I was busy traversing this strange hotel.",
+		"PH_Newcomer_Busy01_1": "More than fair. Seems like you have been traversing the whole hotel.",
+		"PH_Newcomer_Busy01_A": "Nearly? Oh right, the sleepy dark hallways.",
+		"PH_Newcomer_Busy02_1": "Sleep isn't entirely the correct word but you're me anyways so who am I arguing with?",
+		"PH_Newcomer_Busy02_A": "Yourself.",
+		"PH_Newcomer_IAmYouEnd_1": "Agreed.",
+
+		"PH_Newcomer_Wisps01_A": "Regardless of what or who took you. We must leave!",
+		"PH_Newcomer_Wisps02_1": "Only one of us though. Say, you talked to the three fading ghosts out there?",
+		"PH_Newcomer_Wisps02_A": "You mean Blue, Green, and Purple?",
+		"PH_Newcomer_Wisps03_1": "Prose has never been our strong suit.",
+		"PH_Newcomer_Wisps03_A": "No, not particularly. Purple tries really hard even if he is a bit wordy.",
+		"PH_Newcomer_Wisps04_1": "Don't get too distracted by their ideas of megalomania.",
+
+		"PH_Newcomer_Wisps04_A": "I suppose you or rather me- Wait who is right here?",
+		"PH_Newcomer_Wisps05_1": "I think arguing this for too long might tear the fabric of my mind.",
+
+		"PH_Newcomer_Wisps04_B": "You are vain for viewing it that way. Or rather I am vain? You don't suppose we have a mirror here to check?",
+		"PH_Newcomer_Wisps06_1": "I made sure to not have any mirrors in here.",
+
+		"PH_Newcomer_Wisps0506_A": "Regardless, they have been good... people. They are people, right?",
+		"PH_Newcomer_Wisps07_1": "They used to be like you and me. Different species but less faded. When I arrived, they had started to fade but were more communicative. Green even spoke without using Haikus all the time.",
+		"PH_Newcomer_Wisps07_A": "That's good to hear. What did they talk about with you?",
+		"PH_Newcomer_Wisps08_1": "Nothing good. They still miss their partner.",
+
+		"PH_Newcomer_Wisps08_A": "Oh, I was afraid that was the case. Were they able to explain to you what had happened?",
+		"PH_Newcomer_Wisps08_B": "Partner? Green was married? What happened?",
+		"PH_Newcomer_Wisps09_1": "Old age unfortunately. Green explained it as winter having arrived. But for themselves the seasons had stopped moving.",
+		"PH_Newcomer_Wisps09_A": "I think they have found some peace now.",
+		"PH_Newcomer_Wisps10_1": "I wish Green shared their autumn with us.",
+
+
+		//This is linear dialogue about Blue. All these texts and pages just play out in this order.
+		"PH_Newcomer_Wisps11_1": "But anyways, how is Blue doing?",
+		"PH_Newcomer_Wisps11_A": "They are doing great as ever. Nothing gets under that on's skin, does it?",
+		"PH_Newcomer_Wisps12_1": "Not really no. We even ran a few experiments to try and see if you insult them enough to fight back. For some reason they never did.",
+		"PH_Newcomer_Wisps12_A": "Their fortitude is rock solid. Although they do seem quite young compared to Green and Purple?",
+		"PH_Newcomer_WispEnd_1": "Yeah. They must have just turned adult before coming to the hotel. I never had the courage to ask about their past. And now it's too late.",
+
+		"PH_Newcomer_Leave01_A": "Too late? What do you mean? I understand how to bring back their lost aspects and they even saw that I wasn't you. Or well, I mean. You know what I mean.",
+		"PH_Newcomer_Leave02_1": "I wasn't referring to you when I said that.",
+		"PH_Newcomer_Leave02_A": "Surely you don't mean...",
+		"PH_Newcomer_Leave03_1": "I have been stuck here for over 400 years. I couldn't escape and also couldn't find inside of here. Blue, Green, and Purple. I tried to comfort them, help them.",
+		"PH_Newcomer_Leave03_2": "However, all I saw were faded echoes of what Timer Hearth... I wish to talk to Hall and Slate and the others one last time. I already failed here. Let me leave this place.",
+		"PH_Newcomer_Leave03_A": "And I take your place here? How are you going to take the advanced warp core to-",
+		"PH_Newcomer_Leave04_1": "To the Vessel? I have already seen you do everything. I should be able to mirror your actions.",
+		"PH_Newcomer_Leave04_A": "And what if you fail?",
+		"PH_Newcomer_Leave05_1": "I wouldn't fail. I would first put the advanced warp core back in the Ash Twin Project. Then I can fianlly spend some time with the people in my- I mean our village. Please I have failed so often here. You're the last hope I have for any kind of future.",
+		"PH_Newcomer_Leave05_A": "And I would be stuck in the past?",
+		"PH_Newcomer_Leave06_1": "Well, I am you. you already spend so many loops in our home. Now let me spend there some loops there as well.",
+		"PH_Newcomer_Leave06_2": "I can't take care of Blue, Green, and Purple. You can though. When I abandoned them to work on my escape, I never thought they would speak again. But you might delay their fading indefinitely. Or at least longer than me.",
+		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me. But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home as well if our roles were reversed.",
+		"PH_Newcomer_Leave07_1": "Exactly! You're not just doing it for me. You're also doing it for yourself.",
+		"PH_Newcomer_Leave07_A": "I will need some time to think this through.",
+		"PH_Newcomer_LeaveEnd_1": "Take all the time you need. Once you have made up your mind, you can hand over the Advanced Warp Core to me.",
+
+		//Newcomer Hatchling second conversation option
+		"PH_Newcomer_Start_B": "This is the worst day of my life!",
+		"PH_Newcomer_WorstDay01_1": "And tomorrow could be worse",
+		"PH_Newcomer_WorstDay01_A": "What's that supposed to mean?",
+		"PH_Newcomer_WorstDay02_1": "As far as I have understood it. This place makes it so that tomorrow never existed. I could see your present and past actions as many times as I wanted but I never could see your future.",
+		"PH_Newcomer_WorstDay02_A": "Could it mean that you don't have a future?",
+		"PH_Newcomer_WorstDay03_1": "Don't give me attitude. Treat yourself with respect.",
+		"PH_Newcomer_WorstDay03_A": "It seems that everything here is meant to fade away eventually. I only ever saw notes left behind by you. I imagine that there was more writing on the wall besides the Haikus?",
+		"PH_Newcomer_WorstDay04_1": "Yes. When I arrived, there were notes left behind by Purple everywhere. Everything here endlessly folds back on itself instead of moving forward.",
+		"PH_Newcomer_WorstDay04_A": "Until you pulled me in. How did you do that?",
+		"PH_Newcomer_Arrival01_1": "I have no clue. I had a clue but all my notes were done on the walls. Some notes even beyond the dark hallways.",
+		"PH_Newcomer_Arrival01_A": "I suppose that we have to figure that one out in the future?",
+		"PH_Newcomer_Arrival02_1": "Yeah. I didn't have enough time previously to commit it all to memory. And it seems that the basement we are in is one-way in terms of memories for people. Hence the improvised Ash Twin Project.",
+		"PH_Newcomer_Arrival02_A": "Hmm. I had a suspicion that is why you chose the basement.",
+		"PH_Newcomer_Arrival03_1": "Thank you for complimenting me.",
+		"PH_Newcomer_Arrival03_A": "Seems a bit vain but what can you do?",
+		"PH_Newcomer_Arrival04_1": "Nothing but discuss the endless collasping of possiblities.",
+		"PH_Newcomer_Arrival04_A": "Excuse me?",
+		"PH_Newcomer_LastWord01_1": "Nothing. Best not to think about that one yet. That's for the future.",
+		"PH_Newcomer_LastWord01_A": "Right. We're gonna focus on the past.",
+		"PH_Newcomer_LastWord02_1": "Let's just stick to the present.",
+		"PH_Newcomer_LastWord02_A": "Let me have the last word.",
+		"PH_Newcomer_LastWord03_1": "I am you. That's a futile argument.",
+
+		"PH_Newcomer_LastWord03_A": "Right but you're the one who pulled me in.",
+		"PH_Newcomer_LastWord04_1": "...",
+		"PH_Newcomer_LastWord04_A": "Hah, I did it.",
+		"PH_Newcomer_LastWord05_1": "...Word.",
+
+		"PH_Newcomer_LastWord03_B": "Fine.",
+		"PH_Newcomer_LastWord06_1": "Finally you acknowledge my superior rhetoric. Wait but does that count as reverse psychology? How would I know for sure that-",
+		"PH_Newcomer_LastWord07_A": "Just breathe and take it easy. You can have the final word.",
+		"PH_Newcomer_LastWord08_1": "Word.",
+
+		//Newcomer Hatchling third conversation option
+		"PH_Newcomer_Start_C": "AAAAAAAAAAHHHH!",
+		"PH_Newcomer_Screaming01_1": "Oh no. You were supposed to be the chosen one. You should have been able to help me.",
+		"PH_Newcomer_Screaming01_A": "AAAAAAAAAAAAAAAHHH!",
+		"PH_Newcomer_Screaming02_1": "Are you going to calm down at some point?",
+		"PH_Newcomer_Screaming02_A": "AAAAAaaaAAAAAaAAaaaaaHHH!",
+		"PH_Newcomer_Screaming03_1": "Okay, you're just gonna lose your mind like that?",
+		"PH_Newcomer_Screaming03_A": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHH!!", //Make sure it has the big letters just like in basegame Self ending.
+		"PH_Newcomer_Screaming04_1": "Alright then. I will let you scream for a few hours. Get it out of your system and then come talk to me."
+
+
+
 	},
 	"ShipLogDictionary": {
 		// PLAYER_ROOM
