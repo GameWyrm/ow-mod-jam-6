@@ -27,6 +27,7 @@ namespace Mod_Jam_6
         {
             repaired = true;
             gameObject.SetActive(false);
+            ModJam6.RevealFact("PH_LOG_BASEMENT_RUMOR_2");
         }
     }
 }

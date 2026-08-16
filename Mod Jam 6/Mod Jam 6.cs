@@ -2,6 +2,7 @@
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
+using System;
 using UnityEngine;
 
 namespace Mod_Jam_6
@@ -12,6 +13,7 @@ namespace Mod_Jam_6
         public static INewHorizons NewHorizons;
 
         public GameObject shipLogScreen;
+        public ShipLogManager shipLogManager;
 
         public void Awake()
         {
@@ -31,14 +33,7 @@ namespace Mod_Jam_6
             NewHorizons.LoadConfigs(this);
 
             new Harmony("GameWyrm.Mod Jam 6").PatchAll(Assembly.GetExecutingAssembly());
-
-            // Example of accessing game code.
-            OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
-            LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
-        }
-
-        public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
-        {
+            
             NewHorizons.GetStarSystemLoadedEvent().AddListener((system) =>
             {
                 ModHelper.Events.Unity.FireInNUpdates(() =>
@@ -48,9 +43,25 @@ namespace Mod_Jam_6
                         Log("Looking for ship");
                         shipLogScreen = GameObject.Find("Ship_Body/Module_Cabin/Systems_Cabin/ShipLogPivot");
                         Log($"Ship is {(shipLogScreen == null ? "NULL" : "FOUND")}");
+
+                        Log("Looking for log manager");
+                        shipLogManager = GameObject.FindObjectOfType<ShipLogManager>();
+                        Log($"Log is {(shipLogManager == null ? "NULL": "FOUND")}");
                     }
                 }, 50);
             });
+        }
+
+        public static void RevealFact(string factID)
+        {
+            try
+            {
+                Instance.shipLogManager.RevealFact(factID);
+            }
+            catch (Exception e)
+            {
+                LogError($"Failed to teach fact \"{factID}\".\n{e.Message}");
+            }
         }
 
         public static void Log(string message)

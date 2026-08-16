@@ -373,7 +373,7 @@
 
 		// VOID_SECOND_FLOOR
 		"$PH_LOG_VOID_SECOND_FLOOR_NAME": "Void Second Floor",
-		"$PH_LOG_VOID_SECOND_FLOOR_1": "About three-quarters into the loop, the second floor gets consumed by the void. The floor seems to \"break\" when the Void consumes it.",
+		"$PH_LOG_VOID_SECOND_FLOOR_1": "About three-quarters into the loop, the second floor gets consumed by the void.",
 
 		// FURNACE
 		"$PH_LOG_FURNACE_NAME": "Furnace",

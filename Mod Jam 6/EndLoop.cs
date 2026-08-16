@@ -20,6 +20,7 @@ namespace Mod_Jam_6
         {
             TimeLoop.SetTimeLoopEnabled(false);
             transform.parent.gameObject.SetActive(false);
+            ModJam6.RevealFact("PH_LOG_BASEMENT_2");
         }
     }
 }
