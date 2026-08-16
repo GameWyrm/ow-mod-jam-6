@@ -20,6 +20,9 @@ namespace Mod_Jam_6
         [SerializeField]
         private GameObject[] _objectsToToggleOff;
 
+        [SerializeField]
+        private string _projectionCondition;
+
         private void Update()
         {
             if (!_hasProjected && CheckProjection()) // the !_hasProjected should be redundant (should not be enabled if _hasProjected is true) but keeping it in just in case
@@ -39,6 +42,10 @@ namespace Mod_Jam_6
                     }
                 }
                 _hasProjected = true;
+                if(_projectionCondition != null && _projectionCondition.Length > 0)
+                {
+                    DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, false);
+                }
                 base.enabled = false;
             }
         }
