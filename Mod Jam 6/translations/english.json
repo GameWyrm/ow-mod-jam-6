@@ -489,6 +489,10 @@
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
 		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
 		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
-		"$PH_ENDING_STAY": "YOU STAYED BEHIND"
+		"$PH_ENDING_STAY": "YOU STAYED BEHIND",
+		"$PH_GRAB_WARPCORE": "Disconnect",
+		"$PH_FLIP_BREAKER": "Flip Breakers",
+		"$PH_OPEN_DOOR_PROMPT": "Open",
+		"$PH_TRY_DOOR_PROMPT": "Try"
 	}
 }

@@ -13,8 +13,8 @@ namespace Mod_Jam_6.Controllers
         [SerializeField]
         private Animator _mainAnimator;
 
-        [SerializeField, Tooltip("Trigger on the animation that will be set")]
-        private string _animationTrigger;
+        [Tooltip("Trigger on the animation that will be set")]
+        public string _animationTrigger;
 
         protected virtual void Start()
         {
