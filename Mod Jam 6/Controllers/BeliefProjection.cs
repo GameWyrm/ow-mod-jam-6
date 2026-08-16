@@ -26,11 +26,6 @@ namespace Mod_Jam_6
         [SerializeField]
         private string[] _projectionFacts;
 
-        private void Start()
-        {
-            base.enabled = false;
-        }
-
         private void Update()
         {
             if (!_hasProjected && CheckProjection()) // the !_hasProjected should be redundant (should not be enabled if _hasProjected is true) but keeping it in just in case

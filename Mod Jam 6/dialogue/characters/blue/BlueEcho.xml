@@ -7,6 +7,11 @@
     <Dialogue>
       <Page>PH_brevity_ECHO_1</Page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_BLUE_ECHO_1</FactID>
+      <FactID>PH_LOG_BLUE_ECHO_2</FactID>
+    </RevealFacts>
   </DialogueNode>
 
 </DialogueTree>
