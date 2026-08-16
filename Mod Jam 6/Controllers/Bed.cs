@@ -148,6 +148,11 @@ namespace Mod_Jam_6
 			}
 		}
 
+		private void UpdateDisplayState()
+        {
+			_interactVolume?._screenPrompt.SetDisplayState((!CanSleepHereNow()) ? ScreenPrompt.DisplayState.GrayedOut : ScreenPrompt.DisplayState.Normal);
+		}
+
 		private void StartSleeping()
 		{
 			Locator.GetToolModeSwapper().UnequipTool();
@@ -252,6 +257,7 @@ namespace Mod_Jam_6
 					OWTime.SetTimeScale(_fastForwardMultiplier);
 				}
 			}
+			UpdateDisplayState(); // Probably not the best place to put this (in term of performance) but lazy
 		}
 
 		private float GetWakePromptDelay()
