@@ -16,8 +16,8 @@ namespace Mod_Jam_6
 
             if (hitCollider.CompareTag("PlayerDetector"))
             {
-                Locator.GetShipLogManager().RevealFact("$PH_LOG_HOTEL_CURIOSITY_RUMOR_1"); // Unrelated but triggerbox also fits
-                Locator.GetShipLogManager().RevealFact("$PH_LOG_OUTSIDE_RUMOR_1"); // Unrelated but triggerbox also fits
+                Locator.GetShipLogManager().RevealFact("PH_LOG_HOTEL_CURIOSITY_RUMOR_1"); // Unrelated but triggerbox also fits
+                Locator.GetShipLogManager().RevealFact("PH_LOG_OUTSIDE_RUMOR_1"); // Unrelated but triggerbox also fits
 
                 if (_bellhopMirrorTrigger.IsSolving())
                 {
