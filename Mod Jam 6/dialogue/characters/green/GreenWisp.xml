@@ -20,6 +20,10 @@
       <FactID>PH_LOG_GREEN_WISP_RUMOR_1</FactID>
       <FactID>PH_LOG_GREEN_WISP_1</FactID>
     </RevealFacts>
+
+    <SetCondition>PH_GREEN_WISP_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->

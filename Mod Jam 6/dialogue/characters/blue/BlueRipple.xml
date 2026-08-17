@@ -9,8 +9,13 @@
     </Dialogue>
 
     <RevealFacts>
+      <FactID>PH_LOG_BLUE_RIPPLE_RUMOR_2</FactID>
       <FactID>PH_LOG_BLUE_RIPPLE_1</FactID>
     </RevealFacts>
+
+    <SetCondition>PH_BLUE_RIPPLE_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
 </DialogueTree>

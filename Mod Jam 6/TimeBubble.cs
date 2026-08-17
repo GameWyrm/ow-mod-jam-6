@@ -162,6 +162,9 @@ namespace Mod_Jam_6
                     {
                         obj.SetActive(false);
                     }
+
+                    PlayerData.SetPersistentCondition("PH_FOUND_SOMETHING_P", true);
+                    PlayerData.SetPersistentCondition("PH_FOUND_TIMEBUBBLES_P", true);
                 }
             }
             else if (_wishToExpand)

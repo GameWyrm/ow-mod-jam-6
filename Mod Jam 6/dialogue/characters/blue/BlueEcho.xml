@@ -12,6 +12,10 @@
       <FactID>PH_LOG_BLUE_ECHO_1</FactID>
       <FactID>PH_LOG_BLUE_ECHO_2</FactID>
     </RevealFacts>
+
+    <SetCondition>PH_BLUE_ECHO_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
 </DialogueTree>

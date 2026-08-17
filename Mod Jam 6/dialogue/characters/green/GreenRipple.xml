@@ -13,5 +13,9 @@
       <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_3</FactID>
       <FactID>PH_LOG_GREEN_RIPPLE_1</FactID>
     </RevealFacts>
+
+  <SetCondition>PH_GREEN_RIPPLE_T</SetCondition>
+  <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+  <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   
 </DialogueTree>
