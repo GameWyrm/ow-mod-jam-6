@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Mod_Jam_6.Controllers
 {
@@ -7,8 +8,8 @@ namespace Mod_Jam_6.Controllers
     {
         public static ConditionTracker Instance;
 
-        private string[] colorPrefixes = ["BLUE", "GREEN", "PURPLE"];
-        private string[] typeSuffixes = ["WISP", "ECHO", "RIPPLE"];
+        private List<string> colorPrefixes = new() { "BLUE", "GREEN", "PURPLE" };
+        private List<string> typeSuffixes = new() { "WISP", "ECHO", "RIPPLE" };
 
         private void Start()
         {
