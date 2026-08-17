@@ -8,6 +8,7 @@
     <Dialogue>
       <Page>PH_prose_ECHO01_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
     <DialogueOptionsList>
       <DialogueOption>
         <Text>PH_prose_ECHO01_A</Text>
@@ -22,6 +23,7 @@
     <Dialogue>
       <Page>PH_prose_ECHO02_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
     <DialogueOptionsList>
       <DialogueOption>
         <Text>PH_prose_ECHO02_A</Text>
@@ -36,6 +38,7 @@
     <Dialogue>
       <Page>PH_prose_ECHO03_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_PURPLE_ECHO_P</SetPersistentCondition>
     <DialogueOptionsList>
       <DialogueOption>
         <Text>PH_prose_ECHO03_A</Text>
@@ -71,8 +74,6 @@
       <FactID>PH_LOG_PURPLE_ECHO_2</FactID>
     </RevealFacts>
     
-    <SetCondition>PH_PURPLE_ECHO_T</SetCondition>
-    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
-    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
+    <SetCondition>PH_PURPLE_TALK</SetCondition>
   </DialogueNode>
 </DialogueTree>

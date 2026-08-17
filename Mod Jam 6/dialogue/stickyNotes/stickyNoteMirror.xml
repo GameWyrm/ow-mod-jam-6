@@ -1,0 +1,13 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>DefaultNode</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PH_Stickynotes_MIRROR_1</Page>
+      <Page>PH_Stickynotes_MIRROR_2</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

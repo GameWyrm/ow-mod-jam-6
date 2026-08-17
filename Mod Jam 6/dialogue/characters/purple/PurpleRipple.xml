@@ -8,6 +8,7 @@
     <Dialogue>
       <Page>PH_prose_RIPPLE01_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_PURPLE_RIPPLE_P</SetPersistentCondition>
     <DialogueOptionsList>
       <DialogueOption>
         <Text>PH_prose_RIPPLE01_A</Text>
@@ -19,9 +20,6 @@
       </DialogueOption>
     </DialogueOptionsList>
 
-    <SetCondition>PH_PURPLE_RIPPLE_T</SetCondition>
-    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
-    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- 02 (Yes choice) -->
@@ -30,11 +28,8 @@
     <Dialogue>
       <Page>PH_prose_RIPPLE02_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
     <DialogueTarget>04</DialogueTarget>
-
-    <RevealFacts>
-      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3</FactID>
-    </RevealFacts>
   </DialogueNode>
 
   <!-- 03 (No choice) -->
@@ -43,6 +38,7 @@
     <Dialogue>
       <Page>PH_prose_RIPPLE03_1</Page>
     </Dialogue>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
     <DialogueTarget>04</DialogueTarget>
   </DialogueNode>
 
@@ -54,10 +50,13 @@
     </Dialogue>
 
     <RevealFacts>
+      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_RUMOR_3</FactID>
       <FactID>PH_LOG_PURPLE_RIPPLE_1</FactID>
       <FactID>PH_LOG_PURPLE_RIPPLE_2</FactID>
       <FactID>PH_LOG_PURPLE_RIPPLE_3</FactID>
     </RevealFacts>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
+    <SetCondition>PH_PURPLE_TALK</SetCondition>
   </DialogueNode>
   
 </DialogueTree>

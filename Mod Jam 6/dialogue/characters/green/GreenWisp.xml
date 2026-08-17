@@ -8,11 +8,6 @@
     <Dialogue>
 		  <Page>PH_haiku_WISP_ONE_1a</Page>
 
-      <Page>PH_haiku_WISP_ONE_2b</Page>
-	    <page>PH_haiku_WISP_ONE_3b</page>
-      <Page>PH_haiku_WISP_ONE_4c</Page>
-	    <page>PH_haiku_WISP_ONE_5c</page>
-	    <page>PH_haiku_WISP_ONE_6c</page>
     </Dialogue>
 
     <RevealFacts>
@@ -21,15 +16,27 @@
       <FactID>PH_LOG_GREEN_WISP_1</FactID>
     </RevealFacts>
 
-    <SetCondition>PH_GREEN_WISP_T</SetCondition>
     <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetCondition>PH_GREEN_WISP_T</SetCondition>
+    <DialogueTarget>2</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>PH_haiku_WISP_ONE_2b</Page>
+	    <Page>PH_haiku_WISP_ONE_3b</Page>
+      <Page>PH_haiku_WISP_ONE_4c</Page>
+	    <Page>PH_haiku_WISP_ONE_5c</Page>
+	    <Page>PH_haiku_WISP_ONE_6c</Page>
+    </Dialogue>
     <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoEcho</Name>
-    <EntryCondition>PH_TEMP_GREENECHO</EntryCondition>
+    <EntryCondition>PH_GREEN_ECHO_P</EntryCondition>
     <Dialogue>
       <Page>PH_haiku_WISP_ONE_1a</Page>
       <Page>PH_haiku_WISP_TWO_EITHER_1a</Page>
@@ -42,7 +49,7 @@
   <!-- Just Ripple (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoRipple</Name>
-    <EntryCondition>PH_TEMP_GREENRIPPLE</EntryCondition>
+    <EntryCondition>PH_GREEN_RIPPLE_P</EntryCondition>
     <Dialogue>
       <Page>PH_haiku_WISP_ONE_1a</Page>
       <Page>PH_haiku_WISP_TWO_EITHER_1a</Page>
@@ -55,16 +62,19 @@
   <!-- Both Echo and Ripple ("THREE") -->
   <DialogueNode>
     <Name>Three</Name>
-    <EntryCondition>PH_TEMP_GREENCOMPLETE</EntryCondition>
+    <EntryCondition>PH_GREEN_COMPLETE</EntryCondition>
     <Dialogue>
       <Page>PH_haiku_WISP_ONE_1a</Page>
       <Page>PH_haiku_WISP_TWO_EITHER_1a</Page>
       <Page>PH_haiku_WISP_THREE_1a</Page>
 
       <Page>PH_haiku_WISP_THREE_2b</Page>
-	    <page>PH_haiku_WISP_THREE_3b</page>
-	    <page>PH_haiku_WISP_THREE_4b</page>
+	    <Page>PH_haiku_WISP_THREE_3b</Page>
+	    <Page>PH_haiku_WISP_THREE_4b</Page>
       <Page>PH_haiku_WISP_THREE_5c</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_VAULT_RUMOR_2</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

@@ -17,6 +17,11 @@
       <ID>PH_LOG_PLAYER_ROOM_1</ID>
       <Text>$PH_LOG_PLAYER_ROOM_1</Text>
     </ExploreFact>
+  
+    <ExploreFact>
+      <ID>PH_LOG_PLAYER_ROOM_2</ID>
+      <Text>$PH_LOG_PLAYER_ROOM_2</Text>
+    </ExploreFact>
   </Entry>
 
   <!-- HOTEL_CURIOSITY -->

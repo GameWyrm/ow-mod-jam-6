@@ -7,9 +7,6 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>PH_prose_WISP_ONE_1a</Page>
-
-      <Page>PH_prose_WISP_ONE_2b</Page>
-      <Page>PH_prose_WISP_ONE_3c</Page>
     </Dialogue>
 
     <RevealFacts>
@@ -18,15 +15,24 @@
       <FactID>PH_LOG_PURPLE_WISP_2</FactID>
     </RevealFacts>
 
-    <SetCondition>PH_PURPLE_WISP_T</SetCondition>
     <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetCondition>PH_PURPLE_WISP_T</SetCondition>
+    <DialogueTarget>2</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>PH_prose_WISP_ONE_2b</Page>
+      <Page>PH_prose_WISP_ONE_3c</Page>
+    </Dialogue>
     <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoEcho</Name>
-    <EntryCondition>PH_TEMP_PURPLEECHO</EntryCondition>
+    <EntryCondition>PH_PURPLE_ECHO_P</EntryCondition>
     <Dialogue>
       <Page>PH_prose_WISP_ONE_1a</Page>
       <Page>PH_prose_WISP_TWO_EITHER_1a</Page>
@@ -39,7 +45,7 @@
   <!-- Just Ripple (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoRipple</Name>
-    <EntryCondition>PH_TEMP_PURPLERIPPLE</EntryCondition>
+    <EntryCondition>PH_PURPLE_RIPPLE_P</EntryCondition>
     <Dialogue>
       <Page>PH_prose_WISP_ONE_1a</Page>
       <Page>PH_prose_WISP_TWO_EITHER_1a</Page>
@@ -52,7 +58,7 @@
   <!-- Both Echo abd Ripple ("THREE") -->
   <DialogueNode>
     <Name>Three</Name>
-    <EntryCondition>PH_TEMP_PURPLECOMPLETE</EntryCondition>
+    <EntryCondition>PH_PURPLE_COMPLETE</EntryCondition>
     <Dialogue>
       <Page>PH_prose_WISP_ONE_1a</Page>
       <Page>PH_prose_WISP_TWO_EITHER_1a</Page>
