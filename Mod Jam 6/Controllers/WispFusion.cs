@@ -37,6 +37,13 @@ namespace Mod_Jam_6
         [SerializeField]
         private string _completeCondition;
 
+        [SerializeField]
+        private string[] _echoFacts;
+        [SerializeField]
+        private string[] _rippleFacts;
+        [SerializeField]
+        private string[] _completeFacts;
+
         private void Update()
         {
             if(_hasFusedEcho && _hasFusedRipple)
@@ -69,10 +76,24 @@ namespace Mod_Jam_6
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, false);
                         DialogueConditionManager.SharedInstance.SetConditionState(_completeCondition, true);
+                        if (_completeFacts != null)
+                        {
+                            foreach (var fact in _completeFacts)
+                            {
+                                Locator.GetShipLogManager().RevealFact(fact);
+                            }
+                        }
                     }
                     else
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, true);
+                        if(_echoFacts != null)
+                        {
+                            foreach(var fact in _echoFacts)
+                            {
+                                Locator.GetShipLogManager().RevealFact(fact);
+                            }
+                        }
                     }
 
                     var notificationText = "googoogaga";
@@ -102,10 +123,24 @@ namespace Mod_Jam_6
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, false);
                         DialogueConditionManager.SharedInstance.SetConditionState(_completeCondition, true);
+                        if (_completeFacts != null)
+                        {
+                            foreach (var fact in _completeFacts)
+                            {
+                                Locator.GetShipLogManager().RevealFact(fact);
+                            }
+                        }
                     }
                     else
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, true);
+                        if (_rippleFacts != null)
+                        {
+                            foreach (var fact in _rippleFacts)
+                            {
+                                Locator.GetShipLogManager().RevealFact(fact);
+                            }
+                        }
                     }
 
                     var notificationText = "gagagoogoo";
