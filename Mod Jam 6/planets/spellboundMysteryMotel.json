@@ -113,7 +113,7 @@
                 "horizonRadius": 0.03,
                 "distortRadius": 0.06,
                 "pairedSingularity": "lolwut",
-                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/BlackHoleAnchor",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/Visuals/BlackHoleAnchor",
                 "isRelativeToParent": true
             },
             {
@@ -127,7 +127,7 @@
                 "horizonRadius": 0.03,
                 "distortRadius": 0.06,
                 "pairedSingularity": "lol",
-                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/WhiteHoleAnchor",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/Visuals/WhiteHoleAnchor",
                 "isRelativeToParent": true
             }
         ]

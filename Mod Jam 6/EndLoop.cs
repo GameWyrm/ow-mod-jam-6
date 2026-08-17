@@ -6,6 +6,8 @@ namespace Mod_Jam_6
     {
         public static EndLoop instance;
 
+        [SerializeField]
+        private GameObject visuals;
         private SingleInteractionVolume interact;
         [SerializeField]
         private string interactText;
@@ -27,7 +29,7 @@ namespace Mod_Jam_6
             if (TimeLoop._timeLoopEnabled)
             {
                 TimeLoop.SetTimeLoopEnabled(false);
-                GetComponentInParent<MeshRenderer>().enabled = false;
+                visuals.SetActive(false);
                 if (EndingBarrier.Instance.hasWarpCore)
                 {
                     if (!DialogueConditionManager.SharedInstance.ConditionExists("PH_SHOW_NEWCOMER")) DialogueConditionManager.SharedInstance.AddCondition("PH_SHOW_NEWCOMER");
@@ -38,7 +40,7 @@ namespace Mod_Jam_6
             else
             {
                 TimeLoop.SetTimeLoopEnabled(true);
-                GetComponentInParent<MeshRenderer>().enabled = true;
+                visuals.SetActive(true);
                 interact.ChangePrompt(ModJam6.NewHorizons.GetTranslationForUI(interactText));
             }
             ModJam6.RevealFact("PH_LOG_BASEMENT_2");

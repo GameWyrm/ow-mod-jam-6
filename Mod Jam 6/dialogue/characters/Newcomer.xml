@@ -289,11 +289,11 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>PH_Newcomer_Wisps08_A</Text>
-				<DialogueTarget>Wisp08</DialogueTarget>
+				<DialogueTarget>Wisp09</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Newcomer_Wisps08_B</Text>
-				<DialogueTarget>Wisp08</DialogueTarget>
+				<DialogueTarget>Wisp09</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
   </DialogueNode>
