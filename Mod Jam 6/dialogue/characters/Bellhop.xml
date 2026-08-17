@@ -78,6 +78,10 @@
       <Page>PH_Bellhop_MAIN02_1</Page>
     </Dialogue>
 		<DialogueTarget>Main01</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_OUTSIDE_RUMOR_4</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- MAIN03 (choice B) -->

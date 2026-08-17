@@ -71,6 +71,12 @@
       <Text>$PH_LOG_OUTSIDE_RUMOR_3</Text>
     </RumorFact>
 
+    <RumorFact>
+      <ID>PH_LOG_OUTSIDE_RUMOR_4</ID>
+      <SourceID>PH_LOG_HOTEL_CURIOSITY</SourceID>
+      <Text>$PH_LOG_OUTSIDE_RUMOR_4</Text>
+    </RumorFact>
+
     <ExploreFact>
       <ID>PH_LOG_OUTSIDE_1</ID>
       <Text>$PH_LOG_OUTSIDE_1</Text>
