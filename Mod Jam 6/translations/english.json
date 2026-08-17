@@ -493,7 +493,7 @@
 		// Signals
 		"PH_FREQUENCY_WARPCORE": "NOMAI_TECHNOLOGY",
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
-		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
+		"PH_FREQUENCY_BELLHOP": "[Placeholder Bellhop Frequency]",
 		"PH_SIGNAL_BELLHOP": "[Placeholder Bellhop]",
 		"PH_FREQUENCY_PURPLE": "[Placeholder Purple Frequency]",
 		"PH_SIGNAL_PURPLE_WISP": "[Placeholder Purple Wisp]",
