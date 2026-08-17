@@ -46,11 +46,12 @@
             }
         ]
     },
-    "ShipLog": {
-        "mapMode": {
-            "outlineSprite": "assets/VoidPlanetIcon.png",
-            "revealedSprite": "assets/VoidPlanetIcon.png",
-            "invisibleWhenHidden": true
-        }
+  "ShipLog": {
+    "spriteFolder": "assets/Shiplogs/",
+    "mapMode": {
+      "outlineSprite": "assets/VoidPlanetIcon.png",
+      "revealedSprite": "assets/VoidPlanetIcon.png",
+      "invisibleWhenHidden": true
     }
+  }
  }

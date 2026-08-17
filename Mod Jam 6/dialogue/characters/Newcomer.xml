@@ -49,6 +49,7 @@
     <Dialogue>
       <Page>PH_Newcomer_Choice02_1</Page>
     </Dialogue>
+    <SetCondition>PH_END_NEWCOMER</SetCondition>
   </DialogueNode>
 
   <!-- Choice B - Choice03 -->
@@ -288,11 +289,11 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>PH_Newcomer_Wisps08_A</Text>
-				<DialogueTarget>Wisp08</DialogueTarget>
+				<DialogueTarget>Wisp09</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>PH_Newcomer_Wisps08_B</Text>
-				<DialogueTarget>Wisp08</DialogueTarget>
+				<DialogueTarget>Wisp09</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
   </DialogueNode>

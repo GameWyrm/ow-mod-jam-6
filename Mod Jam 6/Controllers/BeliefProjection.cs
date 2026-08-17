@@ -47,6 +47,8 @@ namespace Mod_Jam_6
                 _hasProjected = true;
                 if(_projectionCondition != null && _projectionCondition.Length > 0)
                 {
+                    ModJam6.Log($"Teaching condition {_projectionCondition}");
+                    if (!DialogueConditionManager.SharedInstance.ConditionExists(_projectionCondition)) DialogueConditionManager.SharedInstance.AddCondition(_projectionCondition);
                     DialogueConditionManager.SharedInstance.SetConditionState(_projectionCondition, true);
                 }
                 if (_projectionFacts != null)

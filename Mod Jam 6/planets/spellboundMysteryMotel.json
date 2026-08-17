@@ -113,7 +113,7 @@
                 "horizonRadius": 0.03,
                 "distortRadius": 0.06,
                 "pairedSingularity": "lolwut",
-                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/BlackHoleAnchor",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/Visuals/BlackHoleAnchor",
                 "isRelativeToParent": true
             },
             {
@@ -127,7 +127,7 @@
                 "horizonRadius": 0.03,
                 "distortRadius": 0.06,
                 "pairedSingularity": "lol",
-                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/WhiteHoleAnchor",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Basement/Basement/BadATP/BadWarpCore/Visuals/WhiteHoleAnchor",
                 "isRelativeToParent": true
             }
         ]
@@ -145,14 +145,29 @@
                 "gameOver": {
                     "text": "$PH_ENDING_NORMAL"
                 }
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "ENDING_TRIGGER_STAY",
+                "radius": 10,
+                "gameOver": {
+                    "text": "$PH_ENDING_STAY"
+                },
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Lobby/Sector/NewcomerEnding",
+                "isRelativeToParent": true
             }
         ]
     },
   "ShipLog": {
     "xmlFile": "planets/shiplogs/PenumbraHotel.xml",
+    "spriteFolder": "assets/Shiplogs/",
     "mapMode": {
-        "revealedSprite": "assets/HotelPlanetIcon.png",
-        "outlineSprite": "assets/HotelPlanetIcon.png"
+      "revealedSprite": "assets/HotelPlanetIcon.png",
+      "outlineSprite": "assets/HotelPlanetIcon.png"
     }
   }
 }
