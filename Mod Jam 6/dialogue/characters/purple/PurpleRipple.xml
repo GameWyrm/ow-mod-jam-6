@@ -18,6 +18,8 @@
         <DialogueTarget>03</DialogueTarget>
       </DialogueOption>
     </DialogueOptionsList>
+
+    <SetCondition>PH_PURPLE_RIPPLE_T</SetCondition>
   </DialogueNode>
 
   <!-- 02 (Yes choice) -->
@@ -52,6 +54,7 @@
     <RevealFacts>
       <FactID>PH_LOG_PURPLE_RIPPLE_1</FactID>
       <FactID>PH_LOG_PURPLE_RIPPLE_2</FactID>
+      <FactID>PH_LOG_PURPLE_RIPPLE_3</FactID>
     </RevealFacts>
   </DialogueNode>
   

@@ -204,6 +204,10 @@
       <Page>PH_Bellhop_QUESTIONS02_1</Page>
     </Dialogue>
     <DialogueTarget>Questions01</DialogueTarget>
+
+    <RevealFacts>
+      <FactID>PH_LOG_HOTEL_CURIOSITY_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- QUESTIONS03 (choice B) -->

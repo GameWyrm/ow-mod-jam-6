@@ -17,6 +17,8 @@
       <FactID>PH_LOG_PURPLE_WISP_1</FactID>
       <FactID>PH_LOG_PURPLE_WISP_2</FactID>
     </RevealFacts>
+
+    <SetCondition>PH_PURPLE_WISP_T</SetCondition>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->
