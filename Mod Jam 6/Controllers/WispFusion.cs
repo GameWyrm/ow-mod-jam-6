@@ -74,6 +74,10 @@ namespace Mod_Jam_6
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_echoCondition, true);
                     }
+
+                    var notificationText = "googoogaga";
+                    var notification = new NotificationData(NotificationTarget.All, notificationText);
+                    NotificationManager.SharedInstance.PostNotification(notification);
                 }
 
                 if (_rippleObject != null && _rippleObject.activeSelf && CheckRipple())
@@ -103,6 +107,10 @@ namespace Mod_Jam_6
                     {
                         DialogueConditionManager.SharedInstance.SetConditionState(_rippleCondition, true);
                     }
+
+                    var notificationText = "gagagoogoo";
+                    var notification = new NotificationData(NotificationTarget.All, notificationText);
+                    NotificationManager.SharedInstance.PostNotification(notification);
                 }
             }
         }
