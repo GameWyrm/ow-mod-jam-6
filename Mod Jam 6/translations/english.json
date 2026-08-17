@@ -495,6 +495,20 @@
 		// Signals
 		"PH_FREQUENCY_WARPCORE": "NOMAI_TECHNOLOGY",
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
+		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
+		"PH_SIGNAL_BELLHOP": "[Placeholder Bellhop]",
+		"PH_FREQUENCY_PURPLE": "[Placeholder Purple Frequency]",
+		"PH_SIGNAL_PURPLE_WISP": "[Placeholder Purple Wisp]",
+		"PH_SIGNAL_PURPLE_ECHO": "[Placeholder Purple Echo]",
+		"PH_SIGNAL_PURPLE_RIPPLE": "[Placeholder Purple Ripple]",
+		"PH_FREQUENCY_BLUE": "[Placeholder Blue Frequency]",
+		"PH_SIGNAL_BLUE_WISP": "[Placeholder Blue Wisp]",
+		"PH_SIGNAL_BLUE_ECHO": "[Placeholder Blue Echo]",
+		"PH_SIGNAL_BLUE_RIPPLE": "[Placeholder Blue Ripple]",
+		"PH_FREQUENCY_GREEN": "[Placeholder Green Frequency]",
+		"PH_SIGNAL_GREEN_WISP": "[Placeholder Green Wisp]",
+		"PH_SIGNAL_GREEN_ECHO": "[Placeholder Green Echo]",
+		"PH_SIGNAL_GREEN_RIPPLE": "[Placeholder Green Ripple]",
 
 		// Screen prompts
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
