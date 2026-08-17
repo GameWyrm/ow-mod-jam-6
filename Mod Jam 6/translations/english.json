@@ -119,6 +119,26 @@
 
 		"PH_Bellhop_FOUND01_END": "That's all that I've found.",
 
+		// Void Bellhop
+		"PH_VoidBellhop_HUB_1": "Ah. It's you. Hi.",
+
+		"PH_VoidBellhop_HUB_A": "Where are we?",
+		"PH_VoidBellhop_HUB_B": "What are those bubbles?",
+		"PH_VoidBellhop_HUB_C": "How do we get out of here?",
+		"PH_VoidBellhop_HUB_D": "Goodbye",
+
+		"PH_VoidBellhop_WHERE_1": "We're inside of it. The janitor. <b>The Void.</b>",
+		"PH_VoidBellhop_WHERE_2": "Everything ends up here eventually. Consumed.",
+		"PH_VoidBellhop_WHERE_3": "In a sense, you're far in the future, when there is nothing left. No hope. No discovery. Only the brightest flames of determination even stand a chance here.",
+		"PH_VoidBellhop_WHERE_4": "Soon, it will all be over.",
+
+		"PH_VoidBellhop_BUBBLES_1": "You tell me. Eyes? Stomachs? Something else? I suppose you can't even assume this <i>thing</i> is alive.",
+		"PH_VoidBellhop_BUBBLES_2": "Sometimes they disappear and a meal appears in its place. Distorted. Thrusted through time.",
+
+		"PH_VoidBellhop_ESCAPE_1": "Get out? You think we can escape from this?",
+		"PH_VoidBellhop_ESCAPE_2": "This is what awaits <i>every</i> universe at the end. Any uncertainty left gets dumped here.",
+		"PH_VoidBellhop_ESCAPE_3": "I miss the comforts of home, of my dear 156, but at least I won't have to be missing it for much longer.",
+
 		// Blue echo & ripple
 		"PH_brevity_ECHO_1": "Splash! Mama lost again. Now the experiment can continue... No? Why would I release toxic fumes? Ooooh! The big scary black rock in the sky? No this experiment is endothermic. I asked teacher and the black rain shouldn't go boom. Shouldn't? Yes mama, but science! Risk is necessary! I love you too mom. Endothermic reaction success! Mama happy! I get good grade in school. Why the black rock moving mama? Possible?",
 		"PH_brevity_RIPPLE_1": "The black rock destroyed. Possible? I will make possible. Others must be safe again. No quantum entanglement anymore. Destroy uncertainty principle. When leave hotel. Newcomer must not stop me.",
@@ -357,6 +377,7 @@
 		"$PH_LOG_FIRST_FLOOR_NAME": "First Floor",
 		"$PH_LOG_FIRST_FLOOR_RUMOR_1": "The Bellhop told me that most of the hotel's occupants are on the first floor.",
 		"$PH_LOG_FIRST_FLOOR_1": "The first floor is green, with long halls and a large number of rooms.",
+		"$PH_LOG_FIRST_FLOOR_2": "The Bellhop's room is 156.",
 
 		// VOID_FIRST_FLOOR
 		"$PH_LOG_VOID_FIRST_FLOOR_NAME": "Void First Floor",
@@ -493,7 +514,7 @@
 		// TODO
 
 		// Signals
-		"PH_FREQ_WARPCORE": "NOMAI_TECHNOLOGY",
+		"PH_FREQ_CORE": "NOMAI_TECHNOLOGY",
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
 		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
 		"PH_SIGNAL_BELLHOP": "BELLHOP",

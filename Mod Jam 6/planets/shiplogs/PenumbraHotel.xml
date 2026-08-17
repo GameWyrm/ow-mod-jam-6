@@ -161,6 +161,11 @@
       <Text>$PH_LOG_FIRST_FLOOR_1</Text>
     </ExploreFact>
     
+    <ExploreFact>
+      <ID>PH_LOG_FIRST_FLOOR_2</ID>
+      <Text>$PH_LOG_FIRST_FLOOR_2</Text>
+    </ExploreFact>
+    
     <!-- VOID_FIRST_FLOOR -->
     <Entry>
       <ID>PH_LOG_VOID_FIRST_FLOOR</ID>
