@@ -6,7 +6,7 @@ namespace Mod_Jam_6
     public class SignalMover : MonoBehaviour
     {
         public static Dictionary<Color, SignalMover> HotelInstance = new();
-        public static Dictionary<Color, SignalMover> VoidInstance;
+        public static Dictionary<Color, SignalMover> VoidInstance = new();
 
         public FloorEnum floor;
         public Color color;
@@ -30,6 +30,7 @@ namespace Mod_Jam_6
             if (isVoid && signalObject != null)
             {
                 signalObject.transform.SetParent(HotelInstance[color].transform, false);
+                signalObject.transform.localPosition = Vector3.zero;
                 if (floor == FloorEnum.FLOOR_3F)
                 {
                     TimeManager.instance.timeEvents[1].AddListener(OnFloorConsumed);
@@ -50,6 +51,7 @@ namespace Mod_Jam_6
         private void OnFloorConsumed()
         {
             signalObject.transform.SetParent(VoidInstance[color].transform, false);
+            signalObject.transform.localPosition = Vector3.zero;
         }
 
         public enum Color
