@@ -7,15 +7,15 @@
     <Dialogue>
       <Page>PH_haiku_ECHO_1</Page>
     </Dialogue>
+
+    <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2</FactID>
+      <FactID>PH_LOG_GREEN_ECHO_1</FactID>
+    </RevealFacts>
+
+    <SetCondition>PH_GREEN_ECHO_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
+
   </DialogueNode>
-
-  <RevealFacts>
-    <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_2</FactID>
-    <FactID>PH_LOG_GREEN_ECHO_1</FactID>
-  </RevealFacts>
-
-  <SetCondition>PH_GREEN_ECHO_T</SetCondition>
-  <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
-  <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
-  
 </DialogueTree>
