@@ -25,19 +25,19 @@
 		"PH_Stickynotes_POOLENTR_2": "When a door is locked, look for drawings nearby.",
 
 		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
-		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy when applied to the crystal makes the disturbance visible.",
+		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy, when applied to the crystal, makes the disturbance visible.",
 
 		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
 		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
 
 		"PH_Stickynotes_WATERLEAK_1": "Recently, water has been dripping from the ceiling. I will have to talk to Blue about responsible usage of cryonic tools.",
-		"PH_Stickynotes_WATERLEAK_2": "The room above 272 always has issues that require investigating.",
+		"PH_Stickynotes_WATERLEAK_2": "The room above 272 always seems to have issues that require solving, or at least investigating.",
 
-		"PH_Stickynotes_BASEMENT_1": "Finally got the improvised Ash Twin Project working. Blue would have loved to see this thing kicking off. The only problem is that neither me or Blue or anyone else is able to kickstart this thing. Maybe if I try stirring some trouble? Can’t risk involving Blue or the others anymore.",
-		"PH_Stickynotes_BASEMENT_2": "The Ash Twin Project will only start working when a crisis is happening.",
+		"PH_Stickynotes_BASEMENT_1": "Finally got the improvised Ash Twin Project working. Blue would have loved to see this thing coming into use. The only problem is that neither me nor anyone else is able to actually kickstart this thing. Maybe if I try stirring up some trouble by myself, it will work? I can't risk involving Blue or the others anymore.",
+		"PH_Stickynotes_BASEMENT_2": "The improvised Ash Twin Project will only start working when a crisis is happening.",
 
-		"PH_Stickynotes_ECHRIPSIGNAL_1": "What is this? Another signal? Huh that's weird. This one can be lined up with one of those apperitions I have talked to.",
-		"PH_Stickynotes_ECHRIPSIGNAL_2": "Lining up an Echo or Ripple with their origin(a person) affects the origin at a distance.",
+		"PH_Stickynotes_ECHRIPSIGNAL_1": "What is this? Another signal? This one can be lined up with one of those apparitions I have interacted with.",
+		"PH_Stickynotes_ECHRIPSIGNAL_2": "Lining up an Echo or Ripple with their origin, affects that origin, no matter the distance from it.",
 
 		// Bellhop (Init)
 		"PH_Bellhop_INIT01_1": "Welcome back, Newcomer. Have you forgotten everything again?",
@@ -178,7 +178,7 @@
 		"PH_prose_RIPPLE02_1": "Perfect, I will now reveal the ultimate truth.",
 		"PH_prose_RIPPLE01_B": "No?",
 		"PH_prose_RIPPLE03_1": "To prevent the fabric of space being torn I shall now reveal the ultimate truth.",
-		"PH_prose_RIPPLE04_1": "I shall be like a warrior of olden days. Never shall I stop guarding the tactile feel of their gorguous books. Those written by dazzling masters of literature. I shall not be bothered by the infinitesimal small cuts the paper of the books inflicts upon my fingers. I shall carry the scars from these stories like badges of honour. Like the medal bestowed upon a knight by the prestigious prince after a long and arduous quest. No fear floods my skull. No waves are crashing upon the desert of my mind. I remain resolved and steel my nerves against the deep ocean. The watery abyss shall not hurt the pages! I will strike down the water with my mighty sword. It was made with the purpose to defeat those who oppose the chivalry code. It has blessings of the miller upon it. If only the miller could bless me personally. Let his breeze carry me far beyond the wheels of his giant mill. I shall sail the desert and the water shall tremble before me. Quaking with anticipation, I set out. None shall oppose me for I have the mir- Oh wait I have brought a glass pane.",
+		"PH_prose_RIPPLE04_1": "I shall be like a warrior of olden days. Never shall I stop guarding the tactile feel of their gorgeous books. Those written by dazzling masters of literature. I shall not be bothered by the infinitesimal small cuts the paper of the books inflicts upon my fingers. I shall carry the scars from these stories like badges of honour. Like the medal bestowed upon a knight by the prestigious prince after a long and arduous quest. No fear floods my skull. No waves are crashing upon the desert of my mind. I remain resolved and steel my nerves against the deep ocean. The watery abyss shall not hurt the pages! I will strike down the water with my mighty sword. It was made with the purpose to defeat those who oppose the chivalry code. It has blessings of the miller upon it. If only the miller could bless me personally. Let his breeze carry me far beyond the wheels of his giant mill. I shall sail the desert and the water shall tremble before me. Quaking with anticipation, I set out. None shall oppose me for I have the mir- Oh wait, I have brought a glass pane.",
 		// [Old note idk if still relevant:] PH_prose_RIPPLE04_1 is not good enough. Should get a rewrite.
 
 		// Purple wisp
@@ -198,76 +198,76 @@
 
 		//Newcomer
 		"PH_Newcomer_Start_1": "Whoa.",
-		"PH_Newcomer_Choice01_1": "Have you made your choice yet or do you want to run through everything one more time? Memories work in strange ways here.",
+		"PH_Newcomer_Choice01_1": "Have you made your choice yet, or do you want to run through everything one more time? Memories work in strange ways here.",
 		"PH_Newcomer_Choice01_A": "I will give you the core.",
-		"PH_Newcomer_Choice02_1": "Thank you. I won't disappoint you. This meeting was neccessary. Still, I hope you won't mind if we meet again in the future. I don't want to see our story end with a whimper but with a bang. Time for me to properly meet all the travellers!",
-		"PH_Newcomer_Choice01_B": "I want to run by everything we have discussed one more time.",
-		"PH_Newcomer_Choice03_1": "Sure what is one more loop gonna do?",
+		"PH_Newcomer_Choice02_1": "Thank you. I won't disappoint you. This meeting was neccessary. Still, I hope we'll meet again in the future. I don't want to see our story end with a whimper, but with a bang. Time for me to properly meet all the travellers!",
+		"PH_Newcomer_Choice01_B": "I want to run through everything we have discussed, one more time.",
+		"PH_Newcomer_Choice03_1": "Sure, what's one more loop gonna do?",
 
 		//Newcomer Hatchling first conversation option
-		"PH_Newcomer_Start_A": "Are you me?",
-		"PH_Newcomer_IAmYou01_1": "Yeah. I mean sort of. I am you from the past.",
+		"PH_Newcomer_Start_A": "Are you... me?",
+		"PH_Newcomer_IAmYou01_1": "Yeah. I mean, sort of. I am you from the past.",
 		"PH_Newcomer_IAmYou01_A": "Why does your voice sound so coarse?",
 		"PH_Newcomer_IAmYou02_1": "It has been millions of loops since I was taken.",
 		"PH_Newcomer_IAmYou02_A": "Taken?",
-		"PH_Newcomer_IAmYou03_1": "Yes. I do not know by what exactly and that Bellhop hasn't been exactly useful.",
+		"PH_Newcomer_IAmYou03_1": "Yes. I've never learned what took me, and the Bellhop hasn't exactly been very helpful.",
 
-		"PH_Newcomer_IAmYou03_A": "The Bellhop? They have been very useful to me.",
-		"PH_Newcomer_IAmYou04_1": "Figures that at least one of us would find a use out of them. How are they doing? Did they give you marshmallows?",
-		"PH_Newcomer_IAmYou04_A": "They didn't actually give me any marshmallows.",
-		"PH_Newcomer_Marshmallow_1": "That's a shame. Their marshmallows are timeless.",
-		"PH_Newcomer_IAmYou04_B": "I was busy traversing this strange hotel.",
-		"PH_Newcomer_Busy01_1": "More than fair. Seems like you have been traversing nearly the whole hotel.",
-		"PH_Newcomer_Busy01_A": "Nearly? Oh right, the sleepy dark hallways.",
-		"PH_Newcomer_Busy02_1": "Sleep isn't entirely the correct word but you're me anyways so who am I arguing with?",
+		"PH_Newcomer_IAmYou03_A": "The Bellhop? But he's been very helpful to me.",
+		"PH_Newcomer_IAmYou04_1": "Figures that at least one of us would find a use out of him. How is he doing? Did he give you marshmallows?",
+		"PH_Newcomer_IAmYou04_A": "He didn't actually give me any marshmallows.",
+		"PH_Newcomer_Marshmallow_1": "That's a shame, they're pretty tasty.",
+		"PH_Newcomer_IAmYou04_B": "I was too busy traversing this strange hotel.",
+		"PH_Newcomer_Busy01_1": "More than fair. Seems like you've been all over the place, huh?",
+		"PH_Newcomer_Busy01_A": "Pretty much everywhere but those scary and dark hallways.",
+		"PH_Newcomer_Busy02_1": "Scary isn't entirely the correct word, but you're me anyways, so who am I even arguing with?",
 		"PH_Newcomer_Busy02_A": "Yourself.",
 		"PH_Newcomer_IAmYouEnd_1": "Agreed.",
 
-		"PH_Newcomer_Wisps01_A": "Regardless of what or who took you. We must leave!",
-		"PH_Newcomer_Wisps02_1": "Only one of us though. Say, you talked to the three fading ghosts out there?",
+		"PH_Newcomer_Wisps01_A": "Regardless of who or what took you, we must leave!",
+		"PH_Newcomer_Wisps02_1": "Only one of us, though. Say, you talked to the three fading ghosts out there?",
 		"PH_Newcomer_Wisps02_A": "You mean Blue, Green, and Purple?",
 		"PH_Newcomer_Wisps03_1": "Prose has never been our strong suit.",
-		"PH_Newcomer_Wisps03_A": "No, not particularly. Purple tries really hard even if he is a bit wordy.",
-		"PH_Newcomer_Wisps04_1": "Don't get too distracted by their ideas of megalomania.",
+		"PH_Newcomer_Wisps03_A": "No, not particularly. Purple tries really hard, even if they are a bit wordy.",
+		"PH_Newcomer_Wisps04_1": "Don't get too distracted by their ramblings.",
 
-		"PH_Newcomer_Wisps04_A": "I suppose you or rather me- Wait who is right here?",
-		"PH_Newcomer_Wisps05_1": "I think arguing this for too long might tear the fabric of my mind.",
+		"PH_Newcomer_Wisps04_A": "I suppose you, or rather I- Wait, who is right here?",
+		"PH_Newcomer_Wisps05_1": "I think arguing this for too long might tear the fabric of my mind, and maybe space, too.",
 
-		"PH_Newcomer_Wisps04_B": "You are vain for viewing it that way. Or rather I am vain? You don't suppose we have a mirror here to check?",
+		"PH_Newcomer_Wisps04_B": "You are vain for viewing it that way. Or rather... I am vain? Do we have a mirror here to check?",
 		"PH_Newcomer_Wisps06_1": "I made sure to not have any mirrors here for that reason.",
 
 		"PH_Newcomer_Wisps0506_A": "Regardless, they have been good... people. They are people, right?",
-		"PH_Newcomer_Wisps07_1": "They used to be like you and me. Different species but less faded. When I arrived, they had already begun to fade but were more talkative. Green even spoke without using Haikus all the time.",
+		"PH_Newcomer_Wisps07_1": "They used to be like you and me. Different species, but less faded. When I arrived, they had already begun to fade but were more talkative. Green even spoke without using haikus all the time.",
 		"PH_Newcomer_Wisps07_A": "That's good to hear. What did they talk about with you?",
-		"PH_Newcomer_Wisps08_1": "Nothing good. They still miss their partner.",
+		"PH_Newcomer_Wisps08_1": "Nothing too happy. They still miss their partner.",
 
 		"PH_Newcomer_Wisps08_A": "Oh, I was afraid that was the case. Were they able to explain to you what had happened?",
 		"PH_Newcomer_Wisps08_B": "Partner? Green was married? What happened?",
-		"PH_Newcomer_Wisps09_1": "Old age unfortunately. Green explained it as winter having arrived. But for themselves the seasons had stopped moving.",
+		"PH_Newcomer_Wisps09_1": "Old age, unfortunately. Green explained it as winter having arrived... but for themselves, the seasons had stopped moving.",
 		"PH_Newcomer_Wisps09_A": "I think they have found some peace now.",
 		"PH_Newcomer_Wisps10_1": "I wish Green shared their autumn with us.",
 
 
 		//This is linear dialogue about Blue. All these texts and pages just play out in this order.
 		"PH_Newcomer_Wisps11_1": "But anyways, how is Blue doing?",
-		"PH_Newcomer_Wisps11_A": "They are doing great as ever. Nothing gets under that on's skin, does it?",
-		"PH_Newcomer_Wisps12_1": "Not really no. We even ran a few experiments to try and see if you insult them enough to fight back. For some reason they never did.",
-		"PH_Newcomer_Wisps12_A": "Their fortitude is rock solid. Although they do seem quite young compared to Green and Purple?",
-		"PH_Newcomer_WispEnd_1": "Yeah. They must have just turned adult before coming to the hotel. I never had the courage to ask about their past. And now it's too late.",
+		"PH_Newcomer_Wisps11_A": "They are doing great as ever. Nothing gets under that one's skin, does it?",
+		"PH_Newcomer_Wisps12_1": "Not really, no. We even ran a few experiments to try and see if you could insult them enough that they'd fight back. For some reason, they never did.",
+		"PH_Newcomer_Wisps12_A": "Their fortitude is rock-solid, although they do seem quite young compared to Green and Purple...",
+		"PH_Newcomer_WispEnd_1": "Yeah. They must have just grown into adulthood before coming to the hotel. I never had the courage to ask about their past. And now... it's too late.",
 
-		"PH_Newcomer_Leave01_A": "Too late? What do you mean? I understand how to bring back their lost aspects and they even saw that I wasn't you. Or well, I mean- You know what I mean.",
+		"PH_Newcomer_Leave01_A": "Too late? What do you mean? I understand how to bring back their lost aspects, and they even saw that I wasn't you. Or well, I mean- You know what I mean.",
 		"PH_Newcomer_Leave02_1": "I wasn't referring to us when I said that.",
 		"PH_Newcomer_Leave02_A": "Surely you don't mean...",
-		"PH_Newcomer_Leave03_1": "I have been stuck here for over 400 years. I couldn't escape and also couldn't find peace in here. Blue, Green, and Purple. I tried to comfort them, help them.",
-		"PH_Newcomer_Leave03_2": "However, all I saw were faded echoes of what Timber Hearth... I wish to talk to Slate, Hall and the others one last time. I already failed here. Let me leave this place.",
+		"PH_Newcomer_Leave03_1": "I have been stuck here for over 400 years. I couldn't escape, and I couldn't find peace in here. Blue, Green, and Purple... I tried to comfort them, help them.",
+		"PH_Newcomer_Leave03_2": "However, all I saw were faded echoes of Timber Hearth... I wish to talk to Slate, Hal, and the others, one last time. I already failed here. Let me leave this place.",
 		"PH_Newcomer_Leave03_A": "And I take your place here? How are you going to take the advanced warp core to-",
 		"PH_Newcomer_Leave04_1": "To the Vessel? I have already seen you do everything. I should be able to mirror your actions.",
 		"PH_Newcomer_Leave04_A": "And what if you fail?",
-		"PH_Newcomer_Leave05_1": "I wouldn't fail. I would first put the advanced warp core back in the Ash Twin Project. Then I can fianlly spend some time with the people in my- I mean our village. Please I have failed so often here. You're the last hope I have for any kind of future.",
+		"PH_Newcomer_Leave05_1": "I won't fail. I would first put the advanced warp core back in the Ash Twin Project. Then, I can finally spend some time with the people in my- I mean our village. Please... I have failed so deeply here. You're the last hope I have for any kind of future.",
 		"PH_Newcomer_Leave05_A": "And I would be stuck in the past?",
-		"PH_Newcomer_Leave06_1": "Well, I am you. You already spend so many loops in our home. Now let me spend some loops there as well.",
-		"PH_Newcomer_Leave06_2": "I can't take care of Blue, Green, and Purple. You can though. When I abandoned them to work on my escape, I never thought they would speak again. But you might delay their fading indefinitely. Or at least longer than me.",
-		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me. But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home if our roles were reversed.",
+		"PH_Newcomer_Leave06_1": "Well, I am you. You already spent so many loops in our home. Now let me spend some loops there as well.",
+		"PH_Newcomer_Leave06_2": "I can't take care of Blue, Green, and Purple. You can, though. When I abandoned them to work on my escape, I never thought they would speak again. But... you might delay their fading indefinitely. Or at least longer than me.",
+		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me... But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home if our roles were reversed.",
 		"PH_Newcomer_Leave07_1": "Exactly! You're not just doing it for me. You're also doing it for yourself.",
 		"PH_Newcomer_Leave07_A": "I will need some time to think this through.",
 		"PH_Newcomer_LeaveEnd_1": "Take all the time you need. Once you have made up your mind, you can hand over the Advanced Warp Core to me.",
@@ -276,15 +276,15 @@
 		"PH_Newcomer_Start_B": "This is the worst day of my life!",
 		"PH_Newcomer_WorstDay01_1": "And tomorrow could be worse",
 		"PH_Newcomer_WorstDay01_A": "What's that supposed to mean?",
-		"PH_Newcomer_WorstDay02_1": "As far as I have understood it. This place makes it so that tomorrow never existed. I could see your present and past actions over and over. I could never see your future no matter how much I tried.",
+		"PH_Newcomer_WorstDay02_1": "As far as I have understood it, this place makes it so that 'tomorrow' never existed. I could see your present and past actions over and over. I could never see your future no matter how much I tried.",
 		"PH_Newcomer_WorstDay02_A": "Could it mean that you don't have a future?",
 		"PH_Newcomer_WorstDay03_1": "Don't give me attitude. Treat yourself with respect. What have you observed in this place?",
-		"PH_Newcomer_WorstDay03_A": "It seems that everything here is meant to fade away eventually. I only ever saw notes left behind by you. I imagine that there was more writing on the wall besides the Haikus and the drawing?",
-		"PH_Newcomer_WorstDay04_1": "Yes. When I arrived, there were notes left behind by Purple everywhere. They were worse at writing than speaking. However, I have also seen some books from Purple and Blue homeworld reappear. Everything here endlessly folds back on itself instead of moving forward.",
-		"PH_Newcomer_WorstDay04_A": "Until you pulled me in. How did you do that?",
-		"PH_Newcomer_Arrival01_1": "I have no clue. I had a clue but all my notes were done on the walls. Some notes were even beyond the dark hallways. But those are no longer passable.",
+		"PH_Newcomer_WorstDay03_A": "It seems that everything here is meant to fade away eventually. I only ever saw notes left behind by you. I imagine that there was more writing on the wall besides the haikus and the drawings?",
+		"PH_Newcomer_WorstDay04_1": "Yes. When I arrived, there were notes left behind by Purple everywhere. They were worse at writing than speaking. However, I have also seen some books from Purple and Blue's homeworlds reappear. Everything here endlessly folds back on itself instead of moving forward.",
+		"PH_Newcomer_WorstDay04_A": "That is, until you pulled me in. How did you do that?",
+		"PH_Newcomer_Arrival01_1": "I have no clue. I had an idea a while ago, but all my notes were done on the walls. Some notes were even beyond the dark hallways. But those are no longer passable.",
 		"PH_Newcomer_Arrival01_A": "I suppose that we have to figure that one out in the future?",
-		"PH_Newcomer_Arrival02_1": "Yeah. I didn't have enough time during your successful loop to commit it all to memory. And it seems that the basement is one-way in terms of memories for people. Hence the improvised Ash Twin Project. However, that did mean that I essentially had one shot before you would turn off the lights. My memory has deterioated so much that I had to focus on memorizing just the bits that would help me explain my wish to you.",
+		"PH_Newcomer_Arrival02_1": "Yeah. I didn't have enough time during your successful loop to commit it all to memory. And it seems that the basement is one-way in terms of memories for people, hence the improvised Ash Twin Project. However, that did mean that I essentially had one shot before you would turn off the lights. My memory has deteriorated so much that I had to focus on memorizing just the bits that would help me explain my wish to you.",
 		"PH_Newcomer_Arrival02_A": "Hmm. I had a suspicion that is why you chose the basement. The machine bypasses the restrictions our minds have. Then, me being here creates enough instability that I can still link up with it despite not being a machine. Very daring.",
 		"PH_Newcomer_Arrival03_1": "Thank you for complimenting me.",
 		"PH_Newcomer_Arrival03_A": "Seems a bit vain but what can you do?",
@@ -296,13 +296,13 @@
 		"PH_Newcomer_LastWord02_A": "Let me have the last word.",
 		"PH_Newcomer_LastWord03_1": "I am you. That's a futile argument.",
 
-		"PH_Newcomer_LastWord03_A": "Right but you're the one who pulled me in.",
+		"PH_Newcomer_LastWord03_A": "Right... but you're the one who pulled me in.",
 		"PH_Newcomer_LastWord04_1": "...",
 		"PH_Newcomer_LastWord04_A": "Hah, I did it.",
 		"PH_Newcomer_LastWord05_1": "...Word.",
 
 		"PH_Newcomer_LastWord03_B": "Fine.",
-		"PH_Newcomer_LastWord06_1": "Finally you acknowledge my superior rhetoric. Wait but does that count as reverse psychology? How would I know for sure that-",
+		"PH_Newcomer_LastWord06_1": "Finally, you acknowledge my superior rhetoric. Wait, but does that count as reverse psychology? How would I know for sure that-",
 		"PH_Newcomer_LastWord06_A": "Just breathe and take it easy. You can have the final word.",
 		"PH_Newcomer_LastWord07_1": "Word.",
 
@@ -314,7 +314,7 @@
 		"PH_Newcomer_Screaming02_A": "AAAAAaaaAAAAAaAAaaaaaHHH!",
 		"PH_Newcomer_Screaming03_1": "Okay, you're just gonna lose your mind like that?",
 		"PH_Newcomer_Screaming03_A": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHH!!", //Make sure it has the big letters just like in basegame Self ending.
-		"PH_Newcomer_Screaming04_1": "Alright then. I will let you scream for a few minutes. Get it out of your system and then come talk to me."
+		"PH_Newcomer_Screaming04_1": "Alright then. I will let you scream for a few minutes. Get it out of your system, and then come talk to me."
 
 
 
