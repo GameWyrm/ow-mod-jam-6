@@ -150,9 +150,10 @@
     },
   "ShipLog": {
     "xmlFile": "planets/shiplogs/PenumbraHotel.xml",
+    "spriteFolder": "assets/Shiplogs",
     "mapMode": {
-        "revealedSprite": "assets/HotelPlanetIcon.png",
-        "outlineSprite": "assets/HotelPlanetIcon.png"
+      "revealedSprite": "assets/HotelPlanetIcon.png",
+      "outlineSprite": "assets/HotelPlanetIcon.png"
     }
   }
 }
