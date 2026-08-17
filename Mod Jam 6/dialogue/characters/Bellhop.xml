@@ -303,9 +303,10 @@
 
     <RevealFacts>
       <FactID>PH_LOG_SECOND_FLOOR_RUMOR_1</FactID>
+      <FactID>PH_LOG_FURNACE_RUMOR_1</FactID>
     </RevealFacts>
   </DialogueNode>
-
+  
   <!-- FLOORS04 (choice C) -->
   <DialogueNode>
     <Name>Floors04</Name>
