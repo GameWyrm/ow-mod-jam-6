@@ -47,7 +47,7 @@
         ]
     },
   "ShipLog": {
-    "spriteFolder": "assets/Shiplogs",
+    "spriteFolder": "assets/Shiplogs/",
     "mapMode": {
       "outlineSprite": "assets/VoidPlanetIcon.png",
       "revealedSprite": "assets/VoidPlanetIcon.png",
