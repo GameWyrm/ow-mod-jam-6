@@ -49,6 +49,7 @@
     </Dialogue>
 		<DialogueOptionsList>
       <DialogueOption>
+        <RequiredPersistentCondition>PH_FOUND_SOMETHING_P</RequiredPersistentCondition>
         <Text>PH_Bellhop_MAIN01_FOUND</Text>
         <DialogueTarget>Found01</DialogueTarget>
       </DialogueOption>
@@ -101,18 +102,22 @@
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
+        <RequiredPersistentCondition>PH_FOUND_GHOSTS_P</RequiredPersistentCondition>
         <Text>PH_Bellhop_FOUND01_A</Text>
         <DialogueTarget>Found02</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
+        <RequiredPersistentCondition>PH_FOUND_TIMEBUBBLES_P</RequiredPersistentCondition>
         <Text>PH_Bellhop_FOUND01_B</Text>
         <DialogueTarget>Found03</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
+        <RequiredPersistentCondition>PH_FOUND_VOID_P</RequiredPersistentCondition>
         <Text>PH_Bellhop_FOUND01_C</Text>
         <DialogueTarget>Found04</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
+        <RequiredLogCondition>PH_LOG_BASEMENT_1</RequiredLogCondition>
         <Text>PH_Bellhop_FOUND01_D</Text>
         <DialogueTarget>Found05</DialogueTarget>
       </DialogueOption>

@@ -42,6 +42,9 @@ namespace Mod_Jam_6
             spawner.DebugWarp(warpTarget);
             OWInput.ChangeInputMode(InputMode.Character);
 
+            PlayerData.SetPersistentCondition("PH_FOUND_SOMETHING_P", true);
+            PlayerData.SetPersistentCondition("PH_FOUND_VOID_P", true);
+
             cameraEffectController.OpenEyes(Constants.BLINK_OPEN_ANIM_TIME, false);
             yield return new WaitForSeconds(Constants.BLINK_OPEN_ANIM_TIME);
         }

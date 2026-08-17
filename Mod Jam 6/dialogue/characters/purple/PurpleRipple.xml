@@ -20,6 +20,8 @@
     </DialogueOptionsList>
 
     <SetCondition>PH_PURPLE_RIPPLE_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- 02 (Yes choice) -->

@@ -72,5 +72,7 @@
     </RevealFacts>
     
     <SetCondition>PH_PURPLE_ECHO_T</SetCondition>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 </DialogueTree>
