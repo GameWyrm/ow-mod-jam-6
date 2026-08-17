@@ -422,7 +422,7 @@
 
 		// PURPLE_RIPPLE
 		"$PH_LOG_PURPLE_RIPPLE_NAME": "Purple Ripple",
-		"$PH_LOG_PURPLE_RUMOR_RUMOR_1": "I found a Purple Ripple hiding in room 315.",
+		"$PH_LOG_PURPLE_RIPPLE_RUMOR_1": "I found a Purple Ripple hiding in room 315.",
 		"$PH_LOG_PURPLE_RIPPLE_1": "The Purple Ripple speaks in exhaustive prose.",
 		"$PH_LOG_PURPLE_RIPPLE_2": "After speaking to them, they began to emit a signal.",
 		"$PH_LOG_PURPLE_RIPPLE_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
@@ -491,8 +491,8 @@
 		// TODO
 
 		// Signals
-		"PH_FREQUENCY_WARPCORE": "[Placeholder AWC Frequency]",
-		"PH_SIGNAL_WARPCORE": "[Placeholder Advanced Warp Core]",
+		"PH_FREQUENCY_WARPCORE": "NOMAI_TECHNOLOGY",
+		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
 
 		// Screen prompts
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
@@ -505,8 +505,6 @@
 		"$PH_FLIP_BREAKER": "Flip Breakers",
 		"$PH_OPEN_DOOR_PROMPT": "Open",
 		"$PH_TRY_DOOR_PROMPT": "Try",
-		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
-		"PH_FREQ_CORE": "NOMAI TECHNOLOGY",
 		"PH_SIGNAL_BELLHOP": "BELLHOP",
 		"PH_FREQ_BELLHOP": "HOTEL STAFF"
 	}
