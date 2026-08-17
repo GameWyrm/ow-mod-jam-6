@@ -70,8 +70,7 @@
       <FactID>PH_LOG_PURPLE_ECHO_1</FactID>
       <FactID>PH_LOG_PURPLE_ECHO_2</FactID>
     </RevealFacts>
+    
+    <SetCondition>PH_PURPLE_ECHO_T</SetCondition>
   </DialogueNode>
-
-  <SetCondition>PH_PURPLE_ECHO_T</SetCondition>
-  
 </DialogueTree>
