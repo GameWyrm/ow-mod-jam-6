@@ -18,9 +18,10 @@ namespace Mod_Jam_6
                 if (TimeLoop.IsTimeLoopEnabled())
                 {
                     TimeLoop.SetSecondsRemaining(-200);
+                    ModJam6.RevealFact("PH_LOG_OUTSIDE_5");
                     Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
                 }
-                else
+                else if (EndingBarrier.Instance.hasWarpCore)
                 {
                     nhEndingTrigger.transform.position = transform.position;
                 }

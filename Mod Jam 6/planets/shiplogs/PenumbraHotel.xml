@@ -91,6 +91,16 @@
       <ID>PH_LOG_OUTSIDE_3</ID>
       <Text>$PH_LOG_OUTSIDE_3</Text>
     </ExploreFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_OUTSIDE_4</ID>
+      <Text>$PH_LOG_OUTSIDE_4</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>PH_LOG_OUTSIDE_5</ID>
+      <Text>$PH_LOG_OUTSIDE_5</Text>
+    </ExploreFact>
   </Entry>
 
   <!-- BASEMENT -->

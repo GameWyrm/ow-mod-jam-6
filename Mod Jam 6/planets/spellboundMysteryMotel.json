@@ -145,6 +145,20 @@
                 "gameOver": {
                     "text": "$PH_ENDING_NORMAL"
                 }
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "ENDING_TRIGGER_STAY",
+                "radius": 10,
+                "gameOver": {
+                    "text": "$PH_ENDING_STAY"
+                },
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_Lobby/Sector/NewcomerEnding",
+                "isRelativeToParent": true
             }
         ]
     },
