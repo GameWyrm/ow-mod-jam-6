@@ -56,6 +56,7 @@ namespace Mod_Jam_6
         {
             try
             {
+                if (factID.Contains("$")) factID = factID.Replace("$", "");
                 Instance.shipLogManager.RevealFact(factID);
             }
             catch (Exception e)

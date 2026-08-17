@@ -70,6 +70,7 @@
             {
                 "path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
                 "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_ThirdFloor/Safe/WarpCoreAnchor",
+                "rename": "AdvancedWarpCore",
                 "isRelativeToParent": true,
                 "position": {
                     "x": 0,
@@ -81,6 +82,23 @@
                     "y": 0,
                     "z": 0
                 }
+            }
+        ],
+        "signals": [
+            {
+                "name": "PH_SIGNAL_WARPCORE",
+                "rename": "WarpCoreSignal",
+                "frequency": "PH_FREQ_CORE",
+                "parentPath": "Sector/Hotel/Sector_Hotel/Sector/Sector_ThirdFloor/Safe/WarpCoreAnchor/AdvancedWarpCore",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "audio": "EnterVolumeDamageGhostfire_LP",
+                "identificationRadius": 5,
+                "detectionRadius": 10
             }
         ],
         "singularities": [
