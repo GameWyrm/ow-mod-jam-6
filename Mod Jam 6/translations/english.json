@@ -493,10 +493,10 @@
 		// TODO
 
 		// Signals
-		"PH_FREQUENCY_WARPCORE": "NOMAI_TECHNOLOGY",
+		"PH_FREQ_WARPCORE": "NOMAI_TECHNOLOGY",
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
 		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
-		"PH_SIGNAL_BELLHOP": "[Placeholder Bellhop]",
+		"PH_SIGNAL_BELLHOP": "BELLHOP",
 		"PH_FREQUENCY_PURPLE": "[Placeholder Purple Frequency]",
 		"PH_SIGNAL_PURPLE_WISP": "[Placeholder Purple Wisp]",
 		"PH_SIGNAL_PURPLE_ECHO": "[Placeholder Purple Echo]",
@@ -522,7 +522,6 @@
 		"$PH_FLIP_BREAKER": "Flip Breakers",
 		"$PH_OPEN_DOOR_PROMPT": "Open",
 		"$PH_TRY_DOOR_PROMPT": "Try",
-		"PH_SIGNAL_BELLHOP": "BELLHOP",
 		"PH_FREQ_BELLHOP": "HOTEL STAFF"
 	}
 }
