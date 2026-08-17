@@ -3,7 +3,9 @@
 	"DialogueDictionary": {
 
 		// NPC Names
+		"PH_Newcomer_NAME": "[Placeholder Newcomer]",
 		"PH_Bellhop_NAME": "Bellhop",
+		"PH_VoidBellhop_NAME": "[Placeholder VoidBellhop]",
 		"PH_BlueWisp_NAME": "BlueWisp",
 		"PH_BlueRipple_NAME": "BlueRipple",
 		"PH_BlueEcho_NAME": "BlueEcho",
