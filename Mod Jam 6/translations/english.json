@@ -18,22 +18,22 @@
 
 		//Stickynotes
 		"PH_Stickynotes_BELL_1": "There's that unidentified signal again! I looked through my signalscope- why does it sound so familiar..?",
-		"PH_Stickynotes_BELL_2": "The unidentified signal in the lobby can only be realised by zooming your signalscope on it.",
+		"PH_Stickynotes_BELL_2": "The unidentified signal in the lobby can only be realised by <color=orange>zooming</color> your signalscope on it and <color=orange>projecting your beliefs</color>.",
 
 		"PH_Stickynotes_KNIGHT_1": "Future me probably won't mind a little challenge, even if it is coming from that little guy.",
-		"PH_Stickynotes_KNIGHT_2": "In the past, this barrier didn't exist. Purple requested it as a challenge for the present.",
+		"PH_Stickynotes_KNIGHT_2": "<color=orange>In the past</color>, this barrier didn't exist. Purple requested it as a challenge for the present.",
 
-		"PH_Stickynotes_POOLENTR_1": "The door is locked again... Last time it was unlocked, I saw Blue messing around with the wallpaper nearby, but I'm not quite sure why.",
+		"PH_Stickynotes_POOLENTR_1": "The door is locked again... Last time it was unlocked, I saw Blue messing around with the wallpaper nearby, but I'm not quite sure why. They're not why it's been <color=orange>peeling over time</color>, is it?",
 		"PH_Stickynotes_POOLENTR_2": "When a door is locked, look for drawings nearby.",
 
-		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
-		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of an invisible temporal disturbance. Sudden kinetic energy, when applied to the crystal, makes the disturbance visible.",
+		"PH_Stickynotes_POOLEND_1": "These <color=#0080FF>floating blue crystals</color> remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
+		"PH_Stickynotes_POOLEND_2": "<color=#0080FF>Blue crystals</color> are byproducts of an <color=orange>invisible temporal disturbance nearby</color>. Sudden kinetic energy, when applied to the crystal, makes the disturbance visible.",
 
 		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
-		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target floor is within the same plane of existance.",
+		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target floor is within the <color=orange>same plane of existance.</color>",
 
 		"PH_Stickynotes_WATERLEAK_1": "Recently, water has been dripping from the ceiling. I will have to talk to Blue about responsible usage of cryonic tools.",
-		"PH_Stickynotes_WATERLEAK_2": "The room above 272 always seems to have issues that require solving, or at least investigating.",
+		"PH_Stickynotes_WATERLEAK_2": "The <color=orange>room above 272</color> always seems to have issues that require solving, or at least investigating.",
 
 		"PH_Stickynotes_BASEMENT_1": "Finally got the improvised Ash Twin Project working. Blue would have loved to see this thing coming into use. The only problem is that neither me nor anyone else is able to actually kickstart this thing. Maybe if I try stirring up some trouble by myself, it will work? I can't risk involving Blue or the others anymore.",
 		"PH_Stickynotes_BASEMENT_2": "The improvised Ash Twin Project will only start working when a crisis is happening.",
@@ -41,7 +41,7 @@
 		"PH_Stickynotes_ECHRIPSIGNAL_1": "What is this? Another signal? This one can be lined up with one of those apparitions I have interacted with.",
 		"PH_Stickynotes_ECHRIPSIGNAL_2": "Lining up an Echo or Ripple with their origin, affects that origin, no matter the distance from it.",
 
-		"PH_Stickynotes_MIRROR_1": "Purple and Green fear this mirror. Blue wants to know why I obsess over it. I have forgotten why the mirror doesn't show my perspective anymore. What was the point of this research? One thing is certain, the right mirror reflects the future I wish for. But I need to understand the past I have forgotten. Maybe a picture helps?",
+		"PH_Stickynotes_MIRROR_1": "Purple and Green fear this mirror. Blue wants to know why I obsess over it. I have forgotten why the mirror doesn't show my perspective anymore. What was the point of this research? One thing is certain, the right mirror reflects the future I wish for. But I need to understand the past I have forgotten. Maybe a <color=orange>picture</color> helps?",
 		"PH_Stickynotes_MIRROR_2": "Taking a picture of a mirror is the same as projecting your beliefs.",
 
 		// Bellhop (Init)
@@ -167,7 +167,7 @@
 		"PH_brevity_WISP_TWO_RIPPLE_2C": "Newcomer likes basement. Basement yes? No! No science. Only answers. Why? Questions good?",
 
 		"PH_brevity_WISP_THREE_1a": "New planet. Black hole close. Unsafe. Unsafe! UNSAFE! UNSAFE! UNSAFE!\nYou Newcomer? You are not Newcomer. Where did you come from? I come with? Why I forget? Mama? No! Mama with the decayed planet. I promised to start a new world. Long ago. Decay of planet done. Mama is decayed. I trust you! You do right thing. Newcomer took risk. Risk great. You take risk as well. I wait here for you. Safe!",
-		"PH_brevity_WISP_THREE_2b": "You remember big hot thing? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn't forsee this. The breaker short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
+		"PH_brevity_WISP_THREE_2b": "You remember <color=orange>big hot thing</color>? That melt ice? It has dial. Newcomer loved switching the dial to basement. Can you imitate Newcomer? Second thing you must do. Newcomer didn't forsee this. The <color=orange>breaker</color> short-circuited. You should go outside. Will you? You have to be right once you leave.\nHope!",
 		"PH_brevity_WISP_THREE_3c": "You shall make big gathering building safe for us. Happy now! New possibilities open up for me. For us! Much science to do with you! Touch molecules. Measure liquid streams. What's your inside body pressure? I will touch the wall of big building. It is not like your skin. Why? Not important. Say hello to Newcomer for me. We never finished previous experiment.\nMeasure angles!",
 
 		// Green echo & ripple
@@ -193,7 +193,7 @@
 		"PH_haiku_WISP_TWO_RIPPLE_2C": "Basement is not true\nNewcomer avoids the floors\nI hate false prophet",
 
 		"PH_haiku_WISP_THREE_1a": "End the fake promise",
-		"PH_haiku_WISP_THREE_2b": "The vault is a lie\nUnveil truth with opposite\nSound is opposite",
+		"PH_haiku_WISP_THREE_2b": "The <color=orange>vault</color> is a lie\nUnveil truth with opposite\n<color=orange>Project your beliefs.</color>",
 		"PH_haiku_WISP_THREE_3b": "Signal is needed\nSignal might seem lost to you\nIt resides in you",
 		"PH_haiku_WISP_THREE_4b": "Turn signal to veil\nOpen the vault with your mind\nFind your lost warp core",
 		"PH_haiku_WISP_THREE_5c": "The past unwritten\nYour memories might persist\nFree yourself from us",
@@ -299,8 +299,8 @@
 		"PH_Newcomer_Leave03_A": "And I take your place here? How are you going to take the advanced warp core to-",
 		"PH_Newcomer_Leave04_1": "To the Vessel? I have already seen you do everything. I should be able to mirror your actions.",
 		"PH_Newcomer_Leave04_A": "And what if you fail?",
-		"PH_Newcomer_Leave05_1": "I won't fail. I would first put the advanced warp core back in the Ash Twin Project. Then, I can finally spend some time with the people in my- I mean our village. Please... I have failed so deeply here. You're the last hope I have for any kind of future.",
-		"PH_Newcomer_Leave05_A": "And I would be stuck in the past?",
+		"PH_Newcomer_Leave05_1": "I won't fail. I would first put the advanced warp core back in the Ash Twin Project. Then, I can finally spend some time with the people in my- I mean our village. Please... I have failed so deeply here. You're the last hope I have for any kind of <color=#0080FF>future.</color>",
+		"PH_Newcomer_Leave05_A": "And I would be stuck in the <color=#0080FF>past</color>?",
 		"PH_Newcomer_Leave06_1": "Well, I am you. You already spent so many loops in our home. Now let me spend some loops there as well.",
 		"PH_Newcomer_Leave06_2": "I can't take care of Blue, Green, and Purple. You can, though. When I abandoned them to work on my escape, I never thought they would speak again. But... you might delay their fading indefinitely. Or at least longer than me.",
 		"PH_Newcomer_Leave06_A": "It's a lot that you're asking of me... But you have been stuck here for even longer than I have been stuck in my loop back home. Logically speaking, I would want you to help me achieve my dream of home if our roles were reversed.",

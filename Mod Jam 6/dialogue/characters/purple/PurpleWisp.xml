@@ -69,6 +69,8 @@
     </Dialogue>
     
     <RevealFacts>
+      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_1</FactID>
+      <FactID>PH_LOG_PURPLE_PROSE_CURIOSITY_2</FactID>
       <FactID>PH_LOG_OUTSIDE_RUMOR_3</FactID>
     </RevealFacts>
   </DialogueNode>

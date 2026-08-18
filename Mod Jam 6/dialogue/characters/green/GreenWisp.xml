@@ -74,6 +74,8 @@
       <Page>PH_haiku_WISP_THREE_5c</Page>
     </Dialogue>
     <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_1</FactID>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_2</FactID>
       <FactID>PH_LOG_VAULT_RUMOR_2</FactID>
     </RevealFacts>
   </DialogueNode>
