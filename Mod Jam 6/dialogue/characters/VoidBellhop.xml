@@ -1,0 +1,69 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>PH_Bellhop_NAME</NameField>
+
+  <!--HUB-->
+  <DialogueNode>
+    <Name>HUB</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PH_VoidBellhop_HUB_1</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>PH_VoidBellhop_HUB_A</Text>
+        <DialogueTarget>A</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_VoidBellhop_HUB_B</Text>
+        <DialogueTarget>B</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_VoidBellhop_HUB_C</Text>
+        <DialogueTarget>C</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_VoidBellhop_HUB_D</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <!--A - Where are we?-->
+  <DialogueNode>
+    <Name>A</Name>
+    <Dialogue>
+      <Page>PH_VoidBellhop_WHERE_1</Page>
+      <Page>PH_VoidBellhop_WHERE_2</Page>
+      <Page>PH_VoidBellhop_WHERE_3</Page>
+      <Page>PH_VoidBellhop_WHERE_4</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_VOID_FIRST_FLOOR_1</FactID>
+    </RevealFacts>
+    <DialogueTarget>HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--B - Where are those bubbles?-->
+  <DialogueNode>
+    <Name>B</Name>
+    <Dialogue>
+      <Page>PH_VoidBellhop_BUBBLES_1</Page>
+      <Page>PH_VoidBellhop_BUBBLES_2</Page>
+    </Dialogue>
+    <DialogueTarget>HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--C - How do we get out of here?-->
+  <DialogueNode>
+    <Name>C</Name>
+    <Dialogue>
+      <Page>PH_VoidBellhop_ESCAPE_1</Page>
+      <Page>PH_VoidBellhop_ESCAPE_2</Page>
+      <Page>PH_VoidBellhop_ESCAPE_3</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_FIRST_FLOOR_2</FactID>
+    </RevealFacts>
+    <DialogueTarget>HUB</DialogueTarget>
+  </DialogueNode>
+
+</DialogueTree>

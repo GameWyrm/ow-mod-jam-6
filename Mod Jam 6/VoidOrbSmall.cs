@@ -8,9 +8,9 @@ namespace Mod_Jam_6
         public FloorEnum floor;
         private void Start()
         {
-            if (floor == FloorEnum.FLOOR_3F)
+            if (floor == FloorEnum.FLOOR_1F)
             {
-                TimeManager.instance.timeEvents[1].AddListener(Shrink);
+                TimeManager.instance.timeEvents[5].AddListener(Shrink);
             }
             else if (floor == FloorEnum.FLOOR_2F)
             {

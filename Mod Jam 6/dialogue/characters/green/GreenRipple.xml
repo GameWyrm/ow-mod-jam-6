@@ -13,9 +13,26 @@
       <FactID>PH_LOG_GREEN_RIPPLE_1</FactID>
     </RevealFacts>
 
-    <SetCondition>PH_GREEN_RIPPLE_T</SetCondition>
-    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
-    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
-
+    <SetPersistentCondition>PH_GREEN_RIPPLE_P</SetPersistentCondition>
+    <DialogueTarget>2</DialogueTarget>
   </DialogueNode>
+
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>PH_haiku_RIPPLE_2</Page>
+    </Dialogue>
+    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <DialogueTarget>3</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>3</Name>
+    <Dialogue>
+      <Page>PH_haiku_RIPPLE_3</Page>
+    </Dialogue>
+    <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
+    <SetCondition>PH_GREEN_TALK</SetCondition>
+  </DialogueNode>
+  
 </DialogueTree>

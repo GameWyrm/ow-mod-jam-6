@@ -8,6 +8,9 @@
     <Dialogue>
       <Page>PH_Bellhop_INIT01_1</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_HOTEL_CURIOSITY_1</FactID>
+    </RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>PH_Bellhop_INIT01_A</Text>
@@ -65,6 +68,10 @@
 				<Text>PH_Bellhop_MAIN01_B</Text>
 				<DialogueTarget>Main03</DialogueTarget>
 			</DialogueOption>
+      <DialogueOption>
+        <Text>PH_Bellhop_MAIN01_C</Text>
+        <DialogueTarget>Main04</DialogueTarget>
+      </DialogueOption>
 			<DialogueOption>
 				<Text>PH_Bellhop_MAIN01_END</Text>
 				<DialogueTarget>END</DialogueTarget>
@@ -78,11 +85,11 @@
     <Dialogue>
       <Page>PH_Bellhop_MAIN02_1</Page>
     </Dialogue>
-		<DialogueTarget>Main01</DialogueTarget>
 
     <RevealFacts>
       <FactID>PH_LOG_OUTSIDE_RUMOR_4</FactID>
     </RevealFacts>
+		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
 
   <!-- MAIN03 (choice B) -->
@@ -93,7 +100,16 @@
     </Dialogue>
 		<DialogueTarget>Main01</DialogueTarget>
   </DialogueNode>
-  
+
+  <DialogueNode>
+    <Name>Main04</Name>
+    <Dialogue>
+      <Page>PH_Bellhop_MAIN04_1</Page>
+    </Dialogue>
+    <SetCondition>PH_LEARN_MEDITATION</SetCondition>
+    <DialogueTarget>Main01</DialogueTarget>
+  </DialogueNode>
+
   <!-- FOUND01 (choice FOUND on Main01) -->
   <DialogueNode>
     <Name>Found01</Name>
@@ -208,11 +224,11 @@
     <Dialogue>
       <Page>PH_Bellhop_QUESTIONS02_1</Page>
     </Dialogue>
-    <DialogueTarget>Questions01</DialogueTarget>
 
     <RevealFacts>
       <FactID>PH_LOG_HOTEL_CURIOSITY_1</FactID>
     </RevealFacts>
+    <DialogueTarget>Questions01</DialogueTarget>
   </DialogueNode>
 
   <!-- QUESTIONS03 (choice B) -->
@@ -239,11 +255,11 @@
     <Dialogue>
       <Page>PH_Bellhop_QUESTIONS05_1</Page>
     </Dialogue>
-    <DialogueTarget>Questions01</DialogueTarget>
     
     <RevealFacts>
       <FactID>PH_LOG_OUTSIDE_RUMOR_2</FactID>
     </RevealFacts> 
+    <DialogueTarget>Questions01</DialogueTarget>
   </DialogueNode>
 
   <!-- QUESTIONS06 (choice E) -->
@@ -252,11 +268,11 @@
     <Dialogue>
       <Page>PH_Bellhop_QUESTIONS06_1</Page>
     </Dialogue>
-    <DialogueTarget>Questions01</DialogueTarget>
     
     <RevealFacts>
       <FactID>PH_LOG_BASEMENT_RUMOR_1</FactID>
     </RevealFacts> 
+    <DialogueTarget>Questions01</DialogueTarget>
   </DialogueNode>
 
   <!-- FLOORS01 (choice FLOORS on Questions01) -->
@@ -291,11 +307,11 @@
     <Dialogue>
       <Page>PH_Bellhop_FLOORS02_1</Page>
     </Dialogue>
-    <DialogueTarget>Floors01</DialogueTarget>
 
     <RevealFacts>
       <FactID>PH_LOG_FIRST_FLOOR_RUMOR_1</FactID>
     </RevealFacts>
+    <DialogueTarget>Floors01</DialogueTarget>
   </DialogueNode>
 
   <!-- FLOORS03 (choice B) -->
@@ -304,12 +320,12 @@
     <Dialogue>
       <Page>PH_Bellhop_FLOORS03_1</Page>
     </Dialogue>
-    <DialogueTarget>Floors01</DialogueTarget>
 
     <RevealFacts>
       <FactID>PH_LOG_SECOND_FLOOR_RUMOR_1</FactID>
       <FactID>PH_LOG_FURNACE_RUMOR_1</FactID>
     </RevealFacts>
+    <DialogueTarget>Floors01</DialogueTarget>
   </DialogueNode>
   
   <!-- FLOORS04 (choice C) -->
@@ -318,11 +334,11 @@
     <Dialogue>
       <Page>PH_Bellhop_FLOORS04_1</Page>
     </Dialogue>
-    <DialogueTarget>Floors01</DialogueTarget>
 
     <RevealFacts>
       <FactID>PH_LOG_THIRD_FLOOR_RUMOR_1</FactID>
     </RevealFacts>
+    <DialogueTarget>Floors01</DialogueTarget>
   </DialogueNode>
   
   <!-- END (choice END on Main01 - end dialogue) -->

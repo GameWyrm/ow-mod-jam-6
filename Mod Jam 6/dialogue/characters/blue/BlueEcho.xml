@@ -9,13 +9,31 @@
     </Dialogue>
 
     <RevealFacts>
+      <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_2</FactID>
       <FactID>PH_LOG_BLUE_ECHO_1</FactID>
       <FactID>PH_LOG_BLUE_ECHO_2</FactID>
     </RevealFacts>
 
-    <SetCondition>PH_BLUE_ECHO_T</SetCondition>
-    <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetPersistentCondition>PH_BLUE_ECHO_P</SetPersistentCondition>
+    <DialogueTarget>2</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>PH_brevity_ECHO_2</Page>
+    </Dialogue>
     <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
+    <DialogueTarget>3</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>3</Name>
+    <Dialogue>
+      <Page>PH_brevity_ECHO_3</Page>
+    </Dialogue>
+    <SetPersistentCondition>PU_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetCondition>PH_BLUE_TALK</SetCondition>
   </DialogueNode>
 
 </DialogueTree>

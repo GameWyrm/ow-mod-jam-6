@@ -7,9 +7,6 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
 		  <Page>PH_brevity_WISP_ONE_1a</Page>
-
-      <Page>PH_brevity_WISP_ONE_2b</Page>
-      <Page>PH_brevity_WISP_ONE_3c</Page>
     </Dialogue>
 
     <RevealFacts>
@@ -17,16 +14,24 @@
       <FactID>PH_LOG_BLUE_WISP_RUMOR_1</FactID>
       <FactID>PH_LOG_BLUE_WISP_1</FactID>
     </RevealFacts>
-
-    <SetCondition>PH_BLUE_WISP_T</SetCondition>
     <SetPersistentCondition>PH_FOUND_SOMETHING_P</SetPersistentCondition>
+    <SetCondition>PH_BLUE_WISP_T</SetCondition>
+    <DialogueTarget>DefaultNode2</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>DefaultNode2</Name>
+    <Dialogue>
+      <Page>PH_brevity_WISP_ONE_2b</Page>
+      <Page>PH_brevity_WISP_ONE_3c</Page>
+    </Dialogue>
     <SetPersistentCondition>PH_FOUND_GHOSTS_P</SetPersistentCondition>
   </DialogueNode>
 
   <!-- Just Echo (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoEcho</Name>
-    <EntryCondition>PH_TEMP_BLUEECHO</EntryCondition>
+    <EntryCondition>PH_BLUE_ECHO_P</EntryCondition>
     <Dialogue>
       <Page>PH_brevity_WISP_ONE_1a</Page>
       <Page>PH_brevity_WISP_TWO_EITHER_1a</Page>
@@ -39,7 +44,7 @@
   <!-- Just Ripple (one of the versions of "TWO") -->
   <DialogueNode>
     <Name>TwoRipple</Name>
-    <EntryCondition>PH_TEMP_BLUERIPPLE</EntryCondition>
+    <EntryCondition>PH_BLUE_RIPPLE_P</EntryCondition>
     <Dialogue>
       <Page>PH_brevity_WISP_ONE_1a</Page>
       <Page>PH_brevity_WISP_TWO_EITHER_1a</Page>
@@ -48,11 +53,11 @@
       <Page>PH_brevity_WISP_TWO_RIPPLE_2C</Page>
     </Dialogue>
   </DialogueNode>
-
-  <!-- Both Echo abd Ripple ("THREE") -->
+        
+  <!-- Both Echo and Ripple ("THREE") -->
   <DialogueNode>
     <Name>Three</Name>
-    <EntryCondition>PH_TEMP_BLUECOMPLETE</EntryCondition>
+    <EntryCondition>PH_BLUE_COMPLETE</EntryCondition>
     <Dialogue>
       <Page>PH_brevity_WISP_ONE_1a</Page>
       <Page>PH_brevity_WISP_TWO_EITHER_1a</Page>
@@ -66,4 +71,5 @@
       <FactID>PH_LOG_BASEMENT_RUMOR_4</FactID>
     </RevealFacts>
   </DialogueNode>
+  
 </DialogueTree>

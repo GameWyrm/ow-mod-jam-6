@@ -17,6 +17,11 @@
       <ID>PH_LOG_PLAYER_ROOM_1</ID>
       <Text>$PH_LOG_PLAYER_ROOM_1</Text>
     </ExploreFact>
+  
+    <ExploreFact>
+      <ID>PH_LOG_PLAYER_ROOM_2</ID>
+      <Text>$PH_LOG_PLAYER_ROOM_2</Text>
+    </ExploreFact>
   </Entry>
 
   <!-- HOTEL_CURIOSITY -->
@@ -159,6 +164,11 @@
     <ExploreFact>
       <ID>PH_LOG_FIRST_FLOOR_1</ID>
       <Text>$PH_LOG_FIRST_FLOOR_1</Text>
+    </ExploreFact>
+    
+    <ExploreFact>
+      <ID>PH_LOG_FIRST_FLOOR_2</ID>
+      <Text>$PH_LOG_FIRST_FLOOR_2</Text>
     </ExploreFact>
     
     <!-- VOID_FIRST_FLOOR -->
@@ -386,6 +396,12 @@
       <SourceID>PH_LOG_PLAYER_ROOM</SourceID>
       <RumorName>$PH_LOG_PURPLE_ECHO_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_PURPLE_ECHO_RUMOR_1</Text>
+    </RumorFact>
+    
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_ECHO_RUMOR_2</ID>
+      <SourceID>PH_LOG_PLAYER_ROOM</SourceID>
+      <Text>$PH_LOG_PURPLE_ECHO_RUMOR_2</Text>
     </RumorFact>
 
     <ExploreFact>

@@ -4,6 +4,8 @@ using OWML.ModHelper;
 using System.Reflection;
 using System;
 using UnityEngine;
+using NewHorizons.Utility;
+using NewHorizons.Utility.Files;
 
 namespace Mod_Jam_6
 {
@@ -14,6 +16,8 @@ namespace Mod_Jam_6
 
         public GameObject shipLogScreen;
         public ShipLogManager shipLogManager;
+
+        private AssetBundle _DeityFlashbackBundle;
 
         public void Awake()
         {
@@ -47,9 +51,29 @@ namespace Mod_Jam_6
                         Log("Looking for log manager");
                         shipLogManager = Locator.GetShipLogManager();
                         Log($"Log is {(shipLogManager == null ? "NULL": "FOUND")}");
+
+                        PlaceFlashback();
                     }
                 }, 50);
             });
+        }
+
+        private void PlaceFlashback()
+        {
+            var FlashbackCamera = GameObject.Find("FlashbackCamera");
+            FlashbackCamera.GetComponent<Camera>().farClipPlane = 100000;
+            FlashbackCamera.FindChild("Mask").transform.localScale = Vector3.zero;
+            //FlashbackCamera.FindChild("Effects_NOM_FlashBackStreams").transform.localScale = Vector3.zero;
+
+            if (_DeityFlashbackBundle == null)
+            {
+                _DeityFlashbackBundle = ModHelper.Assets.LoadBundle("assets/bundles/newsequence");
+            }
+            GameObject DeityFlashback = Instantiate(_DeityFlashbackBundle.LoadAsset<GameObject>("Assets/Mod Jam 6/maskAnim/NewSequence.prefab"));
+            AssetBundleUtilities.ReplaceShaders(DeityFlashback);
+            DeityFlashback.transform.parent = FlashbackCamera.transform;
+            DeityFlashback.transform.localPosition = new Vector3(0, 0, 0);
+            DeityFlashback.transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
 
         public static void RevealFact(string factID)
