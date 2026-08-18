@@ -29,7 +29,16 @@ namespace Mod_Jam_6
         [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketableRemoved))]
         public static void TimeLoopCoreController_OnSocketableRemoved_Prefix(OWItem socketableItem)
         {
-            _signal = Locator.GetRootTransform()?.Find(_atpPath)?.GetComponentInChildren<AudioSignal>();
+            //_signal = Locator.GetRootTransform()?.Find(_atpPath)?.GetComponentInChildren<AudioSignal>();
+            var signals = Resources.FindObjectsOfTypeAll<AudioSignal>();
+            foreach (var signal in signals)
+            {
+                if (signal.gameObject.name == "PH_WarpCoreSignal")
+                {
+                    _signal = signal;
+                    break;
+                }
+            }
 
             if (_signal == null)
             {
@@ -39,10 +48,9 @@ namespace Mod_Jam_6
 
             var frequency = _signal.GetFrequency();
             var name = _signal.GetName();
-            ModJam6.Instance.ModHelper.Console.WriteLine($"Found ({frequency} - {name})", OWML.Common.MessageType.Error);
         }
 
-        [HarmonyPrefix]
+        [HarmonyPostfix]
         [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketableRemoved))]
         public static void TimeLoopCoreController_OnSocketableRemoved_Postfix(OWItem socketableItem)
         {
@@ -90,7 +98,7 @@ namespace Mod_Jam_6
             var frequency = _signal.GetFrequency();
             var name = _signal.GetName();
 
-            ModJam6.Instance.ModHelper.Console.WriteLine($"Found ({frequency} - {name})", OWML.Common.MessageType.Error);
+            //ModJam6.Instance.ModHelper.Console.WriteLine($"Found ({frequency} - {name})", OWML.Common.MessageType.Error);
 
             if(!PlayerData.KnowsFrequency(frequency))
             {

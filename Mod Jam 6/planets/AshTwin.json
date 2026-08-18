@@ -5,7 +5,7 @@
         "signals": [
             {
                 "name": "PH_SIGNAL_WARPCORE",
-                "rename": "WarpCoreSignal",
+                "rename": "PH_WarpCoreSignal",
                 "frequency": "PH_FREQ_CORE",
                 "parentPath": "Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
                 "isRelativeToParent": true,
