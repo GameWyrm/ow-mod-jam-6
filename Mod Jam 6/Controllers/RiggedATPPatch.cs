@@ -13,6 +13,8 @@ namespace Mod_Jam_6
         private const int _timeloopLength = 1320;
         private const string _atpPath = "Sector_TowerTwin/Sector_TimeLoopInterior";
 
+        private static AudioSignal _signal;
+
         [HarmonyPrefix]
         [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketablePlaced))]
         public static void TimeLoopCoreController_OnSocketablePlaced_Postfix(OWItem socketableItem)
@@ -22,6 +24,24 @@ namespace Mod_Jam_6
                 _shouldWarpToSystem = false;
             }
         }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketableRemoved))]
+        public static void TimeLoopCoreController_OnSocketableRemoved_Prefix(OWItem socketableItem)
+        {
+            _signal = Locator.GetRootTransform()?.Find(_atpPath)?.GetComponentInChildren<AudioSignal>();
+
+            if (_signal == null)
+            {
+                ModJam6.Instance.ModHelper.Console.WriteLine($"DID NOT FIND SIGNAL", OWML.Common.MessageType.Error);
+                return;
+            }
+
+            var frequency = _signal.GetFrequency();
+            var name = _signal.GetName();
+            ModJam6.Instance.ModHelper.Console.WriteLine($"Found ({frequency} - {name})", OWML.Common.MessageType.Error);
+        }
+
         [HarmonyPrefix]
         [HarmonyPatch(typeof(TimeLoopCoreController), nameof(TimeLoopCoreController.OnSocketableRemoved))]
         public static void TimeLoopCoreController_OnSocketableRemoved_Postfix(OWItem socketableItem)
@@ -61,15 +81,14 @@ namespace Mod_Jam_6
 
         private static void ForceIdentifySignal()
         {
-            var warpcoreSignal = Locator.GetRootTransform()?.Find(_atpPath)?.GetComponentInChildren<AudioSignal>();
-            if(warpcoreSignal == null)
+            if(_signal == null)
             {
                 ModJam6.Instance.ModHelper.Console.WriteLine($"DID NOT FIND SIGNAL", OWML.Common.MessageType.Error);
                 return;
             }
 
-            var frequency = warpcoreSignal.GetFrequency();
-            var name = warpcoreSignal.GetName();
+            var frequency = _signal.GetFrequency();
+            var name = _signal.GetName();
 
             ModJam6.Instance.ModHelper.Console.WriteLine($"Found ({frequency} - {name})", OWML.Common.MessageType.Error);
 
