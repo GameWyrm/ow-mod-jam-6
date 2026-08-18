@@ -397,6 +397,12 @@
       <RumorName>$PH_LOG_PURPLE_ECHO_RUMOR_NAME</RumorName>
       <Text>$PH_LOG_PURPLE_ECHO_RUMOR_1</Text>
     </RumorFact>
+    
+    <RumorFact>
+      <ID>PH_LOG_PURPLE_ECHO_RUMOR_2</ID>
+      <SourceID>PH_LOG_PLAYER_ROOM</SourceID>
+      <Text>$PH_LOG_PURPLE_ECHO_RUMOR_2</Text>
+    </RumorFact>
 
     <ExploreFact>
       <ID>PH_LOG_PURPLE_ECHO_1</ID>

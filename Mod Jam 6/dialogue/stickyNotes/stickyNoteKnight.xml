@@ -8,6 +8,9 @@
       <Page>PH_Stickynotes_KNIGHT_1</Page>
       <Page>PH_Stickynotes_KNIGHT_2</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_PURPLE_ECHO_RUMOR_2</FactID>
+    </RevealFacts>
   </DialogueNode>
   
 </DialogueTree>

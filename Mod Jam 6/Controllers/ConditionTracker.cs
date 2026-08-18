@@ -48,6 +48,7 @@ namespace Mod_Jam_6.Controllers
                     StartCoroutine(SetTempCondition("PH_GREEN_TALK"));
                     break;
                 case "PH_LEARN_MEDITATION":
+                    GameObject.Find("PauseMenu").transform.Find("PauseMenuCanvas/PauseMenuBlock/PauseMenuItems/PauseMenuItemsLayout/Button-EndCurrentLoop").gameObject.SetActive(true);
                     PlayerData.SetPersistentCondition("KNOWS_MEDITATION", true);
                     break;
             }

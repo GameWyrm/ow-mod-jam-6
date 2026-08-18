@@ -18,7 +18,7 @@
 
 		//Stickynotes
 		"PH_Stickynotes_BELL_1": "There's that unidentified signal again! I looked through my signalscope- why does it sound so familiar..?",
-		"PH_Stickynotes_BELL_2": "The unidentified signal in the lobby can only be realised by focusing your signalscope on it.",
+		"PH_Stickynotes_BELL_2": "The unidentified signal in the lobby can only be realised by zooming your signalscope on it.",
 
 		"PH_Stickynotes_KNIGHT_1": "Future me probably won't mind a little challenge, even if it is coming from that little guy.",
 		"PH_Stickynotes_KNIGHT_2": "In the past, this barrier didn't exist. Purple requested it as a challenge for the present.",
@@ -27,10 +27,10 @@
 		"PH_Stickynotes_POOLENTR_2": "When a door is locked, look for drawings nearby.",
 
 		"PH_Stickynotes_POOLEND_1": "These crystals remind me of ghost matter, but I don't get hurt when I touch them. The last thing for me to try in my testing process is my Little Scout. I wonder if- (The text abruptly ends.)",
-		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of a temporal invisible temporal disturbance. Sudden kinetic energy, when applied to the crystal, makes the disturbance visible.",
+		"PH_Stickynotes_POOLEND_2": "Blue crystals are byproducts of an invisible temporal disturbance. Sudden kinetic energy, when applied to the crystal, makes the disturbance visible.",
 
 		"PH_Stickynotes_FURNACE_1": "Wow, the Furnace survived yet another experiment. I don't think that Blue and I will manage to find a way to break it. Blue suggested that the room itself might be affecting the efficiency of the Furnace, so we're going to test that theory. I hope what Green said about the Furnace isn't true.",
-		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target is accessible.",
+		"PH_Stickynotes_FURNACE_2": "The Furnace never stops operating. It will always heat up the floor selected with its dial, provided the target floor is within the same plane of existance.",
 
 		"PH_Stickynotes_WATERLEAK_1": "Recently, water has been dripping from the ceiling. I will have to talk to Blue about responsible usage of cryonic tools.",
 		"PH_Stickynotes_WATERLEAK_2": "The room above 272 always seems to have issues that require solving, or at least investigating.",
@@ -218,9 +218,9 @@
 		// [Old note idk if still relevant:] PH_prose_RIPPLE04_1 is not good enough. Should get a rewrite.
 
 		// Purple wisp
-		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT's illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day. One that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one",
+		"PH_prose_WISP_ONE_1a": "Accept my dearest welcome from the bottom of THE KNIGHT's illustrious heart, pristine fellow lost person. It seems Newcomer has been sent on an expedition far beyond the realms where one would normally travel. Here be dragons Newcomer. They glimmer like a dazzling array of diamonds at the dawn of a day. One that will see the heroics and bravery and determination of ones such as THE KNIGHT. And mayhap Newcomer too will face off against such insurmountable mountains that oppose one.",
 		"PH_prose_WISP_ONE_2b": "The forces of evil have conspired against yours truly, THE KNIGHT. They will assault the walls of THE KNIGHT's mind with all their strength but THE KNIGHT will never falter against such corrupt forces. For their will is but a pale reflection; like a white horse riding towards a lake. With the wind in THE KNIGHT's hair, a storm is coming. One that shall blow away all evil deeds. Such as nightstands, closets, tables, and other evil pieces of furniture. Towering over THE KNIGHT with their similes like metaphors.",
-		"PH_prose_WISP_ONE_3c": "The future is uncertain. It's the herald of death, famine, and misfortune. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death is not the path a true warrior of justice must take. However, should Newcomer persist then THE KNIGHT might have a small favour to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
+		"PH_prose_WISP_ONE_3c": "The future is uncertain. It's the herald of death, famine, and misfortune. THE KNIGHT will never cower from such disastrous trappings. However, Newcomer must understand that heralding death is not the path a true warrior of justice must take. However, should Newcomer persist then THE KNIGHT might have a small favor to ask. Seek out THE KNIGHT when the future is most dilapidated and rotten and abandoned.",
 
 		"PH_prose_WISP_TWO_EITHER_1a": "Oh, how THE KNIGHT has long awaited the long-awaited thrilling conclusion to THE KNIGHT's endless journeys along the abyss of the heart. For I have seen in the depths of my soul, Newcomer and I -the great knight of the new Dawn- will always know that nothing shall stand in my way. Except mayhap those woefully tasty \"pompouses\"",
 		"PH_prose_WISP_TWO_ECHO_1b": "Oh woe is upon THE KNIGHT. For this darkness. This endless, unceasing threat that endangers Newcomer and THE KNIGHT shall never stop gnawing away at us. It shall be like a ceaseless discharge, opening the very mouth of hell. Abandon all hope, ye who enter here. But if Newcomer holds fast against the endless ocean washing away our powers of light then mayhap, the small favour shall be carried out.",
@@ -236,7 +236,7 @@
 		"PH_Newcomer_Start_1": "Whoa.",
 		"PH_Newcomer_Choice01_1": "Have you made your choice yet, or do you want to run through everything one more time? Memories work in strange ways here.",
 		"PH_Newcomer_Choice01_A": "I will give you the core.",
-		"PH_Newcomer_Choice02_1": "Thank you. I won't disappoint you. This meeting was neccessary. Still, I hope won't mind if we meet again in the future. I don't want to see our story end with a whimper, but with a bang. Time for me to properly meet all the travellers!",
+		"PH_Newcomer_Choice02_1": "Thank you. I won't disappoint you. This meeting was neccessary. Still, I hope you won't mind if we meet again in the future. I don't want to see our story end with a whimper, but with a bang. Time for me to properly meet all the travellers!",
 		"PH_Newcomer_Choice01_B": "I want to run through everything we have discussed, one more time.",
 		"PH_Newcomer_Choice03_1": "Sure, what's one more loop gonna do?",
 
@@ -370,7 +370,7 @@
 
 		// OUTSIDE
 		"$PH_LOG_OUTSIDE_NAME": "Outside",
-		"$PH_LOG_OUTSIDE_RUMOR_NAME": "[Placeholder Door spot]",
+		"$PH_LOG_OUTSIDE_RUMOR_NAME": "Strange Lobby Wall",
 		"$PH_LOG_OUTSIDE_RUMOR_1": "There is a spot for a door at the front of the lobby, but there's no door there.",
 		"$PH_LOG_OUTSIDE_RUMOR_2": "The Bellhop claims that he sees a door there.",
 		"$PH_LOG_OUTSIDE_RUMOR_3": "Purple mentioned that to leave the hotel, I will need to capture the Bellhop's perspective of the door with my camera.",
@@ -456,7 +456,8 @@
 		// PURPLE_ECHO
 		"$PH_LOG_PURPLE_ECHO_NAME": "Purple Echo",
 		"$PH_LOG_PURPLE_ECHO_RUMOR_NAME": "Strange Barrier",
-		"$PH_LOG_PURPLE_ECHO_RUMOR_1": "Right outside of my room, there is a barrier blocking my access to part of the building.",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_1": "Right outside of my room, there is a barrier blocking my access to part of the building. Strange blue crystals are floating around it.",
+		"$PH_LOG_PURPLE_ECHO_RUMOR_2": "A sticky note mentioned that this barrier would be a problem in the future, but not for the author in the past.",
 		"$PH_LOG_PURPLE_ECHO_1": "I sent the hall back in time to before the barrier existed, which gave me access to a room with a Purple Echo.",
 		"$PH_LOG_PURPLE_ECHO_2": "The Purple Echo speaks in exhaustive prose.",
 
@@ -464,8 +465,8 @@
 		"$PH_LOG_PURPLE_RIPPLE_NAME": "Purple Ripple",
 		"$PH_LOG_PURPLE_RIPPLE_RUMOR_1": "I found a Purple Ripple hiding in room 315.",
 		"$PH_LOG_PURPLE_RIPPLE_1": "The Purple Ripple speaks in exhaustive prose.",
-		"$PH_LOG_PURPLE_RIPPLE_2": "After speaking to them, they began to emit a signal.",
-		"$PH_LOG_PURPLE_RIPPLE_3": "I tried to scan their signal, but they would not permit it unless I did a small favor for them",
+		"$PH_LOG_PURPLE_RIPPLE_2": "They had a lot to say.",
+		"$PH_LOG_PURPLE_RIPPLE_3": "They asked me for a small favor.",
 
 		// BLUE_BREVITY_CURIOSITY
 		"$PH_LOG_BLUE_BREVITY_CURIOSITY_NAME": "Blue Scientist",
@@ -484,7 +485,7 @@
 		// BLUE_ECHO
 		"$PH_LOG_BLUE_ECHO_NAME": "Blue Echo",
 		"$PH_LOG_BLUE_ECHO_RUMOR_NAME": "Temporal Disturbance",
-		"$PH_LOG_BLUE_ECHO_RUMOR_1": "I found a sticky note mentioning a temporal disturbance. It is apparently invisible akin to ghost matter. The author wondered what might happen if it was impacted with high kinetic energy.",
+		"$PH_LOG_BLUE_ECHO_RUMOR_1": "I found a sticky note mentioning a temporal disturbance, signified by a bunch of floating crystals similar to Ghost Matter. It is apparently invisible akin to ghost matter. The author wondered what might happen if it was impacted with high kinetic energy.",
 		"$PH_LOG_BLUE_ECHO_1": "Hitting the disturbance created a bubble. It seems the bubble brings the surrounding space back in time.",
 		"$PH_LOG_BLUE_ECHO_2": "Within the bubble was a blue echo. They spoke with brevity.",
 
@@ -531,7 +532,7 @@
 		// TODO
 
 		// Signals
-		"PH_FREQ_CORE": "NOMAI_TECHNOLOGY",
+		"PH_FREQ_CORE": "NOMAI TECHNOLOGY",
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
 		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
 		"PH_SIGNAL_BELLHOP": "BELLHOP",

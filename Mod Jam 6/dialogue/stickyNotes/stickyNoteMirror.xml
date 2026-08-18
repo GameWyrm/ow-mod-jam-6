@@ -8,6 +8,9 @@
       <Page>PH_Stickynotes_MIRROR_1</Page>
       <Page>PH_Stickynotes_MIRROR_2</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_PLAYER_ROOM_2</FactID>
+    </RevealFacts>
   </DialogueNode>
 
 </DialogueTree>
