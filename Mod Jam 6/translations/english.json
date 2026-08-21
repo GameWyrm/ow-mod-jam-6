@@ -364,7 +364,7 @@
 		// HOTEL_CURIOSITY
 		"$PH_LOG_HOTEL_CURIOSITY_NAME": "Hotel",
 		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "Mysterious Structure",
-		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "There is a sticky note on a desk in the lobby.",
+		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "There is a sticky note on a pillar in the lobby.",
 		"$PH_LOG_HOTEL_CURIOSITY_RUMOR_2": "The note mentions that the Signalscope can be used to make one's beliefs into something material. There seems to be a signal behind the desk.",
 		"$PH_LOG_HOTEL_CURIOSITY_1": "Projecting my beliefs behind the desk revealed someone who calls themself the Bellhop. They revealed to me basic information about the hotel.",
 
@@ -552,6 +552,8 @@
 		// Screen prompts
 		"$PH_VALVE_CLOCKWISE": "Turn Valve Clockwise",
 		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
+		"PH_OPEN": "OPEN",
+		"PH_PLAY": "Play",
 
 		// Gameover
 		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
@@ -562,5 +564,32 @@
 		"$PH_OPEN_DOOR_PROMPT": "Open",
 		"$PH_TRY_DOOR_PROMPT": "Try",
 		"PH_FREQ_BELLHOP": "HOTEL STAFF"
+	},
+	"OtherDictionary": {
+		"PH_BASEMENT": "BASEMENT",
+		"PH_FREEDOM": "FREEDOM",
+		"PH_POOL": "Pool",
+		"PH_FUEL": "Fuel",
+		"PH_LOST_AND_FOUND": "LOST & FOUND",
+		"PH_EXIT": "EXIT",
+		"PH_EXIT_MISSPELLED": "EXATE",
+		"PH_NO_ESCAPE": "NO ESCAPE",
+		"PH_NO_ESCAPE_MISSPELLED": "NO ESAPE",
+		"PH_BASEMENT_INITIAL": "B",
+		"PH_CHECKOUT": "PLEASE OBTAIN ALL LUGGAGE\nBEFORE CHECKING OUT",
+
+		// Map stuff
+		"PH_MAP_FIRST_FLOOR": "First Floor",
+		"PH_MAP_SECOND_FLOOR": "Second Floor",
+		"PH_MAP_THIRD_FLOOR": "Third Floor",
+		"PH_MAP_TO_LOBBY": "To\nLobby",
+		"PH_MAP_TO_POOL": "To\nPool",
+		"PH_MAP_FURNACE": "Furnace",
+		"PH_MAP_LOST_AND_FOUND": "Lost and Found",
+
+		// Wall Haikus
+		"PH_POEM_1": "Ripple will be found\nLook for the <color=orange>marred direction</color>\nTo find the right start",
+		"PH_POEM_2": "Flickering beacon\nThe <color=orange>left turn seems sinister\n</color>Yet left turns are good\n\nBeacon must be found\n<color=orange>Always do sinister turn\nWalk 'til flickering</color>\n",
+		"PH_POEM_3": "Beacon was alone\nThen the flickering spread out\nThe door was now hidden\n\n<color=orange>At the first flicker</color>\nA locked door blocks your way now\n<color=orange>Force the lock three times</color>\n\nA wish is locked away\nVoid accumulates regrets\nMy regret will stay\n"
 	}
 }

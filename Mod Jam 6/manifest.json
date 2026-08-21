@@ -4,8 +4,8 @@
   "author": "GameWyrm, pikpik, Stache, Yommi, and Callirhoe",
   "name": "Hotel Penumbra",
   "uniqueName": "GameWyrm.HotelPenumbra",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "owmlVersion": "2.15.1",
     "dependencies": [ "xen.NewHorizons" ],
-    "conflicts": ["Spacepiano.AlterTime"]
+    "conflicts": ["Spacepiano.AlterTime", "Bwc9876.TimeSaver"]
 }

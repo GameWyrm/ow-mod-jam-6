@@ -39,6 +39,11 @@
       <Page>PH_brevity_WISP_TWO_ECHO_1b</Page>
       <Page>PH_brevity_WISP_TWO_ECHO_2c</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- Just Ripple (one of the versions of "TWO") -->
@@ -52,6 +57,11 @@
       <Page>PH_brevity_WISP_TWO_RIPPLE_1B</Page>
       <Page>PH_brevity_WISP_TWO_RIPPLE_2C</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_1</FactID>
+    </RevealFacts>
   </DialogueNode>
         
   <!-- Both Echo and Ripple ("THREE") -->
@@ -68,6 +78,9 @@
     </Dialogue>
 
     <RevealFacts>
+      <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_BLUE_WISP_1</FactID>
       <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_1</FactID>
       <FactID>PH_LOG_BLUE_BREVITY_CURIOSITY_2</FactID>
       <FactID>PH_LOG_BASEMENT_RUMOR_4</FactID>

@@ -23,7 +23,7 @@ namespace Mod_Jam_6
             if (_interactReceiver != null)
             {
                 _interactReceiver.OnPressInteract += OnPressInteract;
-                _interactReceiver.ChangePrompt(_prompt);
+                _interactReceiver.ChangePrompt(ModJam6.NewHorizons.GetTranslationForUI(_prompt));
             }
         }
         private void OnDestroy()

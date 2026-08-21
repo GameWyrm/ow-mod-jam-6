@@ -44,6 +44,11 @@
       <Page>PH_haiku_WISP_TWO_ECHO_1b</Page>
       <Page>PH_haiku_WISP_TWO_ECHO_2c</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- Just Ripple (one of the versions of "TWO") -->
@@ -57,6 +62,11 @@
       <Page>PH_haiku_WISP_TWO_RIPPLE_1B</Page>
       <Page>PH_haiku_WISP_TWO_RIPPLE_2C</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_1</FactID>
+    </RevealFacts>
   </DialogueNode>
 
   <!-- Both Echo and Ripple ("THREE") -->
@@ -74,6 +84,9 @@
       <Page>PH_haiku_WISP_THREE_5c</Page>
     </Dialogue>
     <RevealFacts>
+      <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_RUMOR_1</FactID>
+      <FactID>PH_LOG_GREEN_WISP_1</FactID>
       <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_1</FactID>
       <FactID>PH_LOG_GREEN_POETRY_CURIOSITY_2</FactID>
       <FactID>PH_LOG_VAULT_RUMOR_2</FactID>
