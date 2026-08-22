@@ -24,16 +24,16 @@
     "PH_Stickynotes_POOLENTR_2": "门若上锁，就在附近找找涂鸦。",
     "PH_Stickynotes_POOLEND_1": "这些<color=#0080FF>漂浮的蓝色水晶</color>让我想起幽灵物质，但触碰不会受伤。我的测试只剩最后一项：用侦察兵试试。不知道会不会——（文字戛然而止）",
     "PH_Stickynotes_POOLEND_2": "<color=#0080FF>蓝色水晶</color>是附近<color=orange>无形时空扰动</color>的副产物。对水晶施加瞬时动能，就能让扰动现形。",
-    "PH_Stickynotes_FURNACE_1": "哇，熔炉又一次在实验里扛住了。我看我和蓝色是没法弄坏它了。蓝色说房间本身可能在影响熔炉的效率，我们打算验证这个猜想。希望绿色说的关于熔炉的事不是真的。",
-    "PH_Stickynotes_FURNACE_2": "熔炉永不停止运转。只要目标楼层处于<color=orange>同一存在层面</color>，它就会持续为刻度盘选定的楼层供热。",
+    "PH_Stickynotes_FURNACE_1": "哇，火炉又一次在实验里扛住了。我看我和蓝色是没法弄坏它了。蓝色说房间本身可能在影响火炉的效率，我们打算验证这个猜想。希望绿色说的关于火炉的事不是真的。",
+    "PH_Stickynotes_FURNACE_2": "火炉永不停止运转。只要目标楼层处于<color=orange>同一存在层面</color>，它就会持续为刻度盘选定的楼层供热。",
     "PH_Stickynotes_WATERLEAK_1": "最近天花板一直在滴水。我得和蓝色谈谈，让它合理使用低温工具。",
     "PH_Stickynotes_WATERLEAK_2": "<color=orange>272号房楼上的房间</color>总出问题，总得想办法解决，至少得查清楚原因。",
     "PH_Stickynotes_BASEMENT_1": "简易版灰烬双星计划终于能用了。蓝色要是看见它投入使用，一定会很高兴的。问题在于，不管是我还是其他人，都没法真正启动这东西。或许我自己闹出点动静来，它就会运转？我不能再冒险把蓝色或其他人卷进来了。",
     "PH_Stickynotes_BASEMENT_2": "简易版灰烬双星计划只会在危机发生时启动。",
     "PH_Stickynotes_ECHRIPSIGNAL_1": "这是什么？又一个信号？这个信号能和我接触过的其中一道虚影对应上。",
     "PH_Stickynotes_ECHRIPSIGNAL_2": "让回响或涟漪与它的源头对齐，就能影响源头本身，无论距离多远。",
-    "PH_Stickynotes_MIRROR_1": "紫色和绿色害怕这面镜子。蓝色想知道我为什么对它念念不忘。我已经忘了为什么镜子照不出我的视角了。这项研究的意义到底是什么？有一点可以确定：右边的镜子能映照出我期望的未来。但我需要弄清我已经遗忘的过去。或许一张<color=orange>照片</color>能帮上忙？",
-    "PH_Stickynotes_MIRROR_2": "给镜子拍照，等同于投射你的信念。",
+    "PH_Stickynotes_MIRROR_1": "紫色和绿色害怕这面镜子。蓝色想知道我为什么对它念念不忘。我已经忘了为什么镜子照不出我的视角了。这项研究的意义到底是什么？有一点可以确定：正确的镜子能映照出我期望的未来，但我需要弄清我已经遗忘的过去。或许一张<color=orange>照片</color>能帮上忙？",
+    "PH_Stickynotes_MIRROR_2": "给镜子拍照可以改变你的主观视角。",
 
     // Bellhop (Init)
     "PH_Bellhop_INIT01_1": "欢迎回来，新来者。你又把一切都忘了？",
@@ -78,7 +78,7 @@
     "PH_Bellhop_FLOORS01_A": "能说说一楼吗？",
     "PH_Bellhop_FLOORS02_1": "一楼是最受欢迎的楼层，几乎总是客满。不过据我所知，目前那里住着一个极其暴躁、蛮横无礼的生物。脚步放轻些，不然可有你好受的。",
     "PH_Bellhop_FLOORS01_B": "能说说二楼吗？",
-    "PH_Bellhop_FLOORS03_1": "二楼承载着一场真正的悲剧……至少，你在忘记一切之前是这么跟我说的。想避开无尽的悲伤，就跟着二楼的指示牌走。对了，二楼还有一座熔炉。",
+    "PH_Bellhop_FLOORS03_1": "二楼承载着一场真正的悲剧……至少，你在忘记一切之前是这么跟我说的。想避开无尽的悲伤，就跟着二楼的指示牌走。对了，二楼还有一座火炉。",
     "PH_Bellhop_FLOORS01_C": "能说说三楼吗？",
     "PH_Bellhop_FLOORS04_1": "三楼大部分区域本该空置，计划进行重建。因为没人住，我相信不会有什么锁着的门妨碍你四处闲逛。",
     "PH_Bellhop_FLOORS01_END": "我想就这些了，谢谢。",
@@ -122,12 +122,12 @@
     // Blue wisp
     "PH_brevity_WISP_ONE_1a": "好奇心。去寻找。相似的分子，新来者和我。好。",
     "PH_brevity_WISP_ONE_2b": "跳进泳池！不！跳过泳池。水好？空气更好？哗啦不好？分子碰到皮肤。安全的话，就留下。有腐蚀性？新来者没有腐蚀性。新来者很好。新来者丢了钥匙。不！新来者找钥匙。我没丢钥匙。",
-    "PH_brevity_WISP_ONE_3c": "未来很好！未来不确定。不确定伴随混乱。混乱是必要的。不然会热寂。热寂无聊！去掉无聊。没有东西会无聊？冰不无聊。对！不。冰消失了。拜托？找到冰块。",
+    "PH_brevity_WISP_ONE_3c": "未来很好！未来不确定。不确定伴随混乱。混乱是必要的。不然会热寂。热寂无聊！去掉无聊。没有东西会无聊？冰不无聊。对！不。冰消失了。拜托？找到冰块。<color=orange>过后再回来！</color>",
     "PH_brevity_WISP_TWO_EITHER_1a": "行星。衰败。不是终结。新的可能。安全。",
     "PH_brevity_WISP_TWO_ECHO_1b": "这里不确定。太多不确定。稳定性消失。升高温度，防止结冰。新来者更喜欢水。新来者忘了。新来者不能忘。不能再忘！遗忘会侵蚀稳定性？还是遗忘是稳定的一部分？为什么需要遗忘？",
-    "PH_brevity_WISP_TWO_ECHO_2c": "地下室不好。做出选择。撤销选择。做出选择。撤销选择。没有选择，才有稳定。选择很危险。新来者必须选择。新来者不选地下室。新来者不选择？不！！！新来者必须选择。新来者已经选了，还要再选……\n有问题？",
+    "PH_brevity_WISP_TWO_ECHO_2c": "地下室不好。做出选择。撤销选择。做出选择。撤销选择。没有选择，才有稳定。选择很危险。新来者必须选择。新来者不选地下室。新来者不选择？不！！！新来者必须选择。新来者已经选了，还要再选……\n有问题？稍后再见？",
     "PH_brevity_WISP_TWO_RIPPLE_1B": "便利贴有用！或许留下。落在后面。为了科学！科学打开门。轰！不？新来者告诉我的。便利贴不行。别的实验。为什么？",
-    "PH_brevity_WISP_TWO_RIPPLE_2C": "新来者喜欢地下室。地下室好？不！没有科学。只有答案。为什么？问题不好吗？",
+    "PH_brevity_WISP_TWO_RIPPLE_2C": "新来者喜欢地下室。地下室好？不！没有科学。只有答案。为什么？问题不好吗？稍后再见？",
     "PH_brevity_WISP_THREE_1a": "新行星。黑洞很近。不安全。不安全！不安全！不安全！不安全！\n你是新来者？你不是新来者。你从哪来？我能一起吗？为什么我忘了？妈妈？不！妈妈在衰败的行星上。我承诺过要开创新世界。很久以前。行星的衰败结束了。妈妈也衰败了。我相信你！你做的是对的。新来者冒了险。很大的风险。你也冒了险。我在这里等你。安全！",
     "PH_brevity_WISP_THREE_2b": "你记得<color=orange>那个大烫家伙</color>吗？能融化冰的？它有刻度盘。新来者喜欢把刻度盘转到地下室。你能模仿新来者吗？第二件事你要做。新来者没预见到这个。<color=orange>断路器</color>短路了。你应该出去。你会吗？出去之后，你必须做对。\n希望！",
     "PH_brevity_WISP_THREE_3c": "你会让那座大楼对我们安全的。现在开心了！新的可能为我敞开了。为我们！有好多科学要和你一起做！触碰分子。测量液流。你体内的压力是多少？我要摸摸大楼的墙。和你的皮肤不一样。为什么？不重要。替我向新来者问好。我们上次的实验还没做完。\n测量角度！",
@@ -178,7 +178,7 @@
     // Purple wisp
     "PH_prose_WISP_ONE_1a": "请接受我最诚挚的欢迎，来自骑士光辉心底的问候，迷途的友人。看来新来者踏上了一场远超凡俗疆域的远征。此处有巨龙盘踞，新来者。它们在黎明时分熠熠生辉，如同一排排璀璨的钻石。那一日，将见证如骑士这般的人物所拥有的英勇、胆识与决心。或许新来者也将直面那横亘在前的万仞高山。",
     "PH_prose_WISP_ONE_2b": "邪恶势力已密谋向我——伟大的骑士——发难。它们将倾尽全力冲击骑士思想的壁垒，但骑士绝不会在腐朽的势力面前退缩半分。它们的意志不过是苍白的倒影；宛如白马奔向湖泊。长风拂过骑士的发梢，一场风暴即将降临。它将吹散一切恶行。比如床头柜、衣柜、桌椅，还有其他邪恶的家具。它们矗立在骑士面前，明喻暗喻层叠不穷。",
-    "PH_prose_WISP_ONE_3c": "未来变幻莫测。它是死亡、饥荒与灾祸的先驱。骑士永远不会在这灾难的陷阱面前退缩。然而，新来者必须明白，宣告死亡绝非正义勇士应行之路。但若新来者执意如此，骑士或许有个不情之请。待未来最是破败、腐朽、荒芜之时，再来寻骑士。",
+    "PH_prose_WISP_ONE_3c": "未来变幻莫测。它是死亡、饥荒与灾祸的先驱。骑士永远不会在这灾难的陷阱面前退缩。然而，新来者必须明白，宣告死亡绝非正义勇士应行之路。但若新来者执意如此，骑士或许有个不情之请。待未来最是破败、腐朽、荒芜之时，再来寻骑士。随后，<color=orange>折返归来</color>前去拜见骑士，领取一份令人珍视的嘉奖",
     "PH_prose_WISP_TWO_EITHER_1a": "啊，骑士已翘首以盼，期望这场心渊之旅迎来期待已久的惊心动魄的终章。因我已在灵魂深处窥见，新来者与我——这位破晓的伟大骑士——终将明白，没有任何事物能阻挡我的脚步。或许那些美味至极的“泡芙”除外……",
     "PH_prose_WISP_TWO_ECHO_1b": "啊，悲伤笼罩着骑士。只因这黑暗。这无尽、不息的威胁，危及着新来者与骑士，它将永不停歇地啃噬我们。它将如永不停歇的洪流，开启地狱的渊薮。入此门者，舍弃一切希望。但若新来者能坚守本心，抵御那冲刷我们光明力量的无尽汪洋，或许……这桩心愿便能达成。",
     "PH_prose_WISP_TWO_ECHO_2c": "啊，高洁的新来者。啊，往昔的伟大先驱。让你的力量再次流经骑士的身躯。骑士为你的伟力所折服。骑士为那本可能发生的一切垂涎与落泪。新来者洞悉了那厄运的地下室深处。新来者明白，地下室是我们必须抗拒的禁果。除非骑士分崩离析。",
@@ -206,7 +206,7 @@
     "PH_Newcomer_IAmYou03_A": "行李员？可他帮了我很多啊。",
     "PH_Newcomer_IAmYou04_1": "果然我们俩至少有一个能派上他的用场。他怎么样？给你棉花糖了吗？",
     "PH_Newcomer_IAmYou04_A": "他其实没给我棉花糖。",
-    "PH_Newcomer_Marshmallow_1": "真可惜，还挺好吃的。",
+    "PH_Newcomer_Marshmallow_1": "真可惜，它们可是不受时间影响的。",
     "PH_Newcomer_IAmYou04_B": "我光顾着在这家奇怪的酒店里四处探索了。",
     "PH_Newcomer_Busy01_1": "太正常了。看来你哪儿都去过了，是吧？",
     "PH_Newcomer_Busy01_A": "差不多都去过了，除了那些吓人的黑暗走廊。",
@@ -229,8 +229,8 @@
     "PH_Newcomer_Wisps08_1": "没什么开心的事。他们还在想念自己的爱人。",
     "PH_Newcomer_Wisps08_A": "哦，我猜也是这样。他们和你说过发生了什么吗？",
     "PH_Newcomer_Wisps08_B": "爱人？绿色结婚了？发生了什么？",
-    "PH_Newcomer_Wisps09_1": "很遗憾，是寿终正寝。绿色说，就像冬天降临了……但对他们而言，季节停止了流转。",
-    "PH_Newcomer_Wisps09_A": "我觉得他们现在已经平静一些了。",
+    "PH_Newcomer_Wisps09_1": "很遗憾，是寿终正寝。绿色说，就像冬天降临了……但对他而言，季节停止了流转。",
+    "PH_Newcomer_Wisps09_A": "我觉得他现在已经平静一些了。",
     "PH_Newcomer_Wisps10_1": "真希望绿色能和我们分享他的秋天。我看他永远也走不出冬天了。",
 
     //This is linear dialogue about Blue. All these texts and pages just play out in this order.
@@ -303,12 +303,12 @@
     // PLAYER_ROOM
     "$PH_LOG_PLAYER_ROOM_NAME": "我的房间",
     "$PH_LOG_PLAYER_ROOM_1": "我带着高级跃迁核心试图离开灰烬双星计划时，落入了一座奇异的建筑中。核心不见了。",
-    "$PH_LOG_PLAYER_ROOM_2": "给镜子拍照，等同于投射你的信念。",
+    "$PH_LOG_PLAYER_ROOM_2": "给镜子拍照可以改变你的主观视角。",
 
     // HOTEL_CURIOSITY
     "$PH_LOG_HOTEL_CURIOSITY_NAME": "酒店",
     "$PH_LOG_HOTEL_CURIOSITY_RUMOR_NAME": "神秘建筑",
-    "$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "大厅的桌子上有一张便利贴。",
+    "$PH_LOG_HOTEL_CURIOSITY_RUMOR_1": "大厅的一根立柱上贴着一张便利贴。",
     "$PH_LOG_HOTEL_CURIOSITY_RUMOR_2": "便签提到，可以用信号镜将信念具象化。桌子后面似乎有一个信号。",
     "$PH_LOG_HOTEL_CURIOSITY_1": "我在桌后投射信念，显现出一个自称行李员的存在。他向我介绍了酒店的基本信息。",
 
@@ -329,7 +329,7 @@
     "$PH_LOG_BASEMENT_NAME": "地下室",
     "$PH_LOG_BASEMENT_RUMOR_1": "行李员身后有一扇锁着的门。他说门后是地下室。",
     "$PH_LOG_BASEMENT_RUMOR_2": "我重置了地下室的断路器电源。",
-    "$PH_LOG_BASEMENT_RUMOR_3": "我将熔炉的热量导向地下室。门摸起来温热。",
+    "$PH_LOG_BASEMENT_RUMOR_3": "我将火炉的热量导向地下室。门摸起来温热。",
     "$PH_LOG_BASEMENT_RUMOR_4": "蓝色提到，要打开地下室，必须先重置酒店外的断路器，再将热量导向地下室。",
     "$PH_LOG_BASEMENT_1": "在地下室里，我发现了某种复刻版的灰烬双星计划装置。",
     "$PH_LOG_BASEMENT_2": "我从装置中取出了一枚自制的高级跃迁核心。",
@@ -360,10 +360,10 @@
     "$PH_LOG_VOID_SECOND_FLOOR_1": "循环进行到约四分之三时，二楼会被虚空吞噬。",
 
     // FURNACE
-    "$PH_LOG_FURNACE_NAME": "熔炉",
-    "$PH_LOG_FURNACE_RUMOR_1": "二楼有一座熔炉。",
-    "$PH_LOG_FURNACE_1": "我在二楼找到了一座熔炉。",
-    "$PH_LOG_FURNACE_2": "熔炉上有一个可转动的刻度盘，档位标记为“B”“1”“2”“3”。",
+    "$PH_LOG_FURNACE_NAME": "火炉",
+    "$PH_LOG_FURNACE_RUMOR_1": "二楼有一座火炉。",
+    "$PH_LOG_FURNACE_1": "我在二楼找到了一座火炉。",
+    "$PH_LOG_FURNACE_2": "火炉上有一个可转动的刻度盘，档位标记为“B”“1”“2”“3”。",
 
     // THIRD_FLOOR
     "$PH_LOG_THIRD_FLOOR_NAME": "三楼",
@@ -437,7 +437,7 @@
     "$PH_LOG_BLUE_RIPPLE_NAME": "蓝涟漪",
     "$PH_LOG_BLUE_RIPPLE_RUMOR_NAME": "冰块",
     "$PH_LOG_BLUE_RIPPLE_RUMOR_1": "我在虚空酒店三楼的323号房里发现了一块冰。",
-    "$PH_LOG_BLUE_RIPPLE_RUMOR_2": "我将熔炉的热量导向三楼，融化了冰块。",
+    "$PH_LOG_BLUE_RIPPLE_RUMOR_2": "我将火炉的热量导向三楼，融化了冰块。",
     "$PH_LOG_BLUE_RIPPLE_1": "冰块中有一道蓝涟漪。它说话极其简洁。",
 
     // GREEN_POETRY_CURIOSITY
@@ -472,7 +472,7 @@
   "UIDictionary": {
     // Menu splash
     "$PH_SPLASH": "感谢您预订本酒店！\n请务必携带所有行李到前台办理入住。前往酒店时请循着到宇宙之眼的路线前进。请勿抄近道或作弊，否则可能无法抵达目的地。",
-    
+
     // Astral bodies names
     // TODO
     // Signals
@@ -480,6 +480,7 @@
     "PH_SIGNAL_WARPCORE": "高级跃迁核心",
     "PH_FREQUENCY_STAFF": "[占位符：行李员频道]",
     "PH_SIGNAL_BELLHOP": "行李员",
+    "PH_FREQ_BELLHOP": "酒店工作人员",
     "PH_FREQUENCY_PURPLE": "[占位符：紫色频道]",
     "PH_SIGNAL_PURPLE_WISP": "[占位符：紫灵火]",
     "PH_SIGNAL_PURPLE_ECHO": "[占位符：紫回响]",
@@ -492,21 +493,52 @@
     "PH_SIGNAL_GREEN_WISP": "[占位符：绿灵火]",
     "PH_SIGNAL_GREEN_ECHO": "[占位符：绿回响]",
     "PH_SIGNAL_GREEN_RIPPLE": "[占位符：绿涟漪]",
-    
+
     // Screen prompts
     "$PH_VALVE_CLOCKWISE": "顺时针转动阀门",
     "$PH_VALVE_COUNTERCLOCKWISE": "逆时针转动阀门",
-    
-    // Gameover
-    "$PH_ENDING_NORMAL": "你重返了星际拓荒星系",
-    "$PH_ENDING_STAY": "你选择留下",
+    "PH_OPEN": "打开",
+    "PH_PLAY": "播放",
+    "PH_USE": "使用",
     "$PH_GRAB_WARPCORE": "断开连接",
     "$PH_REPLACE_WARPCORE": "更换",
     "$PH_FLIP_BREAKER": "拨动断路器",
     "$PH_OPEN_DOOR_PROMPT": "打开",
     "$PH_TRY_DOOR_PROMPT": "尝试",
-    "PH_FREQ_BELLHOP": "酒店工作人员",
-    "Play": "播放",
-    "Use": "使用"
+
+    // Gameover
+    "$PH_ENDING_NORMAL": "你重返了星际拓荒星系",
+    "$PH_ENDING_STAY": "你选择留下",
+
+    "spellboundMysteryMotel": "迷踪神秘酒店",
+    "vacantSpellboundMysteryMotel": "虚空迷踪神秘酒店"
+  },
+
+  "OtherDictionary": {
+    "PH_BASEMENT": "地下室",
+    "PH_FREEDOM": "自由",
+    "PH_POOL": "泳池",
+    "PH_FUEL": "燃料",
+    "PH_LOST_AND_FOUND": "失物招领处",
+    "PH_EXIT": "出口",
+    "PH_EXIT_MISSPELLED": "山口",
+    "PH_NO_ESCAPE": "无处可逃",
+    "PH_NO_ESCAPE_MISSPELLED": "无可辶",
+    "PH_BASEMENT_INITIAL": "地",
+    "PH_CHECKOUT": "请在退房前\n携带好所有行李",
+
+    // Map stuff
+    "PH_MAP_FIRST_FLOOR": "一楼",
+    "PH_MAP_SECOND_FLOOR": "二楼",
+    "PH_MAP_THIRD_FLOOR": "三楼",
+    "PH_MAP_TO_LOBBY": "往\n大厅",
+    "PH_MAP_TO_POOL": "往\n泳池",
+    "PH_MAP_FURNACE": "火炉",
+    "PH_MAP_LOST_AND_FOUND": "失物招领处",
+
+    // Wall Haikus
+    "PH_POEM_1": "涟漪终可寻\n找寻<color=orange>错误指示标</color>\n觅正确开端",
+    "PH_POEM_2": "闪烁中的信标\n<color=orange>左转看似凶险\n</color>实则其为正途\n\n务必找到信标\n<color=orange>始终转向凶险\n直到望见闪烁</color>\n",
+    "PH_POEM_3": "信标孑然独立\n闪烁光芒蔓延\n门扉自此隐没\n\n<color=orange>初见闪烁之时</color>\n紧锁之门阻路\n<color=orange>强行尝试三次</color>\n\n愿望禁锢于此\n虚空积满憾意\n我的遗憾长存\n"
   }
 }
