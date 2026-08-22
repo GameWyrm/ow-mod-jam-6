@@ -29,19 +29,19 @@ namespace Mod_Jam_6
 
         public void Start()
         {
-            // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(ModJam6)} is loaded!", MessageType.Success);
-
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
 
             new Harmony("GameWyrm.Mod Jam 6").PatchAll(Assembly.GetExecutingAssembly());
+
+            LoadManager.OnStartSceneLoad += OnStartSceneLoad;
             
             NewHorizons.GetStarSystemLoadedEvent().AddListener((system) =>
             {
                 ModHelper.Events.Unity.FireInNUpdates(() =>
                 {
+                    RiggedATPPatch.hasWarpedToSystem = false;
                     if (system == "VoidDimension")
                     {
                         Log("Looking for ship");
@@ -74,6 +74,14 @@ namespace Mod_Jam_6
             DeityFlashback.transform.parent = FlashbackCamera.transform;
             DeityFlashback.transform.localPosition = new Vector3(0, 0, 0);
             DeityFlashback.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+
+        private void OnStartSceneLoad(OWScene previousScene, OWScene newScene)
+        {
+            if (previousScene == OWScene.TitleScreen && PlayerData.GetPersistentCondition("PH_PLAY_MOD"))
+            {
+                NewHorizons.SetDefaultSystem("VoidDimension");
+            }
         }
 
         public static void RevealFact(string factID)

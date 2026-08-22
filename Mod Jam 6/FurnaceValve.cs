@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 namespace Mod_Jam_6
 {
@@ -19,6 +20,15 @@ namespace Mod_Jam_6
         {
             FurnaceController.Instance.TurnValve(clockwise);
             ModJam6.RevealFact("PH_LOG_FURNACE_2");
+            StartCoroutine(ResetEnabled());
+        }
+
+        // fix interactables requiring you to look away from them to use again
+        private IEnumerator ResetEnabled()
+        {
+            GetComponent<Collider>().enabled = false;
+            yield return new WaitForSeconds(0.5f);
+            GetComponent<Collider>().enabled = true;
         }
     }
 }

@@ -33,12 +33,12 @@
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
-        <Text>PH_Newcomer_Choice01_A</Text>
-        <DialogueTarget>Choice02</DialogueTarget>
-      </DialogueOption>
-      <DialogueOption>
         <Text>PH_Newcomer_Choice01_B</Text>
         <DialogueTarget>Choice03</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>PH_Newcomer_Choice01_A</Text>
+        <DialogueTarget>Choice02</DialogueTarget>
       </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>

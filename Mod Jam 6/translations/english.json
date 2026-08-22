@@ -536,6 +536,7 @@
 		"PH_SIGNAL_WARPCORE": "ADVANCED WARP CORE",
 		"PH_FREQUENCY_STAFF": "[Placeholder Bellhop Frequency]",
 		"PH_SIGNAL_BELLHOP": "BELLHOP",
+		"PH_FREQ_BELLHOP": "HOTEL STAFF",
 		"PH_FREQUENCY_PURPLE": "[Placeholder Purple Frequency]",
 		"PH_SIGNAL_PURPLE_WISP": "[Placeholder Purple Wisp]",
 		"PH_SIGNAL_PURPLE_ECHO": "[Placeholder Purple Echo]",
@@ -554,16 +555,16 @@
 		"$PH_VALVE_COUNTERCLOCKWISE": "Turn Valve Counter-Clockwise",
 		"PH_OPEN": "OPEN",
 		"PH_PLAY": "Play",
-
-		// Gameover
-		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
-		"$PH_ENDING_STAY": "YOU STAYED BEHIND",
+		"PH_USE": "Use",
 		"$PH_GRAB_WARPCORE": "Disconnect",
 		"$PH_REPLACE_WARPCORE": "Replace",
 		"$PH_FLIP_BREAKER": "Flip Breakers",
 		"$PH_OPEN_DOOR_PROMPT": "Open",
 		"$PH_TRY_DOOR_PROMPT": "Try",
-		"PH_FREQ_BELLHOP": "HOTEL STAFF"
+
+		// Gameover
+		"$PH_ENDING_NORMAL": "YOU RETURNED TO THE OUTER WILDS",
+		"$PH_ENDING_STAY": "YOU STAYED BEHIND",
 	},
 	"OtherDictionary": {
 		"PH_BASEMENT": "BASEMENT",
@@ -585,7 +586,7 @@
 		"PH_MAP_TO_LOBBY": "To\nLobby",
 		"PH_MAP_TO_POOL": "To\nPool",
 		"PH_MAP_FURNACE": "Furnace",
-		"PH_MAP_LOST_AND_FOUND": "Lost and Found",
+		"PH_MAP_LOST_AND_FOUND": "Lost and\nFound",
 
 		// Wall Haikus
 		"PH_POEM_1": "Ripple will be found\nLook for the <color=orange>marred direction</color>\nTo find the right start",

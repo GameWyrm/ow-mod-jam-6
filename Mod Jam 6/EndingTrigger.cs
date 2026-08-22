@@ -24,6 +24,7 @@ namespace Mod_Jam_6
                 else if (EndingBarrier.Instance.hasWarpCore)
                 {
                     nhEndingTrigger.transform.position = transform.position;
+                    PlayerData.SetPersistentCondition("PH_PLAY_MOD", false);
                 }
             }
         }

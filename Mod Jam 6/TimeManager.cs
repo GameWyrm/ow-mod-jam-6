@@ -113,6 +113,13 @@ namespace Mod_Jam_6
 
         }
 
+        private IEnumerator DelayedSetup()
+        {
+            yield return new WaitForEndOfFrame();
+            yield return new WaitForEndOfFrame();
+            yield return new WaitForEndOfFrame();
+        }
+
         private void OnDrawGizmos()
         {
             if (voidBox == null) return;

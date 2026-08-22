@@ -7,5 +7,5 @@
   "version": "1.0.2",
   "owmlVersion": "2.15.1",
     "dependencies": [ "xen.NewHorizons" ],
-    "conflicts": ["Spacepiano.AlterTime", "Bwc9876.TimeSaver"]
+    "conflicts": [ "Spacepiano.AlterTime", "Bwc9876.TimeSaver", "_nebula.GlobalScreenSpaceReflections" ]
 }

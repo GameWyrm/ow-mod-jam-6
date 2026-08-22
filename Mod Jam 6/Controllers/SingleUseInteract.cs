@@ -48,6 +48,18 @@ namespace Mod_Jam_6
                 _hasBeenUsed = true;
                 gameObject.SetActive(false);
             }
+            else
+            {
+                StartCoroutine(ResetEnabled());
+            }
+        }
+
+        // fix interactables requiring you to look away from them to use again
+        private IEnumerator ResetEnabled()
+        {
+            GetComponent<Collider>().enabled = false;
+            yield return new WaitForSeconds(0.5f);
+            GetComponent<Collider>().enabled = true;
         }
     }
 }
